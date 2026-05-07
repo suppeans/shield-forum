@@ -108,6 +108,21 @@ export const posts: Post[] = [
     createdAt: "2026-05-04T15:05:00.000Z",
     updatedAt: "2026-05-04T16:20:00.000Z",
   },
+  {
+    id: "10101010-1010-4010-8010-101010101010",
+    title: "Hidden moderation note",
+    slug: "hidden-moderation-note",
+    body: "This forbidden hidden post should never appear in public lists or search results.",
+    excerpt: "This hidden record verifies public filtering.",
+    categoryId: categories[2].id,
+    authorId: profiles[0].id,
+    status: "hidden",
+    viewCount: 0,
+    tags: [tags[3]],
+    commentCount: 0,
+    createdAt: "2026-05-01T08:00:00.000Z",
+    updatedAt: "2026-05-01T08:00:00.000Z",
+  },
 ];
 
 export const comments: Comment[] = [
@@ -151,5 +166,18 @@ export const articles: Article[] = [
     tags: [tags[1], tags[3]],
     createdAt: "2026-05-02T11:00:00.000Z",
     updatedAt: "2026-05-02T14:00:00.000Z",
+  },
+  {
+    id: "cccccccc-3333-4ccc-8ccc-333333333333",
+    title: "Hidden admin draft",
+    slug: "hidden-admin-draft",
+    summary: "A forbidden hidden article that should not be public.",
+    body: "This forbidden hidden article verifies repository filtering.",
+    authorId: profiles[0].id,
+    status: "hidden",
+    publishedAt: null,
+    tags: [tags[3]],
+    createdAt: "2026-05-01T08:00:00.000Z",
+    updatedAt: "2026-05-01T08:00:00.000Z",
   },
 ];
