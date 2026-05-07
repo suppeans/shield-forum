@@ -13,6 +13,14 @@ function redirectWithAuthMessage(status: "error" | "success", message: string) {
   redirect(`/auth/sign-in?${params.toString()}`);
 }
 
+export function authErrorMessage(message: string) {
+  if (message.toLowerCase().includes("email rate limit exceeded")) {
+    return "Registration email quota is temporarily exhausted. Try again in about an hour, or ask the site owner to enable custom SMTP.";
+  }
+
+  return message;
+}
+
 export async function signIn(formData: FormData) {
   "use server";
 
@@ -30,7 +38,7 @@ export async function signIn(formData: FormData) {
   const { error } = await supabase.auth.signInWithPassword({ email, password });
 
   if (error) {
-    redirectWithAuthMessage("error", error.message);
+    redirectWithAuthMessage("error", authErrorMessage(error.message));
   }
 
   redirect("/profile");
@@ -66,7 +74,7 @@ export async function signUp(formData: FormData) {
   });
 
   if (error) {
-    redirectWithAuthMessage("error", error.message);
+    redirectWithAuthMessage("error", authErrorMessage(error.message));
   }
 
   if (!data.session) {
