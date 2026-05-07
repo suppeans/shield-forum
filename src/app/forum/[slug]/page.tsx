@@ -1,4 +1,5 @@
 import { notFound } from "next/navigation";
+import { CommentForm } from "@/components/comment-form";
 import { PageHeading } from "@/components/page-heading";
 import { TagCloud } from "@/components/tag-cloud";
 import { getPostBySlug } from "@/lib/repositories/forum";
@@ -39,6 +40,7 @@ export default async function PostPage({ params }: PostPageProps) {
               </div>
             ))
           )}
+          <CommentForm postId={post.id} />
         </aside>
       </div>
     </main>

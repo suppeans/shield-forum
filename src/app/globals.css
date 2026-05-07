@@ -343,6 +343,9 @@ textarea {
 .field {
   display: grid;
   gap: 7px;
+  color: var(--muted);
+  font-size: 0.9rem;
+  font-weight: 700;
 }
 
 .input,
@@ -381,6 +384,15 @@ textarea {
   border-left: 3px solid var(--red);
   background: #fff5f4;
   padding: 12px;
+}
+
+.checkbox-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 8px;
+  color: var(--text);
+  font-size: 0.9rem;
+  font-weight: 500;
 }
 
 @media (max-width: 920px) {
