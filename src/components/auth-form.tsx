@@ -1,10 +1,16 @@
 import { signIn, signUp } from "@/lib/actions/auth";
 
-export function AuthForm() {
+type AuthFormProps = {
+  message?: string;
+  status?: "error" | "success";
+};
+
+export function AuthForm({ message, status }: AuthFormProps) {
   return (
     <div className="grid knowledge-grid">
       <form className="panel stack" action={signIn}>
         <h2>Sign in</h2>
+        <AuthStatus message={message} status={status} />
         <label className="field">
           Email
           <input className="input" name="email" type="email" required />
@@ -38,5 +44,27 @@ export function AuthForm() {
         </button>
       </form>
     </div>
+  );
+}
+
+function AuthStatus({
+  message,
+  status,
+}: {
+  message?: string;
+  status?: "error" | "success";
+}) {
+  if (!message || !status) {
+    return null;
+  }
+
+  return (
+    <p
+      className={`auth-status auth-status-${status}`}
+      role={status === "error" ? "alert" : "status"}
+      aria-live="polite"
+    >
+      {message}
+    </p>
   );
 }

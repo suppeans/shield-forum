@@ -363,6 +363,26 @@ textarea {
   resize: vertical;
 }
 
+.auth-status {
+  border-left: 3px solid var(--line);
+  border-radius: 8px;
+  padding: 10px 12px;
+  font-size: 0.9rem;
+  font-weight: 650;
+}
+
+.auth-status-error {
+  border-left-color: var(--red);
+  background: #fff5f4;
+  color: #7f1d1d;
+}
+
+.auth-status-success {
+  border-left-color: var(--green);
+  background: #eef8f4;
+  color: #0d4f3e;
+}
+
 .stat-grid {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));

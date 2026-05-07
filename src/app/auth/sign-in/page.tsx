@@ -1,7 +1,18 @@
 import { AuthForm } from "@/components/auth-form";
 import { PageHeading } from "@/components/page-heading";
 
-export default function SignInPage() {
+type SignInPageProps = {
+  searchParams: Promise<{
+    message?: string;
+    status?: string;
+  }>;
+};
+
+export default async function SignInPage({ searchParams }: SignInPageProps) {
+  const params = await searchParams;
+  const status = params.status === "success" ? "success" : params.status === "error" ? "error" : undefined;
+  const message = status ? params.message : undefined;
+
   return (
     <main className="page">
       <PageHeading
@@ -9,7 +20,7 @@ export default function SignInPage() {
         title="Sign in to participate"
         description="Use email and password authentication backed by Supabase Auth."
       />
-      <AuthForm />
+      <AuthForm message={message} status={status} />
     </main>
   );
 }

@@ -8,20 +8,29 @@ function credentials(formData: FormData) {
   };
 }
 
+function redirectWithAuthMessage(status: "error" | "success", message: string) {
+  const params = new URLSearchParams({ status, message });
+  redirect(`/auth/sign-in?${params.toString()}`);
+}
+
 export async function signIn(formData: FormData) {
   "use server";
 
   const { email, password } = credentials(formData);
 
+  if (!email || !password) {
+    redirectWithAuthMessage("error", "Enter your email and password.");
+  }
+
   if (!process.env.NEXT_PUBLIC_SUPABASE_URL) {
-    return;
+    redirectWithAuthMessage("error", "Authentication is not configured yet.");
   }
 
   const supabase = await createClient();
   const { error } = await supabase.auth.signInWithPassword({ email, password });
 
   if (error) {
-    return;
+    redirectWithAuthMessage("error", error.message);
   }
 
   redirect("/profile");
@@ -32,15 +41,39 @@ export async function signUp(formData: FormData) {
 
   const { email, password } = credentials(formData);
 
+  if (!email || !password) {
+    redirectWithAuthMessage(
+      "error",
+      "Enter an email and password to create an account.",
+    );
+  }
+
+  if (password.length < 8) {
+    redirectWithAuthMessage("error", "Password must be at least 8 characters.");
+  }
+
   if (!process.env.NEXT_PUBLIC_SUPABASE_URL) {
-    return;
+    redirectWithAuthMessage("error", "Authentication is not configured yet.");
   }
 
   const supabase = await createClient();
-  const { error } = await supabase.auth.signUp({ email, password });
+  const { data, error } = await supabase.auth.signUp({
+    email,
+    password,
+    options: {
+      emailRedirectTo: `${process.env.NEXT_PUBLIC_SITE_URL ?? "https://shield-forum.vercel.app"}/profile`,
+    },
+  });
 
   if (error) {
-    return;
+    redirectWithAuthMessage("error", error.message);
+  }
+
+  if (!data.session) {
+    redirectWithAuthMessage(
+      "success",
+      "Registration created. Check your email to confirm the account, then sign in.",
+    );
   }
 
   redirect("/profile");
