@@ -1,6 +1,7 @@
-import { PageHeading } from "@/components/page-heading";
 import { PostForm } from "@/components/post-form";
 import { PostList } from "@/components/post-list";
+import { ProfileHeading } from "@/components/profile-heading";
+import { TranslatedText } from "@/components/translated-text";
 import { getForumContent } from "@/lib/repositories/forum";
 import { profiles } from "@/lib/sample-data";
 
@@ -11,14 +12,10 @@ export default async function ProfilePage() {
 
   return (
     <main className="page">
-      <PageHeading
-        label="Profile"
-        title={profile.displayName}
-        description={profile.bio ?? "Community member"}
-      />
+      <ProfileHeading profile={profile} />
       <div className="grid knowledge-grid">
         <section>
-          <h2>Your discussions</h2>
+          <TranslatedText as="h2" translationKey="profile.yourDiscussions" />
           <PostList posts={authoredPosts} />
         </section>
         <PostForm categories={forum.categories} tags={forum.tags} />

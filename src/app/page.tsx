@@ -4,6 +4,7 @@ import { CategoryList } from "@/components/category-list";
 import { PageHeading } from "@/components/page-heading";
 import { PostList } from "@/components/post-list";
 import { TagCloud } from "@/components/tag-cloud";
+import { TranslatedText } from "@/components/translated-text";
 import { getHomeContent } from "@/lib/repositories/forum";
 
 export default async function HomePage() {
@@ -12,33 +13,43 @@ export default async function HomePage() {
   return (
     <main className="page">
       <PageHeading
-        label="Public security community"
+        label=""
+        labelKey="home.label"
         title="Shield Forum"
-        description="A focused place for practical cybersecurity tutorials, defensive engineering notes, and public discussion."
+        description=""
+        descriptionKey="home.description"
         action={
           <Link className="button" href="/forum">
-            Browse discussions
+            <TranslatedText translationKey="home.browseDiscussions" />
           </Link>
         }
       />
       <div className="grid home-grid">
         <aside className="panel" aria-label="Forum categories">
-          <h2>Categories</h2>
+          <TranslatedText as="h2" translationKey="forum.categories" />
           <CategoryList categories={content.categories} />
         </aside>
         <section aria-labelledby="latest-discussions">
           <div className="section-title">
-            <h2 id="latest-discussions">Latest discussions</h2>
+            <TranslatedText
+              as="h2"
+              id="latest-discussions"
+              translationKey="home.latestDiscussions"
+            />
             <Link className="button button-secondary button-small" href="/forum">
-              View forum
+              <TranslatedText translationKey="home.viewForum" />
             </Link>
           </div>
           <PostList posts={content.latestPosts} />
         </section>
         <aside className="panel" aria-label="Featured tutorials and tags">
-          <h2>Featured tutorials</h2>
+          <TranslatedText as="h2" translationKey="home.featuredTutorials" />
           <ArticleList articles={content.featuredArticles.slice(0, 2)} />
-          <h2 style={{ marginTop: 20 }}>Trending tags</h2>
+          <TranslatedText
+            as="h2"
+            style={{ marginTop: 20 }}
+            translationKey="home.trendingTags"
+          />
           <TagCloud tags={content.trendingTags} />
         </aside>
       </div>

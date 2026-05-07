@@ -1,5 +1,7 @@
 import { createArticle } from "@/lib/actions/content";
 import type { ArticleWithRelations, ForumContent } from "@/lib/repositories/forum";
+import { TranslatedOption, TranslatedTagName } from "./translated-content";
+import { TranslatedText } from "./translated-text";
 
 type AdminPanelProps = {
   forum: ForumContent;
@@ -14,59 +16,64 @@ export function AdminPanel({ forum, articles }: AdminPanelProps) {
   return (
     <div className="grid knowledge-grid">
       <section className="panel">
-        <h2>Moderation queue</h2>
+        <TranslatedText as="h2" translationKey="admin.moderationQueue" />
         <div className="stat-grid">
           <div className="stat">
             <strong>{forum.posts.length}</strong>
-            Published posts
+            <TranslatedText translationKey="admin.publishedPosts" />
           </div>
           <div className="stat">
             <strong>{publishedArticles.length}</strong>
-            Published tutorials
+            <TranslatedText translationKey="admin.publishedTutorials" />
           </div>
           <div className="stat">
             <strong>{forum.tags.length}</strong>
-            Active tags
+            <TranslatedText translationKey="admin.activeTags" />
           </div>
         </div>
         <p className="muted">
-          Hidden content remains in Supabase for review and restoration. Full
-          moderation actions are enforced by RLS admin policies.
+          <TranslatedText translationKey="admin.moderationNote" />
         </p>
       </section>
       <form className="panel stack" action={createArticle}>
-        <h2>Publish tutorial</h2>
+        <TranslatedText as="h2" translationKey="admin.publishTutorial" />
         <label className="field">
-          Title
+          <TranslatedText translationKey="common.title" />
           <input className="input" name="title" maxLength={160} required />
         </label>
         <label className="field">
-          Summary
+          <TranslatedText translationKey="admin.summary" />
           <textarea className="textarea" name="summary" maxLength={280} required />
         </label>
         <label className="field">
-          Body
+          <TranslatedText translationKey="common.body" />
           <textarea className="textarea" name="body" maxLength={40000} required />
         </label>
         <label className="field">
-          Status
+          <TranslatedText translationKey="admin.status" />
           <select className="input" name="status" defaultValue="draft">
-            <option value="draft">Draft</option>
-            <option value="published">Published</option>
+            <TranslatedOption value="draft" translationKey="admin.draft" />
+            <TranslatedOption
+              value="published"
+              translationKey="admin.published"
+            />
           </select>
         </label>
         <fieldset className="field">
-          <legend>Tags</legend>
+          <legend>
+            <TranslatedText translationKey="common.tags" />
+          </legend>
           <div className="checkbox-grid">
             {forum.tags.map((tag) => (
               <label key={tag.id}>
-                <input name="tagIds" type="checkbox" value={tag.id} /> {tag.name}
+                <input name="tagIds" type="checkbox" value={tag.id} />{" "}
+                <TranslatedTagName tag={tag} />
               </label>
             ))}
           </div>
         </fieldset>
         <button className="button" type="submit">
-          Save tutorial
+          <TranslatedText translationKey="admin.saveTutorial" />
         </button>
       </form>
     </div>

@@ -1,4 +1,5 @@
 import { signIn, signUp } from "@/lib/actions/auth";
+import { TranslatedText } from "./translated-text";
 
 type AuthFormProps = {
   message?: string;
@@ -9,28 +10,28 @@ export function AuthForm({ message, status }: AuthFormProps) {
   return (
     <div className="grid knowledge-grid">
       <form className="panel stack" action={signIn}>
-        <h2>Sign in</h2>
+        <TranslatedText as="h2" translationKey="auth.signIn" />
         <AuthStatus message={message} status={status} />
         <label className="field">
-          Email
+          <TranslatedText translationKey="auth.email" />
           <input className="input" name="email" type="email" required />
         </label>
         <label className="field">
-          Password
+          <TranslatedText translationKey="auth.password" />
           <input className="input" name="password" type="password" required />
         </label>
         <button className="button" type="submit">
-          Sign in
+          <TranslatedText translationKey="auth.signIn" />
         </button>
       </form>
       <form className="panel stack" action={signUp}>
-        <h2>Create account</h2>
+        <TranslatedText as="h2" translationKey="auth.createAccount" />
         <label className="field">
-          Email
+          <TranslatedText translationKey="auth.email" />
           <input className="input" name="email" type="email" required />
         </label>
         <label className="field">
-          Password
+          <TranslatedText translationKey="auth.password" />
           <input
             className="input"
             name="password"
@@ -40,7 +41,7 @@ export function AuthForm({ message, status }: AuthFormProps) {
           />
         </label>
         <button className="button button-secondary" type="submit">
-          Register
+          <TranslatedText translationKey="auth.register" />
         </button>
       </form>
     </div>

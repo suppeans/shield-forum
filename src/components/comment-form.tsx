@@ -1,4 +1,5 @@
 import { createComment } from "@/lib/actions/content";
+import { TranslatedText } from "./translated-text";
 
 type CommentFormProps = {
   postId: string;
@@ -9,11 +10,11 @@ export function CommentForm({ postId }: CommentFormProps) {
     <form className="stack" action={createComment}>
       <input name="postId" type="hidden" value={postId} />
       <label className="field">
-        Reply
+        <TranslatedText translationKey="comment.reply" />
         <textarea className="textarea" name="body" maxLength={8000} required />
       </label>
       <button className="button" type="submit">
-        Add reply
+        <TranslatedText translationKey="comment.addReply" />
       </button>
     </form>
   );

@@ -1,6 +1,8 @@
 import { ArticleList } from "@/components/article-list";
 import { PageHeading } from "@/components/page-heading";
 import { PostList } from "@/components/post-list";
+import { SearchForm } from "@/components/search-form";
+import { TranslatedText } from "@/components/translated-text";
 import { searchContent } from "@/lib/repositories/forum";
 
 type SearchPageProps = {
@@ -15,29 +17,21 @@ export default async function SearchPage({ searchParams }: SearchPageProps) {
   return (
     <main className="page">
       <PageHeading
-        label="Search"
-        title="Search public content"
-        description="Find published discussions and tutorials. Hidden or draft content is excluded."
+        label=""
+        title=""
+        description=""
+        labelKey="nav.search"
+        titleKey="search.title"
+        descriptionKey="search.description"
       />
-      <form className="search-form" action="/search">
-        <input
-          className="input"
-          name="q"
-          defaultValue={query}
-          placeholder="Search RLS, Turnstile, OAuth..."
-          aria-label="Search query"
-        />
-        <button className="button" type="submit">
-          Search
-        </button>
-      </form>
+      <SearchForm query={query} />
       <div className="grid knowledge-grid">
         <section>
-          <h2>Discussions</h2>
+          <TranslatedText as="h2" translationKey="search.discussions" />
           <PostList posts={results.posts} />
         </section>
         <section>
-          <h2>Tutorials</h2>
+          <TranslatedText as="h2" translationKey="search.tutorials" />
           <ArticleList articles={results.articles} />
         </section>
       </div>

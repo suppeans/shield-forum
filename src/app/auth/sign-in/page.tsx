@@ -16,9 +16,12 @@ export default async function SignInPage({ searchParams }: SignInPageProps) {
   return (
     <main className="page">
       <PageHeading
-        label="Account"
-        title="Sign in to participate"
-        description="Use email and password authentication backed by Supabase Auth."
+        label=""
+        title=""
+        description=""
+        labelKey="auth.account"
+        titleKey="auth.title"
+        descriptionKey="auth.description"
       />
       <AuthForm message={message} status={status} />
     </main>

@@ -1,5 +1,10 @@
 import { createPost } from "@/lib/actions/content";
 import type { Category, Tag } from "@/lib/types";
+import {
+  TranslatedCategoryOption,
+  TranslatedTagName,
+} from "./translated-content";
+import { TranslatedText } from "./translated-text";
 
 type PostFormProps = {
   categories: Category[];
@@ -9,37 +14,38 @@ type PostFormProps = {
 export function PostForm({ categories, tags }: PostFormProps) {
   return (
     <form className="panel stack" action={createPost}>
-      <h2>Create discussion</h2>
+      <TranslatedText as="h2" translationKey="post.createDiscussion" />
       <label className="field">
-        Title
+        <TranslatedText translationKey="common.title" />
         <input className="input" name="title" maxLength={140} required />
       </label>
       <label className="field">
-        Category
+        <TranslatedText translationKey="common.category" />
         <select className="input" name="categoryId" required>
           {categories.map((category) => (
-            <option key={category.id} value={category.id}>
-              {category.name}
-            </option>
+            <TranslatedCategoryOption key={category.id} category={category} />
           ))}
         </select>
       </label>
       <label className="field">
-        Body
+        <TranslatedText translationKey="common.body" />
         <textarea className="textarea" name="body" maxLength={20000} required />
       </label>
       <fieldset className="field">
-        <legend>Tags</legend>
+        <legend>
+          <TranslatedText translationKey="common.tags" />
+        </legend>
         <div className="checkbox-grid">
           {tags.map((tag) => (
             <label key={tag.id}>
-              <input name="tagIds" type="checkbox" value={tag.id} /> {tag.name}
+              <input name="tagIds" type="checkbox" value={tag.id} />{" "}
+              <TranslatedTagName tag={tag} />
             </label>
           ))}
         </div>
       </fieldset>
       <button className="button" type="submit">
-        Publish post
+        <TranslatedText translationKey="post.publishPost" />
       </button>
     </form>
   );

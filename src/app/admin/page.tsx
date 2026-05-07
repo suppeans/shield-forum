@@ -11,9 +11,12 @@ export default async function AdminPage() {
   return (
     <main className="page">
       <PageHeading
-        label="Admin"
-        title="Community operations"
-        description="Publish tutorials, monitor public content, and keep moderation state auditable."
+        label=""
+        title=""
+        description=""
+        labelKey="nav.admin"
+        titleKey="admin.title"
+        descriptionKey="admin.description"
       />
       <AdminPanel forum={forum} articles={knowledge.articles} />
     </main>
