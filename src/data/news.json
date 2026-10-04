@@ -263,5 +263,65 @@
     "edition_date": "2026-10-04",
     "collected_at": "2026-10-04T10:01:55Z",
     "is_sample": false
+  },
+  {
+    "id": "ibm-20261002-bob-self-hosted",
+    "title": "IBM、開発支援AI「Bob」のセルフホステッド型を発表",
+    "summary": "日本IBMは10月2日、開発支援AI「IBM Bob」のセルフホステッド型を紹介。自社管理のオンプレミスやプライベートクラウド、隔離環境での利用を想定し、機密コードやデータの管理とAI活用の両立を図ります。",
+    "category": "development",
+    "source": "日本IBM",
+    "source_url": "https://jp.newsroom.ibm.com/2026-10-02-ibm-introduces-self-hosted-deployment-for-ibm-bob-to-help-enterprises-advance-ai-sovereignty-and-governance",
+    "published_at": "2026-10-02T00:00:00+09:00",
+    "published_time_known": false,
+    "image_url": null,
+    "why_it_matters": "機密情報を外部へ送れない日本企業にとって、開発支援AIの配置場所を選べることは導入判断の材料になります。利用モデルや運用体制を含め、自社のセキュリティ要件に適合するか確認が必要です。",
+    "core_facts": [
+      "日本語公告は10月2日公開で、米国の初回発表は現地時間10月1日。",
+      "オンプレミス、プライベートクラウド、ソブリンクラウド、エアギャップ環境を対象とする発表。",
+      "ライセンス契約済みの対応モデルによる隔離環境での利用と、外部モデルを連携するハイブリッド構成を説明。",
+      "公告では具体的な一般提供開始日を明示していません。"
+    ],
+    "tags": [
+      "IBM",
+      "開発支援AI",
+      "データ主権",
+      "オンプレミス"
+    ],
+    "featured": true,
+    "priority": 2,
+    "region": "global",
+    "edition_date": "2026-10-04",
+    "collected_at": "2026-10-04T19:26:35+09:00",
+    "is_sample": false
+  },
+  {
+    "id": "nedo-20261002-ai-safety-symposium",
+    "title": "NEDOと産総研、10月15・16日にAIセーフティシンポジウムを開催予定",
+    "summary": "NEDOは10月2日、産総研と開催する第2回AIセーフティシンポジウムを案内。10月15日は地理空間情報分野のサブイベント、16日はAIの安全性に関する研究開発を紹介する本会議を予定しています。",
+    "category": "ai",
+    "source": "NEDO",
+    "source_url": "https://www.nedo.go.jp/events/CD_100236.html",
+    "published_at": "2026-10-02T00:00:00+09:00",
+    "published_time_known": false,
+    "image_url": null,
+    "why_it_matters": "国内でAIの品質管理や安全性を研究する学生・技術者にとって、研究の取り組みを知り、実務との接点を探る機会になります。オンライン参加を希望する場合も事前登録が必要です。",
+    "core_facts": [
+      "10月2日の公告で、10月15・16日の開催予定を案内。",
+      "15日のサブイベントは丸の内で会場参加のみ。地理空間情報分野のAIセーフティを扱います。",
+      "16日の本会議はAP日本橋とオンラインのハイブリッド形式。産総研の研究開発を紹介予定。",
+      "両日とも13時から17時30分、参加無料で事前登録が必要。"
+    ],
+    "tags": [
+      "NEDO",
+      "産総研",
+      "AIセーフティ",
+      "研究開発"
+    ],
+    "featured": false,
+    "priority": 3,
+    "region": "japan",
+    "edition_date": "2026-10-04",
+    "collected_at": "2026-10-04T19:26:35+09:00",
+    "is_sample": false
   }
 ]
