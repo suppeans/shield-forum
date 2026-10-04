@@ -1,318 +1,267 @@
 [
   {
-    "id": "sample-2026-10-04-ai",
-    "title": "国内企業の生成AI導入、実証から業務運用へ",
-    "summary": "社内ナレッジ検索に生成AIを取り入れる架空の発表例。権限管理と回答精度の評価を中心に、実証と本番運用の違いを紹介する表示サンプルです。",
-    "category": "ai",
-    "source": "架空の発表資料（表示サンプル）",
-    "source_url": "https://example.com/sample/2026-10-04/ai",
-    "published_at": "2026-10-04T09:00:00+09:00",
-    "edition_date": "2026-10-04",
-    "image_url": null,
-    "why_it_matters": "生成AIの導入では、モデル選定だけでなく、業務データの扱いと継続的な評価が重要になります。",
-    "core_facts": [
-      "この項目はサイトの表示確認を目的とした架空のサンプルです。",
-      "実際のニュースを公開する際は、原文の内容と公開日時を確認します。"
-    ],
-    "tags": [
-      "生成AI",
-      "企業導入",
-      "LLM"
-    ],
-    "featured": true,
-    "priority": 1,
-    "region": "japan",
-    "is_sample": true
-  },
-  {
-    "id": "sample-2026-10-04-security",
-    "title": "サプライチェーンのリスクを、ソフトウェアの可視化から考える",
-    "summary": "SBOMを活用したリスク管理についての架空のニュース例です。取引先との情報共有や脆弱性への対応を扱うレイアウトを確認できます。",
-    "category": "security",
-    "source": "架空の発表資料（表示サンプル）",
-    "source_url": "https://example.com/sample/2026-10-04/security",
-    "published_at": "2026-10-04T10:00:00+09:00",
-    "edition_date": "2026-10-04",
-    "image_url": null,
-    "why_it_matters": "依存するソフトウェアを把握することは、脆弱性の影響調査や対応判断の土台になります。",
-    "core_facts": [
-      "この項目はサイトの表示確認を目的とした架空のサンプルです。",
-      "実際のニュースを公開する際は、原文の内容と公開日時を確認します。"
-    ],
-    "tags": [
-      "SBOM",
-      "脆弱性管理"
-    ],
-    "featured": true,
-    "priority": 2,
-    "region": "japan",
-    "is_sample": true
-  },
-  {
-    "id": "sample-2026-10-04-semiconductors",
-    "title": "次世代半導体の開発、人材育成と研究の接点へ",
-    "summary": "国内の研究機関と企業が連携する架空の取り組みを題材にした表示サンプルです。実際の発表や投資計画を示すものではありません。",
-    "category": "semiconductors",
-    "source": "架空の発表資料（表示サンプル）",
-    "source_url": "https://example.com/sample/2026-10-04/semiconductors",
-    "published_at": "2026-10-04T11:00:00+09:00",
-    "edition_date": "2026-10-04",
-    "image_url": null,
-    "why_it_matters": "研究開発と人材育成の両面を読むことで、日本の半導体産業の変化を捉えやすくなります。",
-    "core_facts": [
-      "この項目はサイトの表示確認を目的とした架空のサンプルです。",
-      "実際のニュースを公開する際は、原文の内容と公開日時を確認します。"
-    ],
-    "tags": [
-      "半導体",
-      "研究開発"
-    ],
-    "featured": true,
-    "priority": 3,
-    "region": "japan",
-    "is_sample": true
-  },
-  {
-    "id": "sample-2026-10-04-cloud",
-    "title": "国内データセンター、計算資源と電力の両立が論点に",
-    "summary": "AI向け計算基盤の拡張をテーマにした架空のニュース例です。設備の規模、運用設計、電力効率などを整理する表示を確認できます。",
-    "category": "cloud",
-    "source": "架空の発表資料（表示サンプル）",
-    "source_url": "https://example.com/sample/2026-10-04/cloud",
-    "published_at": "2026-10-04T12:00:00+09:00",
-    "edition_date": "2026-10-04",
-    "image_url": null,
-    "why_it_matters": "計算需要の拡大は、サービスの供給能力だけでなくエネルギー調達や運用コストにも関わります。",
-    "core_facts": [
-      "この項目はサイトの表示確認を目的とした架空のサンプルです。",
-      "実際のニュースを公開する際は、原文の内容と公開日時を確認します。"
-    ],
-    "tags": [
-      "データセンター",
-      "クラウド",
-      "AI基盤"
-    ],
-    "featured": true,
-    "priority": 4,
-    "region": "japan",
-    "is_sample": true
-  },
-  {
-    "id": "sample-2026-10-04-business",
-    "title": "法人向けITサービス、顧客の業務に合わせた展開へ",
-    "summary": "日本のIT企業による製品展開を題材にした架空の表示例です。実在する製品発表ではありません。",
-    "category": "business",
-    "source": "架空の発表資料（表示サンプル）",
-    "source_url": "https://example.com/sample/2026-10-04/business",
-    "published_at": "2026-10-04T13:00:00+09:00",
-    "edition_date": "2026-10-04",
-    "image_url": null,
-    "why_it_matters": "製品の機能と顧客の業務課題を照らし合わせることで、企業の戦略を読み解けます。",
-    "core_facts": [
-      "この項目はサイトの表示確認を目的とした架空のサンプルです。",
-      "実際のニュースを公開する際は、原文の内容と公開日時を確認します。"
-    ],
-    "tags": [
-      "IT企業",
-      "法人サービス"
-    ],
-    "featured": false,
-    "priority": 5,
-    "region": "japan",
-    "is_sample": true
-  },
-  {
-    "id": "sample-2026-10-04-careers",
-    "title": "IT人材に求められるスキル、開発とセキュリティの境界へ",
-    "summary": "採用動向を扱うニュースの架空サンプルです。具体的な求人情報や採用統計を示すものではありません。",
+    "id": "exawizards-20261002-ai-workforce",
+    "title": "エクサウィザーズ、企業ごとのAI人材基準づくりを支援",
+    "summary": "Exa Enterprise AIは10月2日、「AX人材要件定義サービス」を提供開始。企業固有のAI活用レベルを定義し、スキル測定、人事評価の標準化、育成計画まで一括で支援します。",
     "category": "careers",
-    "source": "架空の発表資料（表示サンプル）",
-    "source_url": "https://example.com/sample/2026-10-04/careers",
-    "published_at": "2026-10-04T14:00:00+09:00",
-    "edition_date": "2026-10-04",
+    "source": "エクサウィザーズ",
+    "source_url": "https://exawizards.com/archives/32994/",
+    "published_at": "2026-10-02T00:00:00+09:00",
+    "published_time_known": false,
     "image_url": null,
-    "why_it_matters": "技術の変化を就職や学習の視点で捉えることで、キャリアを考える手がかりになります。",
+    "why_it_matters": "日本企業がAIスキルを職種別の評価や配置に結び付ける動きです。就職・転職を考える技術者にも、実務での活用能力がどのように評価されるかを知る手掛かりになります。",
     "core_facts": [
-      "この項目はサイトの表示確認を目的とした架空のサンプルです。",
-      "実際のニュースを公開する際は、原文の内容と公開日時を確認します。"
+      "AI活用レベルをLv0〜Lv3の自社基準として定義する仕組み。",
+      "共通の評価基準と職種別の目標比率を組み合わせ、必要な人材数を検討。",
+      "知識・行動・成果の測定から評価手順や育成計画まで支援。",
+      "標準期間は支援範囲に応じて2〜6か月程度としています。"
     ],
     "tags": [
-      "IT人材",
-      "キャリア"
+      "AI人材",
+      "エクサウィザーズ",
+      "リスキリング",
+      "人事評価"
     ],
     "featured": false,
-    "priority": 5,
-    "region": "japan",
-    "is_sample": true
-  },
-  {
-    "id": "sample-2026-10-04-development",
-    "title": "開発プロセスにAIを取り入れる、検証と品質の視点",
-    "summary": "開発者向けツールの架空のニュース例。導入効果と品質管理の論点を並べた記事表示を確認できます。",
-    "category": "development",
-    "source": "架空の発表資料（表示サンプル）",
-    "source_url": "https://example.com/sample/2026-10-04/development",
-    "published_at": "2026-10-04T15:00:00+09:00",
-    "edition_date": "2026-10-04",
-    "image_url": null,
-    "why_it_matters": "開発支援ツールの導入効果は、生成速度だけでなく検証や運用の負担まで見る必要があります。",
-    "core_facts": [
-      "この項目はサイトの表示確認を目的とした架空のサンプルです。",
-      "実際のニュースを公開する際は、原文の内容と公開日時を確認します。"
-    ],
-    "tags": [
-      "開発",
-      "AIツール"
-    ],
-    "featured": false,
-    "priority": 5,
-    "region": "japan",
-    "is_sample": true
-  },
-  {
-    "id": "sample-2026-10-04-policy",
-    "title": "デジタル政策の変化を、企業の実務から読む",
-    "summary": "IT業界の制度や規制を扱う架空の表示例です。実際の政策発表や法的助言ではありません。",
-    "category": "policy",
-    "source": "架空の発表資料（表示サンプル）",
-    "source_url": "https://example.com/sample/2026-10-04/policy",
-    "published_at": "2026-10-04T16:00:00+09:00",
-    "edition_date": "2026-10-04",
-    "image_url": null,
-    "why_it_matters": "制度の変更は、事業計画やデータ管理の実務に影響するため、原資料の確認が必要です。",
-    "core_facts": [
-      "この項目はサイトの表示確認を目的とした架空のサンプルです。",
-      "実際のニュースを公開する際は、原文の内容と公開日時を確認します。"
-    ],
-    "tags": [
-      "政策",
-      "DX"
-    ],
-    "featured": false,
-    "priority": 5,
-    "region": "japan",
-    "is_sample": true
-  },
-  {
-    "id": "sample-2026-10-03-ai",
-    "title": "国内企業の生成AI導入、実証から業務運用へ",
-    "summary": "社内ナレッジ検索に生成AIを取り入れる架空の発表例。権限管理と回答精度の評価を中心に、実証と本番運用の違いを紹介する表示サンプルです。",
-    "category": "ai",
-    "source": "架空の発表資料（表示サンプル）",
-    "source_url": "https://example.com/sample/2026-10-03/ai",
-    "published_at": "2026-10-03T09:00:00+09:00",
-    "edition_date": "2026-10-03",
-    "image_url": null,
-    "why_it_matters": "生成AIの導入では、モデル選定だけでなく、業務データの扱いと継続的な評価が重要になります。",
-    "core_facts": [
-      "この項目はサイトの表示確認を目的とした架空のサンプルです。",
-      "実際のニュースを公開する際は、原文の内容と公開日時を確認します。"
-    ],
-    "tags": [
-      "生成AI",
-      "企業導入",
-      "LLM"
-    ],
-    "featured": true,
-    "priority": 1,
-    "region": "japan",
-    "is_sample": true
-  },
-  {
-    "id": "sample-2026-10-03-security",
-    "title": "サプライチェーンのリスクを、ソフトウェアの可視化から考える",
-    "summary": "SBOMを活用したリスク管理についての架空のニュース例です。取引先との情報共有や脆弱性への対応を扱うレイアウトを確認できます。",
-    "category": "security",
-    "source": "架空の発表資料（表示サンプル）",
-    "source_url": "https://example.com/sample/2026-10-03/security",
-    "published_at": "2026-10-03T10:00:00+09:00",
-    "edition_date": "2026-10-03",
-    "image_url": null,
-    "why_it_matters": "依存するソフトウェアを把握することは、脆弱性の影響調査や対応判断の土台になります。",
-    "core_facts": [
-      "この項目はサイトの表示確認を目的とした架空のサンプルです。",
-      "実際のニュースを公開する際は、原文の内容と公開日時を確認します。"
-    ],
-    "tags": [
-      "SBOM",
-      "脆弱性管理"
-    ],
-    "featured": true,
     "priority": 2,
     "region": "japan",
-    "is_sample": true
+    "edition_date": "2026-10-04",
+    "collected_at": "2026-10-04T10:01:55Z",
+    "is_sample": false
   },
   {
-    "id": "sample-2026-10-03-semiconductors",
-    "title": "次世代半導体の開発、人材育成と研究の接点へ",
-    "summary": "国内の研究機関と企業が連携する架空の取り組みを題材にした表示サンプルです。実際の発表や投資計画を示すものではありません。",
+    "id": "hamamatsu-20260929-iphemos-ddx",
+    "title": "浜松ホトニクス、AIチップレットやHBMの故障解析装置を開発",
+    "summary": "浜松ホトニクスは9月29日、先進半導体パッケージ向けの倒立型エミッション顕微鏡「iPHEMOS-DDX」を発表し、受注を開始。既存のテスター環境との接続と解析工程の効率化を狙います。",
     "category": "semiconductors",
-    "source": "架空の発表資料（表示サンプル）",
-    "source_url": "https://example.com/sample/2026-10-03/semiconductors",
-    "published_at": "2026-10-03T11:00:00+09:00",
-    "edition_date": "2026-10-03",
+    "source": "浜松ホトニクス",
+    "source_url": "https://www.hamamatsu.com/jp/en/news/products-and-technologies/2026/20260929000000.html",
+    "published_at": "2026-09-29T00:00:00+09:00",
+    "published_time_known": false,
     "image_url": null,
-    "why_it_matters": "研究開発と人材育成の両面を読むことで、日本の半導体産業の変化を捉えやすくなります。",
+    "why_it_matters": "AI向け半導体では、チップレットやHBMを組み合わせる先進パッケージの品質確認が重要になります。日本の検査・計測技術がその工程を支える動きです。",
     "core_facts": [
-      "この項目はサイトの表示確認を目的とした架空のサンプルです。",
-      "実際のニュースを公開する際は、原文の内容と公開日時を確認します。"
+      "AIチップレット、HBM、2.5D/3Dパッケージ、大型パッケージの故障解析を対象とする装置。",
+      "世界の半導体メーカー・装置メーカー向けに9月29日から受注。",
+      "10月4〜8日に米国で開催されるISTFA 2026に出展予定。"
     ],
     "tags": [
-      "半導体",
-      "研究開発"
+      "浜松ホトニクス",
+      "半導体検査",
+      "HBM",
+      "チップレット"
+    ],
+    "featured": false,
+    "priority": 3,
+    "region": "japan",
+    "edition_date": "2026-10-04",
+    "collected_at": "2026-10-04T10:01:55Z",
+    "is_sample": false
+  },
+  {
+    "id": "hennge-20261001-ai-company",
+    "title": "HENNGE、AIのガバナンスとコスト管理を支援する新会社を設立",
+    "summary": "HENNGEは10月1日、「HENNGE AI」の設立を発表。取締役以外の従業員を置かず、AIエージェントを業務全般に導入する組織モデルを試しながら、企業向けの新サービスを開発します。",
+    "category": "business",
+    "source": "HENNGE",
+    "source_url": "https://www.hennge.com/jp/info/press/20261001_henngeai/",
+    "published_at": "2026-10-01T00:00:00+09:00",
+    "published_time_known": false,
+    "image_url": null,
+    "why_it_matters": "企業のAI活用では、導入後の権限・利用状況・費用の管理が課題になります。国内セキュリティ企業がこの運用領域へ事業を広げる動きとして注目されます。",
+    "core_facts": [
+      "新会社はAI活用のガバナンスとコスト管理を支援するサービスを開発・提供する方針。",
+      "取締役以外の従業員を配置しない組織体制で、AIエージェントの活用を実証。",
+      "社内で使うAI Gatewayをもとに、複数モデルの利用状況を可視化・管理するサービスを開発予定。"
+    ],
+    "tags": [
+      "HENNGE",
+      "AIエージェント",
+      "ガバナンス",
+      "企業動向"
     ],
     "featured": true,
     "priority": 3,
     "region": "japan",
-    "is_sample": true
+    "edition_date": "2026-10-04",
+    "collected_at": "2026-10-04T10:01:55Z",
+    "is_sample": false
   },
   {
-    "id": "sample-2026-10-02-ai",
-    "title": "国内企業の生成AI導入、実証から業務運用へ",
-    "summary": "社内ナレッジ検索に生成AIを取り入れる架空の発表例。権限管理と回答精度の評価を中心に、実証と本番運用の違いを紹介する表示サンプルです。",
-    "category": "ai",
-    "source": "架空の発表資料（表示サンプル）",
-    "source_url": "https://example.com/sample/2026-10-02/ai",
-    "published_at": "2026-10-02T09:00:00+09:00",
-    "edition_date": "2026-10-02",
+    "id": "iij-20261001-identity-protection",
+    "title": "IIJ、SOCサービスに正規アカウントの悪用を検知する機能",
+    "summary": "IIJは10月1日、C-SOCサービスのEDR運用オプションにアイデンティティ保護機能を追加。認証活動や権限変更を監視し、ネットワーク・端末の情報と組み合わせて攻撃の兆候を分析します。",
+    "category": "security",
+    "source": "インターネットイニシアティブ（IIJ）",
+    "source_url": "https://www.iij.ad.jp/news/pressrelease/2026/1001.html",
+    "published_at": "2026-10-01T00:00:00+09:00",
+    "published_time_known": false,
     "image_url": null,
-    "why_it_matters": "生成AIの導入では、モデル選定だけでなく、業務データの扱いと継続的な評価が重要になります。",
+    "why_it_matters": "正規の認証情報を使う侵入は、端末監視だけでは捉えにくい場合があります。国内企業のSOC運用がIDの振る舞いを含む分析へ広がる事例です。",
     "core_facts": [
-      "この項目はサイトの表示確認を目的とした架空のサンプルです。",
-      "実際のニュースを公開する際は、原文の内容と公開日時を確認します。"
+      "CrowdStrike Falcon Identity Threat Protectionを活用した追加機能。",
+      "認証情報の窃取、権限昇格、横展開などの兆候を検知対象に含めます。",
+      "専門アナリストによる24時間365日の監視・調査・通知・一次対応を提供。",
+      "Microsoft Entra IDやOktaなどへの対応拡大は今後の計画です。"
     ],
     "tags": [
-      "生成AI",
-      "企業導入",
-      "LLM"
+      "IIJ",
+      "SOC",
+      "ITDR",
+      "IDセキュリティ"
+    ],
+    "featured": false,
+    "priority": 3,
+    "region": "japan",
+    "edition_date": "2026-10-04",
+    "collected_at": "2026-10-04T10:01:55Z",
+    "is_sample": false
+  },
+  {
+    "id": "jpcert-20261002-netscaler-investigation",
+    "title": "JPCERT/CC、NetScalerの侵害調査情報を追記",
+    "summary": "JPCERT/CCは10月2日、NetScaler ADC・Gatewayの脆弱性に関する注意喚起を更新。CVE-2026-88772の悪用に関する侵害痕跡と調査情報を追加し、対象製品の更新と侵害有無の確認を求めています。",
+    "category": "security",
+    "source": "JPCERT/CC",
+    "source_url": "https://www.jpcert.or.jp/at/2026/at260029.html",
+    "published_at": "2026-09-28T00:00:00+09:00",
+    "published_time_known": false,
+    "image_url": null,
+    "why_it_matters": "国内でも利用される境界機器の問題です。パッチ適用に加え、過去の侵害を見落とさない調査が運用上の重要な課題になります。",
+    "core_facts": [
+      "注意喚起の初回公開は9月28日、侵害調査情報の追記は10月2日。",
+      "CVE-2026-88771・88772について、未対策環境での悪用が確認されたと報告しています。",
+      "修正済みバージョンの適用に加え、開発元やMandiant・GTIGの情報に基づく侵害調査を推奨。",
+      "国内の攻撃試行については、これらの脆弱性の悪用を狙ったものか未確認としています。"
+    ],
+    "tags": [
+      "JPCERT/CC",
+      "NetScaler",
+      "脆弱性",
+      "インシデント対応"
     ],
     "featured": true,
     "priority": 1,
     "region": "japan",
-    "is_sample": true
+    "edition_date": "2026-10-04",
+    "collected_at": "2026-10-04T10:01:55Z",
+    "is_sample": false
   },
   {
-    "id": "sample-2026-10-02-security",
-    "title": "サプライチェーンのリスクを、ソフトウェアの可視化から考える",
-    "summary": "SBOMを活用したリスク管理についての架空のニュース例です。取引先との情報共有や脆弱性への対応を扱うレイアウトを確認できます。",
-    "category": "security",
-    "source": "架空の発表資料（表示サンプル）",
-    "source_url": "https://example.com/sample/2026-10-02/security",
-    "published_at": "2026-10-02T10:00:00+09:00",
-    "edition_date": "2026-10-02",
+    "id": "layerx-20261002-sales-ai",
+    "title": "LayerX、営業向け「バクラク セールスAI」の事前登録を開始",
+    "summary": "LayerXは10月2日、商談記録の蓄積・分析を支援する新サービスの事前登録を開始。Google Workspaceを利用する企業向けに、約2週間の無料クローズドβトライアルを募集しています。",
+    "category": "ai",
+    "source": "LayerX",
+    "source_url": "https://bakuraku.jp/news/20261002/",
+    "published_at": "2026-10-02T00:00:00+09:00",
+    "published_time_known": false,
     "image_url": null,
-    "why_it_matters": "依存するソフトウェアを把握することは、脆弱性の影響調査や対応判断の土台になります。",
+    "why_it_matters": "生成AIの活用先が営業の実務へ広がっています。企業導入では、商談相手の同意やデータ連携、β版と正式提供の機能差を確認することが重要です。",
     "core_facts": [
-      "この項目はサイトの表示確認を目的とした架空のサンプルです。",
-      "実際のニュースを公開する際は、原文の内容と公開日時を確認します。"
+      "約3年間の社内実践をもとに開発した営業組織向けサービス。",
+      "相手の同意を得て商談を録音・文字起こしし、記録の蓄積と分析を支援。",
+      "AIロールプレイによる育成機能は開発中で、正式提供済みの機能ではありません。"
     ],
     "tags": [
-      "SBOM",
-      "脆弱性管理"
+      "LayerX",
+      "生成AI",
+      "営業DX",
+      "β版"
     ],
     "featured": true,
     "priority": 2,
     "region": "japan",
-    "is_sample": true
+    "edition_date": "2026-10-04",
+    "collected_at": "2026-10-04T10:01:55Z",
+    "is_sample": false
+  },
+  {
+    "id": "sbcands-20261001-acompany-secure-chat",
+    "title": "SB C&S、機密データを扱う法人向けAIチャットの販売を開始",
+    "summary": "SB C&Sは10月1日、Acompanyと販売契約を結び、「Acompanyセキュアチャット」の取り扱いを開始。機密情報を外部送信せず処理するモードや、情報をマスキングして外部AIを使う機能を提供します。",
+    "category": "security",
+    "source": "SB C&S",
+    "source_url": "https://cas.softbank.jp/information/261001_02/",
+    "published_at": "2026-10-01T00:00:00+09:00",
+    "published_time_known": false,
+    "image_url": null,
+    "why_it_matters": "機密情報を扱う日本企業にとって、AI利用時のデータ保護は選定条件になります。モデルの能力と合わせ、処理場所や外部送信の条件を確認するための製品動向です。",
+    "core_facts": [
+      "AcompanyのConfidential Computingを核とする製品群の法人向けチャットを販売。",
+      "プライベートモードと、機密情報の検知・マスキングを用いた外部AIの利用に対応。",
+      "SB C&Sは約1万5,000社の販売ネットワークを通じて展開する方針。"
+    ],
+    "tags": [
+      "SB C&S",
+      "Acompany",
+      "機密情報",
+      "生成AI"
+    ],
+    "featured": false,
+    "priority": 3,
+    "region": "japan",
+    "edition_date": "2026-10-04",
+    "collected_at": "2026-10-04T10:01:55Z",
+    "is_sample": false
+  },
+  {
+    "id": "softbank-20260930-sovereign-west",
+    "title": "ソフトバンク、ソブリンクラウドを国内2リージョン体制へ",
+    "summary": "ソフトバンクは9月30日、「Cloud PF Type A」の西日本リージョンを提供開始。4月に開設した東日本と合わせ、国内でデータを管理しながら冗長化や災害復旧に対応する構成を広げました。",
+    "category": "cloud",
+    "source": "ソフトバンク",
+    "source_url": "https://www.softbank.jp/business/news/2026/0930-01",
+    "published_at": "2026-09-30T00:00:00+09:00",
+    "published_time_known": false,
+    "image_url": null,
+    "why_it_matters": "データの所在と運用主体を重視する国内企業にとって、複数リージョンの選択肢が増えます。基幹システムの移行やBCP設計を検討する際の動きです。",
+    "core_facts": [
+      "Oracle Alloyを活用し、ソフトバンクが日本国内のデータセンターで管理・運用。",
+      "西日本リージョンの提供開始により、東日本・西日本での分散配置に対応。",
+      "西日本ではGPU基盤や国産生成AI「Sarashina」などを順次提供する予定。",
+      "IPAのガイドラインに準拠した暗号鍵管理サービスは12月提供予定です。"
+    ],
+    "tags": [
+      "ソフトバンク",
+      "ソブリンクラウド",
+      "データ主権",
+      "BCP"
+    ],
+    "featured": true,
+    "priority": 2,
+    "region": "japan",
+    "edition_date": "2026-10-04",
+    "collected_at": "2026-10-04T10:01:55Z",
+    "is_sample": false
+  },
+  {
+    "id": "tdk-20261002-meta-optics-display",
+    "title": "TDK、薄型ミラーを使うスマートグラス表示を実証",
+    "summary": "TDKは10月2日、メタオプティクスミラーを用いた網膜直接描画ディスプレイの実証を発表。厚さ150nm・可視光透過率80％のミラーを眼鏡レンズに組み込む構成で、自然な外観を目指します。",
+    "category": "business",
+    "source": "TDK",
+    "source_url": "https://www.tdk.com/ja/news_center/press/20261002_01.html",
+    "published_at": "2026-10-02T00:00:00+09:00",
+    "published_time_known": false,
+    "image_url": null,
+    "why_it_matters": "スマートグラスの普及には、表示品質と装着時の外観を両立する部品が必要です。国内の光学・電子部品技術がAI機器の新しい接点を支える研究開発として注目されます。",
+    "core_facts": [
+      "現在の実証はモノカラー対応で、フルカラー化と量産化は今後の目標。",
+      "同社は10月13日からのCEATEC 2026にデモ機を出展予定。",
+      "QDレーザとの事業協力を通じ、RGB光源モジュールと光学エンジンの開発を進めています。"
+    ],
+    "tags": [
+      "TDK",
+      "スマートグラス",
+      "光学技術",
+      "CEATEC"
+    ],
+    "featured": false,
+    "priority": 3,
+    "region": "japan",
+    "edition_date": "2026-10-04",
+    "collected_at": "2026-10-04T10:01:55Z",
+    "is_sample": false
   }
 ]

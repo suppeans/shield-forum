@@ -13,7 +13,7 @@ type Edition = { date: string; articles: NewsArticle[]; featured: NewsArticle[];
 export function NewsEditionView({ edition, today, category }: { edition: Edition; today: string; category?: string }) {
   const { t } = useLanguage();
   const [lead, ...supporting] = edition.featured;
-  const last = edition.articles.reduce((latest, article) => Date.parse(article.published_at) > Date.parse(latest) ? article.published_at : latest, edition.articles[0]?.published_at ?? "");
+  const last = edition.articles.map((article) => article.collected_at).filter((value): value is string => Boolean(value)).sort((a, b) => Date.parse(b) - Date.parse(a))[0];
   return <main className="page" id="main">
     <section className="brief-heading"><div><p className="eyebrow"><Radio size={14} aria-hidden="true" />{t("home.label")}</p><h1>{t("home.title").split("\n").map((line, index) => <span key={line} className={index === 0 ? "accent-title" : ""}>{line}</span>)}</h1><p className="intro">{t("home.description")}</p></div>
       <div className="edition-stamp"><span className="edition-label">DAILY EDITION</span><strong>{displayDate(edition.date)}</strong><div><span className="status-dot" />{edition.date === today ? t("home.today") : t("home.archive")}<span> / JST</span></div></div>
@@ -22,7 +22,7 @@ export function NewsEditionView({ edition, today, category }: { edition: Edition
     {edition.sample && <SampleNotice />}
     {lead ? <section className="focus-section" aria-labelledby="focus-heading"><div className="section-title"><h2 id="focus-heading">{t("home.focus")}</h2><span className="section-index">01 — IN FOCUS</span></div>
       <div className={`focus-grid${supporting.length ? "" : " is-single"}`}><article className="lead-story"><div className="lead-visual">{lead.image_url ? <Image src={lead.image_url} alt="" fill unoptimized sizes="(max-width: 768px) 100vw, 60vw" /> : <div className="technology-visual"><div className="circuit-frame"><Cpu size={74} strokeWidth={1} aria-hidden="true" /></div><span className="visual-label">JAPAN / {lead.category.toUpperCase()}</span><span className="visual-number">01</span></div>}</div>
-        <div className="lead-copy"><div className="item-kicker"><span className="category-label">{categoryName(lead.category)}</span><span>{lead.source}</span><time dateTime={lead.published_at}>{newsTime(lead.published_at)} JST</time></div>
+        <div className="lead-copy"><div className="item-kicker"><span className="category-label">{categoryName(lead.category)}</span><span>{lead.source}</span><time dateTime={lead.published_at}>{newsTime(lead.published_at, lead.published_time_known)} JST</time></div>
           <h2><Link href={`/news/${lead.id}`}>{lead.title}</Link></h2><p>{lead.summary}</p><div className="why-inline"><span>{t("news.why")}</span><p>{lead.why_it_matters}</p></div><Link className="read-link" href={`/news/${lead.id}`}>{t("news.read")}<ArrowUpRight size={17} aria-hidden="true" /></Link>
         </div></article>{supporting.length > 0 && <aside className="focus-sidebar"><ArticleList articles={supporting} compact /></aside>}</div>
     </section> : <div className="empty-state"><p>{category ? t("home.emptyFilter") : t("home.empty")}</p>{edition.dates[0] && edition.dates[0] !== edition.date && <Link className="read-link" href={`/?date=${edition.dates[0]}`}>{t("home.latest")}<ArrowRight size={16} /></Link>}</div>}

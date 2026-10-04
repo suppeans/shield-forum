@@ -16,7 +16,8 @@ export type CategorySlug = Category["slug"];
 export type Tag = { id: string; slug: string; name: string; description: string };
 export type NewsArticle = {
   id: string; title: string; summary: string; category: CategorySlug;
-  source: string; source_url: string; published_at: string; edition_date: string;
+  source: string; source_url: string; published_at: string; published_time_known: boolean;
+  collected_at: string | null; edition_date: string;
   image_url: string | null; why_it_matters: string; core_facts: string[]; tags: string[];
   featured: boolean; priority: number; region: "japan" | "global"; is_sample: boolean;
 };

@@ -14,7 +14,7 @@ export function ArticleDetailView({ article, related }: { article: NewsArticle; 
   return <main className="page article-page" id="main"><Link className="back-link" href={`/?date=${article.edition_date}`}><ArrowLeft size={16} aria-hidden="true" />{t("common.back")}</Link>
     {article.is_sample && <SampleNotice />}
     <PageHeading label={categoryName(article.category)} title={article.title} description={article.summary} />
-    <div className="detail-meta"><span>{t("news.edition")}: <time dateTime={article.edition_date}>{displayDate(article.edition_date)}</time></span><span>{t("news.published")}: <time dateTime={article.published_at}>{newsTime(article.published_at)} JST</time></span><span>{article.source}</span></div>
+    <div className="detail-meta"><span>{t("news.edition")}: <time dateTime={article.edition_date}>{displayDate(article.edition_date)}</time></span><span>{t("news.published")}: <time dateTime={article.published_at}>{newsTime(article.published_at, article.published_time_known)} JST</time></span><span>{article.source}</span></div>
     <div className="detail-layout"><article className="article-body">{article.image_url && <Image className="detail-image" src={article.image_url} width={1200} height={650} alt="" unoptimized />}
       <section><p className="eyebrow">01 / BRIEF</p><h2>{t("news.summary")}</h2><p>{article.summary}</p></section>
       <section><p className="eyebrow">02 / KEY FACTS</p><h2>{t("news.facts")}</h2><ul className="fact-list">{(article.core_facts.length ? article.core_facts : [article.summary]).map((fact, i) => <li key={i}>{fact}</li>)}</ul></section>

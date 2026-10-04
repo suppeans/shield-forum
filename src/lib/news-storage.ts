@@ -5,7 +5,7 @@ import { dirname, join } from "node:path";
 import { z } from "zod";
 import { newsArticleSchema, newsImportSchema } from "./validation.ts";
 import type { NewsArticle } from "./types.ts";
-const fields = "id,title,summary,category,source,source_url,published_at,edition_date,image_url,why_it_matters,core_facts,tags,featured,priority,region,is_sample";
+const fields = "id,title,summary,category,source,source_url,published_at,published_time_known,collected_at,edition_date,image_url,why_it_matters,core_facts,tags,featured,priority,region,is_sample";
 export function storageMode() {
   const mode = process.env.NEWS_STORAGE ?? "file";
   if (mode !== "file" && mode !== "supabase") throw new Error("NEWS_STORAGE must be file or supabase");

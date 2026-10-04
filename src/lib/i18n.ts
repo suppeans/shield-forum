@@ -10,7 +10,7 @@ export const languages = [
 const ja = {
   "header.home": "SHIELD NEWS ホーム", "header.primaryNavigation": "メインナビゲーション", "language.select": "表示言語を選択",
   "nav.home": "ホーム", "nav.ai": "AI", "nav.security": "セキュリティ", "nav.business": "企業", "nav.semiconductors": "半導体", "nav.cloud": "クラウド", "nav.careers": "IT就職", "nav.about": "このサイトについて", "nav.search": "ニュースを検索", "nav.menu": "メニュー",
-  "home.label": "日本 IT ニュース / デイリーブリーフ", "home.title": "今日の変化を、\n明日の視点に。", "home.description": "日本のIT業界を、ひとつの視点から。重要な動きとその意味を、毎日のブリーフで。",
+  "home.label": "日本 IT ニュース / デイリーブリーフ", "home.title": "今日の変化を、\n明日の視点に。", "home.description": "日本のIT業界の重要な動きと、その意味を。朝9時・夜9時を目安に、確認できたニュースをお届けします。",
   "home.focus": "注目ニュース", "home.list": "ニュース一覧", "home.today": "今日のブリーフ", "home.total": "収録ニュース", "home.sources": "出典", "home.archive": "過去のブリーフ", "home.all": "すべて", "home.empty": "この日のニュースはまだ公開されていません。", "home.emptyFilter": "このカテゴリーのニュースはありません。", "home.updated": "最新の収録時刻", "home.latest": "最新の公開号を見る",
   "news.why": "注目する理由", "news.read": "ニュースを読む", "news.original": "原文を読む", "news.sample": "表示サンプル", "news.sampleNotice": "現在は架空の表示サンプルです。実際のニュースではありません。", "news.japan": "日本", "news.global": "海外 / 日本への影響", "news.facts": "主な事実", "news.summary": "ニュースの概要", "news.source": "情報源", "news.disclosure": "原記事を要約したニュースブリーフです。事実確認や詳細は、情報源の原文をご確認ください。", "news.related": "同じ日のニュース", "news.edition": "収録日", "news.published": "原記事の公開日時（日本時間）",
   "common.tags": "関連タグ", "common.search": "検索", "common.back": "ブリーフに戻る", "list.noArticles": "該当するニュースはありません。",

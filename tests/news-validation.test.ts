@@ -1,10 +1,17 @@
 import { describe, expect, it } from "vitest";
 import { MAX_IMPORT_BYTES, newsImportSchema, parseImportJson } from "@/lib/validation";
-import { japanDate } from "@/lib/news-date";
+import { japanDate, newsTime } from "@/lib/news-date";
 import { filterNews, rankNews } from "@/lib/repositories/news";
 import fixture from "../docs/news-import.example.json";
 const article = newsImportSchema.parse(fixture).news[0];
 describe("news schema and editions", () => {
+  it("preserves source date precision separately from briefing collection time", () => {
+    const batch = newsImportSchema.parse({ ...fixture, generated_at: "2026-10-04T21:00:00+09:00",
+      news: [{ ...fixture.news[0], published_at: "2026-10-02T00:00:00+09:00", published_time_known: false }] });
+    expect(batch.news[0].collected_at).toBe("2026-10-04T21:00:00+09:00");
+    expect(newsTime(batch.news[0].published_at, batch.news[0].published_time_known)).toBe("2026/10/02");
+    expect(newsImportSchema.safeParse({ ...fixture, generated_at: "2026-10-04" }).success).toBe(false);
+  });
   it("validates source links, calendar dates, categories and duplicate ids", () => {
     for (const changes of [{ source_url: "data:text/html,bad" }, { source_url: "https://user:pass@example.com/story" }, { category: "unknown" }, { published_at: "2026-10-04" }]) {
       expect(newsImportSchema.safeParse({ ...fixture, news: [{ ...fixture.news[0], ...changes }] }).success).toBe(false);

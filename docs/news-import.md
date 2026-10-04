@@ -2,7 +2,7 @@
 
 ## JSON 格式
 
-参考 `docs/news-import.example.json`。批次格式为 `{ "date": "YYYY-MM-DD", "sample": false, "news": [...] }`。
+参考 `docs/news-import.example.json`。批次格式为 `{ "date": "YYYY-MM-DD", "generated_at": "带时区的实际生成时间", "sample": false, "news": [...] }`。`generated_at` 可省略以兼容旧格式；提供时写入各条记录的 `collected_at`，用于首页显示实际收录时间。
 
 每条新闻：
 
@@ -13,6 +13,7 @@
 | category | ai, security, business, semiconductors, cloud, careers, development, dx, policy, startups, global |
 | source / source_url | 实际原始发布者 / 对应原文完整 HTTP(S) URL，禁止用媒体首页代替原文 |
 | published_at | 原始新闻发布时间，带时区的 ISO 8601，如 2026-10-04T09:30:00+09:00 |
+| published_time_known | 原文是否给出准确时刻，默认 true；原文只有日期时设 false，published_at 使用该日期 00:00:00 作为存储值，界面只显示日期，不把午夜冒充实际发布时间 |
 | image_url | 有使用许可时的图片 URL；没有则 null，可省略 |
 | why_it_matters | 与日本 IT 行业的关系和意义，区别于事实 |
 | core_facts | 建议提供 2–5 条已核实的事实；省略则详情页显示摘要 |
@@ -47,8 +48,10 @@ curl -X POST https://YOUR-DOMAIN/api/news/import \
 ```
 
 该接口在没有令牌时返回 503，错误令牌返回 401，文件模式返回 409，不支持通过无持久磁盘的 Vercel 函数更新 JSON 文件。每个批次使用一次数据库 upsert；默认只有服务端能够写入。页面动态读取，不保留静态构建时的旧日报。
-这里只提供数据接收机制，**不会自行创建 ChatGPT 自动任务或声称任务已经与网站连通**。将来可以由可信的服务调用接口或运行脚本。
+文件模式现使用本地定时任务、Git 提交和 Netlify 自动部署，详见 `docs/daily-news-workflow.md`。HTTP 模式仍需先配置 Supabase 和导入令牌，目前未启用。
 
 ## 给每日任务的提示词
 
 > 请总结当天日本 IT 行业最重要的新闻，日本本土优先。涵盖 AI、网络安全、企业、半导体、云计算、开发、DX、政策、IT 招聘、创业公司，以及对日本有明确影响的全球科技新闻。只输出合法 JSON，格式为 {date, sample:false, news:[...]}，采用本文字段和 category 枚举。标题、摘要、核心事实和影响分析使用日语。为每条新闻提供真正支持事实的原文 URL 和带时区的原文发布时间，不要编造来源或新闻，不能核实的条目省略。使用稳定且全局唯一的 id；最重要 3–5 条标 featured:true，priority 从 1 到 5。图片没有明确使用许可时设 null。摘要保持简短，避免全文转载。没有值得核实的新闻时，报告无结果，不要编造批次。
+
+请同时输出 `generated_at` 的实际生成时间。原文只给日期时，`published_time_known:false`；不要杜撰具体时刻。同一日报的早晚更新合并，同一事件不重复收录到其他日期。公告更新的时间与首次发布日期不同，应在摘要或核心事实中明确注明。

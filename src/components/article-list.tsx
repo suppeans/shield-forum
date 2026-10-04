@@ -12,7 +12,7 @@ export function ArticleList({ articles, compact = false }: { articles: NewsArtic
   if (!articles.length) return <p className="empty-state">{t("list.noArticles")}</p>;
   return <div className={`content-list ${compact ? "compact-list" : ""}`}>{articles.map((article, index) => <article className="list-item" key={article.id}>
     <span className="row-number">{String(index + 1).padStart(2, "0")}</span>
-    <div className="news-row-content"><div className="item-kicker"><Link href={`/?date=${article.edition_date}&category=${article.category}#news-feed`} className="category-label">{categoryName(article.category)}</Link><span>{article.source}</span><time dateTime={article.published_at}>{newsTime(article.published_at)} JST</time>{article.is_sample && <span className="sample-label">{t("news.sample")}</span>}</div>
+    <div className="news-row-content"><div className="item-kicker"><Link href={`/?date=${article.edition_date}&category=${article.category}#news-feed`} className="category-label">{categoryName(article.category)}</Link><span>{article.source}</span><time dateTime={article.published_at}>{newsTime(article.published_at, article.published_time_known)} JST</time>{article.is_sample && <span className="sample-label">{t("news.sample")}</span>}</div>
       <h2 className="item-title"><Link href={`/news/${article.id}`}>{article.title}</Link></h2><p>{article.summary}</p>
       <div className="why-inline"><span>{t("news.why")}</span><p>{article.why_it_matters}</p></div>
       {!compact && <TagCloud tags={toTags(article.tags)} />}
