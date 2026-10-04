@@ -8,6 +8,8 @@ This is a Next.js App Router application, not a static HTML upload. Use Node 24,
 
 Import `suppeans/shield-forum` into Netlify and select `main` as the production branch. The checked-in `netlify.toml` sets `npm run build`, publish directory `.next`, Node 24, security headers and the bundled news JSON. Leave the base directory empty.
 
+Production URL: [shield-news-suppeans.netlify.app](https://shield-news-suppeans.netlify.app/). New Netlify projects start with team access protection; use **Go public** for the production site so visitors can access the news without signing in. Deploy previews remain private to the team. Next.js also sets the security headers for server-rendered pages and API responses.
+
 Netlify automatically applies its Next.js adapter for server-rendered pages and route handlers; no extra framework plugin dependency or static export is needed. [Official Next.js setup](https://docs.netlify.com/build/frameworks/framework-setup-guides/nextjs/overview/).
 
 File storage is the default and needs no secrets. Import the daily JSON, commit `src/data/news.json`, and push to `main`; Netlify rebuilds and publishes automatically. Hosted functions cannot persist edits to this file, so HTTP import stays disabled in file mode.
