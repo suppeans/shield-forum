@@ -1,0 +1,318 @@
+[
+  {
+    "id": "sample-2026-10-04-ai",
+    "title": "国内企業の生成AI導入、実証から業務運用へ",
+    "summary": "社内ナレッジ検索に生成AIを取り入れる架空の発表例。権限管理と回答精度の評価を中心に、実証と本番運用の違いを紹介する表示サンプルです。",
+    "category": "ai",
+    "source": "架空の発表資料（表示サンプル）",
+    "source_url": "https://example.com/sample/2026-10-04/ai",
+    "published_at": "2026-10-04T09:00:00+09:00",
+    "edition_date": "2026-10-04",
+    "image_url": null,
+    "why_it_matters": "生成AIの導入では、モデル選定だけでなく、業務データの扱いと継続的な評価が重要になります。",
+    "core_facts": [
+      "この項目はサイトの表示確認を目的とした架空のサンプルです。",
+      "実際のニュースを公開する際は、原文の内容と公開日時を確認します。"
+    ],
+    "tags": [
+      "生成AI",
+      "企業導入",
+      "LLM"
+    ],
+    "featured": true,
+    "priority": 1,
+    "region": "japan",
+    "is_sample": true
+  },
+  {
+    "id": "sample-2026-10-04-security",
+    "title": "サプライチェーンのリスクを、ソフトウェアの可視化から考える",
+    "summary": "SBOMを活用したリスク管理についての架空のニュース例です。取引先との情報共有や脆弱性への対応を扱うレイアウトを確認できます。",
+    "category": "security",
+    "source": "架空の発表資料（表示サンプル）",
+    "source_url": "https://example.com/sample/2026-10-04/security",
+    "published_at": "2026-10-04T10:00:00+09:00",
+    "edition_date": "2026-10-04",
+    "image_url": null,
+    "why_it_matters": "依存するソフトウェアを把握することは、脆弱性の影響調査や対応判断の土台になります。",
+    "core_facts": [
+      "この項目はサイトの表示確認を目的とした架空のサンプルです。",
+      "実際のニュースを公開する際は、原文の内容と公開日時を確認します。"
+    ],
+    "tags": [
+      "SBOM",
+      "脆弱性管理"
+    ],
+    "featured": true,
+    "priority": 2,
+    "region": "japan",
+    "is_sample": true
+  },
+  {
+    "id": "sample-2026-10-04-semiconductors",
+    "title": "次世代半導体の開発、人材育成と研究の接点へ",
+    "summary": "国内の研究機関と企業が連携する架空の取り組みを題材にした表示サンプルです。実際の発表や投資計画を示すものではありません。",
+    "category": "semiconductors",
+    "source": "架空の発表資料（表示サンプル）",
+    "source_url": "https://example.com/sample/2026-10-04/semiconductors",
+    "published_at": "2026-10-04T11:00:00+09:00",
+    "edition_date": "2026-10-04",
+    "image_url": null,
+    "why_it_matters": "研究開発と人材育成の両面を読むことで、日本の半導体産業の変化を捉えやすくなります。",
+    "core_facts": [
+      "この項目はサイトの表示確認を目的とした架空のサンプルです。",
+      "実際のニュースを公開する際は、原文の内容と公開日時を確認します。"
+    ],
+    "tags": [
+      "半導体",
+      "研究開発"
+    ],
+    "featured": true,
+    "priority": 3,
+    "region": "japan",
+    "is_sample": true
+  },
+  {
+    "id": "sample-2026-10-04-cloud",
+    "title": "国内データセンター、計算資源と電力の両立が論点に",
+    "summary": "AI向け計算基盤の拡張をテーマにした架空のニュース例です。設備の規模、運用設計、電力効率などを整理する表示を確認できます。",
+    "category": "cloud",
+    "source": "架空の発表資料（表示サンプル）",
+    "source_url": "https://example.com/sample/2026-10-04/cloud",
+    "published_at": "2026-10-04T12:00:00+09:00",
+    "edition_date": "2026-10-04",
+    "image_url": null,
+    "why_it_matters": "計算需要の拡大は、サービスの供給能力だけでなくエネルギー調達や運用コストにも関わります。",
+    "core_facts": [
+      "この項目はサイトの表示確認を目的とした架空のサンプルです。",
+      "実際のニュースを公開する際は、原文の内容と公開日時を確認します。"
+    ],
+    "tags": [
+      "データセンター",
+      "クラウド",
+      "AI基盤"
+    ],
+    "featured": true,
+    "priority": 4,
+    "region": "japan",
+    "is_sample": true
+  },
+  {
+    "id": "sample-2026-10-04-business",
+    "title": "法人向けITサービス、顧客の業務に合わせた展開へ",
+    "summary": "日本のIT企業による製品展開を題材にした架空の表示例です。実在する製品発表ではありません。",
+    "category": "business",
+    "source": "架空の発表資料（表示サンプル）",
+    "source_url": "https://example.com/sample/2026-10-04/business",
+    "published_at": "2026-10-04T13:00:00+09:00",
+    "edition_date": "2026-10-04",
+    "image_url": null,
+    "why_it_matters": "製品の機能と顧客の業務課題を照らし合わせることで、企業の戦略を読み解けます。",
+    "core_facts": [
+      "この項目はサイトの表示確認を目的とした架空のサンプルです。",
+      "実際のニュースを公開する際は、原文の内容と公開日時を確認します。"
+    ],
+    "tags": [
+      "IT企業",
+      "法人サービス"
+    ],
+    "featured": false,
+    "priority": 5,
+    "region": "japan",
+    "is_sample": true
+  },
+  {
+    "id": "sample-2026-10-04-careers",
+    "title": "IT人材に求められるスキル、開発とセキュリティの境界へ",
+    "summary": "採用動向を扱うニュースの架空サンプルです。具体的な求人情報や採用統計を示すものではありません。",
+    "category": "careers",
+    "source": "架空の発表資料（表示サンプル）",
+    "source_url": "https://example.com/sample/2026-10-04/careers",
+    "published_at": "2026-10-04T14:00:00+09:00",
+    "edition_date": "2026-10-04",
+    "image_url": null,
+    "why_it_matters": "技術の変化を就職や学習の視点で捉えることで、キャリアを考える手がかりになります。",
+    "core_facts": [
+      "この項目はサイトの表示確認を目的とした架空のサンプルです。",
+      "実際のニュースを公開する際は、原文の内容と公開日時を確認します。"
+    ],
+    "tags": [
+      "IT人材",
+      "キャリア"
+    ],
+    "featured": false,
+    "priority": 5,
+    "region": "japan",
+    "is_sample": true
+  },
+  {
+    "id": "sample-2026-10-04-development",
+    "title": "開発プロセスにAIを取り入れる、検証と品質の視点",
+    "summary": "開発者向けツールの架空のニュース例。導入効果と品質管理の論点を並べた記事表示を確認できます。",
+    "category": "development",
+    "source": "架空の発表資料（表示サンプル）",
+    "source_url": "https://example.com/sample/2026-10-04/development",
+    "published_at": "2026-10-04T15:00:00+09:00",
+    "edition_date": "2026-10-04",
+    "image_url": null,
+    "why_it_matters": "開発支援ツールの導入効果は、生成速度だけでなく検証や運用の負担まで見る必要があります。",
+    "core_facts": [
+      "この項目はサイトの表示確認を目的とした架空のサンプルです。",
+      "実際のニュースを公開する際は、原文の内容と公開日時を確認します。"
+    ],
+    "tags": [
+      "開発",
+      "AIツール"
+    ],
+    "featured": false,
+    "priority": 5,
+    "region": "japan",
+    "is_sample": true
+  },
+  {
+    "id": "sample-2026-10-04-policy",
+    "title": "デジタル政策の変化を、企業の実務から読む",
+    "summary": "IT業界の制度や規制を扱う架空の表示例です。実際の政策発表や法的助言ではありません。",
+    "category": "policy",
+    "source": "架空の発表資料（表示サンプル）",
+    "source_url": "https://example.com/sample/2026-10-04/policy",
+    "published_at": "2026-10-04T16:00:00+09:00",
+    "edition_date": "2026-10-04",
+    "image_url": null,
+    "why_it_matters": "制度の変更は、事業計画やデータ管理の実務に影響するため、原資料の確認が必要です。",
+    "core_facts": [
+      "この項目はサイトの表示確認を目的とした架空のサンプルです。",
+      "実際のニュースを公開する際は、原文の内容と公開日時を確認します。"
+    ],
+    "tags": [
+      "政策",
+      "DX"
+    ],
+    "featured": false,
+    "priority": 5,
+    "region": "japan",
+    "is_sample": true
+  },
+  {
+    "id": "sample-2026-10-03-ai",
+    "title": "国内企業の生成AI導入、実証から業務運用へ",
+    "summary": "社内ナレッジ検索に生成AIを取り入れる架空の発表例。権限管理と回答精度の評価を中心に、実証と本番運用の違いを紹介する表示サンプルです。",
+    "category": "ai",
+    "source": "架空の発表資料（表示サンプル）",
+    "source_url": "https://example.com/sample/2026-10-03/ai",
+    "published_at": "2026-10-03T09:00:00+09:00",
+    "edition_date": "2026-10-03",
+    "image_url": null,
+    "why_it_matters": "生成AIの導入では、モデル選定だけでなく、業務データの扱いと継続的な評価が重要になります。",
+    "core_facts": [
+      "この項目はサイトの表示確認を目的とした架空のサンプルです。",
+      "実際のニュースを公開する際は、原文の内容と公開日時を確認します。"
+    ],
+    "tags": [
+      "生成AI",
+      "企業導入",
+      "LLM"
+    ],
+    "featured": true,
+    "priority": 1,
+    "region": "japan",
+    "is_sample": true
+  },
+  {
+    "id": "sample-2026-10-03-security",
+    "title": "サプライチェーンのリスクを、ソフトウェアの可視化から考える",
+    "summary": "SBOMを活用したリスク管理についての架空のニュース例です。取引先との情報共有や脆弱性への対応を扱うレイアウトを確認できます。",
+    "category": "security",
+    "source": "架空の発表資料（表示サンプル）",
+    "source_url": "https://example.com/sample/2026-10-03/security",
+    "published_at": "2026-10-03T10:00:00+09:00",
+    "edition_date": "2026-10-03",
+    "image_url": null,
+    "why_it_matters": "依存するソフトウェアを把握することは、脆弱性の影響調査や対応判断の土台になります。",
+    "core_facts": [
+      "この項目はサイトの表示確認を目的とした架空のサンプルです。",
+      "実際のニュースを公開する際は、原文の内容と公開日時を確認します。"
+    ],
+    "tags": [
+      "SBOM",
+      "脆弱性管理"
+    ],
+    "featured": true,
+    "priority": 2,
+    "region": "japan",
+    "is_sample": true
+  },
+  {
+    "id": "sample-2026-10-03-semiconductors",
+    "title": "次世代半導体の開発、人材育成と研究の接点へ",
+    "summary": "国内の研究機関と企業が連携する架空の取り組みを題材にした表示サンプルです。実際の発表や投資計画を示すものではありません。",
+    "category": "semiconductors",
+    "source": "架空の発表資料（表示サンプル）",
+    "source_url": "https://example.com/sample/2026-10-03/semiconductors",
+    "published_at": "2026-10-03T11:00:00+09:00",
+    "edition_date": "2026-10-03",
+    "image_url": null,
+    "why_it_matters": "研究開発と人材育成の両面を読むことで、日本の半導体産業の変化を捉えやすくなります。",
+    "core_facts": [
+      "この項目はサイトの表示確認を目的とした架空のサンプルです。",
+      "実際のニュースを公開する際は、原文の内容と公開日時を確認します。"
+    ],
+    "tags": [
+      "半導体",
+      "研究開発"
+    ],
+    "featured": true,
+    "priority": 3,
+    "region": "japan",
+    "is_sample": true
+  },
+  {
+    "id": "sample-2026-10-02-ai",
+    "title": "国内企業の生成AI導入、実証から業務運用へ",
+    "summary": "社内ナレッジ検索に生成AIを取り入れる架空の発表例。権限管理と回答精度の評価を中心に、実証と本番運用の違いを紹介する表示サンプルです。",
+    "category": "ai",
+    "source": "架空の発表資料（表示サンプル）",
+    "source_url": "https://example.com/sample/2026-10-02/ai",
+    "published_at": "2026-10-02T09:00:00+09:00",
+    "edition_date": "2026-10-02",
+    "image_url": null,
+    "why_it_matters": "生成AIの導入では、モデル選定だけでなく、業務データの扱いと継続的な評価が重要になります。",
+    "core_facts": [
+      "この項目はサイトの表示確認を目的とした架空のサンプルです。",
+      "実際のニュースを公開する際は、原文の内容と公開日時を確認します。"
+    ],
+    "tags": [
+      "生成AI",
+      "企業導入",
+      "LLM"
+    ],
+    "featured": true,
+    "priority": 1,
+    "region": "japan",
+    "is_sample": true
+  },
+  {
+    "id": "sample-2026-10-02-security",
+    "title": "サプライチェーンのリスクを、ソフトウェアの可視化から考える",
+    "summary": "SBOMを活用したリスク管理についての架空のニュース例です。取引先との情報共有や脆弱性への対応を扱うレイアウトを確認できます。",
+    "category": "security",
+    "source": "架空の発表資料（表示サンプル）",
+    "source_url": "https://example.com/sample/2026-10-02/security",
+    "published_at": "2026-10-02T10:00:00+09:00",
+    "edition_date": "2026-10-02",
+    "image_url": null,
+    "why_it_matters": "依存するソフトウェアを把握することは、脆弱性の影響調査や対応判断の土台になります。",
+    "core_facts": [
+      "この項目はサイトの表示確認を目的とした架空のサンプルです。",
+      "実際のニュースを公開する際は、原文の内容と公開日時を確認します。"
+    ],
+    "tags": [
+      "SBOM",
+      "脆弱性管理"
+    ],
+    "featured": true,
+    "priority": 2,
+    "region": "japan",
+    "is_sample": true
+  }
+]

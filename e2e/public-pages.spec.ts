@@ -1,51 +1,26 @@
 import { expect, test } from "@playwright/test";
-
-const pages = [
-  { path: "/", heading: "Shield Forum" },
-  { path: "/forum", heading: "Discussion board" },
-  { path: "/knowledge", heading: "Defensive tutorials" },
-  { path: "/tags", heading: "Topic index" },
-  { path: "/search", heading: "Search public content" },
-  { path: "/auth/sign-in", heading: "Sign in to participate" },
-  { path: "/profile", heading: "Cipher Warden" },
-  { path: "/admin", heading: "Community operations" },
-];
-
-for (const pageInfo of pages) {
-  test(`${pageInfo.path} loads`, async ({ page }) => {
-    await page.goto(pageInfo.path);
-    await expect(
-      page.getByRole("heading", { name: pageInfo.heading, level: 1 }),
-    ).toBeVisible();
-    await expect(page.getByRole("banner")).toBeVisible();
-  });
-}
-
-test("forum and knowledge details load public content", async ({ page }) => {
-  await page.goto("/forum/test-supabase-rls-before-launch");
-  await expect(
-    page.getByRole("heading", {
-      name: /how do you test supabase rls before launch/i,
-      level: 1,
-    }),
-  ).toBeVisible();
-  await expect(page.getByText(/policy tests/i)).toBeVisible();
-
-  await page.goto("/knowledge/launch-checklist-public-security-forums");
-  await expect(
-    page.getByRole("heading", {
-      name: /a launch checklist for public security forums/i,
-      level: 1,
-    }),
-  ).toBeVisible();
-  await expect(page.getByText(/baseline controls/i)).toBeVisible();
+test("news brief links to attributed detail, category and date archives", async ({ page }) => {
+  await page.goto("/?date=2026-10-04");
+  await expect(page.getByRole("heading", { level: 1 })).toContainText("今日の変化を");
+  await expect(page.getByText("現在は架空の表示サンプルです。実際のニュースではありません。")).toBeVisible();
+  await page.getByRole("link", { name: "国内企業の生成AI導入、実証から業務運用へ", exact: true }).click();
+  await expect(page.getByRole("heading", { name: "主な事実" })).toBeVisible();
+  await expect(page.getByRole("link", { name: "原文を読む" })).toHaveAttribute("href", /example.com/);
+  await page.goto("/?date=2026-10-03&category=security");
+  await expect(page.locator("#news-feed").getByRole("heading", { name: /サプライチェーンのリスク/ })).toBeVisible();
+  await page.goto("/search?q=SBOM");
+  await expect(page.getByRole("link", { name: /サプライチェーンのリスク/ }).first()).toBeVisible();
 });
-
-test("search returns matching public content", async ({ page }) => {
-  await page.goto("/search?q=turnstile");
-  await expect(
-    page.getByRole("link", {
-      name: /cloudflare turnstile placement for post forms/i,
-    }),
-  ).toBeVisible();
+test("retired account and community pages return 404", async ({ page }) => {
+  for (const path of ["/auth/sign-in", "/profile", "/admin", "/forum"]) {
+    const response = await page.goto(path);
+    expect(response?.status()).toBe(404);
+  }
+});
+test("mobile menu, empty edition and unknown detail remain usable", async ({ page, isMobile }) => {
+  await page.goto("/?date=2026-09-01");
+  await expect(page.getByText("この日のニュースはまだ公開されていません。")).toBeVisible();
+  if (isMobile) { await page.getByRole("button", { name: "メニュー", exact: true }).click(); await expect(page.getByRole("link", { name: "このサイトについて", exact: true }).first()).toBeVisible(); }
+  await page.goto("/news/missing-news");
+  await expect(page.getByRole("heading", { name: "ページが見つかりません。" })).toBeVisible();
 });

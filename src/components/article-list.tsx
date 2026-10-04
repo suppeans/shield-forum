@@ -1,69 +1,23 @@
 "use client";
-
 import Link from "next/link";
-import { BookOpen, UserRound } from "lucide-react";
-import { getDateLocale, translateArticle } from "@/lib/i18n";
-import type { ArticleWithRelations } from "@/lib/repositories/forum";
+import Image from "next/image";
+import { ArrowUpRight } from "lucide-react";
+import type { NewsArticle } from "@/lib/types";
+import { categoryName, toTags } from "@/lib/types";
+import { newsTime } from "@/lib/news-date";
 import { useLanguage } from "./language-provider";
-import { TagPill } from "./tag-pill";
-
-type ArticleListProps = {
-  articles: ArticleWithRelations[];
-};
-
-export function ArticleList({ articles }: ArticleListProps) {
-  const { language, t } = useLanguage();
-
-  if (articles.length === 0) {
-    return <p className="muted">{t("list.noArticles")}</p>;
-  }
-
-  return (
-    <div className="content-list">
-      {articles.map((article) => {
-        const translatedArticle = translateArticle(article, language);
-
-        return (
-          <article className="list-item" key={article.id}>
-            <div className="item-kicker">
-              <span className="with-icon">
-                <BookOpen size={14} aria-hidden="true" />
-                {t("article.tutorial")}
-              </span>
-              <span>
-                {article.publishedAt
-                  ? formatDate(article.publishedAt, language)
-                  : t("article.draft")}
-              </span>
-            </div>
-            <h2 className="item-title">
-              <Link href={`/knowledge/${article.slug}`}>
-                {translatedArticle.title}
-              </Link>
-            </h2>
-            <p>{translatedArticle.summary}</p>
-            <div className="item-meta">
-              <span className="with-icon">
-                <UserRound size={14} aria-hidden="true" />
-                {article.author.displayName}
-              </span>
-            </div>
-            <div className="tag-cloud compact">
-              {translatedArticle.tags.map((tag) => (
-                <TagPill key={tag.id} tag={tag} />
-              ))}
-            </div>
-          </article>
-        );
-      })}
+import { TagCloud } from "./tag-cloud";
+export function ArticleList({ articles, compact = false }: { articles: NewsArticle[]; compact?: boolean }) {
+  const { t } = useLanguage();
+  if (!articles.length) return <p className="empty-state">{t("list.noArticles")}</p>;
+  return <div className={`content-list ${compact ? "compact-list" : ""}`}>{articles.map((article, index) => <article className="list-item" key={article.id}>
+    <span className="row-number">{String(index + 1).padStart(2, "0")}</span>
+    <div className="news-row-content"><div className="item-kicker"><Link href={`/?date=${article.edition_date}&category=${article.category}#news-feed`} className="category-label">{categoryName(article.category)}</Link><span>{article.source}</span><time dateTime={article.published_at}>{newsTime(article.published_at)} JST</time>{article.is_sample && <span className="sample-label">{t("news.sample")}</span>}</div>
+      <h2 className="item-title"><Link href={`/news/${article.id}`}>{article.title}</Link></h2><p>{article.summary}</p>
+      <div className="why-inline"><span>{t("news.why")}</span><p>{article.why_it_matters}</p></div>
+      {!compact && <TagCloud tags={toTags(article.tags)} />}
     </div>
-  );
-}
-
-function formatDate(value: string, language: "zh" | "ja" | "en") {
-  return new Intl.DateTimeFormat(getDateLocale(language), {
-    month: "short",
-    day: "numeric",
-    year: "numeric",
-  }).format(new Date(value));
+    {article.image_url && !compact && <Image className="list-thumbnail" src={article.image_url} width={144} height={100} alt="" unoptimized />}
+    <Link href={`/news/${article.id}`} className="row-arrow" aria-label={`${t("news.read")}: ${article.title}`}><ArrowUpRight size={22} aria-hidden="true" /></Link>
+  </article>)}</div>;
 }
