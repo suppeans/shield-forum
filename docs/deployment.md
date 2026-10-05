@@ -1,14 +1,14 @@
 # SHIELD NEWS 部署
 
-## Netlify 自动部署
+## Vercel 自动部署
 
 项目使用 Next.js App Router、React 和 TypeScript。使用 Node 24，安装依赖后运行 `npm run build`。
 
-Netlify 连接 `suppeans/shield-forum` 的 `main` 分支。`netlify.toml` 已设置构建命令、`.next` 发布目录、安全响应头和新闻 JSON 打包；项目根目录留空。
+Vercel 项目 `shield-forum` 连接 `suppeans/shield-forum` 的 `main` 分支。框架选择 Next.js，项目根目录为仓库根目录，构建命令为 `npm run build`，输出目录使用框架默认值。`package.json` 固定 Node 24.x；`vercel.json` 设置框架、函数区域和安全响应头，`next.config.ts` 将新闻 JSON 打包进服务端函数。
 
-公开网站：[shield-news-suppeans.netlify.app](https://shield-news-suppeans.netlify.app/)。Netlify 的 Next.js 适配器处理动态页面和 API，无须静态导出或添加框架插件。
+公开网站：[shield-news-suppeans.vercel.app](https://shield-news-suppeans.vercel.app/)。Vercel 原生处理 Next.js 动态页面和 API，无须静态导出或添加框架插件。
 
-默认 `NEWS_STORAGE=file`：导入 JSON，提交 `src/data/news.json` 并推送到 `main`，Netlify 自动构建和发布。云端函数的文件修改无法持久保存，因此文件模式禁用 HTTP 写入。每日任务流程见 [daily-news-workflow.md](daily-news-workflow.md)。
+默认 `NEWS_STORAGE=file`：导入 JSON，提交 `src/data/news.json` 并推送到 `main`，Vercel 自动构建和发布。云端函数的文件修改无法持久保存，因此文件模式禁用 HTTP 写入。每日任务流程见 [daily-news-workflow.md](daily-news-workflow.md)。
 
 ## 可选的 Supabase 新闻存储
 
@@ -23,4 +23,4 @@ Netlify 连接 `suppeans/shield-forum` 的 `main` 分支。`netlify.toml` 已设
 
 ## 安全与缓存
 
-`next.config.ts` 和 `netlify.toml` 设置安全响应头。缓存不可变静态资源；新闻 HTML、动态响应和 `POST /api/news/import` 不使用共享缓存。导入接口验证服务端 Bearer 令牌、数据格式和批次大小。不要在日志中输出令牌。
+`next.config.ts` 和 `vercel.json` 设置安全响应头。缓存不可变静态资源；新闻 HTML、动态响应和 `POST /api/news/import` 不使用共享缓存。导入接口验证服务端 Bearer 令牌、数据格式和批次大小。不要在日志中输出令牌。

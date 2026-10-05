@@ -1,8 +1,8 @@
 # 每日新闻发布流程
 
-目标网站：https://shield-news-suppeans.netlify.app/
+目标网站：https://shield-news-suppeans.vercel.app/
 
-每天日本时间 **09:00、21:00** 在云端运行新闻编辑和发布任务。任务检索、核实并生成数据，通过 GitHub 和 Netlify 发布；网站代码不包含新闻爬虫。电脑和手机无须一直在线。运行开始后还需检索和部署时间，9 点不是保证发布完成的时间。
+每天日本时间 **09:00、21:00** 在云端运行新闻编辑和发布任务。任务检索、核实并生成数据，通过 GitHub 和 Vercel 发布；网站代码不包含新闻爬虫。电脑和手机无须一直在线。运行开始后还需检索和部署时间，9 点不是保证发布完成的时间。
 
 云端环境配置与完整提示词见 [cloud-news-task.md](cloud-news-task.md)。
 
@@ -14,8 +14,8 @@
 4. 生成 `docs/news-import.md` 规定的日语 JSON，`sample:false`，`generated_at` 为实际执行时间。提供来源深链接、简短摘要、核心事实、影响分析和标签。日期未知的消息省略；只有日期而无时刻时设置 `published_time_known:false`。计划、β测试与正式发布必须区分。
 5. 按源公告和事件分配稳定 id。晚间补充当天批次，保留早间内容；同一事件已经在历史期刊出现则不移动其 `edition_date`。有新的实质更新可另写新条目，并注明公告原始日期与更新时间。没有新增或需修正的消息时，保持文件不变。
 6. 将待导入 JSON 放在仓库之外的临时文件，运行 `npm run import-news -- /path/to/batch.json`。检查导入后没有虚构样例、重复来源事件和未来的发布时间，早晚内容及历史均被保留。运行 `npm run test`、`npm run typecheck`、`npm run lint`；代码或构建配置改变时额外运行 `npm run build`。
-7. 仅提交本次新闻数据 `src/data/news.json`，正常推送到 `suppeans/shield-forum` 的 `main`。Netlify 已连接此分支；GitHub 有改动才触发自动部署。不修改数据库、域名或其他项目。
-8. 检查 Netlify 部署状态及公网首页，核对当天条目、来源链接和收录时间。只有线上内容确认更新后才报告已发布；若推送成功但部署尚未完成，明确区分状态。
+7. 仅提交本次新闻数据 `src/data/news.json`，正常推送到 `suppeans/shield-forum` 的 `main`。Vercel 已连接此分支；GitHub 有改动才触发自动部署。不修改数据库、域名或其他项目。
+8. 检查 Vercel 部署状态及公网首页，核对当天条目、来源链接和收录时间。只有线上内容确认更新后才报告已发布；若推送成功但部署尚未完成，明确区分状态。
 
 导入按 id 合并，文件加锁并原子替换。新闻归档仍使用 JSON；无须增加 API 密钥或后台服务。已有 Supabase HTTP 导入机制可在以后需要云端写入时启用。
 

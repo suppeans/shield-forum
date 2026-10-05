@@ -48,7 +48,7 @@ curl -X POST https://YOUR-DOMAIN/api/news/import \
 ```
 
 该接口在没有令牌时返回 503，错误令牌返回 401，文件模式返回 409，不支持通过无持久磁盘的云端函数更新 JSON 文件。每个批次使用一次数据库 upsert；默认只有服务端能够写入。页面动态读取新闻数据。
-文件模式使用云端定时任务、Git 提交和 Netlify 自动部署，详见 `docs/daily-news-workflow.md`。HTTP 模式需配置 Supabase 和导入令牌，目前未启用。
+文件模式使用云端定时任务、Git 提交和 Vercel 自动部署，详见 `docs/daily-news-workflow.md`。HTTP 模式需配置 Supabase 和导入令牌，目前未启用。
 
 ## 给每日任务的提示词
 
