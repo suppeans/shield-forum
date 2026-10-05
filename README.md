@@ -1,5 +1,21 @@
 # SHIELD NEWS — 日本ITニュース
 
-既存の Shield Forum (Next.js App Router / React / TypeScript / CSS / Supabase) を、ログイン不要のニュース集約サイトに改修しました。記事リスト、詳細レイアウト、検索、タグ、言語切替、Vercel/Cloudflare構成を再利用しています。
+日本のIT業界の動きを、出典付きの日本語要約で届けるニュース集約サイトです。AI・生成AI、サイバーセキュリティ、IT企業、半導体、クラウド、ソフトウェア開発、DX、政策、IT人材、スタートアップを扱い、日本本土のニュースを優先しています。
 
+**公開サイト： [shield-news-suppeans.netlify.app](https://shield-news-suppeans.netlify.app/)**
 
+## 主な機能
+
+- 今日の注目ニュースとカテゴリー別ニュース一覧
+- 要約・核心となる事実・注目する理由・原文リンクを明示したニュース詳細
+- キーワード検索、タグ、日付別アーカイブ
+- JSONによるニュース管理、Zodによる入力検証、日次ニュースのインポート
+- 日本時間09:00・21:00のクラウド定時タスクとGitHub / Netlifyによる自動公開
+
+ニュースは原発信者の情報を確認して要約し、原文の全文を転載しません。新たな確認済み情報がない場合は、既存の記事を維持します。
+
+## 技術スタック
+
+Next.js App Router / React / TypeScript / CSS / JSON / Zod / Vitest / Netlify
+
+ニュースのデータ形式と追加方法は [ニュース導入ガイド](docs/news-import.md) を参照してください。
