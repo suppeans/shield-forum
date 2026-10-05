@@ -19,3 +19,4 @@
 Next.js App Router / React / TypeScript / CSS / JSON / Zod / Vitest / Netlify
 
 ニュースのデータ形式と追加方法は [ニュース導入ガイド](docs/news-import.md) を参照してください。
+

@@ -23,3 +23,4 @@ const shieldForumProxy = {
 };
 
 export default shieldForumProxy;
+

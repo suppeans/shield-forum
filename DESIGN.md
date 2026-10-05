@@ -11,3 +11,4 @@ Reference: design-md / voltagent/awesome-design-md, Binance design system (MIT).
 - Compact header; mobile menu and single-column cards; focus rings and reduced-motion support.
 - Light #fafafa footer ends the dark editorial page.
 - Fictional samples are explicitly marked. Original source and publication date are never replaced with invented publisher/author identities.
+

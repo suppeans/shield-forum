@@ -51,3 +51,4 @@ GitHub 推送触发现有 Netlify 部署。打开公网首页和本批一条详�
 配置完成后，手机在同一 ChatGPT 账号查看“定时任务”和运行结果；需要临时更新时使用该任务的“立即运行”。检索、生成、推送和部署都由云端完成，手机和电脑无须一直在线。
 
 依据：[ChatGPT 定时任务](https://learn.chatgpt.com/docs/automations)、[云端环境](https://learn.chatgpt.com/docs/environments/cloud-environments)。
+

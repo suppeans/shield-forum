@@ -9,3 +9,4 @@ describe("retained multilingual interface", () => {
     expect(t("en", "nav.security")).toBe("Security");
   });
 });
+

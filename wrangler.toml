@@ -3,3 +3,4 @@ main = "cloudflare/shield-forum-proxy.ts"
 compatibility_date = "2026-05-07"
 account_id = "d05335e87636125c653451830792120e"
 workers_dev = true
+

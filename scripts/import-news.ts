@@ -21,3 +21,4 @@ async function main() {
 main().catch((error: unknown) => {
   console.error(error instanceof Error ? error.message : "News import failed"); process.exitCode = 1;
 });
+

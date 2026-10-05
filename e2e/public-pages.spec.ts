@@ -24,3 +24,4 @@ test("mobile menu, empty edition and unknown detail remain usable", async ({ pag
   await page.goto("/news/missing-news");
   await expect(page.getByRole("heading", { name: "ページが見つかりません。" })).toBeVisible();
 });
+
