@@ -440,5 +440,123 @@
     "edition_date": "2026-10-05",
     "collected_at": "2026-10-05T04:39:14.286Z",
     "is_sample": false
+  },
+  {
+    "id": "nec-20261005-cyioc-global-expansion",
+    "title": "NEC、CyIOCの日米欧連携を2027年に確立する計画を発表",
+    "summary": "NECは10月5日、サイバーセキュリティサービス「CyIOC」の運用体制拡充を発表。2027年4月に欧州拠点を開設し、7月に日米欧3極で監視・運用を引き継ぐ体制を確立する計画です。",
+    "category": "security",
+    "source": "日本電気（NEC）",
+    "source_url": "https://jpn.nec.com/press/202610/20261005_01.html",
+    "published_at": "2026-10-05T00:00:00+09:00",
+    "published_time_known": false,
+    "image_url": null,
+    "why_it_matters": "海外拠点を持つ日本企業では、地域ごとに異なる監視体制やデータ保管要件が統制の課題になります。今回の計画は、本社による状況把握と各地域でのデータ管理を両立する選択肢として注目されます。",
+    "core_facts": [
+      "共通の基盤と運用基準で、各地域の業務時間帯を活用した24時間365日の監視・運用を計画。",
+      "欧州域内にデータを保管したまま、日本本社の統制下で運用する方針。",
+      "グローバル運用体制の確立は2027年の予定で、現在すでに3極体制が稼働しているとの発表ではありません。"
+    ],
+    "tags": [
+      "NEC",
+      "CyIOC",
+      "セキュリティ運用",
+      "データ保管"
+    ],
+    "featured": true,
+    "priority": 2,
+    "region": "japan",
+    "edition_date": "2026-10-05",
+    "collected_at": "2026-10-05T12:01:51Z",
+    "is_sample": false
+  },
+  {
+    "id": "lycorp-20261005-line-scheduling-agent",
+    "title": "LINE、候補日提案や参加回答を支援する日程調整AIを提供",
+    "summary": "LINEヤフーは10月5日、「LINEラボ」で日程調整エージェントの提供開始を発表。入力した内容から候補日時を提案し、利用者本人のカレンダーを使った参加可否の回答も支援します。",
+    "category": "ai",
+    "source": "LINEヤフー",
+    "source_url": "https://www.lycorp.co.jp/ja/news/release/020864/",
+    "published_at": "2026-10-05T00:00:00+09:00",
+    "published_time_known": false,
+    "image_url": null,
+    "why_it_matters": "国内で日常的に使われる通信アプリへ、予定調整という具体的な作業を支援するAIが組み込まれます。利用者には、参照する予定の範囲や情報利用への同意を理解して使うことが求められます。",
+    "core_facts": [
+      "日本国内向けで、LINEアプリ26.15.0以上に対応。作成時はLINEラボで機能を有効にする必要があります。",
+      "AIが参照するカレンダーは利用者本人のもので、他の参加者の予定は参照しません。",
+      "全員が参加できる日がない場合は再調整を提案しますが、回答を変更するかどうかは本人が選択。",
+      "初回のAI機能利用時には情報利用に関する同意が必要です。"
+    ],
+    "tags": [
+      "LINE",
+      "LINEラボ",
+      "AIエージェント",
+      "日程調整"
+    ],
+    "featured": false,
+    "priority": 3,
+    "region": "japan",
+    "edition_date": "2026-10-05",
+    "collected_at": "2026-10-05T12:01:51Z",
+    "is_sample": false
+  },
+  {
+    "id": "hmcomm-20261005-qnap-vaap-verification",
+    "title": "HmcommとQNAP、企業内AI基盤の技術検証に向け協業",
+    "summary": "Hmcommは10月5日、QNAP製品を使った「VAAP ZBOX」の技術検証に向けた協業を発表。企業内で音声認識や要約、議事録検索などのAI処理を行う構成を検討します。",
+    "category": "business",
+    "source": "Hmcomm（PR TIMES掲載の企業発表）",
+    "source_url": "https://prtimes.jp/main/html/rd/p/000000227.000033941.html",
+    "published_at": "2026-10-05T16:30:00+09:00",
+    "published_time_known": true,
+    "image_url": null,
+    "why_it_matters": "機密情報を外部クラウドへ送れない国内企業にとって、AIの実行環境とデータ管理を社内で設計する動きです。商用導入を判断できる性能や提供条件は、今後の検証結果を確認する必要があります。",
+    "core_facts": [
+      "対象はVAAP ZBOXのPro・Enterprise領域で、AI実行性能、データ連携、安定稼働を検証する計画。",
+      "アクセス権限、保存先、外部通信の制御を導入先の要件に合わせて設計する方針。",
+      "対象機種、提供機能、価格、提供開始時期は技術検証と協議を経て確定予定。"
+    ],
+    "tags": [
+      "Hmcomm",
+      "QNAP",
+      "オンプレミス",
+      "音声AI"
+    ],
+    "featured": false,
+    "priority": 3,
+    "region": "japan",
+    "edition_date": "2026-10-05",
+    "collected_at": "2026-10-05T12:01:51Z",
+    "is_sample": false
+  },
+  {
+    "id": "mizuho-20261005-cowork-poc",
+    "title": "みずほ、自律型AI基盤「みずほCowork」を開発し業務検証へ",
+    "summary": "みずほFGは10月5日、AWS上で社員ごとの作業環境を持つ「みずほCowork」を開発し、専門業務への適用に向けたPoCを開始すると発表。資料分析や業務監査のチェック、要約・翻訳などを検証します。",
+    "category": "dx",
+    "source": "みずほフィナンシャルグループ（PR TIMES掲載の企業発表）",
+    "source_url": "https://prtimes.jp/main/html/rd/p/000000022.000177612.html",
+    "published_at": "2026-10-05T09:00:00+09:00",
+    "published_time_known": true,
+    "image_url": null,
+    "why_it_matters": "金融機関のAI導入が、対話による補助から複数工程の業務を任せる検証へ進む事例です。権限の制限、ログ、情報分離を実行環境に組み込む設計は、国内企業の導入検討にも参考になります。",
+    "core_facts": [
+      "AnthropicのClaude Agent SDKを活用し、AWS上に社員ごとの専用作業環境を割り当てます。",
+      "社内手順や専門知識をSkillsとして追加し、与えられた権限内で資料整理や成果物作成などを行う構成。",
+      "AWSプロフェッショナルサービスの支援を受け、利用者別の環境分離、入出力の統制、ログ記録・監視を組み込みました。",
+      "今回の発表は業務適用に向けたPoCで、全社業務への本格展開や効果測定の完了を示すものではありません。"
+    ],
+    "tags": [
+      "みずほFG",
+      "AIエージェント",
+      "AWS",
+      "金融DX"
+    ],
+    "featured": true,
+    "priority": 2,
+    "region": "japan",
+    "edition_date": "2026-10-05",
+    "collected_at": "2026-10-05T12:01:51Z",
+    "is_sample": false
   }
 ]
