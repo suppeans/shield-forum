@@ -1,38 +1,26 @@
-# Deployment and database transition
+# SHIELD NEWS 部署
 
-## Existing services
+## Netlify 自动部署
 
-This is a Next.js App Router application, not a static HTML upload. Use Node 24, `npm ci`, `npm run build`. The existing Vercel deployment and optional Cloudflare proxy can coexist with Netlify.
+项目使用 Next.js App Router、React 和 TypeScript。使用 Node 24，安装依赖后运行 `npm run build`。
 
-## Netlify with GitHub automatic deployment
+Netlify 连接 `suppeans/shield-forum` 的 `main` 分支。`netlify.toml` 已设置构建命令、`.next` 发布目录、安全响应头和新闻 JSON 打包；项目根目录留空。
 
-Import `suppeans/shield-forum` into Netlify and select `main` as the production branch. The checked-in `netlify.toml` sets `npm run build`, publish directory `.next`, Node 24, security headers and the bundled news JSON. Leave the base directory empty.
+公开网站：[shield-news-suppeans.netlify.app](https://shield-news-suppeans.netlify.app/)。Netlify 的 Next.js 适配器处理动态页面和 API，无须静态导出或添加框架插件。
 
-Production URL: [shield-news-suppeans.netlify.app](https://shield-news-suppeans.netlify.app/). New Netlify projects start with team access protection; use **Go public** for the production site so visitors can access the news without signing in. Deploy previews remain private to the team. Next.js also sets the security headers for server-rendered pages and API responses.
+默认 `NEWS_STORAGE=file`：导入 JSON，提交 `src/data/news.json` 并推送到 `main`，Netlify 自动构建和发布。云端函数的文件修改无法持久保存，因此文件模式禁用 HTTP 写入。每日任务流程见 [daily-news-workflow.md](daily-news-workflow.md)。
 
-Netlify automatically applies its Next.js adapter for server-rendered pages and route handlers; no extra framework plugin dependency or static export is needed. [Official Next.js setup](https://docs.netlify.com/build/frameworks/framework-setup-guides/nextjs/overview/).
+## 可选的 Supabase 新闻存储
 
-File storage is the default and needs no secrets. Import the daily JSON, commit `src/data/news.json`, and push to `main`; Netlify rebuilds and publishes automatically. Hosted functions cannot persist edits to this file, so HTTP import stays disabled in file mode.
+当前公开网站使用 JSON；只有需要直接通过 HTTP 更新时才启用数据库模式。
 
-For future Supabase imports, complete the migration below and set the Supabase configuration and import token as server environment variables in the Netlify project. Set `NEWS_STORAGE=supabase` in the function runtime environment, then redeploy. Never commit secrets.
+1. 在专用于 SHIELD NEWS 的 Supabase 项目执行 `supabase/migrations/20261005000000_news_schema.sql`。它只初始化 `news_articles`、索引、更新时刻触发器和读写权限，不执行数据删除。已存在的新闻表和内容会保留。
+2. 设置 `NEWS_STORAGE=supabase`、`NEXT_PUBLIC_SUPABASE_URL`、`NEXT_PUBLIC_SUPABASE_ANON_KEY` 和服务端 `SUPABASE_SERVICE_ROLE_KEY`。HTTP 导入另需至少 32 字符的随机 `NEWS_IMPORT_TOKEN`。
+3. 用 `supabase/tests/news_schema.sql` 检查权限：公开客户端只读，服务端负责写入。
+4. 导入已核实的新闻 JSON，重新部署以切换存储模式。此后导入更新在下一次页面请求时显示，无须重新构建。
 
-## File storage (no credentials required)
+配置失败时应用会显示错误，不用样例替代数据库内容。密钥只放在部署环境中，服务端密钥和导入令牌不能使用 `NEXT_PUBLIC_` 前缀，也不能提交到 Git。
 
-`NEWS_STORAGE=file` is the default. Import the daily JSON locally, commit `src/data/news.json`, and deploy the resulting branch. The file is included in Next.js output tracing and Netlify function packaging. HTTP writes are deliberately disabled for this mode because hosted function filesystems are not persistent datastores.
+## 安全与缓存
 
-## Reuse the existing Supabase database
-
-The repo already has migrations 0001 and 0002. **Do not edit their migration history on an existing installation.** New migration `0003_japan_it_news.sql` creates the news table, public read policy and service-role write access, then removes old community tables/triggers/roles. It also deletes Auth users linked by the former application's profiles.
-
-1. Back up/export the old database and Auth users. Migration 0003 irreversibly removes old accounts, posts, comments, tutorials, categories and tags. Its transaction prevents partial migration if any operation fails.
-2. Verify the database is the original project's database and apply only pending migrations with `supabase db push`. For a fresh database, all migrations run in order. Migration `0004_news_timestamps.sql` adds source timestamp precision and briefing collection time. Do not apply the new migration to an unrelated/shared application's schema.
-3. Disable signup and email/password authentication in the hosted Supabase project's Auth configuration. The checked-in local config disables Auth; it does not change hosted project settings automatically. Managed Supabase Auth API remains a provider service, while the app has no login/session/account API.
-4. Set `NEWS_STORAGE=supabase`, `NEXT_PUBLIC_SUPABASE_URL`, `NEXT_PUBLIC_SUPABASE_ANON_KEY` and server-only `SUPABASE_SERVICE_ROLE_KEY` on your hosting project. For HTTP imports add `NEWS_IMPORT_TOKEN` (32+ characters).
-5. Import a verified real daily JSON; no sample news is seeded in the new database.
-6. Redeploy once to switch storage mode, then import future editions without rebuilding.
-
-The application fails visibly on a configured database error rather than silently substituting demo data. Remove obsolete Turnstile and signup redirect environment variables from the deployment. Existing anon keys remain for public news reads. Never expose service-role/import secrets as NEXT_PUBLIC variables.
-
-## Cloudflare
-
-Preserve the existing worker origin (`https://shield-forum.vercel.app`) while changing the application at that origin. Security headers are retained. Cache immutable static assets, not `/api/news/import` or HTML news responses. [Security notes](cloudflare-security.md).
+`next.config.ts` 和 `netlify.toml` 设置安全响应头。缓存不可变静态资源；新闻 HTML、动态响应和 `POST /api/news/import` 不使用共享缓存。导入接口验证服务端 Bearer 令牌、数据格式和批次大小。不要在日志中输出令牌。

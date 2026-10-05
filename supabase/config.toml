@@ -1,4 +1,4 @@
-project_id = "shield-forum"
+project_id = "shield-news"
 [api]
 enabled = true
 port = 54321

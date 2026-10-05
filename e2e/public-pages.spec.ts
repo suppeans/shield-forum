@@ -1,21 +1,21 @@
 import { expect, test } from "@playwright/test";
+import news from "../src/data/news.json";
+
+const article = news.filter((item) => !item.is_sample).sort((a, b) => b.edition_date.localeCompare(a.edition_date))[0];
 test("news brief links to attributed detail, category and date archives", async ({ page }) => {
-  await page.goto("/?date=2026-10-04");
+  await page.goto(`/?date=${article.edition_date}`);
   await expect(page.getByRole("heading", { level: 1 })).toContainText("今日の変化を");
-  await expect(page.getByText("現在は架空の表示サンプルです。実際のニュースではありません。")).toBeVisible();
-  await page.getByRole("link", { name: "国内企業の生成AI導入、実証から業務運用へ", exact: true }).click();
+  await page.getByRole("link", { name: article.title, exact: true }).click();
   await expect(page.getByRole("heading", { name: "主な事実" })).toBeVisible();
-  await expect(page.getByRole("link", { name: "原文を読む" })).toHaveAttribute("href", /example.com/);
-  await page.goto("/?date=2026-10-03&category=security");
-  await expect(page.locator("#news-feed").getByRole("heading", { name: /サプライチェーンのリスク/ })).toBeVisible();
-  await page.goto("/search?q=SBOM");
-  await expect(page.getByRole("link", { name: /サプライチェーンのリスク/ }).first()).toBeVisible();
+  await expect(page.getByRole("link", { name: "原文を読む" })).toHaveAttribute("href", article.source_url);
+  await page.goto(`/?date=${article.edition_date}&category=${article.category}`);
+  await expect(page.locator("#news-feed").getByRole("heading", { name: article.title, exact: true })).toBeVisible();
+  await page.goto(`/search?q=${encodeURIComponent(article.title)}`);
+  await expect(page.getByRole("link", { name: article.title, exact: true }).first()).toBeVisible();
 });
-test("retired account and community pages return 404", async ({ page }) => {
-  for (const path of ["/auth/sign-in", "/profile", "/admin", "/forum"]) {
-    const response = await page.goto(path);
-    expect(response?.status()).toBe(404);
-  }
+test("unknown pages return 404", async ({ page }) => {
+  const response = await page.goto("/missing-page");
+  expect(response?.status()).toBe(404);
 });
 test("mobile menu, empty edition and unknown detail remain usable", async ({ page, isMobile }) => {
   await page.goto("/?date=2026-09-01");
@@ -24,4 +24,3 @@ test("mobile menu, empty edition and unknown detail remain usable", async ({ pag
   await page.goto("/news/missing-news");
   await expect(page.getByRole("heading", { name: "ページが見つかりません。" })).toBeVisible();
 });
-

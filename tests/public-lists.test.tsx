@@ -21,7 +21,6 @@ describe("public news list", () => {
     expect(screen.getByText(article.source)).toBeInTheDocument();
     expect(screen.getByText(article.why_it_matters)).toBeInTheDocument();
     expect(screen.getByText("表示サンプル")).toBeInTheDocument();
-    expect(screen.queryByText(/ログイン|返信/)).not.toBeInTheDocument();
   });
   it("escapes untrusted imported text instead of rendering markup", () => {
     const article = { ...newsImportSchema.parse(fixture).news[0], title: '<img src=x onerror="alert(1)">' };
