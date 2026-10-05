@@ -353,5 +353,92 @@
     "edition_date": "2026-10-05",
     "collected_at": "2026-10-04T23:59:05.349Z",
     "is_sample": false
+  },
+  {
+    "id": "gmo-flatt-20261005-takumi-domestic-inference",
+    "title": "GMO Flatt Security、Takumiの国内推論オプションを11月2日から提供予定",
+    "summary": "GMO Flatt Securityは10月5日、AIによる脆弱性診断や自動修正、ペネトレーションテストで、推論を日本国内で実行する追加オプションを発表しました。正式提供開始は11月2日の予定です。",
+    "category": "security",
+    "source": "GMO Flatt Security（PR TIMES掲載の企業発表）",
+    "source_url": "https://prtimes.jp/main/html/rd/p/000000078.000027502.html",
+    "published_at": "2026-10-05T10:00:00+09:00",
+    "published_time_known": true,
+    "image_url": null,
+    "why_it_matters": "国内保存だけでなく推論時の国外転送も制限したい組織にとって、AI診断を導入する際の選択肢になります。利用モデル、データ保持、供給条件は個別提案のため、自社要件との照合が必要です。",
+    "core_facts": [
+      "データ保存に加えて推論処理も国内で完結させる有償の追加オプション。",
+      "ホワイトボックス・ブラックボックス・グレーボックス診断、自動修正、AIペネトレーションテストが対象。",
+      "モデル、インフラ、料金は要件に応じた個別提案。供給には制限があり、希望どおり提供できない場合があります。"
+    ],
+    "tags": [
+      "GMO Flatt Security",
+      "Takumi",
+      "AIセキュリティ",
+      "国内推論"
+    ],
+    "featured": true,
+    "priority": 2,
+    "region": "japan",
+    "edition_date": "2026-10-05",
+    "collected_at": "2026-10-05T04:39:14.286Z",
+    "is_sample": false
+  },
+  {
+    "id": "panasonic-20261005-care-health-ai",
+    "title": "パナソニックHD、介護現場の状態変化を捉えるAIを開発し実証へ",
+    "summary": "パナソニックHDは10月5日、見守りセンサーの情報から高齢者の状態変化を解析し、根拠をレポートにまとめる技術を発表。10月からユーアイ二十一と協力し、介護現場での有用性や運用を検証します。",
+    "category": "ai",
+    "source": "パナソニック ホールディングス",
+    "source_url": "https://news.panasonic.com/jp/press/jn261005-1",
+    "published_at": "2026-10-05T00:00:00+09:00",
+    "published_time_known": false,
+    "image_url": null,
+    "why_it_matters": "国内の介護人材不足を背景に、センサーデータとAIを現場の観察・判断の支援へつなげる研究開発です。実際の運用効果は今後の実証で確認する段階にあります。",
+    "core_facts": [
+      "個人の平常時との違いを解析するAIと、根拠や観察ポイントを示すレポート生成AIを組み合わせます。",
+      "約2,000人の評価では、介護記録に基づく状態変化の再現率89.4％、誤報率10.5％と報告。",
+      "疾病診断や医学的判断の性能を検証する実証ではなく、職員の観察や確認を支える参考情報として利用する計画。"
+    ],
+    "tags": [
+      "パナソニック",
+      "介護DX",
+      "センサー",
+      "実証実験"
+    ],
+    "featured": false,
+    "priority": 3,
+    "region": "japan",
+    "edition_date": "2026-10-05",
+    "collected_at": "2026-10-05T04:39:14.286Z",
+    "is_sample": false
+  },
+  {
+    "id": "mki-ntt-20261005-distributed-gpu-genome",
+    "title": "三井情報とNTTドコモビジネス、5拠点の分散GPUでゲノム解析を実証",
+    "summary": "三井情報とNTTドコモビジネスは10月5日、APNで結ぶ全国5拠点のGPUを使ったゲノム解析の結果を発表。検証した3つの処理では、実行時間が1拠点の場合の25～29％になったと報告しました。",
+    "category": "cloud",
+    "source": "三井情報・NTTドコモビジネス",
+    "source_url": "https://www.ntt.com/about-us/press-releases/news/article/2026/1005.html",
+    "published_at": "2026-10-05T00:00:00+09:00",
+    "published_time_known": false,
+    "image_url": null,
+    "why_it_matters": "国内各地の計算資源をネットワークで結び、研究用途に利用する事例です。単一拠点へのGPU集中を補う可能性がありますが、効果は今回のデータや処理条件に基づくもので、すべての計算へ一般化はできません。",
+    "core_facts": [
+      "札幌から福岡まで5拠点のGPUで処理し、1拠点の場合と比較。",
+      "IGSRの3,202人分、約5TBの公開ゲノムデータを利用。",
+      "3処理の所要時間は134.4秒から33.5秒、99.9秒から28.6秒、102.3秒から28.9秒に短縮。"
+    ],
+    "tags": [
+      "IOWN",
+      "APN",
+      "分散GPU",
+      "ゲノム解析"
+    ],
+    "featured": true,
+    "priority": 2,
+    "region": "japan",
+    "edition_date": "2026-10-05",
+    "collected_at": "2026-10-05T04:39:14.286Z",
+    "is_sample": false
   }
 ]
