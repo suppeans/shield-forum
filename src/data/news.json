@@ -558,5 +558,64 @@
     "edition_date": "2026-10-05",
     "collected_at": "2026-10-05T12:01:51Z",
     "is_sample": false
+  },
+  {
+    "id": "toshiba-is-20261005-rapidus-core",
+    "title": "東芝情報システム、Rapidus COREの設計パートナーに参画",
+    "summary": "東芝情報システムは10月5日、先端半導体の開発・量産を支える「Rapidus CORE」にDesign Solution Associateとして参画すると発表。LSIの設計経験を生かし、顧客の開発を支えるエコシステムづくりに協力します。",
+    "category": "semiconductors",
+    "source": "東芝情報システム（PR TIMES掲載の企業発表）",
+    "source_url": "https://prtimes.jp/main/html/rd/p/000000013.000100226.html",
+    "published_at": "2026-10-05T12:00:00+09:00",
+    "published_time_known": true,
+    "image_url": null,
+    "why_it_matters": "国内の先端半導体事業では、製造技術とともに顧客が設計・評価を進めるための支援体制が必要になります。設計サービス企業の参画は、その基盤整備の動きとして注目されます。",
+    "core_facts": [
+      "Rapidus COREは、設計から製造・実装までをパートナー連携で支えるエコシステム構想。",
+      "東芝情報システムはロジック・アナログ設計、評価・解析などのLSI関連サービスを提供しています。",
+      "今回の公告は設計パートナーとしての参画を示すもので、半導体の量産開始を発表したものではありません。"
+    ],
+    "tags": [
+      "東芝情報システム",
+      "Rapidus",
+      "LSI設計",
+      "半導体"
+    ],
+    "featured": true,
+    "priority": 2,
+    "region": "japan",
+    "edition_date": "2026-10-06",
+    "collected_at": "2026-10-06T00:00:09Z",
+    "is_sample": false
+  },
+  {
+    "id": "ipa-20261005-ax-platform-proposals",
+    "title": "IPA、地域企業のAI活用を支えるAXプラットフォーム構想を公募",
+    "summary": "IPAは10月5日、地域の中小・中堅企業による課題発見、AI試作、自社データを使ったPoCを支援する事業の企画競争を公告。提案書の提出期間は10月29日から11月2日17時までです。",
+    "category": "policy",
+    "source": "情報処理推進機構（IPA）",
+    "source_url": "https://www.ipa.go.jp/choutatsu/koubo/2026/koubo20261005.html",
+    "published_at": "2026-10-05T00:00:00+09:00",
+    "published_time_known": false,
+    "image_url": null,
+    "why_it_matters": "地域企業のAI活用を、研修だけでなく課題整理や試作・検証まで支える政策的な取り組みです。地域のIT企業や大学などとの連携を想定しており、実装支援の担い手にも関係する公募です。",
+    "core_facts": [
+      "企業ヒアリング、サービスデザイン・AI研修、ワークショップ、伴走支援、PoC支援を実施する構想。",
+      "自治体、大学・研究機関、金融機関、IT企業などと連携し、継続的なAXを支える地域プラットフォーム構想を策定します。",
+      "本番システムの構築を目的とせず、プロトタイプ・PoCによる有効性と実現可能性の検証を対象としています。",
+      "提案者には全省庁統一資格の「役務の提供等」A・B・C等級などの応募要件があります。"
+    ],
+    "tags": [
+      "IPA",
+      "AX",
+      "中小企業",
+      "PoC"
+    ],
+    "featured": false,
+    "priority": 3,
+    "region": "japan",
+    "edition_date": "2026-10-06",
+    "collected_at": "2026-10-06T00:00:09Z",
+    "is_sample": false
   }
 ]
