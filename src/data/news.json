@@ -617,5 +617,93 @@
     "edition_date": "2026-10-06",
     "collected_at": "2026-10-06T00:00:09Z",
     "is_sample": false
+  },
+  {
+    "id": "ntt-20261006-sign-vpaas-ai",
+    "title": "NTTドコモビジネス、映像AIに改善提案UIと専用解析環境を追加",
+    "summary": "NTTドコモビジネスは10月6日、「docomo business SIGN VPaaS」にAIエージェント型UIと顧客専用の映像AI解析基盤を追加。映像・検知データから現場の課題を可視化し、改善施策の提案を支援します。",
+    "category": "ai",
+    "source": "NTTドコモビジネス",
+    "source_url": "https://www.ntt.com/about-us/press-releases/news/article/2026/1006.html",
+    "published_at": "2026-10-06T00:00:00+09:00",
+    "published_time_known": false,
+    "image_url": null,
+    "why_it_matters": "国内の製造・物流・小売現場で、蓄積した映像を業務改善へ結び付ける選択肢が増えます。専用環境でも利用モデルや通信条件の確認は必要で、閉域ネットワーク対応などは今後の計画として区別すべきです。",
+    "core_facts": [
+      "AIエージェント型UIは、課題発見、改善施策の提案、期待効果の予測、次の行動の提示を支援。",
+      "専用解析基盤はGPUクラウドサービス「GPUaaS」と連携し、顧客専用環境で映像を解析します。",
+      "持ち込みモデルなどの利用には事前検証が必要で、検証結果によって利用できない場合があります。",
+      "専用環境より隔離性を抑えた共用メニューは2026年度内に提供予定で、今回の提供開始とは別です。"
+    ],
+    "tags": [
+      "NTTドコモビジネス",
+      "映像AI",
+      "GPUクラウド",
+      "現場DX"
+    ],
+    "featured": true,
+    "priority": 2,
+    "region": "japan",
+    "edition_date": "2026-10-06",
+    "collected_at": "2026-10-06T11:58:30Z",
+    "is_sample": false
+  },
+  {
+    "id": "gmo-20261006-humanoid-lab-full-open",
+    "title": "GMO、渋谷のヒューマノイド研究開発拠点を全面オープン",
+    "summary": "GMOインターネットグループは10月6日、渋谷の「GMOヒューマノイド・ラボ」を全面開業。4月の先行開業で未稼働だったエリアを加え、開発スペースや最大100人の会議スペースを拡充しました。",
+    "category": "business",
+    "source": "GMOインターネットグループ（PR TIMES掲載の企業発表）",
+    "source_url": "https://prtimes.jp/main/html/rd/p/000005566.000000136.html",
+    "published_at": "2026-10-06T12:00:00+09:00",
+    "published_time_known": true,
+    "image_url": null,
+    "why_it_matters": "国内でAIとロボット制御、機構設計を組み合わせる研究開発環境の拡充です。拠点の完成は開発・実証の基盤整備を示しますが、人型ロボットの普及や業務効果が実証済みであることを意味しません。",
+    "core_facts": [
+      "セルリアンタワー11階の延床面積382坪の施設。4月7日に約半分を先行開業していました。",
+      "GMOインターネットグループ、GMO AIR、GMO Various Roboticsの3社が共同で研究開発を進めます。",
+      "拡大した開発エリアには防振床と大型クレーンを導入し、最大100人収容のカンファレンス機能も追加。"
+    ],
+    "tags": [
+      "GMO",
+      "ヒューマノイド",
+      "フィジカルAI",
+      "研究開発"
+    ],
+    "featured": false,
+    "priority": 3,
+    "region": "japan",
+    "edition_date": "2026-10-06",
+    "collected_at": "2026-10-06T11:58:30Z",
+    "is_sample": false
+  },
+  {
+    "id": "internet-academy-20261006-ai-development-training",
+    "title": "インターネット・アカデミー、AI生成コードの検証を学ぶ新人研修を新設",
+    "summary": "インターネット・アカデミーは10月6日、2027年度の新人向け「AI開発・要件定義研修」を発表。Pythonなどの基礎からAIエージェント、要件定義、チーム開発・テストまでをオンラインで学ぶ計画です。",
+    "category": "careers",
+    "source": "インターネット・アカデミー（PR TIMES掲載の企業発表）",
+    "source_url": "https://prtimes.jp/main/html/rd/p/000000029.000123658.html",
+    "published_at": "2026-10-06T11:31:00+09:00",
+    "published_time_known": true,
+    "image_url": null,
+    "why_it_matters": "国内の新人育成で、AIを使う能力に加えて生成コードを理解・検証・修正する能力を重視する動きです。研修事業者の提供計画であり、受講による技能向上やレビュー負担の削減が測定された結果ではありません。",
+    "core_facts": [
+      "新設研修は2027年4月6日から6月23日までの予定で、1人から参加可能。",
+      "Python・データベースなどの基礎を学び、AIを活用するチーム開発演習で要件定義からテストまで扱います。",
+      "受講料は1人106万円（税別）。提供開始は2027年で、現在すでに研修を実施しているとの公告ではありません。"
+    ],
+    "tags": [
+      "新人エンジニア",
+      "AI生成コード",
+      "要件定義",
+      "IT人材育成"
+    ],
+    "featured": false,
+    "priority": 3,
+    "region": "japan",
+    "edition_date": "2026-10-06",
+    "collected_at": "2026-10-06T11:58:30Z",
+    "is_sample": false
   }
 ]
