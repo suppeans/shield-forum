@@ -705,5 +705,64 @@
     "edition_date": "2026-10-06",
     "collected_at": "2026-10-06T11:58:30Z",
     "is_sample": false
+  },
+  {
+    "id": "digital-agency-20261006-gif-update",
+    "title": "デジタル庁、GIF 2.4を公開し資料のダウンロードサイトを開設",
+    "summary": "デジタル庁は10月6日、政府相互運用性フレームワーク（GIF）2.4の公開を案内し、資料のダウンロードサイトを開設しました。組織や分野をまたぐデータ連携に向け、共通のデータモデルを参照できます。",
+    "category": "policy",
+    "source": "デジタル庁",
+    "source_url": "https://www.digital.go.jp/policies/data_strategy_government_interoperability_framework",
+    "published_at": "2026-10-06T00:00:00+09:00",
+    "published_time_known": false,
+    "image_url": null,
+    "why_it_matters": "行政システムやスマートシティを開発する国内のIT事業者にとって、データ項目や構造をそろえるための参照資料です。独自形式による連携の負担を減らす設計の手掛かりになりますが、各システムへの適用には個別の確認が必要です。",
+    "core_facts": [
+      "10月6日の新着情報でGIFバージョン2.4の公開を案内。政策ページと資料一式も同日更新されています。",
+      "実装データモデル、コアデータモデル、日付・住所などのコアデータパーツを公開。",
+      "新しいダウンロードサイトに加え、GitHubやZIP形式でも資料を取得できます。"
+    ],
+    "tags": [
+      "デジタル庁",
+      "GIF",
+      "相互運用性",
+      "データ連携"
+    ],
+    "featured": true,
+    "priority": 2,
+    "region": "japan",
+    "edition_date": "2026-10-07",
+    "collected_at": "2026-10-06T23:58:05Z",
+    "is_sample": false
+  },
+  {
+    "id": "sharp-20261006-e-signage-sx",
+    "title": "シャープ、1万台規模を管理するクラウドサイネージを提供開始",
+    "summary": "シャープは10月6日、「e-Signage SX」の提供を開始。複数拠点の表示端末を一元管理し、コンテンツ制作・配信や遠隔操作に対応します。端末証明書と管理者の多要素認証を組み合わせています。",
+    "category": "cloud",
+    "source": "シャープ",
+    "source_url": "https://corporate.jp.sharp/news/261006-a.html",
+    "published_at": "2026-10-06T00:00:00+09:00",
+    "published_time_known": false,
+    "image_url": null,
+    "why_it_matters": "国内の小売・飲食チェーンや公共施設では、表示内容の一括更新と拠点ごとの運用を両立する必要があります。管理者だけでなく端末も認証する設計は、表示システムの不正接続や改ざんを抑える運用上の選択肢です。",
+    "core_facts": [
+      "同社は1万台規模の一元管理に対応すると説明。1台から利用し、拠点数に合わせた拡張も可能。",
+      "表示端末には顧客別の電子証明書を使い、管理者のログインには多要素認証を必須化。",
+      "管理画面から稼働状況や表示内容を確認し、再起動などの遠隔操作ができます。",
+      "コンテンツ制作から配信までWebブラウザーで操作でき、専用アプリのインストールは不要。"
+    ],
+    "tags": [
+      "シャープ",
+      "クラウド",
+      "デジタルサイネージ",
+      "多要素認証"
+    ],
+    "featured": false,
+    "priority": 3,
+    "region": "japan",
+    "edition_date": "2026-10-07",
+    "collected_at": "2026-10-06T23:58:05Z",
+    "is_sample": false
   }
 ]
