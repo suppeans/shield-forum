@@ -764,5 +764,124 @@
     "edition_date": "2026-10-07",
     "collected_at": "2026-10-06T23:58:05Z",
     "is_sample": false
+  },
+  {
+    "id": "ted-20261007-zenity-japan",
+    "title": "東京エレクトロン デバイス、AIエージェント向けZenityを国内販売",
+    "summary": "東京エレクトロン デバイスは10月7日、Zenityとの販売代理店契約と同日からの販売開始を発表。企業内のAIエージェントを把握し、権限や動作を監視・制御する基盤を取り扱います。",
+    "category": "security",
+    "source": "東京エレクトロン デバイス（PR TIMES掲載の企業発表）",
+    "source_url": "https://prtimes.jp/main/html/rd/p/000000325.000010609.html",
+    "published_at": "2026-10-07T11:02:00+09:00",
+    "published_time_known": true,
+    "image_url": null,
+    "why_it_matters": "国内企業がAIに業務を任せる際、利用するツールやデータへのアクセスまで統制する選択肢が増えます。実際の導入では対象環境との連携や制御範囲を検証する必要があります。",
+    "core_facts": [
+      "10月7日からAIエージェント専用のセキュリティ基盤を販売。",
+      "SaaS、クラウド、端末環境にあるエージェントの発見・棚卸しを支援します。",
+      "動作中の意図や行動にポリシーを適用し、検知・調査・封じ込めにも対応すると説明。",
+      "販売に加え、導入・検証支援と技術サポートを提供する方針です。"
+    ],
+    "tags": [
+      "東京エレクトロン デバイス",
+      "Zenity",
+      "AIエージェント",
+      "セキュリティ"
+    ],
+    "featured": true,
+    "priority": 2,
+    "region": "japan",
+    "edition_date": "2026-10-07",
+    "collected_at": "2026-10-07T12:01:10Z",
+    "is_sample": false
+  },
+  {
+    "id": "asteria-20261007-edge-ai-integration",
+    "title": "アステリアなど3社、現場のデータ取得から制御までつなぐエッジAI基盤",
+    "summary": "アステリア、Spingence、Edginoは10月7日、エッジAI統合ソリューションの提供開始を発表。GravioとEdgestar、システム設計・導入支援を組み合わせ、現場データを外部クラウドへ送らずに処理する構成です。",
+    "category": "ai",
+    "source": "アステリア",
+    "source_url": "https://jp.asteria.com/news/2026100745939/",
+    "published_at": "2026-10-07T00:00:00+09:00",
+    "published_time_known": false,
+    "image_url": null,
+    "why_it_matters": "機密データの外部送信が難しい日本の製造・設備運用の現場に向け、AI推論と業務フローを一体で設計する取り組みです。効果や安全性は導入先の機器・運用条件に合わせた評価が必要です。",
+    "core_facts": [
+      "Gravioでカメラ・センサーのデータ取得、状況判断、設備制御や通知をつなぎます。",
+      "EdgestarがAIモデルとGPU資源の管理を担い、Edginoが全体設計と導入を支援。",
+      "レノボ・ジャパンがハードウェアパートナーとしてThinkStation P5／P7を提供。",
+      "外部クラウドへのデータ送信に依存しないローカル推論環境を構成すると説明しています。"
+    ],
+    "tags": [
+      "アステリア",
+      "エッジAI",
+      "Gravio",
+      "オンプレミス"
+    ],
+    "featured": true,
+    "priority": 2,
+    "region": "japan",
+    "edition_date": "2026-10-07",
+    "collected_at": "2026-10-07T12:01:10Z",
+    "is_sample": false
+  },
+  {
+    "id": "peoplex-20261007-cybersecurity-learning",
+    "title": "PeopleX、11月開始予定の人材開発サービスにサイバーセキュリティ分野",
+    "summary": "PeopleXは10月7日、11月に提供開始予定のAIアセスメント＆ラーニングについて、デジタル・サイバーセキュリティ分野への拡大を発表。知識や判断力の診断と、疑似攻撃・インシデント対応の演習を組み合わせる計画です。",
+    "category": "careers",
+    "source": "PeopleX（PR TIMES掲載の企業発表）",
+    "source_url": "https://prtimes.jp/main/html/rd/p/000000306.000139786.html",
+    "published_at": "2026-10-07T09:00:00+09:00",
+    "published_time_known": true,
+    "image_url": null,
+    "why_it_matters": "国内企業でAI活用を進める社員の育成に、情報漏洩や不正アクセスへの判断・対応を組み込む動きです。提供前の計画であり、研修による効果が確認された発表ではありません。",
+    "core_facts": [
+      "2026年11月提供開始予定のサービスに、新たな支援分野を加える発表。",
+      "選択式問題、ケース記述、AIとの対話、実技などを組み合わせて診断する構想です。",
+      "診断結果に応じた学習に加え、フィッシングなどの疑似攻撃訓練やインシデント対応演習を計画。"
+    ],
+    "tags": [
+      "PeopleX",
+      "IT人材育成",
+      "サイバーセキュリティ",
+      "リスキリング"
+    ],
+    "featured": false,
+    "priority": 3,
+    "region": "japan",
+    "edition_date": "2026-10-07",
+    "collected_at": "2026-10-07T12:01:10Z",
+    "is_sample": false
+  },
+  {
+    "id": "coconala-20261007-acrosstudio-agreement",
+    "title": "ココナラ、Acrosstudioの子会社化を決議し法人向けAI事業を強化",
+    "summary": "ココナラは10月7日、AIコンサルティング・開発を行うAcrosstudioの株式取得と子会社化を決議し、株式譲渡契約を締結したと発表。AIカンパニーの中核として、構想から実装・定着までの支援を広げる方針です。",
+    "category": "business",
+    "source": "ココナラ（PR TIMES掲載の企業発表）",
+    "source_url": "https://prtimes.jp/main/html/rd/p/000000122.000045956.html",
+    "published_at": "2026-10-07T15:30:00+09:00",
+    "published_time_known": true,
+    "image_url": null,
+    "why_it_matters": "国内の人材・スキル仲介企業が、技術者を紹介するだけでなくAIの実装を担う体制を強める動きです。法人顧客との接点が開発・内製化支援に結び付く可能性があります。",
+    "core_facts": [
+      "10月7日の取締役会で子会社化を決議し、同日付で株式譲渡契約を締結。",
+      "9月1日付で設けたAIカンパニーに、Acrosstudioのコンサルティング・開発機能を組み込む方針。",
+      "Acrosstudioは現経営陣のもとで事業を継続し、ココナラが顧客紹介や人材提供を支援すると説明。",
+      "AI BPOへの事業拡大も計画し、事業戦略は10月13日の決算発表で説明する予定です。"
+    ],
+    "tags": [
+      "ココナラ",
+      "Acrosstudio",
+      "AI開発",
+      "企業動向"
+    ],
+    "featured": true,
+    "priority": 2,
+    "region": "japan",
+    "edition_date": "2026-10-07",
+    "collected_at": "2026-10-07T12:01:10Z",
+    "is_sample": false
   }
 ]
