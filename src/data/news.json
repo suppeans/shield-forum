@@ -973,5 +973,124 @@
     "edition_date": "2026-10-08",
     "collected_at": "2026-10-08T00:04:05Z",
     "is_sample": false
+  },
+  {
+    "id": "ricoh-20261008-dify-cloud-setup",
+    "title": "リコージャパン、AWS・Azure上のDify環境構築を一括支援",
+    "summary": "リコージャパンは10月8日、Dify Essential／Standard向けの環境構築・導入サービスを提供開始。顧客が契約するAWSまたはAzure上で、クラウド環境の設計からDifyの導入、利用開始に必要な設定までを支援します。",
+    "category": "cloud",
+    "source": "リコージャパン",
+    "source_url": "https://jp.ricoh.com/release/2026/1008_1",
+    "published_at": "2026-10-08T00:00:00+09:00",
+    "published_time_known": false,
+    "image_url": null,
+    "why_it_matters": "国内の中堅・中小企業がAIアプリ開発を始める際、インフラ設計や構築の負担を外部支援で補う選択肢です。アプリの業務適合性やデータ管理は、導入先で別途検討する必要があります。",
+    "core_facts": [
+      "顧客自身が契約するAWSまたはAzure環境を対象とします。",
+      "リコーの社内運用経験からサーバー容量やメモリなどの推奨構成・設定を定義。",
+      "標準構成に加え、利用規模に応じた資源拡張や個別の調整にも対応すると説明しています。"
+    ],
+    "tags": [
+      "リコージャパン",
+      "Dify",
+      "AWS",
+      "Azure"
+    ],
+    "featured": true,
+    "priority": 2,
+    "region": "japan",
+    "edition_date": "2026-10-08",
+    "collected_at": "2026-10-08T11:59:17Z",
+    "is_sample": false
+  },
+  {
+    "id": "ipa-20261008-exam-registration-incident",
+    "title": "IPA、試験申込の障害で重複決済や座席未確保を公表",
+    "summary": "IPAは10月8日、6日10〜12時の試験申込システム障害について、重複決済約2,600件、支払手続き不具合約230件、座席未確保約2,300人を公表。アクセス集中が原因とし、返金や試験日時調整などの対応を案内しました。",
+    "category": "careers",
+    "source": "情報処理推進機構（IPA）",
+    "source_url": "https://www.ipa.go.jp/pressrelease/2026/press20261008.html",
+    "published_at": "2026-10-08T00:00:00+09:00",
+    "published_time_known": false,
+    "image_url": null,
+    "why_it_matters": "応用情報・高度試験・情報処理安全確保支援士試験の受験者に直接関係する発表です。申込完了表示だけで判断せず、該当する人は通知メールや受験者マイページ、IPAの最新案内を確認する必要があります。",
+    "core_facts": [
+      "障害は10月6日10〜12時に発生し、同日12時に復旧。10月8日は影響と対応を公表した日です。",
+      "IPAは原因をアクセス集中によるシステム負荷と説明し、サイバー攻撃によるものではないとしています。",
+      "重複決済の取消・返金処理を実施済みで、コンビニ・Pay-easyの支払期限は対象者向けに10月12日まで延長。",
+      "座席未確保の対象者には10月8日午前9時までに、試験日時などの調整メールを送付済みと説明。"
+    ],
+    "tags": [
+      "IPA",
+      "情報処理技術者試験",
+      "システム障害",
+      "IT資格"
+    ],
+    "featured": true,
+    "priority": 2,
+    "region": "japan",
+    "edition_date": "2026-10-08",
+    "collected_at": "2026-10-08T11:59:17Z",
+    "is_sample": false
+  },
+  {
+    "id": "i-learning-20261008-ibm-bob-training",
+    "title": "アイ・ラーニング、日本IBMとIBM Bobを使うAI駆動開発研修",
+    "summary": "アイ・ラーニングは10月8日、日本IBMの技術支援のもとで企業向けAI駆動開発研修を提供開始すると発表。IBM Bobを使った演習で、要件整理から仕様書、設計、実装、レビューまでを学びます。",
+    "category": "development",
+    "source": "アイ・ラーニング（PR TIMES掲載の企業発表）",
+    "source_url": "https://prtimes.jp/main/html/rd/p/000000093.000006949.html",
+    "published_at": "2026-10-08T12:00:00+09:00",
+    "published_time_known": true,
+    "image_url": null,
+    "why_it_matters": "国内の開発人材育成が、AIツールの操作から仕様・チーム開発・品質管理へ広がる事例です。研修内容の発表であり、開発効率や品質の向上を測定した結果ではありません。",
+    "core_facts": [
+      "入門コースは対面の2日間で、受講料は税込165,000円。",
+      "仕様書を中心に進める開発と、グループ演習による組織型開発を扱います。",
+      "情報管理、ガバナンス、開発初期から品質・リスクを考える視点も学習内容に含みます。",
+      "研修環境にはイグアスのAI駆動型開発パッケージ「Robin」を利用。"
+    ],
+    "tags": [
+      "IBM Bob",
+      "AI駆動開発",
+      "仕様駆動開発",
+      "技術者研修"
+    ],
+    "featured": false,
+    "priority": 3,
+    "region": "japan",
+    "edition_date": "2026-10-08",
+    "collected_at": "2026-10-08T11:59:17Z",
+    "is_sample": false
+  },
+  {
+    "id": "safie-20261008-people-count-attributes",
+    "title": "セーフィー、来店客の年代などを推定する人数カウント機能を提供",
+    "summary": "セーフィーは10月8日、Safie One向け「AI-App 人数カウント 属性Plus」を提供開始。通過・立ち入り人数に加え、映像から性別や年代を推定し、集計結果のグラフ表示とCSV出力に対応します。",
+    "category": "dx",
+    "source": "セーフィー（PR TIMES掲載の企業発表）",
+    "source_url": "https://prtimes.jp/main/html/rd/p/000000378.000017641.html",
+    "published_at": "2026-10-08T12:00:00+09:00",
+    "published_time_known": true,
+    "image_url": null,
+    "why_it_matters": "国内の小売・飲食店が、売り場や販促の判断に映像解析の集計データを使う選択肢です。属性はAIの推定値であり、精度の確認や撮影目的の通知など運用面の検討が必要です。",
+    "core_facts": [
+      "1つのオプション契約で人数カウントと属性カウントを利用し、対応カメラはSafie One。",
+      "同社は推定属性を統計数値として蓄積・活用し、個人の特定や追跡には利用しないと説明。",
+      "管理画面でのグラフ表示とCSVダウンロードに対応します。",
+      "プライバシーブラーや制服によるスタッフ除外は今後の開発・検証対象です。"
+    ],
+    "tags": [
+      "セーフィー",
+      "映像AI",
+      "店舗DX",
+      "客流分析"
+    ],
+    "featured": false,
+    "priority": 3,
+    "region": "japan",
+    "edition_date": "2026-10-08",
+    "collected_at": "2026-10-08T11:59:17Z",
+    "is_sample": false
   }
 ]
