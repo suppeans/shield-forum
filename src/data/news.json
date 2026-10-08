@@ -883,5 +883,95 @@
     "edition_date": "2026-10-07",
     "collected_at": "2026-10-07T12:01:10Z",
     "is_sample": false
+  },
+  {
+    "id": "sixapart-20261007-movable-type-security",
+    "title": "Movable Typeに重大な脆弱性、シックス・アパートが修正版を公開",
+    "summary": "シックス・アパートは10月7日、Movable TypeとPremiumのセキュリティ更新を公開。アップグレード処理での任意コード実行や、サイト内検索でのSQL実行につながる問題を修正し、旧版利用者にも更新または緩和策を呼び掛けています。",
+    "category": "security",
+    "source": "シックス・アパート",
+    "source_url": "https://www.sixapart.jp/movabletype/news/2026/10/07-1100.html",
+    "published_at": "2026-10-07T11:00:00+09:00",
+    "published_time_known": true,
+    "image_url": null,
+    "why_it_matters": "国内の企業・公共機関のWebサイト運用に関係する更新です。管理者は利用版とクラウドの自動更新設定を確認し、更新できない環境では公式の緩和策を検討する必要があります。",
+    "core_facts": [
+      "CVE-2026-96408はアップグレード処理、CVE-2026-103668はサイト内検索に関する問題です。",
+      "Movable Type 9.3.0／9.0.10／8.8.6／8.0.13、Premium 9.3.0／9.0.10／2.18を公開。",
+      "サポート終了版も影響を受け、更新が難しい場合のアクセス制限などの緩和策を案内。",
+      "クラウド版では自動アップデートが有効な環境の更新は完了したと説明しています。"
+    ],
+    "tags": [
+      "Movable Type",
+      "脆弱性",
+      "CMS",
+      "セキュリティ更新"
+    ],
+    "featured": true,
+    "priority": 1,
+    "region": "japan",
+    "edition_date": "2026-10-08",
+    "collected_at": "2026-10-08T00:04:05Z",
+    "is_sample": false
+  },
+  {
+    "id": "twostone-20261008-layer8-pentest",
+    "title": "TWOSTONE SyncとLayer8、AI探索と人の再現検証を組み合わせた侵入テスト",
+    "summary": "TWOSTONE＆Sonsは10月8日、グループのTWOSTONE SyncとLayer8の提携を発表。Webアプリケーション・API向けに、AIが攻撃経路を探し、技術者が再現確認するペネトレーションテストを提供開始します。",
+    "category": "security",
+    "source": "TWOSTONE＆Sons（PR TIMES掲載の企業発表）",
+    "source_url": "https://prtimes.jp/main/html/rd/p/000000388.000015060.html",
+    "published_at": "2026-10-08T08:40:00+09:00",
+    "published_time_known": true,
+    "image_url": null,
+    "why_it_matters": "国内企業の継続的なセキュリティ検証を、AIの探索と人の確認で支えるサービスです。診断を修正支援までつなぐ構成は運用上の選択肢になりますが、検出率や改善効果が独立に実証された発表ではありません。",
+    "core_facts": [
+      "対象はWebアプリケーションとAPI。AIの探索結果を技術者が再現し、確認した脆弱性を証跡付きで報告します。",
+      "月1回の診断と、指摘事項の修正確認1回を実施するサービス構成。",
+      "対象外への通信や危険な操作を制限して診断を行うと説明しています。",
+      "必要に応じて、グループの技術者ネットワークを使った修正・改善の人材支援も提供。"
+    ],
+    "tags": [
+      "TWOSTONE Sync",
+      "Layer8",
+      "ペネトレーションテスト",
+      "AI"
+    ],
+    "featured": false,
+    "priority": 3,
+    "region": "japan",
+    "edition_date": "2026-10-08",
+    "collected_at": "2026-10-08T00:04:05Z",
+    "is_sample": false
+  },
+  {
+    "id": "softbank-20261007-wide-workload-shift",
+    "title": "KDDI・ソフトバンクなど12者、電力と分散計算を協調させる実証を発表",
+    "summary": "KDDI、ソフトバンク、富士通、大学・電力関係者など12者は10月7日、8月から始めた広域ワークロードシフトの共同実証を公表。通信・電力・計算資源の状況に応じ、国内の複数拠点間でAI処理を配置する仕組みを検証します。",
+    "category": "cloud",
+    "source": "ソフトバンクほか12者の共同発表",
+    "source_url": "https://www.softbank.jp/corp/news/press/sbkk/2026/20261007_01/",
+    "published_at": "2026-10-07T00:00:00+09:00",
+    "published_time_known": false,
+    "image_url": null,
+    "why_it_matters": "国内のAIインフラで、都市部への電力・計算需要の集中を分散する技術と運用を探る取り組みです。計算資源と電力需給を一緒に扱う点が重要ですが、商用サービスの稼働や省エネ効果の確定を示すものではありません。",
+    "core_facts": [
+      "実証期間は2026年8月から2027年2月。10月7日は開始済みの実証を公表した日です。",
+      "SINETと電力保安用の光ファイバーを使う広域ネットワークを構築し、一部区間ではオール光接続も検証。",
+      "電力需給、市場情報、GPU使用率、蓄電池や通信の状態から計算処理の配置を判断する構想。",
+      "技術に加え、運用・事業の成立性や共通インターフェース、ガバナンスを検討します。"
+    ],
+    "tags": [
+      "ワークロードシフト",
+      "AIインフラ",
+      "データセンター",
+      "ワット・ビット連携"
+    ],
+    "featured": true,
+    "priority": 2,
+    "region": "japan",
+    "edition_date": "2026-10-08",
+    "collected_at": "2026-10-08T00:04:05Z",
+    "is_sample": false
   }
 ]
