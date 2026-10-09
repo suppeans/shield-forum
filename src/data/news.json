@@ -1275,5 +1275,98 @@
     "edition_date": "2026-10-09",
     "collected_at": "2026-10-09T12:06:35Z",
     "is_sample": false
+  },
+  {
+    "id": "jpcert-20261008-domestic-intrusions-update",
+    "title": "JPCERT/CC、不正アクセス注意喚起にWebシェル事例と調査用IP情報を追記",
+    "summary": "JPCERT/CCは10月8日に国内で相次ぐ不正アクセスを注意喚起し、9日に攻撃の痕跡を追加しました。API悪用などの事例に加え、アプリケーションサーバーへのWebシェル設置を紹介し、社内管理システムも含めた点検を促しています。",
+    "category": "security",
+    "source": "JPCERT/CC",
+    "source_url": "https://www.jpcert.or.jp/at/2026/at260030.html",
+    "published_at": "2026-10-08T00:00:00+09:00",
+    "published_time_known": false,
+    "image_url": null,
+    "why_it_matters": "前日掲載のIPAによる一般的な点検要請を補う、技術的な調査情報です。国内の開発・運用担当者には、APIの認可、トークン管理、公開範囲を確認し、BIツールや管理システムのログも調べる具体的な手掛かりになります。",
+    "core_facts": [
+      "注意喚起は10月8日公開、10月9日更新。ケースA・Bの不審な送信元IPと、新たなケースDを追加しました。",
+      "ケースDでは、公開Webサーバーからアクセス可能なアプリケーションサーバーにWARファイルが設置され、含まれるJSPがWebシェルとして動作する事例を確認しています。",
+      "一般向けアプリだけでなく、BIツールや従業員向け管理システムでも情報漏えいの被害が発生しています。",
+      "JPCERT/CCはAPIのアクセス制御、レート制限、最小権限などを推奨。掲載IPは調査時点で正規利用されている可能性もあるとしています。"
+    ],
+    "tags": [
+      "JPCERT/CC",
+      "不正アクセス",
+      "APIセキュリティ",
+      "Webシェル",
+      "侵害調査"
+    ],
+    "featured": true,
+    "priority": 1,
+    "region": "japan",
+    "edition_date": "2026-10-10",
+    "collected_at": "2026-10-09T23:58:39Z",
+    "is_sample": false
+  },
+  {
+    "id": "fujitsu-20261009-new-mexico-quantum-center",
+    "title": "富士通、ニューメキシコ州と量子研究センター設立に向け協業",
+    "summary": "富士通は10月9日、米ニューメキシコ州と量子コンピューティング研究センターの設立に向けた協業を8日に開始したと発表しました。研究開発と人材育成に加え、量子・AI・HPCを組み合わせた環境でFUJITSU-MONAKAの役割を検証します。",
+    "category": "development",
+    "source": "富士通",
+    "source_url": "https://global.fujitsu/ja-JP/pr/news/2026/10/09-01",
+    "published_at": "2026-10-09T00:00:00+09:00",
+    "published_time_known": false,
+    "image_url": null,
+    "why_it_matters": "日本の計算基盤技術を海外の研究・教育ネットワークと結び付ける取り組みです。量子アルゴリズムだけでなく、データ準備や検証を担う従来型計算機との連携を学ぶ技術者にとって、研究の方向性を考える参考になります。",
+    "core_facts": [
+      "10月9日の発表によると、量子研究センター設立に向けた協業は10月8日に開始しました。",
+      "センターはハードウェア、ソフトウェア、アルゴリズム、理論の研究開発と、教育・専門人材育成を担う構想です。",
+      "富士通は州内の国立研究所や大学との共同研究機会を検討します。",
+      "量子計算、量子シミュレーション、AI、HPCを組み合わせた環境で、FUJITSU-MONAKAベースのHPCの役割を共同検証します。"
+    ],
+    "tags": [
+      "富士通",
+      "量子コンピューティング",
+      "HPC",
+      "研究開発",
+      "人材育成"
+    ],
+    "featured": true,
+    "priority": 2,
+    "region": "japan",
+    "edition_date": "2026-10-10",
+    "collected_at": "2026-10-09T23:58:39Z",
+    "is_sample": false
+  },
+  {
+    "id": "globalfoundries-20261008-tsmc-interposers",
+    "title": "GlobalFoundriesとTSMC、AI向けインターポーザーの米国生産で20億ドル規模の契約",
+    "summary": "GlobalFoundriesは米国時間10月8日、TSMCのCoWoS向けシリコンインターポーザーを米国内で製造する契約を発表しました。ニューヨーク州マルタ工場の能力を拡張し、2028年上期に量産の立ち上げを始める計画です。",
+    "category": "semiconductors",
+    "source": "GlobalFoundries",
+    "source_url": "https://gf.gcs-web.com/news-releases/news-release-details/globalfoundries-reaches-agreement-establish-us-based-supply",
+    "published_at": "2026-10-08T00:00:00-04:00",
+    "published_time_known": false,
+    "image_url": null,
+    "why_it_matters": "AI計算基盤の調達を検討する日本企業にとって、先端パッケージの供給能力と生産拠点の分散は中長期の供給リスクを考える材料になります。日本の半導体材料・装置企業にも関連する動向ですが、国内企業への具体的な発注や短期的な供給改善は今回の公告では示されていません。",
+    "core_facts": [
+      "10月8日の公告は、20億米ドル規模の複数年契約を示しています。",
+      "GFがTSMCに製造サービスを提供し、CoWoS向けシリコンインターポーザーの米国供給基盤を整えます。",
+      "GFはニューヨーク州マルタ工場の製造能力を拡張する計画です。",
+      "量産の立ち上げは2028年上期を予定し、契約の当初期間は5年です。"
+    ],
+    "tags": [
+      "GlobalFoundries",
+      "TSMC",
+      "先端パッケージ",
+      "AI半導体",
+      "供給網"
+    ],
+    "featured": true,
+    "priority": 3,
+    "region": "global",
+    "edition_date": "2026-10-10",
+    "collected_at": "2026-10-09T23:58:39Z",
+    "is_sample": false
   }
 ]
