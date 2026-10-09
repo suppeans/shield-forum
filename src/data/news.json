@@ -1092,5 +1092,94 @@
     "edition_date": "2026-10-08",
     "collected_at": "2026-10-08T11:59:17Z",
     "is_sample": false
+  },
+  {
+    "id": "hitachi-solutions-20261008-bsssymphony-mcp",
+    "title": "日立ソリューションズ、BSSsymphonyをMCP対応にしAIの業務データ参照を支援",
+    "summary": "日立ソリューションズは10月8日、サブスク管理基盤BSSsymphonyの最新版を提供開始。MCP経由でAIエージェントから顧客・契約などのデータを利用できる仕組みと、自然言語で情報を参照するAIチャットを追加しました。",
+    "category": "dx",
+    "source": "日立ソリューションズ",
+    "source_url": "https://www.hitachi-solutions.co.jp/company/press/news/2026/1008",
+    "published_at": "2026-10-08T00:00:00+09:00",
+    "published_time_known": false,
+    "image_url": null,
+    "why_it_matters": "国内のサブスク事業で、FAQだけでなく契約・請求などの業務データをAIで参照する動きです。導入側には、参照権限や顧客情報の扱い、回答の確認手順を設計することが求められます。",
+    "core_facts": [
+      "MCPに対応し、利用企業のAIエージェントと業務データを標準的な方式で連携。",
+      "業務データ取得用のMCPツールを追加でき、利用するAIやLLMを選べると説明しています。",
+      "「対話型AI業務支援ライセンス」では顧客・契約・請求情報などを質問して参照できます。"
+    ],
+    "tags": [
+      "日立ソリューションズ",
+      "MCP",
+      "BSSsymphony",
+      "AIエージェント"
+    ],
+    "featured": true,
+    "priority": 2,
+    "region": "japan",
+    "edition_date": "2026-10-09",
+    "collected_at": "2026-10-09T00:01:26Z",
+    "is_sample": false
+  },
+  {
+    "id": "ntt-20261008-classiq-quantum-partnership",
+    "title": "NTTドコモビジネスとClassiq、企業の量子開発を支援する提携",
+    "summary": "NTTドコモビジネスとClassiq日本法人は10月8日、量子コンピューティングの産業活用に向けた基本合意書の締結を発表。量子開発基盤の共同提案や販売、業務への適用可能性の検討と実証を進めます。",
+    "category": "development",
+    "source": "NTTドコモビジネス／Classiq",
+    "source_url": "https://www.ntt.com/about-us/press-releases/news/article/2026/1008.html",
+    "published_at": "2026-10-08T00:00:00+09:00",
+    "published_time_known": false,
+    "image_url": null,
+    "why_it_matters": "日本企業が量子アルゴリズムの開発を検討するための支援体制を広げる動きです。提携は活用検討・実証を進めるもので、既存計算機に対する性能優位や事業効果の実証済み成果ではありません。",
+    "core_facts": [
+      "NTTドコモビジネスがClassiq基盤の提案・販売とユースケース創出・実証を担当。",
+      "Classiqは開発基盤と量子アルゴリズム・ソフトウェアに関する技術支援を提供します。",
+      "Qmodによる高水準の記述から、Synthesisエンジンで量子回路を生成・最適化する基盤。",
+      "複数方式の量子ハードウェアやシミュレーターへの対応を説明しています。"
+    ],
+    "tags": [
+      "NTTドコモビジネス",
+      "Classiq",
+      "量子コンピューティング",
+      "開発基盤"
+    ],
+    "featured": false,
+    "priority": 3,
+    "region": "japan",
+    "edition_date": "2026-10-09",
+    "collected_at": "2026-10-09T00:01:26Z",
+    "is_sample": false
+  },
+  {
+    "id": "nict-sharp-20261008-5g-ntn-kashima",
+    "title": "NICTとシャープ、鹿島に5G NTNの衛星通信試験設備を構築",
+    "summary": "NICTとシャープは10月8日、鹿島宇宙技術センターに5G NTNの技術検証・通信試験設備を構築したと発表。2026年内の運用開始を目指し、その後は自動車やドローンとの通信試験も進める計画です。",
+    "category": "business",
+    "source": "情報通信研究機構（NICT）／シャープ",
+    "source_url": "https://www.nict.go.jp/press/2026/10/08-1.html",
+    "published_at": "2026-10-08T00:00:00+09:00",
+    "published_time_known": false,
+    "image_url": null,
+    "why_it_matters": "国内で衛星と地上通信を組み合わせる技術の検証環境を整える取り組みです。モビリティ向け通信の開発に関係しますが、一般利用者向けの商用通信サービスを開始した発表ではありません。",
+    "core_facts": [
+      "Ka帯のゲートウェイアンテナなど、衛星通信と地上網を接続する設備を構築。",
+      "衛星通信に必要な免許を取得し、年内の運用開始を目指しています。",
+      "運用開始後、自動車やドローンに端末を搭載して通信品質・安定性を試験する予定。",
+      "通信を維持しながら地上網と衛星網を切り替えるハンドオーバー技術も検証する計画です。"
+    ],
+    "tags": [
+      "NICT",
+      "シャープ",
+      "5G NTN",
+      "衛星通信"
+    ],
+    "featured": true,
+    "priority": 2,
+    "region": "japan",
+    "edition_date": "2026-10-09",
+    "collected_at": "2026-10-09T00:01:26Z",
+    "is_sample": false
   }
 ]
