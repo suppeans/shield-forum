@@ -1181,5 +1181,99 @@
     "edition_date": "2026-10-09",
     "collected_at": "2026-10-09T00:01:26Z",
     "is_sample": false
+  },
+  {
+    "id": "gmo-20261009-google-cloud-ai-project",
+    "title": "GMOとGoogle Cloud、約6,000人のAI活用と共通データ基盤整備を推進",
+    "summary": "GMOインターネットグループは10月9日、Google CloudとのAI推進プロジェクトを発表しました。国内の約6,000人がAIエージェントを活用できる環境づくりに加え、共通データ基盤、EC・決済分野の新サービス、セキュリティ強化を進める計画です。",
+    "category": "ai",
+    "source": "GMOインターネットグループ",
+    "source_url": "https://group.gmo/news/article/10235/",
+    "published_at": "2026-10-09T00:00:00+09:00",
+    "published_time_known": false,
+    "image_url": null,
+    "why_it_matters": "日本企業のAI導入を、個別の業務支援からデータ整備と業務プロセスの再設計へ広げる取り組みです。開発者やDX担当者には、エージェントが参照する指標の統一や権限管理を含めた設計が重要になると考えられます。",
+    "core_facts": [
+      "10月9日の発表によると、両社は9月24日にプロジェクト開始を決定しました。",
+      "Gemini EnterpriseとGoogle Workspaceを国内パートナー約6,000人が活用できる環境を整える計画です。",
+      "BigQueryとLookerを用い、グループ内のデータや指標の定義を統一した共通基盤の構築を進めます。",
+      "EC・決済分野のAIサービス化と、AI・セキュリティ技術による脅威検知・分析・対応の高度化にも取り組みます。"
+    ],
+    "tags": [
+      "GMO",
+      "Google Cloud",
+      "AIエージェント",
+      "データ基盤",
+      "DX"
+    ],
+    "featured": true,
+    "priority": 2,
+    "region": "japan",
+    "edition_date": "2026-10-09",
+    "collected_at": "2026-10-09T12:06:35Z",
+    "is_sample": false
+  },
+  {
+    "id": "ipa-20261009-urgent-security-inspection",
+    "title": "IPA、相次ぐ情報漏えいを受け公開システム・外部サービスの至急点検を要請",
+    "summary": "IPAは10月9日、国内で相次ぐ不正アクセスと情報漏えいを受け、経営者主導での点検・対策見直しを呼び掛けました。公開アプリケーション、利用するクラウド等の外部サービス、アカウント、保有データを確認する具体的な観点を示しています。",
+    "category": "security",
+    "source": "IPA",
+    "source_url": "https://www.ipa.go.jp/security/security-alert/2026/alert20261009.html",
+    "published_at": "2026-10-09T00:00:00+09:00",
+    "published_time_known": false,
+    "image_url": null,
+    "why_it_matters": "国内企業の開発・運用担当者には、公開APIやクラウドの設定だけでなく、ログの保存期間、不要アカウント、委託先との情報共有まで点検する手掛かりになります。経営層が対応を優先し、調査に必要な人員や体制を確保することも求められます。",
+    "core_facts": [
+      "IPAは10月9日、国内の幅広い事業者で発生している情報漏えいを踏まえた注意喚起を公開しました。",
+      "現段階では、特定の製品やサービスの脆弱性を狙った攻撃とは断定していません。",
+      "公開アプリケーションの異常ログと未適用パッチ、外部サービスのログとアカウント、保有データの必要性を点検するよう求めています。",
+      "異常を発見した場合は速やかにインシデント対応を進め、情報漏えいの可能性を考慮した専門業者による詳細調査を強く推奨しています。"
+    ],
+    "tags": [
+      "IPA",
+      "情報漏えい",
+      "不正アクセス",
+      "クラウド",
+      "インシデント対応"
+    ],
+    "featured": true,
+    "priority": 1,
+    "region": "japan",
+    "edition_date": "2026-10-09",
+    "collected_at": "2026-10-09T12:06:35Z",
+    "is_sample": false
+  },
+  {
+    "id": "ipa-20261009-aisi-evaluation-progress",
+    "title": "AISI、AI安全性評価の実証進捗を公表　教育・ジオAI分野にも展開",
+    "summary": "IPAは10月9日、AISIが7日に開催した実証ワーキンググループの上期報告会と評価環境タスクフォース総会の内容を公表しました。医療やロボティクスなどの評価活動に加え、新設した教育・ジオAI分野の方針と、OSS評価環境の開発・強化に関する取り組みを共有しました。",
+    "category": "policy",
+    "source": "IPA／AIセーフティ・インスティテュート",
+    "source_url": "https://www.ipa.go.jp/pressrelease/2026/press20261009.html",
+    "published_at": "2026-10-09T00:00:00+09:00",
+    "published_time_known": false,
+    "image_url": null,
+    "why_it_matters": "国内で生成AIやAIロボットを開発・導入する企業にとって、分野別のリスクと評価観点を整理する動きは、検証計画や品質管理を考える参考になります。教育・地理空間情報への展開は、既存の評価方法を用途に応じて具体化する必要性を示しています。",
+    "core_facts": [
+      "AISIは10月7日に上期報告会と評価環境タスクフォース総会を開催し、IPAが10月9日に内容を発表しました。",
+      "両イベントにはオンライン参加を含め延べ220人が出席しました。",
+      "教育SWGは初等中等教育での生成AI利用のリスクや評価観点、ジオAI SWGは地理空間情報の安全なAI活用に関する検討を進めています。",
+      "タスクフォース総会では、2026年度の活動とOSSとして公開しているAIセーフティ評価環境の概要を共有しました。"
+    ],
+    "tags": [
+      "AISI",
+      "IPA",
+      "AIセーフティ",
+      "評価",
+      "教育",
+      "ジオAI"
+    ],
+    "featured": true,
+    "priority": 3,
+    "region": "japan",
+    "edition_date": "2026-10-09",
+    "collected_at": "2026-10-09T12:06:35Z",
+    "is_sample": false
   }
 ]
