@@ -1461,5 +1461,36 @@
     "edition_date": "2026-10-11",
     "collected_at": "2026-10-11T00:01:29Z",
     "is_sample": false
+  },
+  {
+    "id": "ninout-20261009-freee-headless-adoption",
+    "title": "freee、AIとの対話でフォーム運用と回答分析を行うサービスを利用開始",
+    "summary": "ナインアウトは10月9日、freeeが「Headless Form／Headless Analytics」の利用を開始したと発表しました。フォームの設計・公開から回答データの集計・分析・要約までをAIエージェントで支援し、マーケティング業務の効率化を目指します。",
+    "category": "dx",
+    "source": "ナインアウト",
+    "source_url": "https://www.ninout.ai/news/20261009_headless_freee_release/",
+    "published_at": "2026-10-09T00:00:00+09:00",
+    "published_time_known": false,
+    "image_url": null,
+    "why_it_matters": "日本企業が、AIエージェントを顧客接点の運用とデータ分析につなげる導入事例です。DX担当者には、既存の外部サービス連携を含め、フォーム作成からデータ活用までの業務全体を見直す参考になります。",
+    "core_facts": [
+      "10月9日の公告で、freeeによるHeadless FormとHeadless Analyticsの利用開始を発表しました。",
+      "freeeは従来、Ask Oneで得た顧客のヒアリング情報をAdobe Marketo Engageに連携していました。",
+      "今回の活用では、フォーム設計・作成・公開から回答データの集計・解析・要約までをAIエージェントで実施します。",
+      "工数削減や対話による設定変更の迅速化は期待される効果として示されており、定量的な成果は公告では公表していません。"
+    ],
+    "tags": [
+      "freee",
+      "ナインアウト",
+      "AIエージェント",
+      "フォーム",
+      "マーケティングDX"
+    ],
+    "featured": true,
+    "priority": 3,
+    "region": "japan",
+    "edition_date": "2026-10-11",
+    "collected_at": "2026-10-11T12:00:41Z",
+    "is_sample": false
   }
 ]
