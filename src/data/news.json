@@ -1430,5 +1430,36 @@
     "edition_date": "2026-10-10",
     "collected_at": "2026-10-10T11:59:26Z",
     "is_sample": false
+  },
+  {
+    "id": "anthropic-20261008-oss-scanner",
+    "title": "Anthropic、OSS向け無料脆弱性スキャンを開始　未検証の報告を保守者へ",
+    "summary": "Anthropicは10月8日、参加を希望するオープンソースプロジェクトに無料の定期セキュリティスキャンを提供する「OSS Scanner」を発表しました。報告には再現方法や修正案が含まれますが、人による検証・選別は行われず、保守者による確認が必要です。",
+    "category": "security",
+    "source": "Anthropic",
+    "source_url": "https://www.anthropic.com/research/launching-opt-in-vuln-finding-service-for-open-source",
+    "published_at": "2026-10-08T00:00:00-07:00",
+    "published_time_known": false,
+    "image_url": null,
+    "why_it_matters": "OSSを利用・保守する日本の開発者にとって、依存ソフトウェアの脆弱性発見と修正を支援する取り組みです。一方、報告の誤りや重複を見極める体制が必要になり、AIによる検出をそのまま確定情報として扱わない運用が求められます。",
+    "core_facts": [
+      "Anthropicは10月8日、対象OSSプロジェクト向けの参加申請型・無料の定期脆弱性スキャンを発表しました。",
+      "レポートはモデルが生成し、人によるレビューや優先度の選別を経ずに提供されます。",
+      "各報告には独立した再現方法、脆弱性の説明、用意できる場合には修正案が含まれます。",
+      "対象プロジェクトの主要保守者が指定GitHubリポジトリへのPRで申請し、参加可否は個別に判断されます。"
+    ],
+    "tags": [
+      "Anthropic",
+      "OSS",
+      "脆弱性診断",
+      "AI",
+      "ソフトウェア供給網"
+    ],
+    "featured": true,
+    "priority": 2,
+    "region": "global",
+    "edition_date": "2026-10-11",
+    "collected_at": "2026-10-11T00:01:29Z",
+    "is_sample": false
   }
 ]
