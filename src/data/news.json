@@ -1523,5 +1523,67 @@
     "edition_date": "2026-10-12",
     "collected_at": "2026-10-11T23:58:46Z",
     "is_sample": false
+  },
+  {
+    "id": "yamaha-motor-20261012-pas-life-data-risk",
+    "title": "ヤマハ発動機、委託先への不正アクセスでPAS Life約1,600人の情報漏えいの可能性",
+    "summary": "ヤマハ発動機は10月12日、コミュニティーサイト「YAMAHA PAS Life」の基盤を提供するコミューンへの不正アクセスにより、約1,600人分の会員情報が閲覧・取得された可能性を公表しました。自社システムへの不正アクセスは確認されていないとしています。",
+    "category": "security",
+    "source": "ヤマハ発動機",
+    "source_url": "https://global.yamaha-motor.com/jp/news/2026/1012/leakage.html",
+    "published_at": "2026-10-12T00:00:00+09:00",
+    "published_time_known": false,
+    "image_url": null,
+    "why_it_matters": "日本企業が外部サービスに預ける顧客データの管理と、委託先での事故に備えた連絡体制の重要性を示す事例です。開発・運用担当者には、保存項目の最小化や委託先との調査・通知手順を確認するきっかけになります。",
+    "core_facts": [
+      "ヤマハ発動機は10月12日、委託先コミューンから報告を受けた情報漏えいの可能性を発表しました。",
+      "対象はPAS Life登録者約1,600人。氏名、住所、メールアドレスなどが含まれ、カード・決済情報は含まれないとしています。",
+      "委託先からの説明では、同社情報への不正アクセスは10月6日19時18分頃から21時02分頃に発生しました。",
+      "発表時点で情報の不正利用やインターネット上の公開・拡散は確認されておらず、対象者へ個別連絡する方針です。"
+    ],
+    "tags": [
+      "ヤマハ発動機",
+      "コミューン",
+      "情報漏えい",
+      "委託先管理",
+      "インシデント対応"
+    ],
+    "featured": true,
+    "priority": 1,
+    "region": "japan",
+    "edition_date": "2026-10-12",
+    "collected_at": "2026-10-12T12:01:23Z",
+    "is_sample": false
+  },
+  {
+    "id": "flashlabs-20261012-orcacyber-zero-15",
+    "title": "FlashLabs、OrcaRouterで安全性調査向け「OrcaCyber Zero 1.5」を審査制提供",
+    "summary": "FlashLabsは10月12日、日本向けAI推論ゲートウェイOrcaRouterで、セキュリティ調査に特化した「OrcaCyber Zero 1.5」の提供開始を発表しました。信頼できる研究者やレッドチームなど、認可されたテストを行う利用者向けに審査制で提供します。",
+    "category": "ai",
+    "source": "FlashLabs",
+    "source_url": "https://prtimes.jp/main/html/rd/p/000000109.000138449.html",
+    "published_at": "2026-10-12T10:30:00+09:00",
+    "published_time_known": true,
+    "image_url": null,
+    "why_it_matters": "国内のセキュリティ研究・検証業務にAIモデルを組み込む選択肢が増えます。導入時には、調査対象の許可範囲やコード・データの扱いを整理し、モデルが出した結果を実際の環境で検証する運用が重要になります。",
+    "core_facts": [
+      "10月12日の公告で、OrcaRouterにおけるOrcaCyber Zero 1.5の提供開始を発表しました。",
+      "Continuum AIが開発し、FlashLabsが日本市場向けに提供するモデルです。",
+      "研究者やレッドチーム、認可されたセキュリティテストを行う利用者向けの審査制です。",
+      "公告ではOpenAI互換API、ネイティブなツール呼び出し、JSON構造化出力への対応を説明しています。"
+    ],
+    "tags": [
+      "FlashLabs",
+      "OrcaRouter",
+      "AI",
+      "セキュリティ研究",
+      "API"
+    ],
+    "featured": true,
+    "priority": 2,
+    "region": "japan",
+    "edition_date": "2026-10-12",
+    "collected_at": "2026-10-12T12:01:23Z",
+    "is_sample": false
   }
 ]
