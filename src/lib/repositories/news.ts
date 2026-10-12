@@ -17,7 +17,7 @@ export function filterNews(articles: NewsArticle[], filters: { date?: string; ca
 export async function getNewsEdition(date = japanDate(), category?: string) {
   const all = await readNews();
   const articles = rankNews(filterNews(all, { date, category }));
-  return { date, articles, featured: articles.slice(0, 4), remaining: articles.slice(4),
+  return { date, articles, featured: articles.slice(0, 4),
     dates: [...new Set(all.map((article) => article.edition_date))].sort().reverse(),
     sample: articles.some((article) => article.is_sample) };
 }

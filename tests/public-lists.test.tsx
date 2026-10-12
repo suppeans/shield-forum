@@ -1,4 +1,4 @@
-import { cleanup, render, screen } from "@testing-library/react";
+import { cleanup, render, screen, within } from "@testing-library/react";
 import { afterEach, describe, expect, it } from "vitest";
 import { ArticleList } from "@/components/article-list";
 import { newsImportSchema } from "@/lib/validation";
@@ -9,10 +9,19 @@ describe("public news list", () => {
   it("shows the briefing collection time without inventing a source publication hour", () => {
     const article = newsImportSchema.parse({ ...fixture, sample: false, generated_at: "2026-10-04T21:00:00+09:00",
       news: [{ ...fixture.news[0], published_at: "2026-10-02T00:00:00+09:00", published_time_known: false }] }).news[0];
-    const { container } = render(<NewsEditionView edition={{ date: fixture.date, articles: [article], featured: [article], remaining: [], dates: [fixture.date], sample: false }} today={fixture.date} />);
+    const { container } = render(<NewsEditionView edition={{ date: fixture.date, articles: [article], featured: [article], dates: [fixture.date], sample: false }} today={fixture.date} />);
     expect(container.querySelector(".last-update time")).toHaveAttribute("datetime", article.collected_at);
-    expect(screen.getByText("2026/10/02 JST")).toBeInTheDocument();
+    expect(screen.getAllByText("2026/10/02 JST")).toHaveLength(2);
     expect(container.textContent).not.toContain("00:00");
+  });
+  it.each([1, 5])("includes all %i edition stories in the feed, including featured stories", (count) => {
+    const source = newsImportSchema.parse(fixture).news[0];
+    const articles = Array.from({ length: count }, (_, index) => ({ ...source, id: `${source.id}-${index}`, title: `${source.title} ${index}` }));
+    render(<NewsEditionView edition={{ date: fixture.date, articles, featured: articles.slice(0, 4), dates: [fixture.date], sample: true }} today={fixture.date} />);
+    const feed = within(screen.getByRole("region", { name: "ニュース一覧" }));
+    for (const article of articles) {
+      expect(feed.getByRole("link", { name: article.title })).toHaveAttribute("href", `/news/${article.id}`);
+    }
   });
   it("shows source, importance, timestamp and explicit sample label with a news detail link", () => {
     const article = newsImportSchema.parse(fixture).news[0];
