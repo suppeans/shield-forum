@@ -1585,5 +1585,67 @@
     "edition_date": "2026-10-12",
     "collected_at": "2026-10-12T12:01:23Z",
     "is_sample": false
+  },
+  {
+    "id": "gartner-20261013-japan-urgent-security-actions",
+    "title": "Gartner、日本企業の不正アクセス多発を受け公開資産と委託先の緊急点検を提言",
+    "summary": "Gartnerは10月13日、日本企業で相次ぐ不正アクセスに関する緊急提言を公表しました。公開アプリやAPIの点検、システムを横断したログ調査、委託先の対応確認などを挙げ、経営者が主導して対策を進める必要性を訴えています。",
+    "category": "security",
+    "source": "ガートナージャパン",
+    "source_url": "https://www.gartner.co.jp/ja/newsroom/press-releases/2026-10-13-gartner-issues-urgent-recommendations-on-unauthorized-access-incidents-at-japanese-enterprises",
+    "published_at": "2026-10-13T00:00:00+09:00",
+    "published_time_known": false,
+    "image_url": null,
+    "why_it_matters": "日本の開発・運用担当者が、脆弱性修正だけでなく認証・認可や設定、外部委託先も含む点検を経営判断につなげるための整理です。定期診断に加え、継続的に弱点を把握し修復する体制づくりを考える参考になります。",
+    "core_facts": [
+      "Gartnerは10月13日、日本企業の不正アクセス事案について緊急提言を発表しました。",
+      "Webアプリ、API、管理画面などの公開資産と、認証・認可・設定不備の点検を勧めています。",
+      "複数システムのログを横断し、不審なアクセスや権限変更、大量データ取得の兆候を確認するよう提言しています。",
+      "委託先の影響や連絡体制、復旧見通しの確認と、経営者が主導する迅速な修復判断も挙げています。"
+    ],
+    "tags": [
+      "Gartner",
+      "不正アクセス",
+      "APIセキュリティ",
+      "委託先管理",
+      "脆弱性管理"
+    ],
+    "featured": true,
+    "priority": 1,
+    "region": "japan",
+    "edition_date": "2026-10-13",
+    "collected_at": "2026-10-13T10:13:15+09:00",
+    "is_sample": false
+  },
+  {
+    "id": "nvidia-cisco-20261012-usfp-optics-plan",
+    "title": "NVIDIAとCisco、AIネットワーク向け高密度光モジュール「USFP」を計画",
+    "summary": "NVIDIAとCiscoは米国時間10月12日、1レーン当たり400Gb/sに対応する光モジュール形状USFPの計画を発表しました。AI計算基盤の接続密度を高める設計で、TE Connectivity、Amphenolと部品の供給体制を整え、公開仕様の策定を目指します。",
+    "category": "cloud",
+    "source": "NVIDIA／Cisco",
+    "source_url": "https://nvidianews.nvidia.com/news/nvidia-and-cisco-introduce-new-pluggable-optics-form-factor-to-scale-ai-factories",
+    "published_at": "2026-10-12T00:00:00-07:00",
+    "published_time_known": false,
+    "image_url": null,
+    "why_it_matters": "AI基盤を増強する日本のクラウド・データセンター事業者にも、ネットワークの電力と接続密度は重要な設計課題です。将来の機器調達や配線構成を考える材料になりますが、今回の発表は製品の国内販売開始を示すものではありません。",
+    "core_facts": [
+      "10月12日の公告は、400Gb/s-per-laneの電気信号に対応するUSFPの開発・供給計画を示しています。",
+      "初期のモジュールはOSFP相当の大きさに16の全二重レーンを収め、総容量12.8Tb/sを目指す設計です。",
+      "TE ConnectivityとAmphenolがケージ、コネクター、モジュールの供給体制づくりに参加します。",
+      "両社は今後、コミュニティ主導のマルチソース・プロジェクトを通じて公開業界仕様を作成する計画です。"
+    ],
+    "tags": [
+      "NVIDIA",
+      "Cisco",
+      "AIインフラ",
+      "光通信",
+      "データセンター"
+    ],
+    "featured": true,
+    "priority": 2,
+    "region": "global",
+    "edition_date": "2026-10-13",
+    "collected_at": "2026-10-13T10:13:15+09:00",
+    "is_sample": false
   }
 ]
