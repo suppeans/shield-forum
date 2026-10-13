@@ -1709,5 +1709,67 @@
     "edition_date": "2026-10-13",
     "collected_at": "2026-10-13T21:06:31+09:00",
     "is_sample": false
+  },
+  {
+    "id": "toppan-20261013-ai-persona-cx",
+    "title": "TOPPAN、10万人のAIペルソナ基盤を用いる顧客体験支援サービスを開始",
+    "summary": "TOPPANは10月13日、公的統計などを基に生成した10万人のAIペルソナを使うCX支援サービスの提供を開始しました。地域や年代、価値観などで対象群を抽出し、対話による生活者理解から施策案の生成・比較までを支援します。",
+    "category": "ai",
+    "source": "TOPPAN",
+    "source_url": "https://www.holdings.toppan.com/ja/news/2026/10/newsrelease261013_2.html",
+    "published_at": "2026-10-13T00:00:00+09:00",
+    "published_time_known": false,
+    "image_url": null,
+    "why_it_matters": "国内企業のマーケティングやDX担当者が、生成AIによる仮説作りと施策検討を同じ基盤で進める事例です。AIペルソナの反応は実際の顧客調査結果とは異なるため、実データと照らした検証が重要になります。",
+    "core_facts": [
+      "TOPPANは10月13日、流通・小売やメーカーなど向けにCX支援サービスの提供を開始しました。",
+      "基盤は、公的統計や生活価値観・嗜好・行動情報などを基に生成した10万人のAIペルソナで構成されます。",
+      "地域、年代、世帯、所得、価値観などの条件で対象群を抽出できます。",
+      "AIペルソナとの対話、施策案の生成、反応の確認を通じて企画の選定・改善を支援します。"
+    ],
+    "tags": [
+      "TOPPAN",
+      "AIペルソナ",
+      "CX",
+      "生成AI",
+      "マーケティングDX"
+    ],
+    "featured": true,
+    "priority": 2,
+    "region": "japan",
+    "edition_date": "2026-10-14",
+    "collected_at": "2026-10-14T08:57:06+09:00",
+    "is_sample": false
+  },
+  {
+    "id": "canon-its-20261013-edi-mediaforce",
+    "title": "キヤノンITSとメディアフォース、EDIとERP・SaaSの接続を共同支援",
+    "summary": "キヤノンITソリューションズとメディアフォースは10月13日、EDI-Master利用企業のシステム連携を支援する協業を発表しました。企業間で交換するデータをERPや業務システム、SaaSへ渡す接続部分を中心に、方式検討から設計・実装までを支援します。",
+    "category": "cloud",
+    "source": "キヤノンITソリューションズ",
+    "source_url": "https://www.canon-its.co.jp/corporate/newsrelease/2026/pr-1013",
+    "published_at": "2026-10-13T00:00:00+09:00",
+    "published_time_known": false,
+    "image_url": null,
+    "why_it_matters": "日本企業が基幹システムを刷新したりクラウドへ移行したりする際、取引先とのデータ交換を維持することは重要です。社内外の接続を一体で設計する取り組みとして、業務システム開発や移行計画の参考になります。",
+    "core_facts": [
+      "10月13日の公告で、EDI-Masterシリーズ利用企業の連携支援に向けた協業開始を発表しました。",
+      "キヤノンITSの企業間データ交換の知見と、メディアフォースのシステム・クラウド連携の設計実装ノウハウを組み合わせます。",
+      "支援対象は、EDIデータを会計・販売・在庫管理などの基幹システムやSaaSへ渡す接続部分です。",
+      "接続方式の検討から設計・実装までを連携し、新旧システム間のデータ連携を支援します。"
+    ],
+    "tags": [
+      "キヤノンITS",
+      "メディアフォース",
+      "EDI",
+      "クラウド移行",
+      "システム連携"
+    ],
+    "featured": true,
+    "priority": 3,
+    "region": "japan",
+    "edition_date": "2026-10-14",
+    "collected_at": "2026-10-14T08:57:06+09:00",
+    "is_sample": false
   }
 ]
