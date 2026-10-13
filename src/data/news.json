@@ -1647,5 +1647,67 @@
     "edition_date": "2026-10-13",
     "collected_at": "2026-10-13T10:13:15+09:00",
     "is_sample": false
+  },
+  {
+    "id": "nict-20261013-a2b-security-alert",
+    "title": "NICT、Androidアプリ解析から接続先サーバを狙う「A2B攻撃」に注意喚起",
+    "summary": "NICTは10月13日、公開Androidアプリの解析情報を使ってバックエンドサーバを攻撃する手法を特定したと発表しました。LETTICEが「A2B攻撃」と名付け、侵害確認、脆弱性点検、暫定的な緩和策の3種の対策と侵害指標を公開しています。",
+    "category": "security",
+    "source": "NICT",
+    "source_url": "https://www.nict.go.jp/press/2026/10/13-1.html",
+    "published_at": "2026-10-13T00:00:00+09:00",
+    "published_time_known": false,
+    "image_url": null,
+    "why_it_matters": "国内のアプリ開発者には、クライアントに含まれる通信仕様が解析される前提で、サーバ側の防御を確認する必要性を示す情報です。アプリの公開範囲だけで安全性を判断せず、APIやバックエンドの点検につなげる手掛かりになります。",
+    "core_facts": [
+      "NICTは10月13日、LETTICEによるA2B攻撃の分析と注意喚起を発表しました。",
+      "公開Androidアプリから接続先やAPIの仕組みを調べ、サーバの仕様に合わせた攻撃を行う手法です。",
+      "注意喚起では、侵害の確認、脆弱性の点検、暫定的な緩和策と、関連する侵害指標を紹介しています。",
+      "NICTは、同様の問題がiOSアプリやWebサービスのバックエンドAPIでも発生し得るとしています。"
+    ],
+    "tags": [
+      "NICT",
+      "A2B攻撃",
+      "Android",
+      "APIセキュリティ",
+      "侵害調査"
+    ],
+    "featured": true,
+    "priority": 1,
+    "region": "japan",
+    "edition_date": "2026-10-13",
+    "collected_at": "2026-10-13T21:06:31+09:00",
+    "is_sample": false
+  },
+  {
+    "id": "nikon-20261013-dsp110-announcement",
+    "title": "ニコン、先端パッケージ向け露光装置DSP-110を2027年4月に発売予定",
+    "summary": "ニコンは10月13日、半導体アドバンストパッケージング向けデジタル露光装置DSP-110を発表しました。解像度1.5µmで、大型基板に対応する設計です。510×515mm基板では毎時72パネルの処理能力を示し、2027年4月の発売を予定しています。",
+    "category": "semiconductors",
+    "source": "ニコン",
+    "source_url": "https://www.jp.nikon.com/company/news/2026/1013_01/",
+    "published_at": "2026-10-13T00:00:00+09:00",
+    "published_time_known": false,
+    "image_url": null,
+    "why_it_matters": "AI向けチップなどの先端パッケージでは、再配線層を効率よく形成する技術が重要です。国内の半導体装置・基板関連企業には、解像度と生産性を用途に応じて選ぶ開発動向として参考になります。",
+    "core_facts": [
+      "ニコンは10月13日、DSP-110を2027年4月に発売すると発表しました。",
+      "解像度は1.5µm L/S。510×515mm基板の場合、スループットは毎時72パネルとしています。",
+      "光学系を再設計し、DSP-100比でスループットを約40%向上させたと説明しています。",
+      "光学系を交換することで、解像度1.0µm L/Sの装置への改造が可能な設計です。"
+    ],
+    "tags": [
+      "ニコン",
+      "先端パッケージ",
+      "露光装置",
+      "半導体製造",
+      "RDL"
+    ],
+    "featured": true,
+    "priority": 2,
+    "region": "japan",
+    "edition_date": "2026-10-13",
+    "collected_at": "2026-10-13T21:06:31+09:00",
+    "is_sample": false
   }
 ]
