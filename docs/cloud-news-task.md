@@ -1,8 +1,8 @@
 # 云端每日新闻任务
 
-目标：每天日本时间 09:00、21:00 在 ChatGPT 云端生成并发布新闻，不依赖个人电脑。网站继续使用现有 JSON 数据和 GitHub → Vercel 自动部署。
+目标：每天日本时间 09:00、17:00、次日 01:00（每隔 8 小时，每日三次） 在 ChatGPT 云端生成并发布新闻，不依赖个人电脑。网站继续使用现有 JSON 数据和 GitHub → Vercel 自动部署。
 
-每日云端任务按日本时间 09:00、21:00 执行。本文记录配置与发布规则；每次运行是否成功，以任务结果、GitHub 提交和公网内容为准。
+每日云端任务按日本时间 09:00、17:00、次日 01:00（每隔 8 小时，每日三次） 执行。本文记录配置与发布规则；每次运行是否成功，以任务结果、GitHub 提交和公网内容为准。
 
 ## 一次性配置
 
@@ -10,7 +10,7 @@
 2. 为该环境配置此仓库的 GitHub 写入授权。公开仓库可以读取，并不代表能够推送。优先使用平台提供的仓库授权；需要个人令牌时，由账号所有者在密钥管理界面填写，限定此仓库的 Contents 读写权限。不要在聊天、日志、JSON 或仓库中填写令牌。
 3. 确认任务可以检索并打开新闻原文，以及访问 GitHub 和 `shield-news-suppeans.vercel.app`。不能访问的来源直接省略，不能用模型记忆替代当天检索。
 4. 先使用下方提示词执行一次普通云端任务，验证导入、检查、GitHub 推送和 Vercel 上线。没有新消息时允许不写数据；另行确认仓库写入授权后再安排定时运行。
-5. 在 ChatGPT 网页端的“定时任务”中设置每天 **09:00、21:00，Asia/Tokyo**，采用下方完整提示词和相同的云端工具／环境。先执行一次，确认检索、仓库写入和公网发布成功。
+5. 在 ChatGPT 网页端的“定时任务”中设置每天 **09:00、17:00、次日 01:00（每隔 8 小时，每日三次），Asia/Tokyo**，采用下方完整提示词和相同的云端工具／环境。先执行一次，确认检索、仓库写入和公网发布成功。
 
 定时任务、云端环境及写入能力取决于账号实际可用功能。任务不能访问环境或仓库时应报告失败阶段。开始时间不等于发布完成时间，检索、检查和 Vercel 部署都需要时间。
 
@@ -35,8 +35,8 @@
 
 三、生成与导入
 生成符合现有 schema 的 JSON：date 为日本收录日，sample:false，generated_at 为本次实际核实时间，news 为条目数组。category 只用 ai、security、business、semiconductors、cloud、careers、development、dx、policy、startups、global。每条包含 id、title、summary、category、source、source_url、published_at、published_time_known、image_url、why_it_matters、core_facts、tags、featured、priority、region。
-原文仅有日期时 published_time_known:false，published_at 存储该日期 00:00:00+09:00，不把午夜当作真实发布时间。按源公告和事件使用稳定 id。早晚更新合并当天数据并保留上午内容；不要把历史事件移动到新的 edition_date。对历史条目纠错时保留原收录日和未变化条目的 collected_at。实质新进展可作为新条目，并注明首次公告与更新日期。无新增或需纠正的消息时保持文件不变并报告无新增。
-批次放在仓库外临时文件，使用现有 npm run import-news -- /path/to/batch.json 导入，不手工绕过 schema。确认无样例、重复事件或未来的发布时间，历史及早间内容仍存在。
+原文仅有日期时 published_time_known:false，published_at 存储该日期 00:00:00+09:00，不把午夜当作真实发布时间。按源公告和事件使用稳定 id。每日三次更新按实际日本收录日合并，保留当天已发布内容及全部历史条目；不要把历史事件移动到新的 edition_date。对历史条目纠错时保留原收录日和未变化条目的 collected_at。实质新进展可作为新条目，并注明首次公告与更新日期。无新增或需纠正的消息时保持文件不变并报告无新增。
+批次放在仓库外临时文件，使用现有 npm run import-news -- /path/to/batch.json 导入，不手工绕过 schema。确认无样例、重复事件或未来的发布时间，历史及当天已发布内容仍存在。
 
 四、检查与发布
 运行 npm run test、npm run typecheck、npm run lint；代码或构建配置有变化时再运行 npm run build。检查 git diff，只提交本次新闻数据 src/data/news.json，正常推送到 main。代码、数据库、域名、账号和其他项目不在本任务修改范围内。授权失败或推送失败时明确报告阶段，不宣称已更新。不要输出任何令牌或环境变量。
