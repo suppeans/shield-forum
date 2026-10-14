@@ -8,6 +8,8 @@
     "source_url": "https://www.dentsusoken.com/news/release/2026/1014.html",
     "published_at": "2026-10-14T00:00:00+09:00",
     "published_time_known": false,
+    "collected_at": "2026-10-15T00:57:38+09:00",
+    "edition_date": "2026-10-15",
     "image_url": null,
     "why_it_matters": "日本のAI人材育成が、ツール操作の習得から顧客課題の把握や業務への実装へ広がる動きです。IT職の学習やキャリア設計では、技術に加えて現場の業務を理解し成果を検証する力が重要になると考えられます。",
     "core_facts": [
@@ -24,8 +26,6 @@
     "featured": true,
     "priority": 2,
     "region": "japan",
-    "edition_date": "2026-10-15",
-    "collected_at": "2026-10-15T00:57:38+09:00",
     "is_sample": false
   },
   {
@@ -37,6 +37,8 @@
     "source_url": "https://www.eg-secure.co.jp/siteguard/news/alert-202610-1",
     "published_at": "2026-10-14T00:00:00+09:00",
     "published_time_known": false,
+    "collected_at": "2026-10-15T00:57:38+09:00",
+    "edition_date": "2026-10-15",
     "image_url": null,
     "why_it_matters": "国内のWebサービスを守る製品自体の脆弱性であり、利用企業は優先的な確認が必要です。修復を急ぐ際も調査の証拠を失わないよう、痕跡保全と更新を合わせて進めることが重要です。",
     "core_facts": [
@@ -54,8 +56,66 @@
     "featured": true,
     "priority": 1,
     "region": "japan",
+    "is_sample": false
+  },
+  {
+    "id": "globalfoundries-20261014-us-japan-new-york-fabs",
+    "title": "GlobalFoundries、日米の最大210億ドル枠組みでNY新工場2棟の運営企業に",
+    "summary": "GlobalFoundriesは米国時間10月14日、日本が資金を提供する最大210億ドルの日米枠組みのもと、ニューヨーク州マルタの半導体新工場2棟で技術提供と運営を担う企業に選定されたと発表しました。第1工場は2029年の稼働を見込み、第2工場は追加投資による計画です。",
+    "category": "semiconductors",
+    "source": "GlobalFoundries",
+    "source_url": "https://gf.com/news-and-events/news/globalfoundries-selected-to-operate-two-new-semiconductor-fabs-in-new-york-under-landmark-us-japan-initiative/",
+    "published_at": "2026-10-14T00:00:00+09:00",
+    "published_time_known": false,
+    "image_url": null,
+    "why_it_matters": "日本の資金と米国の製造能力を結び付ける大規模計画で、日本の車載・産業向け半導体供給や装置企業にも関わります。投資枠、建設計画、稼働済みの能力を区別して進捗を見る必要があります。",
+    "core_facts": [
+      "日本が投資を提供し、GFが技術・製造ノウハウ・運営能力を提供する枠組みです。",
+      "第1工場への初期投資は約100億ドルで、300mm工場の2029年稼働を見込みます。",
+      "第2工場にも約100億ドルの追加投資を想定し、第1工場は年約90万枚の300mmウェハー生産能力を見込んでいます。",
+      "GFは第1工場の着工を年内に予定し、発表にはルネサスと東京エレクトロンによる協力への言及も含まれます。"
+    ],
+    "tags": [
+      "日米協力",
+      "半導体製造",
+      "GlobalFoundries",
+      "サプライチェーン"
+    ],
+    "featured": true,
+    "priority": 1,
+    "region": "global",
     "edition_date": "2026-10-15",
-    "collected_at": "2026-10-15T00:57:38+09:00",
+    "collected_at": "2026-10-15T08:57:05+09:00",
+    "is_sample": false
+  },
+  {
+    "id": "idcf-20261014-incident-fifth-report",
+    "title": "IDCフロンティア、仮想サーバーデータは流出なしと判断　194顧客のバックアップ取り出し可能",
+    "summary": "IDCフロンティアは10月14日の第5報で、障害対象の仮想サーバーのデータについて流出痕跡がなく、外部流出はなかったと判断したと説明しました。一方、ポータルの48社の登録情報への不正照会を確認。障害影響を受けた495企業・自治体のうち194顧客はバックアップの取り出しが可能としています。",
+    "category": "security",
+    "source": "IDCフロンティア",
+    "source_url": "https://www.idcf.jp/news/topics/20261014001/",
+    "published_at": "2026-10-14T00:00:00+09:00",
+    "published_time_known": false,
+    "image_url": null,
+    "why_it_matters": "国内クラウド障害は、情報流出の有無とデータ復旧の可否を分けて評価する必要があります。利用企業は個別の調査・復元案内を確認し、委託先も含めた業務継続とバックアップの実効性を点検することが重要です。",
+    "core_facts": [
+      "10月7日に始まった障害について、東日本リージョン1の対象4ゾーンで仮想サーバーデータの外部持ち出し痕跡などは確認されず、同社は流出なしと判断しています。",
+      "影響を受けた495企業・自治体のうち、スナップショットを使っていた194顧客のバックアップ取り出しが可能と確認。復元可否と提供方法は個別案内中です。",
+      "ポータルでは48社の登録情報への不正照会を確認しましたが、外部持ち出しを示す痕跡は確認されていません。",
+      "サービス影響のない他のゾーン・リージョンでも、安全確認の調査を継続しています。"
+    ],
+    "tags": [
+      "IDCFクラウド",
+      "障害対応",
+      "バックアップ",
+      "不正アクセス"
+    ],
+    "featured": true,
+    "priority": 1,
+    "region": "japan",
+    "edition_date": "2026-10-15",
+    "collected_at": "2026-10-15T08:57:05+09:00",
     "is_sample": false
   },
   {
@@ -67,6 +127,8 @@
     "source_url": "https://www.jpcert.or.jp/at/2026/at260031.html",
     "published_at": "2026-10-14T00:00:00+09:00",
     "published_time_known": false,
+    "collected_at": "2026-10-15T00:57:38+09:00",
+    "edition_date": "2026-10-15",
     "image_url": null,
     "why_it_matters": "Windows端末を使う日本企業では、悪用が確認された修正の適用状況を把握する必要があります。月例配信を待つだけでなく、未適用端末や更新失敗を確認する運用が被害予防につながります。",
     "core_facts": [
@@ -83,8 +145,6 @@
     "featured": true,
     "priority": 1,
     "region": "japan",
-    "edition_date": "2026-10-15",
-    "collected_at": "2026-10-15T00:57:38+09:00",
     "is_sample": false
   },
   {
@@ -96,6 +156,8 @@
     "source_url": "https://jpn.nec.com/press/202610/20261014_01.html",
     "published_at": "2026-10-14T00:00:00+09:00",
     "published_time_known": false,
+    "collected_at": "2026-10-15T00:57:38+09:00",
+    "edition_date": "2026-10-15",
     "image_url": null,
     "why_it_matters": "自治体の災害対応では、画像を人が確認する負荷の軽減が初動判断を助ける可能性があります。数値は特定データを使ったNECの検証結果であり、実際の現場での性能や運用体制を今後確かめる必要があります。",
     "core_facts": [
@@ -113,8 +175,65 @@
     "featured": true,
     "priority": 2,
     "region": "japan",
+    "is_sample": false
+  },
+  {
+    "id": "nict-20261014-active-ai-evaluation",
+    "title": "さくら・PFN・NICT、生成AIを継続評価する基盤の社会実装へ",
+    "summary": "さくらインターネット、Preferred Networks、NICTは10月14日、生成AIの安全性を継続的に評価・改善する「能動的評価基盤」の社会実装に向けた取り組みを発表しました。評価用の問いを自動生成・更新し、さくらのAI Engine上のモデルへの試験適用を検討します。",
+    "category": "ai",
+    "source": "NICT・さくらインターネット・Preferred Networks",
+    "source_url": "https://www1.nict.go.jp/press/2026/10/14-1.html",
+    "published_at": "2026-10-14T00:00:00+09:00",
+    "published_time_known": false,
+    "image_url": null,
+    "why_it_matters": "日本の法令や文化に沿ったAI運用では、導入時の評価だけでは変化するリスクを捉えきれません。継続評価の仕組みは企業や自治体のモデル選定・改善を支える可能性がありますが、評価の妥当性も検証が必要です。",
+    "core_facts": [
+      "NICTは評価プロンプトを自動合成・更新し、対象モデルの回答を評価する仕組みの高度化を進めます。",
+      "さくらインターネットは来年度中の運用開始を目指し、国内外のLLMへの試験的な適用を検討します。",
+      "PFNはNICTとの共同研究を通じ、PLaMo 3.0 Primeの後継モデル開発と評価基盤への組み込みを進める計画です。"
+    ],
+    "tags": [
+      "AI安全性",
+      "国産LLM",
+      "継続評価",
+      "NICT"
+    ],
+    "featured": true,
+    "priority": 2,
+    "region": "japan",
     "edition_date": "2026-10-15",
-    "collected_at": "2026-10-15T00:57:38+09:00",
+    "collected_at": "2026-10-15T08:57:05+09:00",
+    "is_sample": false
+  },
+  {
+    "id": "nttat-20261014-relai-counter-assistant",
+    "title": "NTT-AT、自治体窓口を支援する生成AIを10月15日から提供へ",
+    "summary": "NTTアドバンステクノロジは10月14日、葛飾区での実証をもとに商品化した「RelAi 窓口アシスタント」を15日から提供すると発表しました。会話の文字起こし・要約と庁内文書に基づく回答生成を組み合わせ、職員の窓口対応を支援します。",
+    "category": "dx",
+    "source": "NTTアドバンステクノロジ",
+    "source_url": "https://www.ntt-at.co.jp/news/2026/detail/release261014.html",
+    "published_at": "2026-10-14T00:00:00+09:00",
+    "published_time_known": false,
+    "image_url": null,
+    "why_it_matters": "自治体のAI活用が実証から窓口業務の支援サービスへ進む動きです。条例やマニュアルを使う案内では、文書の更新と職員による根拠確認が、住民サービスの品質を保つ鍵になります。",
+    "core_facts": [
+      "発表日は10月14日、案内された提供開始日は10月15日です。",
+      "マニュアル・FAQ・条例などから回答を生成し、根拠文書も提示する職員向けサービスです。",
+      "顧客別の専用環境を構築し、入力データをAIの学習に使わない環境で提供すると説明しています。",
+      "LGWANなどの閉域網への接続に対応し、文字起こし時の個人情報マスキングや翻訳機能も備えます。"
+    ],
+    "tags": [
+      "自治体DX",
+      "生成AI",
+      "窓口業務",
+      "LGWAN"
+    ],
+    "featured": true,
+    "priority": 2,
+    "region": "japan",
+    "edition_date": "2026-10-15",
+    "collected_at": "2026-10-15T08:57:05+09:00",
     "is_sample": false
   },
   {
