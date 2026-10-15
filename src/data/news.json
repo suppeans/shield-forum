@@ -1,5 +1,35 @@
 [
   {
+    "id": "ctc-20261015-ibm-a-native",
+    "title": "CTCと日本IBM、AI駆動開発「A-Native」で協業　Agentは12月予定",
+    "summary": "CTCと日本IBMは10月15日、IBM Bobを中心に新規開発と既存システム刷新を支援する「A-Native」での協業を発表しました。CTCが税抜500万円から提供し、3年間で50社への導入を目指します。サービス群のうちA-Native Agentは12月にリリース予定です。",
+    "category": "development",
+    "source": "伊藤忠テクノソリューションズ・日本IBM",
+    "source_url": "https://www.ctc-g.co.jp/news/release/20261015-02157.html",
+    "published_at": "2026-10-15T00:00:00+09:00",
+    "published_time_known": false,
+    "image_url": null,
+    "why_it_matters": "日本の大規模業務システム向けに、AIコーディング支援と既存資産の分析を組み合わせる動きです。開発速度だけでなく、作業承認や監査ログなどの統制を保った導入が企業の選定ポイントになります。",
+    "core_facts": [
+      "A-NativeはDevelop、Modernize、Agentの3サービスで構成すると説明しています。",
+      "DevelopにIBM Bobを採用し、要件整理から設計・実装・テストまでを支援します。",
+      "既存コードの構造や改修範囲の分析を通じ、段階的なクラウド移行や刷新も支援します。",
+      "Agentは2026年12月リリース予定で、全サービスが同時に提供済みという発表ではありません。"
+    ],
+    "tags": [
+      "AI駆動開発",
+      "IBM Bob",
+      "モダナイゼーション",
+      "システム開発"
+    ],
+    "featured": false,
+    "priority": 2,
+    "region": "japan",
+    "edition_date": "2026-10-16",
+    "collected_at": "2026-10-16T08:57:52+09:00",
+    "is_sample": false
+  },
+  {
     "id": "iret-20261015-aidd-mvp-startdash",
     "title": "KDDIアイレット、AI駆動開発を1カ月のPoCで試す固定価格サービス",
     "summary": "KDDIアイレットは10月15日、「AIDD MVP StartDash」の提供開始を発表しました。事前に検証範囲を絞ったうえで、AWS上のプロトタイプを1カ月のPoCで作り、本格開発への判断材料を提示します。事前のスコープ決めには別途0.5～1カ月を見込みます。",
@@ -8,6 +38,8 @@
     "source_url": "https://cloudpack.jp/info/20261015.html",
     "published_at": "2026-10-15T00:00:00+09:00",
     "published_time_known": false,
+    "collected_at": "2026-10-16T01:05:45+09:00",
+    "edition_date": "2026-10-16",
     "image_url": null,
     "why_it_matters": "日本企業がAI駆動開発を導入する際、開発の実現性を小規模に確かめる選択肢です。試作期間だけでなく準備期間やクラウド費用、本番化に必要な追加作業も含めて投資を判断することが重要です。",
     "core_facts": [
@@ -25,8 +57,95 @@
     "featured": true,
     "priority": 2,
     "region": "japan",
+    "is_sample": false
+  },
+  {
+    "id": "jpcert-20261015-web-api-attack-investigation",
+    "title": "JPCERT/CC、連続不正アクセスの調査を公開　AI利用とAPK解析の痕跡",
+    "summary": "JPCERT/CCは10月15日、相次ぐ不正アクセスに関連する攻撃元サーバーの調査結果を公開しました。既知の脆弱性のスキャンやAPI経由の攻撃でAIが使われていたことを確認し、Androidアプリの配布ファイル解析やSSRF調査に関わる痕跡を紹介しています。",
+    "category": "security",
+    "source": "JPCERT/CC",
+    "source_url": "https://blogs.jpcert.or.jp/ja/2026/10/web_api_attacks.html",
+    "published_at": "2026-10-15T00:00:00+09:00",
+    "published_time_known": false,
+    "image_url": null,
+    "why_it_matters": "国内サービスの防御では、公開アプリから到達できるAPIやバックエンドも含めた点検が欠かせません。今回確認された攻撃の特徴を、国内の全事案が同一原因・同一攻撃者であるとの断定に広げず、調査と対策に生かす必要があります。",
+    "core_facts": [
+      "10月8日の注意喚起後、複数組織と連携して攻撃に利用された可能性のあるインフラを調査しています。",
+      "APKを解析して特定したAPIを悪用する特徴や、SSRFの有無を調べていた痕跡を確認したとしています。",
+      "複数の攻撃元サーバーが確認され、日本以外の地域向けWebサービスも攻撃対象でした。",
+      "JPCERT/CCは標的の可能性がある組織へ連絡しており、連絡を受けた場合の対応を求めています。"
+    ],
+    "tags": [
+      "JPCERT/CC",
+      "API",
+      "Android",
+      "AI悪用"
+    ],
+    "featured": true,
+    "priority": 1,
+    "region": "japan",
     "edition_date": "2026-10-16",
-    "collected_at": "2026-10-16T01:05:45+09:00",
+    "collected_at": "2026-10-16T08:57:52+09:00",
+    "is_sample": false
+  },
+  {
+    "id": "nssol-20261015-plex-cloud-mes",
+    "title": "NSSOL、クラウド型MES「PLEX」を販売開始　工場データと既存システムを連携",
+    "summary": "日鉄ソリューションズは10月15日、ロックウェル オートメーション ジャパンのクラウド型製造実行システム「PLEX」の販売開始を発表しました。生産・品質・在庫データの一元管理に加え、既存システムとの接続や導入後の運用定着まで支援します。",
+    "category": "dx",
+    "source": "日鉄ソリューションズ",
+    "source_url": "https://digitalpr.jp/r/145973",
+    "published_at": "2026-10-15T11:10:00+09:00",
+    "published_time_known": true,
+    "image_url": null,
+    "why_it_matters": "国内製造業のクラウド利用では、現場データを集めるだけでなく業務の標準化や基幹システム連携が重要です。複数工場へ展開する企業には、個別開発と標準機能の使い分けが導入負荷を左右します。",
+    "core_facts": [
+      "PLEXは製造実績・品質・在庫などを管理するSaaS型MESです。",
+      "NSSOLは標準機能に業務を合わせるFit to Standardの考え方で、工場ごとのプロセス標準化を支援します。",
+      "ERP、SCM、物流・品質管理・設備システムとの連携や、教育と運用定着も支援対象としています。"
+    ],
+    "tags": [
+      "製造業DX",
+      "MES",
+      "SaaS",
+      "工場データ"
+    ],
+    "featured": false,
+    "priority": 3,
+    "region": "japan",
+    "edition_date": "2026-10-16",
+    "collected_at": "2026-10-16T08:57:52+09:00",
+    "is_sample": false
+  },
+  {
+    "id": "ricoh-20261015-lmm-35b-a3b",
+    "title": "リコー、MoE型の日本語文書向けLMMを開発　11月からオンプレ製品へ搭載予定",
+    "summary": "リコーは10月15日、図表を含む日本語文書を扱う「リコーLMM_35B-A3B」を開発したと発表しました。約350億の総パラメータのうち推論時は約30億を使うMoE型で、11月から「RICOH オンプレLLMスターターキット」に順次搭載する予定です。",
+    "category": "ai",
+    "source": "リコー",
+    "source_url": "https://jp.ricoh.com/release/2026/1015_1",
+    "published_at": "2026-10-15T00:00:00+09:00",
+    "published_time_known": false,
+    "image_url": null,
+    "why_it_matters": "クラウドへの文書送信が難しい日本企業にとって、計算資源を抑えたオンプレミスAIの選択肢が広がる動きです。公表性能は同社の評価条件に基づくため、導入時は自社の帳票や図面で精度と速度を確かめる必要があります。",
+    "core_facts": [
+      "Qwen3.6-35B-A3Bをベースに、強化学習などで日本語の文書理解を高めたモデルです。",
+      "最大256Kトークンのコンテキスト、画像・動画入力、外部ツール利用に対応すると説明しています。",
+      "NVFP4量子化版も開発し、NVIDIA DGX Spark 1台での動作を確認したとしています。",
+      "発表時点は開発成果と今後の製品搭載予定の案内で、11月から順次提供する計画です。"
+    ],
+    "tags": [
+      "国産AI",
+      "マルチモーダル",
+      "MoE",
+      "オンプレミス"
+    ],
+    "featured": true,
+    "priority": 2,
+    "region": "japan",
+    "edition_date": "2026-10-16",
+    "collected_at": "2026-10-16T08:57:52+09:00",
     "is_sample": false
   },
   {
@@ -38,6 +157,8 @@
     "source_url": "https://cloud.sakura.ad.jp/news/2026/10/15/vpn-router-v3-controlpanel-creation/",
     "published_at": "2026-10-15T00:00:00+09:00",
     "published_time_known": false,
+    "collected_at": "2026-10-16T01:05:45+09:00",
+    "edition_date": "2026-10-16",
     "image_url": null,
     "why_it_matters": "国内クラウドのネットワーク運用では、新規構築と既存環境の移行を分けて計画する必要があります。管理画面の対応で導入しやすくなる一方、利用中の構成が自動的に切り替わるわけではない点に注意が必要です。",
     "core_facts": [
@@ -54,8 +175,6 @@
     "featured": true,
     "priority": 2,
     "region": "japan",
-    "edition_date": "2026-10-16",
-    "collected_at": "2026-10-16T01:05:45+09:00",
     "is_sample": false
   },
   {
@@ -67,6 +186,8 @@
     "source_url": "https://snyk.io/jp/news/snyk-launches-evo-agentic-appsec/",
     "published_at": "2026-10-15T00:00:00+09:00",
     "published_time_known": false,
+    "collected_at": "2026-10-16T01:05:45+09:00",
+    "edition_date": "2026-10-16",
     "image_url": null,
     "why_it_matters": "AI生成コードを使う日本の開発現場でも、修正案の生成と安全性の確認を別々に扱うことが重要です。プレビュー機能を本番の品質保証と同等に扱わず、承認・検証の手順を組み合わせる必要があります。",
     "core_facts": [
@@ -84,8 +205,36 @@
     "featured": true,
     "priority": 2,
     "region": "global",
+    "is_sample": false
+  },
+  {
+    "id": "sourcenext-20261015-member-data-breach",
+    "title": "ソースネクスト、会員情報の流出を公表　対象となる可能性は約2,252万件",
+    "summary": "ソースネクストは10月15日、会員情報を管理するシステムへの不正アクセスで個人情報が外部に流出したと公表しました。流出した可能性のある情報は22,519,960件で、メールアドレスやパスワードなどが対象項目に含まれます。利用者にはパスワードの再設定を求めています。",
+    "category": "security",
+    "source": "ソースネクスト",
+    "source_url": "https://www.sourcenext.com/support/i/2026/1015_info/",
+    "published_at": "2026-10-15T00:00:00+09:00",
+    "published_time_known": false,
+    "image_url": null,
+    "why_it_matters": "国内ソフトウェア利用者の認証情報に関わる大規模事案です。同じパスワードを他サービスでも使う利用者は、公式案内に従って使い回し先も変更し、便乗したフィッシングに注意する必要があります。",
+    "core_facts": [
+      "10月13日に不正アクセスを確認し、同日13時36分までに封じ込めを完了したと説明しています。",
+      "調査では10月9日から会員情報取得APIが不正利用され、情報を取得されたことが判明しました。",
+      "対象項目は登録状況により異なり、全対象者の全項目が流出したとの説明ではありません。クレジットカード情報は対象システムに保存していなかったとしています。",
+      "ログイン時のパスワード再設定措置を実施し、同じ組み合わせを使う他サービスのパスワード変更も呼びかけています。"
+    ],
+    "tags": [
+      "情報漏えい",
+      "APIセキュリティ",
+      "パスワード",
+      "ソースネクスト"
+    ],
+    "featured": true,
+    "priority": 1,
+    "region": "japan",
     "edition_date": "2026-10-16",
-    "collected_at": "2026-10-16T01:05:45+09:00",
+    "collected_at": "2026-10-16T08:57:52+09:00",
     "is_sample": false
   },
   {
