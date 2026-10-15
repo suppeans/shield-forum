@@ -1,5 +1,94 @@
 [
   {
+    "id": "iret-20261015-aidd-mvp-startdash",
+    "title": "KDDIアイレット、AI駆動開発を1カ月のPoCで試す固定価格サービス",
+    "summary": "KDDIアイレットは10月15日、「AIDD MVP StartDash」の提供開始を発表しました。事前に検証範囲を絞ったうえで、AWS上のプロトタイプを1カ月のPoCで作り、本格開発への判断材料を提示します。事前のスコープ決めには別途0.5～1カ月を見込みます。",
+    "category": "development",
+    "source": "KDDIアイレット",
+    "source_url": "https://cloudpack.jp/info/20261015.html",
+    "published_at": "2026-10-15T00:00:00+09:00",
+    "published_time_known": false,
+    "image_url": null,
+    "why_it_matters": "日本企業がAI駆動開発を導入する際、開発の実現性を小規模に確かめる選択肢です。試作期間だけでなく準備期間やクラウド費用、本番化に必要な追加作業も含めて投資を判断することが重要です。",
+    "core_facts": [
+      "要件定義・設計・実装・検証を1カ月のPoCで進め、検証する生成AIのユースケースを1～2本に絞ります。",
+      "価格は税抜300万～400万円の固定価格で、AWS利用料は別途です。",
+      "成果物にはプロトタイプ、GitHubリポジトリ、スコープ定義書、検証レポートを含みます。",
+      "成果物のそのままの本番稼働は想定せず、人命に関わる領域は対象外としています。"
+    ],
+    "tags": [
+      "AI駆動開発",
+      "PoC",
+      "AWS",
+      "プロトタイプ"
+    ],
+    "featured": true,
+    "priority": 2,
+    "region": "japan",
+    "edition_date": "2026-10-16",
+    "collected_at": "2026-10-16T01:05:45+09:00",
+    "is_sample": false
+  },
+  {
+    "id": "sakura-20261015-vpn-router-v3-panel",
+    "title": "さくらのクラウド、VPNルータv3を管理画面から作成可能に　既存機は自動更新なし",
+    "summary": "さくらインターネットは10月15日、コントロールパネルからVPNルータのバージョン3を新規作成できるようにしました。既存のルータは自動更新されず、バージョン2から3への移行機能は11月16日の提供開始を予定しています。",
+    "category": "cloud",
+    "source": "さくらインターネット",
+    "source_url": "https://cloud.sakura.ad.jp/news/2026/10/15/vpn-router-v3-controlpanel-creation/",
+    "published_at": "2026-10-15T00:00:00+09:00",
+    "published_time_known": false,
+    "image_url": null,
+    "why_it_matters": "国内クラウドのネットワーク運用では、新規構築と既存環境の移行を分けて計画する必要があります。管理画面の対応で導入しやすくなる一方、利用中の構成が自動的に切り替わるわけではない点に注意が必要です。",
+    "core_facts": [
+      "10月15日から管理画面でVPNルータv3を選択して新規作成できます。",
+      "v3はv2と同等の機能を提供し、10月8日からのAPI経由の新規作成も継続利用できます。",
+      "v2からv3への移行機能は11月16日開始予定で、提供時に別途案内するとしています。"
+    ],
+    "tags": [
+      "さくらのクラウド",
+      "VPN",
+      "ネットワーク運用",
+      "バージョン移行"
+    ],
+    "featured": true,
+    "priority": 2,
+    "region": "japan",
+    "edition_date": "2026-10-16",
+    "collected_at": "2026-10-16T01:05:45+09:00",
+    "is_sample": false
+  },
+  {
+    "id": "snyk-20261015-evo-agentic-appsec",
+    "title": "Snyk、AIエージェントで検出から修正を支援するAppSec群　機能ごとに提供段階が異なる",
+    "summary": "Snykは10月15日、コード検査、依存関係の防御、修正などを担う「Evo Agentic AppSec」を発表しました。Code Scanningなどは一部顧客への実験的プレビュー、Remediation Agentはオープンプレビューです。人の監督と、生成側とは独立した検証を組み合わせる設計を説明しています。",
+    "category": "security",
+    "source": "Snyk",
+    "source_url": "https://snyk.io/jp/news/snyk-launches-evo-agentic-appsec/",
+    "published_at": "2026-10-15T00:00:00+09:00",
+    "published_time_known": false,
+    "image_url": null,
+    "why_it_matters": "AI生成コードを使う日本の開発現場でも、修正案の生成と安全性の確認を別々に扱うことが重要です。プレビュー機能を本番の品質保証と同等に扱わず、承認・検証の手順を組み合わせる必要があります。",
+    "core_facts": [
+      "Evo Code Scanning Agent、Dependency Firewall、Agentic Security Reviewは、一部顧客向けの実験的プレビューです。",
+      "Evo Remediation Agentはオープンプレビューで、提供開始時はSnyk Open Sourceの問題に対応すると説明しています。",
+      "Secrets Detection、Evo ADS、Evo Continuous Offensive Securityは一般提供済みです。",
+      "修正エージェントはビルドを壊す可能性がある変更を自動マージせず、承認待ちにする設計としています。"
+    ],
+    "tags": [
+      "AppSec",
+      "DevSecOps",
+      "AIエージェント",
+      "ソフトウェアサプライチェーン"
+    ],
+    "featured": true,
+    "priority": 2,
+    "region": "global",
+    "edition_date": "2026-10-16",
+    "collected_at": "2026-10-16T01:05:45+09:00",
+    "is_sample": false
+  },
+  {
     "id": "dentsu-20261014-fde-fdm-skills",
     "title": "国内電通グループ、3,000人規模のAI実装人材育成を開始へ",
     "summary": "電通総研は10月14日、電通・電通デジタル・イグニション・ポイントと共同で、Gemini Enterpriseを使うFDE・FDMスキル開発プログラムを開始すると発表しました。グループ内の約3,000人を対象に、顧客の現場でAI活用と業務変革を進める人材を育成します。",
@@ -127,6 +216,8 @@
     "source_url": "https://www.itochu.co.jp/ja/news/press/2026/261015.html",
     "published_at": "2026-10-15T00:00:00+09:00",
     "published_time_known": false,
+    "collected_at": "2026-10-15T17:05:22+09:00",
+    "edition_date": "2026-10-15",
     "image_url": null,
     "why_it_matters": "日本企業のDX需要が、システム構築から営業活動や顧客接点の改善へ広がる動きです。事業部門とIT部門をつなぎ、構想を運用まで落とし込む支援体制の競争が強まる可能性があります。",
     "core_facts": [
@@ -143,8 +234,6 @@
     "featured": false,
     "priority": 3,
     "region": "japan",
-    "edition_date": "2026-10-15",
-    "collected_at": "2026-10-15T17:05:22+09:00",
     "is_sample": false
   },
   {
@@ -185,6 +274,8 @@
     "source_url": "https://prtimes.jp/main/html/rd/p/000000024.000177612.html",
     "published_at": "2026-10-15T10:00:00+09:00",
     "published_time_known": true,
+    "collected_at": "2026-10-15T17:05:22+09:00",
+    "edition_date": "2026-10-15",
     "image_url": null,
     "why_it_matters": "国内金融機関で、業務知識を持つ社員がAIを使い開発を担う動きです。コード生成だけでなく要件理解や品質・安全性の検証まで学ぶ設計は、IT人材育成の参考になります。ただし公表された初回成果は5人の試行で、幅広い社員への再現性は今後の検証が必要です。",
     "core_facts": [
@@ -201,8 +292,6 @@
     "featured": true,
     "priority": 2,
     "region": "japan",
-    "edition_date": "2026-10-15",
-    "collected_at": "2026-10-15T17:05:22+09:00",
     "is_sample": false
   },
   {
@@ -303,6 +392,8 @@
     "source_url": "https://prtimes.jp/main/html/rd/p/000000659.000012662.html",
     "published_at": "2026-10-15T11:31:00+09:00",
     "published_time_known": true,
+    "collected_at": "2026-10-15T17:05:22+09:00",
+    "edition_date": "2026-10-15",
     "image_url": null,
     "why_it_matters": "日本の半導体検査・製造装置企業にも関わる、AIによる工程分析と設計支援の動きです。既存システムとの統合が進む一方、早期評価の高速化数値を工場全体の生産性向上と同一視せず、条件ごとに確認する必要があります。",
     "core_facts": [
@@ -320,8 +411,6 @@
     "featured": true,
     "priority": 2,
     "region": "global",
-    "edition_date": "2026-10-15",
-    "collected_at": "2026-10-15T17:05:22+09:00",
     "is_sample": false
   },
   {
@@ -333,6 +422,8 @@
     "source_url": "https://www.shiftinc.jp/news/20261015_threat_aq/",
     "published_at": "2026-10-15T00:00:00+09:00",
     "published_time_known": false,
+    "collected_at": "2026-10-15T17:05:22+09:00",
+    "edition_date": "2026-10-15",
     "image_url": null,
     "why_it_matters": "国内企業が外部公開資産を把握し続けるための運用支援が広がっています。導入を検討する企業は検知件数だけでなく、自社の修正担当への引き継ぎや対応範囲まで確認することが重要です。",
     "core_facts": [
@@ -349,8 +440,6 @@
     "featured": true,
     "priority": 2,
     "region": "japan",
-    "edition_date": "2026-10-15",
-    "collected_at": "2026-10-15T17:05:22+09:00",
     "is_sample": false
   },
   {
