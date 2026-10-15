@@ -67,6 +67,8 @@
     "source_url": "https://gf.com/news-and-events/news/globalfoundries-selected-to-operate-two-new-semiconductor-fabs-in-new-york-under-landmark-us-japan-initiative/",
     "published_at": "2026-10-14T00:00:00+09:00",
     "published_time_known": false,
+    "collected_at": "2026-10-15T08:57:05+09:00",
+    "edition_date": "2026-10-15",
     "image_url": null,
     "why_it_matters": "日本の資金と米国の製造能力を結び付ける大規模計画で、日本の車載・産業向け半導体供給や装置企業にも関わります。投資枠、建設計画、稼働済みの能力を区別して進捗を見る必要があります。",
     "core_facts": [
@@ -84,8 +86,6 @@
     "featured": true,
     "priority": 1,
     "region": "global",
-    "edition_date": "2026-10-15",
-    "collected_at": "2026-10-15T08:57:05+09:00",
     "is_sample": false
   },
   {
@@ -97,6 +97,8 @@
     "source_url": "https://www.idcf.jp/news/topics/20261014001/",
     "published_at": "2026-10-14T00:00:00+09:00",
     "published_time_known": false,
+    "collected_at": "2026-10-15T08:57:05+09:00",
+    "edition_date": "2026-10-15",
     "image_url": null,
     "why_it_matters": "国内クラウド障害は、情報流出の有無とデータ復旧の可否を分けて評価する必要があります。利用企業は個別の調査・復元案内を確認し、委託先も含めた業務継続とバックアップの実効性を点検することが重要です。",
     "core_facts": [
@@ -114,8 +116,35 @@
     "featured": true,
     "priority": 1,
     "region": "japan",
+    "is_sample": false
+  },
+  {
+    "id": "itochu-20261015-soramichi-dx-alliance",
+    "title": "伊藤忠、SORAMICHIとの資本業務提携に合意　営業・マーケティングDXを強化",
+    "summary": "伊藤忠商事は10月15日、SORAMICHIと資本業務提携契約を締結することで合意したと発表しました。営業・マーケティングの構想や施策からデータ・AI基盤、システム実装までをつなぐコンサルティング機能を強化し、グループ各社との連携を進めます。",
+    "category": "business",
+    "source": "伊藤忠商事",
+    "source_url": "https://www.itochu.co.jp/ja/news/press/2026/261015.html",
+    "published_at": "2026-10-15T00:00:00+09:00",
+    "published_time_known": false,
+    "image_url": null,
+    "why_it_matters": "日本企業のDX需要が、システム構築から営業活動や顧客接点の改善へ広がる動きです。事業部門とIT部門をつなぎ、構想を運用まで落とし込む支援体制の競争が強まる可能性があります。",
+    "core_facts": [
+      "発表は資本業務提携契約の締結に向けた合意で、投資額や出資比率は本文で示していません。",
+      "SORAMICHIは事業構想・データ分析・AI基盤・CRM導入・システム開発などを支援しています。",
+      "伊藤忠はCTC、ベルシステム24、AKQA UKAなどとの連携を通じて、企画から実装・運用までの体制を拡充する方針です。"
+    ],
+    "tags": [
+      "DX",
+      "資本業務提携",
+      "マーケティング",
+      "システム開発"
+    ],
+    "featured": false,
+    "priority": 3,
+    "region": "japan",
     "edition_date": "2026-10-15",
-    "collected_at": "2026-10-15T08:57:05+09:00",
+    "collected_at": "2026-10-15T17:05:22+09:00",
     "is_sample": false
   },
   {
@@ -145,6 +174,35 @@
     "featured": true,
     "priority": 1,
     "region": "japan",
+    "is_sample": false
+  },
+  {
+    "id": "mizuho-20261015-ai-bootcamp",
+    "title": "みずほ、非エンジニア向けAI開発研修を本格運用　試行5人が職種転換",
+    "summary": "みずほフィナンシャルグループは10月15日、金融業務を知る非エンジニア社員を育てる「みずほAI Bootcamp」の本格運用を発表しました。1カ月の集中学習と2カ月の実案件OJTで構成。6～8月の試行に参加した5人は、9月からエンジニア職へ転換したとしています。",
+    "category": "careers",
+    "source": "みずほフィナンシャルグループ",
+    "source_url": "https://prtimes.jp/main/html/rd/p/000000024.000177612.html",
+    "published_at": "2026-10-15T10:00:00+09:00",
+    "published_time_known": true,
+    "image_url": null,
+    "why_it_matters": "国内金融機関で、業務知識を持つ社員がAIを使い開発を担う動きです。コード生成だけでなく要件理解や品質・安全性の検証まで学ぶ設計は、IT人材育成の参考になります。ただし公表された初回成果は5人の試行で、幅広い社員への再現性は今後の検証が必要です。",
+    "core_facts": [
+      "試行にはプログラミング未経験者4人を含む5人が参加し、知識テストの平均正答率は92％、全員が所定の合格ラインに達したと報告しています。",
+      "CodexやClaude Codeなどを利用し、生成コードは参加者が業務要件・品質・セキュリティを確認して使います。",
+      "11月の次回プログラムは20人程度へ拡大する予定で、まず100人規模の開発人材育成を目指します。"
+    ],
+    "tags": [
+      "リスキリング",
+      "AI駆動開発",
+      "金融IT",
+      "内製化"
+    ],
+    "featured": true,
+    "priority": 2,
+    "region": "japan",
+    "edition_date": "2026-10-15",
+    "collected_at": "2026-10-15T17:05:22+09:00",
     "is_sample": false
   },
   {
@@ -186,6 +244,8 @@
     "source_url": "https://www1.nict.go.jp/press/2026/10/14-1.html",
     "published_at": "2026-10-14T00:00:00+09:00",
     "published_time_known": false,
+    "collected_at": "2026-10-15T08:57:05+09:00",
+    "edition_date": "2026-10-15",
     "image_url": null,
     "why_it_matters": "日本の法令や文化に沿ったAI運用では、導入時の評価だけでは変化するリスクを捉えきれません。継続評価の仕組みは企業や自治体のモデル選定・改善を支える可能性がありますが、評価の妥当性も検証が必要です。",
     "core_facts": [
@@ -202,8 +262,6 @@
     "featured": true,
     "priority": 2,
     "region": "japan",
-    "edition_date": "2026-10-15",
-    "collected_at": "2026-10-15T08:57:05+09:00",
     "is_sample": false
   },
   {
@@ -215,6 +273,8 @@
     "source_url": "https://www.ntt-at.co.jp/news/2026/detail/release261014.html",
     "published_at": "2026-10-14T00:00:00+09:00",
     "published_time_known": false,
+    "collected_at": "2026-10-15T08:57:05+09:00",
+    "edition_date": "2026-10-15",
     "image_url": null,
     "why_it_matters": "自治体のAI活用が実証から窓口業務の支援サービスへ進む動きです。条例やマニュアルを使う案内では、文書の更新と職員による根拠確認が、住民サービスの品質を保つ鍵になります。",
     "core_facts": [
@@ -232,8 +292,65 @@
     "featured": true,
     "priority": 2,
     "region": "japan",
+    "is_sample": false
+  },
+  {
+    "id": "nvidia-20261015-ai-defined-fabs",
+    "title": "NVIDIA、半導体設計・製造向けAIを拡充　アドバンテストやオムロンも活用",
+    "summary": "NVIDIAは米国時間10月14日、半導体工場の設計・製造・検査でAIやGPU計算を使う取り組みを発表し、15日に日本語資料を公開しました。原子間の相互作用を計算するcuPotentialは早期アクセスで提供。アドバンテストやオムロンによる検査・分析への活用も紹介しています。",
+    "category": "semiconductors",
+    "source": "NVIDIA",
+    "source_url": "https://prtimes.jp/main/html/rd/p/000000659.000012662.html",
+    "published_at": "2026-10-15T11:31:00+09:00",
+    "published_time_known": true,
+    "image_url": null,
+    "why_it_matters": "日本の半導体検査・製造装置企業にも関わる、AIによる工程分析と設計支援の動きです。既存システムとの統合が進む一方、早期評価の高速化数値を工場全体の生産性向上と同一視せず、条件ごとに確認する必要があります。",
+    "core_facts": [
+      "cuPotentialは既存ソフトウェアに組み込むGPU向けライブラリで、発表時点の提供形態は早期アクセスです。",
+      "NVIDIAは、アドバンテストがNemotronなどをACS RTDIへ統合し、半導体生産の分析を支援すると説明しています。",
+      "オムロンはCosmosとMetropolisを用い、検査画像や装置文書などから不良原因の調査を助けるエージェントを開発しています。",
+      "米国の原発表は10月14日、日本語発表資料の配信は10月15日11時31分です。"
+    ],
+    "tags": [
+      "半導体製造",
+      "GPU",
+      "AIエージェント",
+      "アドバンテスト"
+    ],
+    "featured": true,
+    "priority": 2,
+    "region": "global",
     "edition_date": "2026-10-15",
-    "collected_at": "2026-10-15T08:57:05+09:00",
+    "collected_at": "2026-10-15T17:05:22+09:00",
+    "is_sample": false
+  },
+  {
+    "id": "shift-20261015-threat-aq",
+    "title": "SHIFT、AI分析と専門家評価を組み合わせた外部リスク監視を提供開始",
+    "summary": "SHIFTは10月15日、脅威情報とAI分析を使う運用サービス「THREAT-AQ」を提供開始しました。公開IT資産の脆弱性や設定不備を継続的に調べ、専門アナリストが評価して対応の優先順位と推奨策を報告します。認証情報やソースコードの漏えい監視などは追加メニューです。",
+    "category": "security",
+    "source": "SHIFT",
+    "source_url": "https://www.shiftinc.jp/news/20261015_threat_aq/",
+    "published_at": "2026-10-15T00:00:00+09:00",
+    "published_time_known": false,
+    "image_url": null,
+    "why_it_matters": "国内企業が外部公開資産を把握し続けるための運用支援が広がっています。導入を検討する企業は検知件数だけでなく、自社の修正担当への引き継ぎや対応範囲まで確認することが重要です。",
+    "core_facts": [
+      "顧客のドメインを起点に、外部から観測できる脆弱性や設定不備などのリスクを可視化するマネージドサービスです。",
+      "AIによる分析に加え、専門アナリストがリスクと対応優先順位を評価します。",
+      "認証情報漏えい、なりすまし、公開リポジトリへのソースコード漏えいの監視をオプションとして提供します。"
+    ],
+    "tags": [
+      "ASM",
+      "脅威インテリジェンス",
+      "セキュリティ運用",
+      "AI分析"
+    ],
+    "featured": true,
+    "priority": 2,
+    "region": "japan",
+    "edition_date": "2026-10-15",
+    "collected_at": "2026-10-15T17:05:22+09:00",
     "is_sample": false
   },
   {
