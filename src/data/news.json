@@ -1,5 +1,124 @@
 [
   {
+    "id": "colt-20261015-tohan-platinum-connect",
+    "title": "Colt、東京―大阪の第3ルートを発表　2027年春に低遅延回線を提供予定",
+    "summary": "Coltは10月15日、東京と大阪を結ぶ「東阪プラチナコネクト」を発表した。既存の海側・山側ルートに続く第3の経路として、2027年春のサービス開始を予定する。",
+    "category": "cloud",
+    "source": "Coltテクノロジーサービス",
+    "source_url": "https://www.colt.net/ja/resources/insights/colt-tohan-platinum-connect",
+    "published_at": "2026-10-15T00:00:00+09:00",
+    "published_time_known": false,
+    "image_url": null,
+    "why_it_matters": "国内のデータセンター間接続やAI基盤の構築で、遅延と経路分散を検討する際の選択肢となる。提供開始前の計画であり、採用時には実際の接続拠点や冗長構成を確認する必要がある。",
+    "core_facts": [
+      "既存の海側・山側とは別の、短距離の光ファイバールートを活用する。",
+      "Coltは既存経路に比べ約30％の遅延削減と、当初約25Tbpsの転送容量を見込む。",
+      "サービス開始は2027年春の予定で、現時点の提供開始を意味しない。"
+    ],
+    "tags": [
+      "ネットワーク",
+      "データセンター",
+      "低遅延",
+      "クラウド基盤"
+    ],
+    "featured": true,
+    "priority": 2,
+    "region": "japan",
+    "edition_date": "2026-10-17",
+    "collected_at": "2026-10-17T01:01:37+09:00",
+    "is_sample": false
+  },
+  {
+    "id": "mbsd-20261015-soc-proactive-hunt",
+    "title": "MBSD、潜在脅威の探索結果をSOC監視へ反映する新サービスを開始",
+    "summary": "三井物産セキュアディレクションは10月15日、「MBSD-SOC Proactive Hunt」の提供開始を発表した。顧客環境に応じた仮説で脅威を探索し、継続監視が有効な検出ルールをSOC運用へ組み込む。",
+    "category": "security",
+    "source": "三井物産セキュアディレクション",
+    "source_url": "https://prtimes.jp/main/html/rd/p/000000057.000003166.html",
+    "published_at": "2026-10-15T10:00:00+09:00",
+    "published_time_known": true,
+    "image_url": null,
+    "why_it_matters": "既存アラートだけでは見つけにくい侵害兆候の探索と、日常監視の改善を結び付ける国内向けサービスだ。利用企業はログ収集範囲や探索後の対処手順を確認しておく必要がある。",
+    "core_facts": [
+      "主な対象は同社のMBSD-SOCサービスを利用する企業。",
+      "アナリストが脅威動向や顧客環境を踏まえて仮説と計画を作り、検出ルールをSIEMへ展開する。",
+      "不審なログなどは追加調査し、速報通知と分析結果の報告を行う。",
+      "有効な検出ルールを継続監視へ加え、探索で得た知見をSOC運用へ還元する。"
+    ],
+    "tags": [
+      "脅威ハンティング",
+      "SOC",
+      "SIEM",
+      "サイバーセキュリティ"
+    ],
+    "featured": true,
+    "priority": 2,
+    "region": "japan",
+    "edition_date": "2026-10-17",
+    "collected_at": "2026-10-17T01:01:37+09:00",
+    "is_sample": false
+  },
+  {
+    "id": "mescius-20261014-diodocs-9-sp2",
+    "title": "メシウス、DioDocs新版を10月27日に公開予定　Excel互換性とPDF規格対応を拡充",
+    "summary": "メシウスは10月14日、ドキュメント生成・編集ライブラリ「DioDocs V9J SP2」の新機能を公表した。Excel向けの数式記号出力やピボットテーブルのグループ化、PDF向けの新規格対応などを追加し、27日にリリースする予定。",
+    "category": "development",
+    "source": "メシウス",
+    "source_url": "https://devlog.mescius.jp/diodocs-9-sp2-new-features/",
+    "published_at": "2026-10-14T00:00:00+09:00",
+    "published_time_known": false,
+    "image_url": null,
+    "why_it_matters": "国内の業務システム開発で、帳票や文書変換の実装・保守に関わる更新だ。既存のExcelファイルやPDF出力要件に対して、表示や互換性の差分を事前検証する機会になる。",
+    "core_facts": [
+      "V9J SP2のリリース予定日は2026年10月27日。",
+      "Excel向けにはフォームコントロールのグループ化や、ヒストグラム・パレート図のPDF、画像、HTML出力を追加する。",
+      "PDF向けにはPDF/A-4系、PDF/UA-2、3D注釈をサポートする。",
+      "Imaging向けにはテキスト描画の改行・レイアウト制御を強化する。"
+    ],
+    "tags": [
+      "開発ツール",
+      ".NET",
+      "Excel",
+      "PDF"
+    ],
+    "featured": false,
+    "priority": 3,
+    "region": "japan",
+    "edition_date": "2026-10-17",
+    "collected_at": "2026-10-17T01:01:37+09:00",
+    "is_sample": false
+  },
+  {
+    "id": "nedo-20261016-quantum-challenge-awards",
+    "title": "NEDO、量子計算の社会課題解決コンテストで9件を選出　創薬などを支援",
+    "summary": "NEDOは10月16日、量子コンピュータを用いる社会課題解決プログラムの受賞結果を公表した。87件の応募から9件を選び、今後は共同研究や実証、事業化につなげる支援を続ける。表彰式は15日に開催された。",
+    "category": "policy",
+    "source": "NEDO",
+    "source_url": "https://www.nedo.go.jp/news/press/AA5_101974.html",
+    "published_at": "2026-10-16T00:00:00+09:00",
+    "published_time_known": false,
+    "image_url": null,
+    "why_it_matters": "日本の量子技術開発で、ハードウェアに加えて具体的な利用分野を育てる取り組みとなる。受賞は商用化や計算優位性の確立を示すものではなく、今後の実証成果を見極めたい。",
+    "core_facts": [
+      "Society 5.0、QoL、Cool Japanの3領域で計9件を選出した。",
+      "QoL領域の1位は、候補化合物の構造生成と相互作用エネルギー評価に取り組む塩野義製薬で、懸賞金は4,000万円。",
+      "Society 5.0とCool Japanでは、基準により1位の該当者はなかった。",
+      "受賞成果などをまとめた事例集は2026年12月頃の公開を予定する。"
+    ],
+    "tags": [
+      "量子コンピュータ",
+      "研究開発",
+      "創薬",
+      "社会実装"
+    ],
+    "featured": true,
+    "priority": 2,
+    "region": "japan",
+    "edition_date": "2026-10-17",
+    "collected_at": "2026-10-17T01:01:37+09:00",
+    "is_sample": false
+  },
+  {
     "id": "atena-20261016-bedrock-ai-environment",
     "title": "アテナ、国内処理に限定したClaude利用環境を全社展開　外販は11月予定",
     "summary": "BPO事業のアテナは、Microsoft Entra IDとAmazon Bedrockを組み合わせた社内AI環境を構築し、全社展開を始めたと発表した。構築支援サービスの外部提供は2026年11月を予定している。",
@@ -8,6 +127,8 @@
     "source_url": "https://prtimes.jp/main/html/rd/p/000000021.000121737.html",
     "published_at": "2026-10-16T10:00:00+09:00",
     "published_time_known": true,
+    "collected_at": "2026-10-16T17:02:15+09:00",
+    "edition_date": "2026-10-16",
     "image_url": null,
     "why_it_matters": "個人情報を扱う国内企業にとって、モデル選定に加えて認証、処理地域、端末設定をまとめて管理する導入例となる。実際の採用では自社契約や情報管理基準に合うかの検証が必要だ。",
     "core_facts": [
@@ -25,8 +146,6 @@
     "featured": true,
     "priority": 2,
     "region": "japan",
-    "edition_date": "2026-10-16",
-    "collected_at": "2026-10-16T17:02:15+09:00",
     "is_sample": false
   },
   {
@@ -68,6 +187,8 @@
     "source_url": "https://www.ey.com/ja_jp/newsroom/2026/10/ey-japan-news-release-2026-10-16",
     "published_at": "2026-10-16T00:00:00+09:00",
     "published_time_known": false,
+    "collected_at": "2026-10-16T17:02:15+09:00",
+    "edition_date": "2026-10-16",
     "image_url": null,
     "why_it_matters": "国内企業がAI投資を広げるなか、導入件数に加えて事業効果や運用定着を点検する材料となる。外部評価を利用する場合も、評価基準と投資判断の責任を社内で明確にすることが重要だ。",
     "core_facts": [
@@ -84,8 +205,6 @@
     "featured": false,
     "priority": 3,
     "region": "japan",
-    "edition_date": "2026-10-16",
-    "collected_at": "2026-10-16T17:02:15+09:00",
     "is_sample": false
   },
   {
@@ -97,6 +216,8 @@
     "source_url": "https://www.ipa.go.jp/pressrelease/2026/press20261016.html",
     "published_at": "2026-10-16T00:00:00+09:00",
     "published_time_known": false,
+    "collected_at": "2026-10-16T17:02:15+09:00",
+    "edition_date": "2026-10-16",
     "image_url": null,
     "why_it_matters": "被害の有無を判断しにくい段階でも相談先を確保できる点が、中小企業を含む国内事業者の初動対応に役立つ。社内の連絡手順や専門業者への引き継ぎと併せて確認しておきたい。",
     "core_facts": [
@@ -113,8 +234,6 @@
     "featured": true,
     "priority": 1,
     "region": "japan",
-    "edition_date": "2026-10-16",
-    "collected_at": "2026-10-16T17:02:15+09:00",
     "is_sample": false
   },
   {
@@ -334,6 +453,8 @@
     "source_url": "https://prtimes.jp/main/html/rd/p/000000047.000114743.html",
     "published_at": "2026-10-16T09:03:00+09:00",
     "published_time_known": true,
+    "collected_at": "2026-10-16T17:02:15+09:00",
+    "edition_date": "2026-10-16",
     "image_url": null,
     "why_it_matters": "現場の業務知識を持つ社員が改善の実装にも関わる育成策として注目される。日本企業の内製化では、作成した仕組みの保守担当や承認手順まで用意できるかが継続利用の鍵になる。",
     "core_facts": [
@@ -350,8 +471,6 @@
     "featured": false,
     "priority": 3,
     "region": "japan",
-    "edition_date": "2026-10-16",
-    "collected_at": "2026-10-16T17:02:15+09:00",
     "is_sample": false
   },
   {
