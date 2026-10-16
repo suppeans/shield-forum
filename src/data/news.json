@@ -1,5 +1,35 @@
 [
   {
+    "id": "atena-20261016-bedrock-ai-environment",
+    "title": "アテナ、国内処理に限定したClaude利用環境を全社展開　外販は11月予定",
+    "summary": "BPO事業のアテナは、Microsoft Entra IDとAmazon Bedrockを組み合わせた社内AI環境を構築し、全社展開を始めたと発表した。構築支援サービスの外部提供は2026年11月を予定している。",
+    "category": "ai",
+    "source": "株式会社アテナ",
+    "source_url": "https://prtimes.jp/main/html/rd/p/000000021.000121737.html",
+    "published_at": "2026-10-16T10:00:00+09:00",
+    "published_time_known": true,
+    "image_url": null,
+    "why_it_matters": "個人情報を扱う国内企業にとって、モデル選定に加えて認証、処理地域、端末設定をまとめて管理する導入例となる。実際の採用では自社契約や情報管理基準に合うかの検証が必要だ。",
+    "core_facts": [
+      "既存のEntra IDで認証し、Amazon Bedrock経由でClaudeを利用する構成を採用した。",
+      "同社によると推論先を東京・大阪に限定し、Web検索とWebページ取得を禁止している。",
+      "AWS、AIアプリ、PCの設定を統制し、端末に静的APIキーを置かない構成とした。",
+      "社内展開は開始済みで、他社向け環境構築サービスは11月に提供開始予定。"
+    ],
+    "tags": [
+      "生成AI",
+      "Amazon Bedrock",
+      "認証管理",
+      "BPO"
+    ],
+    "featured": true,
+    "priority": 2,
+    "region": "japan",
+    "edition_date": "2026-10-16",
+    "collected_at": "2026-10-16T17:02:15+09:00",
+    "is_sample": false
+  },
+  {
     "id": "ctc-20261015-ibm-a-native",
     "title": "CTCと日本IBM、AI駆動開発「A-Native」で協業　Agentは12月予定",
     "summary": "CTCと日本IBMは10月15日、IBM Bobを中心に新規開発と既存システム刷新を支援する「A-Native」での協業を発表しました。CTCが税抜500万円から提供し、3年間で50社への導入を目指します。サービス群のうちA-Native Agentは12月にリリース予定です。",
@@ -8,6 +38,8 @@
     "source_url": "https://www.ctc-g.co.jp/news/release/20261015-02157.html",
     "published_at": "2026-10-15T00:00:00+09:00",
     "published_time_known": false,
+    "collected_at": "2026-10-16T08:57:52+09:00",
+    "edition_date": "2026-10-16",
     "image_url": null,
     "why_it_matters": "日本の大規模業務システム向けに、AIコーディング支援と既存資産の分析を組み合わせる動きです。開発速度だけでなく、作業承認や監査ログなどの統制を保った導入が企業の選定ポイントになります。",
     "core_facts": [
@@ -25,8 +57,64 @@
     "featured": false,
     "priority": 2,
     "region": "japan",
+    "is_sample": false
+  },
+  {
+    "id": "ey-20261016-ai-project-evaluation",
+    "title": "EY、AIプロジェクトの投資判断と改善を支援する評価サービスを開始",
+    "summary": "EYストラテジー・アンド・コンサルティングは10月16日、AI活用プロジェクトを第三者の視点で評価するサービスの提供開始を発表した。企画からPoC、開発・導入、運用までを対象に、事業価値や実現可能性、推進体制を確認する。",
+    "category": "business",
+    "source": "EYストラテジー・アンド・コンサルティング",
+    "source_url": "https://www.ey.com/ja_jp/newsroom/2026/10/ey-japan-news-release-2026-10-16",
+    "published_at": "2026-10-16T00:00:00+09:00",
+    "published_time_known": false,
+    "image_url": null,
+    "why_it_matters": "国内企業がAI投資を広げるなか、導入件数に加えて事業効果や運用定着を点検する材料となる。外部評価を利用する場合も、評価基準と投資判断の責任を社内で明確にすることが重要だ。",
+    "core_facts": [
+      "ビジネス、テクノロジー、プロセスの観点からAI活用プロジェクトを評価する。",
+      "戦略との整合性、技術的な実現可能性、計画やガバナンス・リスク対応の妥当性を確認する。",
+      "AIモデルとデータ品質の評価や、改善策・軌道修正の提言を支援内容に含める。"
+    ],
+    "tags": [
+      "AI投資",
+      "プロジェクト評価",
+      "ガバナンス",
+      "投資対効果"
+    ],
+    "featured": false,
+    "priority": 3,
+    "region": "japan",
     "edition_date": "2026-10-16",
-    "collected_at": "2026-10-16T08:57:52+09:00",
+    "collected_at": "2026-10-16T17:02:15+09:00",
+    "is_sample": false
+  },
+  {
+    "id": "ipa-20261016-incident-consultation",
+    "title": "IPA、不正アクセス被害の初動を支援する特別相談窓口を開設",
+    "summary": "IPAは10月16日、不正アクセスや情報漏えいの被害が発生した、または疑われる企業・組織向けの特別相談窓口を開設した。電話とメールで相談を受け、状況の確認や応急処置に関する助言を行う。",
+    "category": "security",
+    "source": "IPA",
+    "source_url": "https://www.ipa.go.jp/pressrelease/2026/press20261016.html",
+    "published_at": "2026-10-16T00:00:00+09:00",
+    "published_time_known": false,
+    "image_url": null,
+    "why_it_matters": "被害の有無を判断しにくい段階でも相談先を確保できる点が、中小企業を含む国内事業者の初動対応に役立つ。社内の連絡手順や専門業者への引き継ぎと併せて確認しておきたい。",
+    "core_facts": [
+      "全国の企業・組織を対象に、10月16日13時から窓口を開設した。",
+      "被害の可能性や応急処置について助言し、専門業者や必要な相談・報告先を紹介する。",
+      "電話の受付は平日9時30分〜17時30分で、12時〜13時を除く。"
+    ],
+    "tags": [
+      "不正アクセス",
+      "情報漏えい",
+      "初動対応",
+      "IPA"
+    ],
+    "featured": true,
+    "priority": 1,
+    "region": "japan",
+    "edition_date": "2026-10-16",
+    "collected_at": "2026-10-16T17:02:15+09:00",
     "is_sample": false
   },
   {
@@ -68,6 +156,8 @@
     "source_url": "https://blogs.jpcert.or.jp/ja/2026/10/web_api_attacks.html",
     "published_at": "2026-10-15T00:00:00+09:00",
     "published_time_known": false,
+    "collected_at": "2026-10-16T08:57:52+09:00",
+    "edition_date": "2026-10-16",
     "image_url": null,
     "why_it_matters": "国内サービスの防御では、公開アプリから到達できるAPIやバックエンドも含めた点検が欠かせません。今回確認された攻撃の特徴を、国内の全事案が同一原因・同一攻撃者であるとの断定に広げず、調査と対策に生かす必要があります。",
     "core_facts": [
@@ -85,8 +175,6 @@
     "featured": true,
     "priority": 1,
     "region": "japan",
-    "edition_date": "2026-10-16",
-    "collected_at": "2026-10-16T08:57:52+09:00",
     "is_sample": false
   },
   {
@@ -98,6 +186,8 @@
     "source_url": "https://digitalpr.jp/r/145973",
     "published_at": "2026-10-15T11:10:00+09:00",
     "published_time_known": true,
+    "collected_at": "2026-10-16T08:57:52+09:00",
+    "edition_date": "2026-10-16",
     "image_url": null,
     "why_it_matters": "国内製造業のクラウド利用では、現場データを集めるだけでなく業務の標準化や基幹システム連携が重要です。複数工場へ展開する企業には、個別開発と標準機能の使い分けが導入負荷を左右します。",
     "core_facts": [
@@ -114,8 +204,6 @@
     "featured": false,
     "priority": 3,
     "region": "japan",
-    "edition_date": "2026-10-16",
-    "collected_at": "2026-10-16T08:57:52+09:00",
     "is_sample": false
   },
   {
@@ -127,6 +215,8 @@
     "source_url": "https://jp.ricoh.com/release/2026/1015_1",
     "published_at": "2026-10-15T00:00:00+09:00",
     "published_time_known": false,
+    "collected_at": "2026-10-16T08:57:52+09:00",
+    "edition_date": "2026-10-16",
     "image_url": null,
     "why_it_matters": "クラウドへの文書送信が難しい日本企業にとって、計算資源を抑えたオンプレミスAIの選択肢が広がる動きです。公表性能は同社の評価条件に基づくため、導入時は自社の帳票や図面で精度と速度を確かめる必要があります。",
     "core_facts": [
@@ -144,8 +234,6 @@
     "featured": true,
     "priority": 2,
     "region": "japan",
-    "edition_date": "2026-10-16",
-    "collected_at": "2026-10-16T08:57:52+09:00",
     "is_sample": false
   },
   {
@@ -216,6 +304,8 @@
     "source_url": "https://www.sourcenext.com/support/i/2026/1015_info/",
     "published_at": "2026-10-15T00:00:00+09:00",
     "published_time_known": false,
+    "collected_at": "2026-10-16T08:57:52+09:00",
+    "edition_date": "2026-10-16",
     "image_url": null,
     "why_it_matters": "国内ソフトウェア利用者の認証情報に関わる大規模事案です。同じパスワードを他サービスでも使う利用者は、公式案内に従って使い回し先も変更し、便乗したフィッシングに注意する必要があります。",
     "core_facts": [
@@ -233,8 +323,35 @@
     "featured": true,
     "priority": 1,
     "region": "japan",
+    "is_sample": false
+  },
+  {
+    "id": "x3d-20261016-internal-fde-training",
+    "title": "x3d、業務部門向け「社内FDE」育成プログラムを提供開始",
+    "summary": "x3dは10月16日、業務部門の社員が生成AIを使った業務改善の仕組みを構築・運用する人材となることを目指す研修を開始した。12週間のプログラムに、実務での継続稼働と引き継ぎを組み込む。",
+    "category": "careers",
+    "source": "x3d株式会社",
+    "source_url": "https://prtimes.jp/main/html/rd/p/000000047.000114743.html",
+    "published_at": "2026-10-16T09:03:00+09:00",
+    "published_time_known": true,
+    "image_url": null,
+    "why_it_matters": "現場の業務知識を持つ社員が改善の実装にも関わる育成策として注目される。日本企業の内製化では、作成した仕組みの保守担当や承認手順まで用意できるかが継続利用の鍵になる。",
+    "core_facts": [
+      "企業の業務部門の社員を対象とし、1社1〜3人の参加を想定する。",
+      "12週間の実務型プログラムに加え、修了後90日の支援を設ける。",
+      "仕組みが実務で8週間以上稼働し、副担当が資料を使って停止・修正できることを修了条件としている。"
+    ],
+    "tags": [
+      "人材育成",
+      "リスキリング",
+      "生成AI",
+      "業務改善"
+    ],
+    "featured": false,
+    "priority": 3,
+    "region": "japan",
     "edition_date": "2026-10-16",
-    "collected_at": "2026-10-16T08:57:52+09:00",
+    "collected_at": "2026-10-16T17:02:15+09:00",
     "is_sample": false
   },
   {
