@@ -1,5 +1,95 @@
 [
   {
+    "id": "estore-20261016-shopserve-final-report",
+    "title": "Eストアー、ショップサーブの漏えい対象は約2,336万人と最終報告",
+    "summary": "Eストアーは10月16日、8月に公表したショップサーブへの不正アクセスについて最終調査結果を発表した。漏えい対象者は概数で約2,335万6,000人、対象店舗は7,858店。攻撃期間や情報の範囲、実施済みの対策を明らかにした。",
+    "category": "security",
+    "source": "Eストアー",
+    "source_url": "https://estore.jp/press/20261016/",
+    "published_at": "2026-10-16T00:00:00+09:00",
+    "published_time_known": false,
+    "image_url": null,
+    "why_it_matters": "EC基盤への侵害が多数の店舗と購入者に波及した事例で、委託サービスの認証情報や保管データを点検する重要性を示す。利用者は正規の窓口で確認し、同社を装う再決済要求などに注意したい。",
+    "core_facts": [
+      "同社は5月21日〜8月1日、アプリケーションの脆弱性を悪用した外部へのデータ送信を確認した。",
+      "漏えい対象者は約2,335万6,000人で、可能な範囲で重複を除いた概数としている。",
+      "約209万6,900人分はカード名義・番号の一部・有効期限を含むが、完全なカード番号とセキュリティコードは対象外。",
+      "同社は脆弱性修正や認証情報のリセットを実施し、8月1日の通信遮断以降、攻撃が成立していないと説明した。"
+    ],
+    "tags": [
+      "情報漏えい",
+      "EC",
+      "脆弱性管理",
+      "調査結果"
+    ],
+    "featured": true,
+    "priority": 1,
+    "region": "japan",
+    "edition_date": "2026-10-18",
+    "collected_at": "2026-10-18T00:58:29+09:00",
+    "is_sample": false
+  },
+  {
+    "id": "nttsolmare-20261016-cmoa-data-breach",
+    "title": "コミックシーモア、会員情報の流出を確認　対象件数は精査中",
+    "summary": "NTTソルマーレは10月16日、コミックシーモアの会員管理システムが不正アクセスを受け、一部会員の情報が流出したと公表した。対象件数は精査中で、外部専門機関と原因や影響範囲を調査している。",
+    "category": "security",
+    "source": "NTTソルマーレ",
+    "source_url": "https://www.nttsolmare.com/press/2026/1016.html",
+    "published_at": "2026-10-16T00:00:00+09:00",
+    "published_time_known": false,
+    "image_url": null,
+    "why_it_matters": "国内の大規模サービスで、会員データの侵害が他サービスへの不正ログインにもつながり得る。対象者は公式案内を確認し、同じ認証情報を使い回している場合は他サービス側も見直したい。",
+    "core_facts": [
+      "10月15日11時35分にサービスを停止し、16日の調査で会員情報の流出を確認した。",
+      "対象情報はメールアドレス、ハッシュ化パスワード、生年月日、性別、ニックネーム。",
+      "カード情報は対象システムで保有しておらず、購入履歴やMY本棚の流出・消失・欠損も公表時点で確認されていない。",
+      "同社は他サービスで同じ認証情報を使う場合のパスワード変更を求め、再開時には全会員に再設定を依頼する予定とした。"
+    ],
+    "tags": [
+      "情報漏えい",
+      "会員認証",
+      "パスワード",
+      "電子書籍"
+    ],
+    "featured": true,
+    "priority": 2,
+    "region": "japan",
+    "edition_date": "2026-10-18",
+    "collected_at": "2026-10-18T00:58:29+09:00",
+    "is_sample": false
+  },
+  {
+    "id": "opensusi-20261016-first-mpw-manufacturing",
+    "title": "OpenSUSI、初回MPWで49枠を集約し製造委託　チップは2027年2月頃に提供予定",
+    "summary": "OpenSUSIは10月16日、半導体製造シャトル「OpenSUSI-MPW」の第1回募集結果を公表した。企業、大学、高専、高校、個人から計49枠の申込みを受け、設計データの集約を終えて東海理化へ製造を委託した。",
+    "category": "semiconductors",
+    "source": "一般社団法人OpenSUSI",
+    "source_url": "https://prtimes.jp/main/html/rd/p/000000014.000182004.html",
+    "published_at": "2026-10-16T12:00:00+09:00",
+    "published_time_known": true,
+    "image_url": null,
+    "why_it_matters": "国内で設計環境の利用から実チップ製造までを経験できる機会として、半導体設計教育や企業内育成の裾野拡大につながる。最先端プロセスの量産計画とは区別して捉えたい。",
+    "core_facts": [
+      "サービスは6月に開始し、第1回募集は9月18日に締め切った。",
+      "NDA不要のオープンPDKとオープンソースEDA環境を活用する。",
+      "製造プロセスは東海理化の1µm CMOS・2層メタル。",
+      "製造したチップは2027年2月頃に利用者へ届ける予定。"
+    ],
+    "tags": [
+      "半導体設計",
+      "オープンソース",
+      "人材育成",
+      "MPW"
+    ],
+    "featured": true,
+    "priority": 2,
+    "region": "japan",
+    "edition_date": "2026-10-18",
+    "collected_at": "2026-10-18T00:58:29+09:00",
+    "is_sample": false
+  },
+  {
     "id": "bbtower-20261015-hokuden-ishikari-resale",
     "title": "ブロードバンドタワーとほくでん情報、石狩の再エネデータセンター再販で提携",
     "summary": "ブロードバンドタワーとほくでん情報テクノロジーは10月15日、石狩新港サイトのデータセンターサービスを再販する業務提携を開始した。ほくでん情報が販売窓口や導入支援を担い、全国の企業・団体に提供する。",
@@ -97,6 +187,8 @@
     "source_url": "https://prtimes.jp/main/html/rd/p/000001551.000017557.html",
     "published_at": "2026-10-16T14:00:00+09:00",
     "published_time_known": true,
+    "collected_at": "2026-10-17T17:04:31+09:00",
+    "edition_date": "2026-10-17",
     "image_url": null,
     "why_it_matters": "国内の公共空間で、AIによる判断支援と現場作業をつなぐ導入例となる。清掃品質と人手不足への対応を両立できるか、実証で得られる運用面の検証結果が重要だ。",
     "core_facts": [
@@ -114,8 +206,6 @@
     "featured": true,
     "priority": 2,
     "region": "japan",
-    "edition_date": "2026-10-17",
-    "collected_at": "2026-10-17T17:04:31+09:00",
     "is_sample": false
   },
   {
@@ -217,6 +307,8 @@
     "source_url": "https://prtimes.jp/main/html/rd/p/000000054.000181531.html",
     "published_at": "2026-10-16T15:00:00+09:00",
     "published_time_known": true,
+    "collected_at": "2026-10-17T17:04:31+09:00",
+    "edition_date": "2026-10-17",
     "image_url": null,
     "why_it_matters": "日本の通信・計算基盤の研究開発を国際的な相互接続の議論につなぐ動きだ。今回の合意は対話の継続に関するもので、通信規格の完成やサービス開始を示すものではない。",
     "core_facts": [
@@ -234,8 +326,6 @@
     "featured": true,
     "priority": 2,
     "region": "japan",
-    "edition_date": "2026-10-17",
-    "collected_at": "2026-10-17T17:04:31+09:00",
     "is_sample": false
   },
   {
@@ -247,6 +337,8 @@
     "source_url": "https://www.ntt-at.co.jp/news/2026/detail/release261015.html",
     "published_at": "2026-10-15T00:00:00+09:00",
     "published_time_known": false,
+    "collected_at": "2026-10-17T17:04:31+09:00",
+    "edition_date": "2026-10-17",
     "image_url": null,
     "why_it_matters": "国内企業で、専門的なシナリオ設計の負担を減らしながら現場業務を自動化する開発方針として注目される。生成された手順の確認や繰り返し実行の管理が、実運用での評価点となる。",
     "core_facts": [
@@ -264,8 +356,6 @@
     "featured": true,
     "priority": 2,
     "region": "japan",
-    "edition_date": "2026-10-17",
-    "collected_at": "2026-10-17T17:04:31+09:00",
     "is_sample": false
   },
   {
