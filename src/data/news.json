@@ -8,6 +8,8 @@
     "source_url": "https://www.bbtower.co.jp/ir/pr/2026/1015_004559/",
     "published_at": "2026-10-15T00:00:00+09:00",
     "published_time_known": false,
+    "collected_at": "2026-10-17T08:58:36+09:00",
+    "edition_date": "2026-10-17",
     "image_url": null,
     "why_it_matters": "国内のAI基盤や災害対策拠点を選ぶ企業にとって、北海道での導入・現地運用支援を含む選択肢が広がる。電力条件とともに首都圏との接続性、運用体制を確認したい。",
     "core_facts": [
@@ -25,8 +27,6 @@
     "featured": true,
     "priority": 2,
     "region": "japan",
-    "edition_date": "2026-10-17",
-    "collected_at": "2026-10-17T08:58:36+09:00",
     "is_sample": false
   },
   {
@@ -67,6 +67,8 @@
     "source_url": "https://prtimes.jp/main/html/rd/p/000000176.000124536.html",
     "published_at": "2026-10-16T18:00:00+09:00",
     "published_time_known": true,
+    "collected_at": "2026-10-17T08:58:36+09:00",
+    "edition_date": "2026-10-17",
     "image_url": null,
     "why_it_matters": "国内企業が既存の業務画面を使いながらAIを導入する選択肢となる。画面情報の扱いや操作権限に加え、人が確認する範囲を業務ごとに設計することが重要だ。",
     "core_facts": [
@@ -84,8 +86,36 @@
     "featured": true,
     "priority": 2,
     "region": "japan",
+    "is_sample": false
+  },
+  {
+    "id": "jreast-20261016-station-cleaning-dx-trial",
+    "title": "JR東日本など、赤羽駅でAI・IoT清掃実証へ　10月27日から実施予定",
+    "summary": "JR東日本、JR東日本商事、ソフトバンクは10月16日、駅の利用状況や汚れに応じた清掃を検証する計画を発表した。赤羽駅を中心にIoTセンサー、AI画像分析、清掃ロボットを組み合わせ、2026年10月27日から2027年1月中旬まで実証する予定。",
+    "category": "dx",
+    "source": "JR東日本",
+    "source_url": "https://prtimes.jp/main/html/rd/p/000001551.000017557.html",
+    "published_at": "2026-10-16T14:00:00+09:00",
+    "published_time_known": true,
+    "image_url": null,
+    "why_it_matters": "国内の公共空間で、AIによる判断支援と現場作業をつなぐ導入例となる。清掃品質と人手不足への対応を両立できるか、実証で得られる運用面の検証結果が重要だ。",
+    "core_facts": [
+      "赤羽駅に加え、王子・十条・東十条駅ではIoTセンサーによる利用状況などの把握を実施する。",
+      "赤羽駅では清掃依頼の受付や画像分析による汚物検知、トイレ清掃ロボットの試験などを行う。",
+      "清掃ロボットの試験運転は終電後に予定する。",
+      "利用者の清掃依頼やAI検知は判断の参考情報であり、清掃員の即時対応を保証するものではない。"
+    ],
+    "tags": [
+      "駅舎清掃",
+      "IoT",
+      "フィジカルAI",
+      "実証実験"
+    ],
+    "featured": true,
+    "priority": 2,
+    "region": "japan",
     "edition_date": "2026-10-17",
-    "collected_at": "2026-10-17T08:58:36+09:00",
+    "collected_at": "2026-10-17T17:04:31+09:00",
     "is_sample": false
   },
   {
@@ -179,6 +209,66 @@
     "is_sample": false
   },
   {
+    "id": "ntt-20261016-itu-quantum-network-dialogue",
+    "title": "NTT、量子・AIをつなぐネットワークの標準化議論を推進　2027年に日本で会合",
+    "summary": "NTTは10月16日、7日に開催されたITU-Tの業界幹部会合で、量子コンピュータ、AI、データセンターを結ぶ将来ネットワークについて継続的に議論する合意を得たと発表した。2027年の同会合はNTTが日本で開催する。",
+    "category": "policy",
+    "source": "NTT",
+    "source_url": "https://prtimes.jp/main/html/rd/p/000000054.000181531.html",
+    "published_at": "2026-10-16T15:00:00+09:00",
+    "published_time_known": true,
+    "image_url": null,
+    "why_it_matters": "日本の通信・計算基盤の研究開発を国際的な相互接続の議論につなぐ動きだ。今回の合意は対話の継続に関するもので、通信規格の完成やサービス開始を示すものではない。",
+    "core_facts": [
+      "対象のCxO Roundtableは10月7日にインド・ニューデリーで開催された。",
+      "NTTは将来のネットワーク構成、相互接続、同期制御、運用管理などの議論を提案した。",
+      "2027年のCxO Roundtableを日本で初めて開催し、NTTがホストを務める。",
+      "NTT R&D Forumとの連携を含む開催形態を検討している。"
+    ],
+    "tags": [
+      "量子コンピュータ",
+      "国際標準化",
+      "ITU-T",
+      "ネットワーク"
+    ],
+    "featured": true,
+    "priority": 2,
+    "region": "japan",
+    "edition_date": "2026-10-17",
+    "collected_at": "2026-10-17T17:04:31+09:00",
+    "is_sample": false
+  },
+  {
+    "id": "nttat-20261015-aiactor-development",
+    "title": "NTT-AT、対話からRPA手順を作る「AiActor」を開発　2027年春の提供目指す",
+    "summary": "NTTアドバンステクノロジは10月15日、WinActorの技術を活用する「AiActor」の製品化に着手したと発表した。AIが自然言語の依頼から自動化シナリオを作り、RPAで日常のパソコン業務を実行する構想で、提供開始は2027年春を目指す。",
+    "category": "ai",
+    "source": "NTTアドバンステクノロジ",
+    "source_url": "https://www.ntt-at.co.jp/news/2026/detail/release261015.html",
+    "published_at": "2026-10-15T00:00:00+09:00",
+    "published_time_known": false,
+    "image_url": null,
+    "why_it_matters": "国内企業で、専門的なシナリオ設計の負担を減らしながら現場業務を自動化する開発方針として注目される。生成された手順の確認や繰り返し実行の管理が、実運用での評価点となる。",
+    "core_facts": [
+      "一人ひとりの日常業務の効率化を狙う、開発中のRPA製品。",
+      "AIが生成したシナリオは画面で確認でき、一度作成した手順を繰り返し利用する構想。",
+      "10月21〜23日のJapan DX & AX Week 秋 2026に参考出展する。",
+      "参考出展の内容は正式リリース時の仕様と異なる場合がある。"
+    ],
+    "tags": [
+      "RPA",
+      "業務自動化",
+      "WinActor",
+      "開発計画"
+    ],
+    "featured": true,
+    "priority": 2,
+    "region": "japan",
+    "edition_date": "2026-10-17",
+    "collected_at": "2026-10-17T17:04:31+09:00",
+    "is_sample": false
+  },
+  {
     "id": "proofpoint-20261015-varonis-acquisition-agreement",
     "title": "Proofpoint、Varonisを約63億ドルで買収する契約　完了は2027年上半期を予定",
     "summary": "ProofpointとVaronisは米国時間10月15日、約63億ドルの全額現金による買収契約を発表し、日本法人は16日に日本語版を公表した。データ保護と人・AIエージェントのセキュリティを統合する方針だが、取引完了には株主・規制当局の承認などが必要となる。",
@@ -187,6 +277,8 @@
     "source_url": "https://prtimes.jp/main/html/rd/p/000000086.000073972.html",
     "published_at": "2026-10-16T10:25:00+09:00",
     "published_time_known": true,
+    "collected_at": "2026-10-17T08:58:36+09:00",
+    "edition_date": "2026-10-17",
     "image_url": null,
     "why_it_matters": "日本でも事業展開するセキュリティベンダーの再編で、国内企業のデータ保護やAI導入に関わる製品選定に影響し得る。統合製品の提供時期や既存契約への変更は、この発表だけでは確定していない。",
     "core_facts": [
@@ -204,8 +296,6 @@
     "featured": true,
     "priority": 2,
     "region": "global",
-    "edition_date": "2026-10-17",
-    "collected_at": "2026-10-17T08:58:36+09:00",
     "is_sample": false
   },
   {
