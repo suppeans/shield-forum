@@ -8,6 +8,8 @@
     "source_url": "https://estore.jp/press/20261016/",
     "published_at": "2026-10-16T00:00:00+09:00",
     "published_time_known": false,
+    "collected_at": "2026-10-18T00:58:29+09:00",
+    "edition_date": "2026-10-18",
     "image_url": null,
     "why_it_matters": "EC基盤への侵害が多数の店舗と購入者に波及した事例で、委託サービスの認証情報や保管データを点検する重要性を示す。利用者は正規の窓口で確認し、同社を装う再決済要求などに注意したい。",
     "core_facts": [
@@ -25,8 +27,6 @@
     "featured": true,
     "priority": 1,
     "region": "japan",
-    "edition_date": "2026-10-18",
-    "collected_at": "2026-10-18T00:58:29+09:00",
     "is_sample": false
   },
   {
@@ -38,6 +38,8 @@
     "source_url": "https://www.nttsolmare.com/press/2026/1016.html",
     "published_at": "2026-10-16T00:00:00+09:00",
     "published_time_known": false,
+    "collected_at": "2026-10-18T00:58:29+09:00",
+    "edition_date": "2026-10-18",
     "image_url": null,
     "why_it_matters": "国内の大規模サービスで、会員データの侵害が他サービスへの不正ログインにもつながり得る。対象者は公式案内を確認し、同じ認証情報を使い回している場合は他サービス側も見直したい。",
     "core_facts": [
@@ -55,8 +57,6 @@
     "featured": true,
     "priority": 2,
     "region": "japan",
-    "edition_date": "2026-10-18",
-    "collected_at": "2026-10-18T00:58:29+09:00",
     "is_sample": false
   },
   {
@@ -68,6 +68,8 @@
     "source_url": "https://prtimes.jp/main/html/rd/p/000000014.000182004.html",
     "published_at": "2026-10-16T12:00:00+09:00",
     "published_time_known": true,
+    "collected_at": "2026-10-18T00:58:29+09:00",
+    "edition_date": "2026-10-18",
     "image_url": null,
     "why_it_matters": "国内で設計環境の利用から実チップ製造までを経験できる機会として、半導体設計教育や企業内育成の裾野拡大につながる。最先端プロセスの量産計画とは区別して捉えたい。",
     "core_facts": [
@@ -85,8 +87,68 @@
     "featured": true,
     "priority": 2,
     "region": "japan",
+    "is_sample": false
+  },
+  {
+    "id": "toppan-20261016-quantum-ai-image-generation",
+    "title": "TOPPANと慶應大、量子実機とAIで画像生成を実証　計算優位性は今後検証",
+    "summary": "TOPPANホールディングスは10月16日、慶應義塾大学と量子コンピュータ・AIを組み合わせた画像生成の実証結果を公表した。量子実機で小さな基礎画像を生成し、AIで着色・高解像度化する構成を検証。従来計算機に対する実機の生成精度・時間の優位性は今後の課題としている。",
+    "category": "ai",
+    "source": "TOPPANホールディングス",
+    "source_url": "https://www.holdings.toppan.com/ja/news/2026/10/newsrelease261016_2.html",
+    "published_at": "2026-10-16T00:00:00+09:00",
+    "published_time_known": false,
+    "image_url": null,
+    "why_it_matters": "国内の量子研究をコンテンツ制作支援へつなぐ研究例となる。少量データのシミュレーション結果と実機性能を分けて評価することが、導入可能性を判断するうえで重要だ。",
+    "core_facts": [
+      "実証期間は2026年2月1日〜7月31日で、結果を10月16日に公表した。",
+      "10量子ビットの実機で、髪型・表情の16通りの条件に応じた16×16ピクセルのグレースケール画像を生成した。",
+      "AIによる着色・高解像度化を組み合わせ、256×256ピクセルのカラー画像として出力した。",
+      "量子実機における生成精度と生成時間の優位性は、今後の検証課題としている。",
+      "10月からは解像度向上や自然言語での条件指定を目指す次の研究段階へ進む。"
+    ],
+    "tags": [
+      "量子コンピュータ",
+      "画像生成",
+      "共同研究",
+      "実証実験"
+    ],
+    "featured": true,
+    "priority": 2,
+    "region": "japan",
     "edition_date": "2026-10-18",
-    "collected_at": "2026-10-18T00:58:29+09:00",
+    "collected_at": "2026-10-18T09:05:25+09:00",
+    "is_sample": false
+  },
+  {
+    "id": "yamato-20261016-bnpl-fourth-report",
+    "title": "ヤマト、後払いサービスの顧客情報約526万件などの持ち出しを確認",
+    "summary": "ヤマトホールディングスは10月16日、クロネコ代金後払いサービスへの不正アクセスについて第4報を公表した。9月29日の初報後の調査で、一部顧客の氏名・住所・商品明細など約526万件に加え、届け先情報などの持ち出しを確認した。",
+    "category": "security",
+    "source": "ヤマトホールディングス",
+    "source_url": "https://www.yamato-hd.co.jp/important/info_260929_1.html",
+    "published_at": "2026-10-16T00:00:00+09:00",
+    "published_time_known": false,
+    "image_url": null,
+    "why_it_matters": "国内ECの決済関連サービスへの侵害が、購入者や加盟店の情報に波及した事例だ。商品明細を含む情報はなりすましにも利用され得るため、利用者・加盟店とも正規の案内を確認したい。",
+    "core_facts": [
+      "顧客情報約526万件のうち、メールアドレスを含むものは約49万件。",
+      "別区分として届け先情報約5万件、加盟店情報約4,100件の持ち出しも確認した。",
+      "クレジットカード情報とパスワード情報は含まれない。",
+      "請求金額・債権残高・同社社員の氏名は、調査の結果、持ち出しが確認されなかった。",
+      "公表時点では情報の不正利用による二次被害は確認されておらず、対象者へ順次個別に連絡する。"
+    ],
+    "tags": [
+      "情報漏えい",
+      "EC",
+      "後払い決済",
+      "調査結果"
+    ],
+    "featured": true,
+    "priority": 1,
+    "region": "japan",
+    "edition_date": "2026-10-18",
+    "collected_at": "2026-10-18T09:05:25+09:00",
     "is_sample": false
   },
   {
