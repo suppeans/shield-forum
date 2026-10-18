@@ -8,6 +8,8 @@
     "source_url": "https://prtimes.jp/main/html/rd/p/000000004.000190819.html",
     "published_at": "2026-10-18T09:39:00+09:00",
     "published_time_known": true,
+    "collected_at": "2026-10-19T00:59:54+09:00",
+    "edition_date": "2026-10-19",
     "image_url": null,
     "why_it_matters": "表計算中心の分析業務で、準備や集計を自動化しつつ処理内容を点検できる選択肢になる。日本企業が業務データを使う際は、分析結果の妥当性に加え、選択したAI接続先への送信範囲を確認したい。",
     "core_facts": [
@@ -26,8 +28,6 @@
     "featured": true,
     "priority": 2,
     "region": "japan",
-    "edition_date": "2026-10-19",
-    "collected_at": "2026-10-19T00:59:54+09:00",
     "is_sample": false
   },
   {
@@ -39,6 +39,8 @@
     "source_url": "https://www.idcf.jp/news/topics/20261018001/",
     "published_at": "2026-10-18T12:00:00+09:00",
     "published_time_known": true,
+    "collected_at": "2026-10-19T00:59:54+09:00",
+    "edition_date": "2026-10-19",
     "image_url": null,
     "why_it_matters": "障害対応中の企業にとって、バックアップの再開はデータ保全や移行の選択肢を広げる。再開した機能と停止中の機能を区別し、対象リージョンや復元先の条件を確認して復旧計画を進める必要がある。",
     "core_facts": [
@@ -56,8 +58,65 @@
     "featured": true,
     "priority": 1,
     "region": "japan",
+    "is_sample": false
+  },
+  {
+    "id": "kandaquantum-20261018-fuga5000-release",
+    "title": "KandaQuantum、複数社のAIエージェントを統括するFuga 5000を正式提供",
+    "summary": "KandaQuantumは10月18日、AIエージェントの計画・実行・成果統合を管理するFuga 5000を、開発者向けに正式リリースした。Claude CodeやCodexなどの契約と連携し、複数の開発目標やタスクの進行を管理する。対応OSは現時点でmacOSのみ。",
+    "category": "development",
+    "source": "KandaQuantum",
+    "source_url": "https://prtimes.jp/main/html/rd/p/000000158.000082094.html",
+    "published_at": "2026-10-18T10:56:00+09:00",
+    "published_time_known": true,
+    "image_url": null,
+    "why_it_matters": "日本の開発チームが複数のAIツールを併用する際、担当分配や成果の統合をまとめて管理する選択肢になる。導入効果を判断するには、エージェント数だけでなく成果物の品質、確認の負担、各社の利用枠を含む運用コストを検証したい。",
+    "core_facts": [
+      "従来の限定提供から正式版へ移行し、開発者向けを起点に提供を開始した。",
+      "Claude Code・Codex・Gemini・Grok・Kimiの各サブスクリプションと連携し、5階層の構成で複数の目標を管理すると説明している。",
+      "タスクの計画、並列実装、成果統合、検査、ベースブランチへの取り込みまでを管理する機能を備えると同社は説明した。",
+      "利用にはFugaの料金に加えて各社エージェントの契約が必要。動かせる規模は契約と利用枠に左右され、Windows・Linux対応は今後の予定としている。"
+    ],
+    "tags": [
+      "AIエージェント",
+      "開発支援",
+      "マルチエージェント",
+      "macOS"
+    ],
+    "featured": true,
+    "priority": 3,
+    "region": "japan",
     "edition_date": "2026-10-19",
-    "collected_at": "2026-10-19T00:59:54+09:00",
+    "collected_at": "2026-10-19T08:57:01+09:00",
+    "is_sample": false
+  },
+  {
+    "id": "xserver-20261018-renewal-phishing-alert",
+    "title": "XServer、自動更新通知を装うフィッシングメールに注意喚起",
+    "summary": "XServerは10月18日、料金の自動更新通知を装うフィッシングメールを確認したと発表した。支払い失敗やドメイン更新未完了を理由に偽サイトへ誘導する内容で、不審なリンクへのアクセスやログイン情報の入力を避けるよう呼びかけている。",
+    "category": "security",
+    "source": "XServer",
+    "source_url": "https://www.xserver.ne.jp/news_detail.php?view_id=19702",
+    "published_at": "2026-10-18T00:00:00+09:00",
+    "published_time_known": false,
+    "image_url": null,
+    "why_it_matters": "サーバーやドメインの契約管理を装うメールは、サイト運営者の日常業務に紛れ込みやすい。更新状況はメール内のリンクからではなく、普段利用する正規の管理画面で確かめる運用が有効だ。",
+    "core_facts": [
+      "公式告知は10月18日付で、同日に確認したメールの特徴を掲載している。",
+      "偽メールは料金の自動更新処理を装い、支払い方法が承認されずドメイン更新が完了しなかったと説明して、支払い方法の更新などを促す。",
+      "XServerは不審なリンクへのアクセスやファイルのダウンロードを避け、偽サイトを開いた場合もログイン情報を入力せず閲覧を終了するよう案内した。"
+    ],
+    "tags": [
+      "フィッシング",
+      "なりすまし",
+      "ホスティング",
+      "アカウント管理"
+    ],
+    "featured": true,
+    "priority": 2,
+    "region": "japan",
+    "edition_date": "2026-10-19",
+    "collected_at": "2026-10-19T08:57:01+09:00",
     "is_sample": false
   },
   {
