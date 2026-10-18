@@ -90,6 +90,66 @@
     "is_sample": false
   },
   {
+    "id": "park24-20261016-timescar-id-image-retention",
+    "title": "タイムズカー、本人確認画像の保有ルールを変更　現存画像は10月末までに削除へ",
+    "summary": "パーク24は10月16日、不正アクセスに関する第4報で、タイムズカーの本人確認書類画像を会員登録完了後は保有しないルールへ改めると発表した。保有中の画像も本人からの申出の有無にかかわらず10月末までに削除する方針。調査結果の次回案内は23日に延期する。",
+    "category": "security",
+    "source": "パーク24",
+    "source_url": "https://www.park24.co.jp/news/2026/10/20261016-1.html",
+    "published_at": "2026-10-16T00:00:00+09:00",
+    "published_time_known": false,
+    "image_url": null,
+    "why_it_matters": "国内の本人確認を伴うデジタルサービスで、保管期間と漏えい時の影響を見直す具体例となる。本人確認の実施と画像の長期保存を分け、必要な情報だけを保持する設計を検討する材料になる。",
+    "core_facts": [
+      "初報は9月25日で、今回の第4報は10月16日に公表された。",
+      "従来は会員期間中と退会後7年間、本人確認書類の画像を保有していた。",
+      "会員登録完了後は画像を保有しない社内ルールに変更し、現存画像は10月末までに削除する。",
+      "外部専門機関の調査に時間を要しており、次回の案内日を10月23日に変更した。"
+    ],
+    "tags": [
+      "個人情報保護",
+      "本人確認",
+      "データ最小化",
+      "不正アクセス"
+    ],
+    "featured": true,
+    "priority": 1,
+    "region": "japan",
+    "edition_date": "2026-10-18",
+    "collected_at": "2026-10-18T16:57:41+09:00",
+    "is_sample": false
+  },
+  {
+    "id": "serverworks-20261016-claude-bedrock-package",
+    "title": "サーバーワークス、Bedrock経由のClaude導入支援　認証・監査・費用管理を構築",
+    "summary": "サーバーワークスは10月16日、Amazon Bedrock経由でClaudeを利用する企業向けの導入パッケージを発表した。顧客のAWS環境に認証、監査、コスト管理、セキュリティの機能をまとめて構築し、導入後の保守・問い合わせ対応プランも用意する。",
+    "category": "cloud",
+    "source": "サーバーワークス",
+    "source_url": "https://www.serverworks.co.jp/news/20261016_claude_on_amazon_bedrock.html",
+    "published_at": "2026-10-16T00:00:00+09:00",
+    "published_time_known": false,
+    "image_url": null,
+    "why_it_matters": "国内企業が生成AIを組織導入する際、モデル利用だけでなく認証・監査・予算統制まで整える選択肢となる。導入企業は自社の審査基準と、実際の運用責任やサポート範囲を照合したい。",
+    "core_facts": [
+      "認証・監査・コスト管理・セキュリティを企業のAWS環境へまとめて構築する。",
+      "専用コンソールで利用状況や費用、利用上限を確認・設定できる。",
+      "ユーザー・グループ単位の月次上限や消費率、上限の変更履歴を管理する。",
+      "目的やセキュリティ方針に応じた2つの利用形態を用意し、併用や後からの移行・拡張にも対応する。"
+    ],
+    "tags": [
+      "Amazon Bedrock",
+      "Claude",
+      "企業導入",
+      "コスト管理"
+    ],
+    "featured": true,
+    "priority": 2,
+    "region": "japan",
+    "edition_date": "2026-10-18",
+    "collected_at": "2026-10-18T16:57:41+09:00",
+    "is_sample": false
+  },
+  {
     "id": "toppan-20261016-quantum-ai-image-generation",
     "title": "TOPPANと慶應大、量子実機とAIで画像生成を実証　計算優位性は今後検証",
     "summary": "TOPPANホールディングスは10月16日、慶應義塾大学と量子コンピュータ・AIを組み合わせた画像生成の実証結果を公表した。量子実機で小さな基礎画像を生成し、AIで着色・高解像度化する構成を検証。従来計算機に対する実機の生成精度・時間の優位性は今後の課題としている。",
@@ -98,6 +158,8 @@
     "source_url": "https://www.holdings.toppan.com/ja/news/2026/10/newsrelease261016_2.html",
     "published_at": "2026-10-16T00:00:00+09:00",
     "published_time_known": false,
+    "collected_at": "2026-10-18T09:05:25+09:00",
+    "edition_date": "2026-10-18",
     "image_url": null,
     "why_it_matters": "国内の量子研究をコンテンツ制作支援へつなぐ研究例となる。少量データのシミュレーション結果と実機性能を分けて評価することが、導入可能性を判断するうえで重要だ。",
     "core_facts": [
@@ -116,8 +178,6 @@
     "featured": true,
     "priority": 2,
     "region": "japan",
-    "edition_date": "2026-10-18",
-    "collected_at": "2026-10-18T09:05:25+09:00",
     "is_sample": false
   },
   {
@@ -129,6 +189,8 @@
     "source_url": "https://www.yamato-hd.co.jp/important/info_260929_1.html",
     "published_at": "2026-10-16T00:00:00+09:00",
     "published_time_known": false,
+    "collected_at": "2026-10-18T09:05:25+09:00",
+    "edition_date": "2026-10-18",
     "image_url": null,
     "why_it_matters": "国内ECの決済関連サービスへの侵害が、購入者や加盟店の情報に波及した事例だ。商品明細を含む情報はなりすましにも利用され得るため、利用者・加盟店とも正規の案内を確認したい。",
     "core_facts": [
@@ -147,8 +209,6 @@
     "featured": true,
     "priority": 1,
     "region": "japan",
-    "edition_date": "2026-10-18",
-    "collected_at": "2026-10-18T09:05:25+09:00",
     "is_sample": false
   },
   {
