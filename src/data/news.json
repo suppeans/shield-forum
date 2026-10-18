@@ -1,5 +1,66 @@
 [
   {
+    "id": "gotoai-20261018-kari-data-analysis",
+    "title": "GotoAIのKari、CSV・Excelの分析機能を追加　処理をPythonで保存",
+    "summary": "GotoAIは10月18日、デスクトップAIエージェントKariにデータ分析機能を追加したと発表した。バージョン0.7.3からCSV・Excel・SQLiteの読み込み、結合、集計、グラフ作成に対応し、生成した処理を再実行可能なPythonスクリプトとして残す。",
+    "category": "ai",
+    "source": "GotoAI株式会社",
+    "source_url": "https://prtimes.jp/main/html/rd/p/000000004.000190819.html",
+    "published_at": "2026-10-18T09:39:00+09:00",
+    "published_time_known": true,
+    "image_url": null,
+    "why_it_matters": "表計算中心の分析業務で、準備や集計を自動化しつつ処理内容を点検できる選択肢になる。日本企業が業務データを使う際は、分析結果の妥当性に加え、選択したAI接続先への送信範囲を確認したい。",
+    "core_facts": [
+      "バージョン0.7.3に分析機能を追加。元ファイルを読み取り専用で参照し、結合・集計などの処理をPythonスクリプトに保存する。",
+      "分析用のPython実行環境とNumPy・Pandas・DuckDBなどを同梱し、データの流れを図で確認できる。",
+      "分析ファイルや生成物は利用者のPCに保存するが、クラウドAIを選ぶと処理に必要なデータがそのサービスへ送られる。",
+      "Claude・ChatGPTのサブスクリプション経由で利用する場合も、各社の利用上限と規約が適用される。",
+      "機械学習による予測・分類や社内データ基盤との連携は、2027年2月末までの提供予定としている。"
+    ],
+    "tags": [
+      "生成AI",
+      "データ分析",
+      "Python",
+      "業務自動化"
+    ],
+    "featured": true,
+    "priority": 2,
+    "region": "japan",
+    "edition_date": "2026-10-19",
+    "collected_at": "2026-10-19T00:59:54+09:00",
+    "is_sample": false
+  },
+  {
+    "id": "idcf-20261018-backup-resumption-sixth-report",
+    "title": "IDCフロンティア、バックアップサービスを再開　スナップショットは停止継続",
+    "summary": "IDCフロンティアは10月18日の第6報で、不正アクセス後に停止していたIDCFクラウドのバックアップサービスを再開すると発表した。稼働中の仮想サーバーのデータ保全や他環境への復元を支援する一方、スナップショット機能は安全性の確認を続けている。",
+    "category": "cloud",
+    "source": "IDCフロンティア",
+    "source_url": "https://www.idcf.jp/news/topics/20261018001/",
+    "published_at": "2026-10-18T12:00:00+09:00",
+    "published_time_known": true,
+    "image_url": null,
+    "why_it_matters": "障害対応中の企業にとって、バックアップの再開はデータ保全や移行の選択肢を広げる。再開した機能と停止中の機能を区別し、対象リージョンや復元先の条件を確認して復旧計画を進める必要がある。",
+    "core_facts": [
+      "第6報は10月18日公開。公式トップページは公開時刻を12時00分と明記している。",
+      "同社は安全性を確認したとして「IDCFクラウド バックアップ」の提供を再開すると発表した。",
+      "仮想サーバーが稼働中の東日本リージョン1のradian・newtonゾーン、東日本リージョン2・3、西日本リージョン1の利用者向けに、バックアップ取得と他のクラウドやオンプレミス環境への復元を案内した。",
+      "スナップショット機能は安全確認のため停止を継続。IDCFクラウド TypeSとIDCFプライベートクラウドは今回の不正アクセス事象の対象外としている。"
+    ],
+    "tags": [
+      "クラウド障害",
+      "バックアップ",
+      "サービス再開",
+      "事業継続"
+    ],
+    "featured": true,
+    "priority": 1,
+    "region": "japan",
+    "edition_date": "2026-10-19",
+    "collected_at": "2026-10-19T00:59:54+09:00",
+    "is_sample": false
+  },
+  {
     "id": "estore-20261016-shopserve-final-report",
     "title": "Eストアー、ショップサーブの漏えい対象は約2,336万人と最終報告",
     "summary": "Eストアーは10月16日、8月に公表したショップサーブへの不正アクセスについて最終調査結果を発表した。漏えい対象者は概数で約2,335万6,000人、対象店舗は7,858店。攻撃期間や情報の範囲、実施済みの対策を明らかにした。",
@@ -98,6 +159,8 @@
     "source_url": "https://www.park24.co.jp/news/2026/10/20261016-1.html",
     "published_at": "2026-10-16T00:00:00+09:00",
     "published_time_known": false,
+    "collected_at": "2026-10-18T16:57:41+09:00",
+    "edition_date": "2026-10-18",
     "image_url": null,
     "why_it_matters": "国内の本人確認を伴うデジタルサービスで、保管期間と漏えい時の影響を見直す具体例となる。本人確認の実施と画像の長期保存を分け、必要な情報だけを保持する設計を検討する材料になる。",
     "core_facts": [
@@ -115,8 +178,6 @@
     "featured": true,
     "priority": 1,
     "region": "japan",
-    "edition_date": "2026-10-18",
-    "collected_at": "2026-10-18T16:57:41+09:00",
     "is_sample": false
   },
   {
@@ -128,6 +189,8 @@
     "source_url": "https://www.serverworks.co.jp/news/20261016_claude_on_amazon_bedrock.html",
     "published_at": "2026-10-16T00:00:00+09:00",
     "published_time_known": false,
+    "collected_at": "2026-10-18T16:57:41+09:00",
+    "edition_date": "2026-10-18",
     "image_url": null,
     "why_it_matters": "国内企業が生成AIを組織導入する際、モデル利用だけでなく認証・監査・予算統制まで整える選択肢となる。導入企業は自社の審査基準と、実際の運用責任やサポート範囲を照合したい。",
     "core_facts": [
@@ -145,8 +208,6 @@
     "featured": true,
     "priority": 2,
     "region": "japan",
-    "edition_date": "2026-10-18",
-    "collected_at": "2026-10-18T16:57:41+09:00",
     "is_sample": false
   },
   {
