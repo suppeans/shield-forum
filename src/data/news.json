@@ -69,6 +69,8 @@
     "source_url": "https://prtimes.jp/main/html/rd/p/000000158.000082094.html",
     "published_at": "2026-10-18T10:56:00+09:00",
     "published_time_known": true,
+    "collected_at": "2026-10-19T08:57:01+09:00",
+    "edition_date": "2026-10-19",
     "image_url": null,
     "why_it_matters": "日本の開発チームが複数のAIツールを併用する際、担当分配や成果の統合をまとめて管理する選択肢になる。導入効果を判断するには、エージェント数だけでなく成果物の品質、確認の負担、各社の利用枠を含む運用コストを検証したい。",
     "core_facts": [
@@ -86,8 +88,122 @@
     "featured": true,
     "priority": 3,
     "region": "japan",
+    "is_sample": false
+  },
+  {
+    "id": "msolutions-20261019-asahikawa-dx-agreement",
+    "title": "旭川市とM-SOLUTIONS、職員の内製開発・生成AI実証を継続支援へ",
+    "summary": "M-SOLUTIONSは10月19日、旭川市と行政DX・デジタル人材育成の連携協定を10月16日に締結したと発表した。kintoneなどによる職員のアプリ内製を支援し、約100人規模の研修や生成AIの実証を進める計画。",
+    "category": "dx",
+    "source": "M-SOLUTIONS",
+    "source_url": "https://prtimes.jp/main/html/rd/p/000000031.000149029.html",
+    "published_at": "2026-10-19T14:02:00+09:00",
+    "published_time_known": true,
+    "image_url": null,
+    "why_it_matters": "自治体DXを継続するには、ツール導入に加えて現場で改善できる職員を育てる必要がある。内製開発の伴走支援と研修・実証を組み合わせる今回の枠組みは、地域の行政サービス改善を支える人材づくりの動きとして注目される。",
+    "core_facts": [
+      "協定の締結日は10月16日で、企業による発表は10月19日。行政DXと人材育成を継続的に進める枠組みとする。",
+      "ノーコード・ローコードによる内製化、生成AIなどの活用実証、職員研修、成果発信や地域へのDX普及を連携事項に含める。",
+      "約100人規模のハンズオン研修を計画し、人材育成の成果は年1回の活用アンケートで把握する方針。"
+    ],
+    "tags": [
+      "自治体DX",
+      "旭川市",
+      "kintone",
+      "デジタル人材"
+    ],
+    "featured": false,
+    "priority": 3,
+    "region": "japan",
     "edition_date": "2026-10-19",
-    "collected_at": "2026-10-19T08:57:01+09:00",
+    "collected_at": "2026-10-19T17:02:30+09:00",
+    "is_sample": false
+  },
+  {
+    "id": "securenavi-20261019-security-inspection-support",
+    "title": "SecureNavi、官公庁の注意喚起を整理した点検票を無償提供へ",
+    "summary": "SecureNaviは10月19日、複数の公的機関による注意喚起を整理した点検項目・質問票を無償提供すると発表した。委託先や社内部門の回答・未対応事項を管理する「2線の匠クラウド」も期間限定で開放する。申込期限は11月16日、無償利用は2027年1月31日まで。",
+    "category": "security",
+    "source": "SecureNavi",
+    "source_url": "https://prtimes.jp/main/html/rd/p/000000180.000089471.html",
+    "published_at": "2026-10-19T11:30:00+09:00",
+    "published_time_known": true,
+    "image_url": null,
+    "why_it_matters": "複数の注意喚起を読んでも、社内や委託先の確認担当と対応状況を追えなければ対策が止まりやすい。点検項目の整理と進捗管理を支援する取り組みであり、質問票への回答だけで安全性を保証するものではない。",
+    "core_facts": [
+      "JPCERT/CC、国家サイバー統括室、IPA、金融庁、個人情報保護委員会などの公表内容を整理し、点検項目・質問票を準備できたものから順次提供する。",
+      "質問票のみの申込みも可能で、既存のExcelやメールで点検を進めることもできる。",
+      "クラウドでは回答回収や未対応事項の追跡を支援する。期間終了時には点検結果などをエクスポートでき、継続を希望する場合のみ通常料金で契約するとしている。"
+    ],
+    "tags": [
+      "セキュリティ点検",
+      "委託先管理",
+      "情報漏えい対策",
+      "無償支援"
+    ],
+    "featured": true,
+    "priority": 2,
+    "region": "japan",
+    "edition_date": "2026-10-19",
+    "collected_at": "2026-10-19T17:02:30+09:00",
+    "is_sample": false
+  },
+  {
+    "id": "tokyogas-20261019-onsite-power-green-datacenter",
+    "title": "東京ガス・日立など4社、電源併設型データセンターの開発へ協業",
+    "summary": "東京ガス、日立、Brookfield Japan、Hartree Partnersは10月19日、国内の電源併設型グリーンデータセンターに向けた協業を発表した。覚書は9月30日に締結。まず関東・九州のプロジェクトについて、電力設備を含めた開発計画を策定する予定で、稼働開始の発表ではない。",
+    "category": "cloud",
+    "source": "東京ガス・日立製作所ほか",
+    "source_url": "https://www.tokyo-gas.co.jp/news/press/20261019-02.html",
+    "published_at": "2026-10-19T00:00:00+09:00",
+    "published_time_known": false,
+    "image_url": null,
+    "why_it_matters": "AI向け計算基盤の拡大では、GPUの調達だけでなく電力確保が立地や整備速度を左右する。電源とデータセンターを一体で計画する構想は、国内の設備展開の選択肢を広げる可能性があるが、事業化や環境面の効果は今後の具体化を見極める必要がある。",
+    "core_facts": [
+      "4社は9月30日に覚書を締結し、10月19日に公表した。東京ガスが既存の3社の協業に加わる。",
+      "自ら電力を生み出す設備を併設し、安定運用や脱炭素化を目指す基本構想と標準モデルを検討する。",
+      "初号案件として関東・九州で、設備構成や事業スキームなどの開発計画を策定する予定。系統電力への過度な依存を抑える狙いがある。"
+    ],
+    "tags": [
+      "データセンター",
+      "AIインフラ",
+      "電力",
+      "開発計画"
+    ],
+    "featured": true,
+    "priority": 1,
+    "region": "japan",
+    "edition_date": "2026-10-19",
+    "collected_at": "2026-10-19T17:02:30+09:00",
+    "is_sample": false
+  },
+  {
+    "id": "userlocal-20261019-sales-support-ai",
+    "title": "ユーザーローカル、企業分析と提案メール作成の「営業支援AI」を無料公開",
+    "summary": "ユーザーローカルは10月19日、企業名やWebサイトURLから事業・競合情報を整理する「営業支援AI」を無料公開した。自社の商品・サービス情報を加えると、対象企業への営業仮説や初回メールの草案を生成する。",
+    "category": "ai",
+    "source": "ユーザーローカル",
+    "source_url": "https://www.userlocal.jp/press/20261019sf/",
+    "published_at": "2026-10-19T00:00:00+09:00",
+    "published_time_known": false,
+    "image_url": null,
+    "why_it_matters": "法人営業の事前調査や提案準備を補助する用途で、国内企業が生成AIを試す入口になる。生成した課題の推測やメール文面をそのまま事実と扱わず、元情報の確認と担当者による修正を組み込むことが重要だ。",
+    "core_facts": [
+      "企業名またはサイトURLを入力すると、関連ページから事業内容や競合状況、企業動向などを収集・整理する。",
+      "競合企業をポジショニングマップで可視化し、採用情報や公開された企業活動をもとに営業の着眼点を提案する。",
+      "提案する自社商品の概要を追加すると、想定する相手に合わせた初回営業メール案を作成する。"
+    ],
+    "tags": [
+      "生成AI",
+      "営業支援",
+      "企業分析",
+      "業務効率化"
+    ],
+    "featured": true,
+    "priority": 3,
+    "region": "japan",
+    "edition_date": "2026-10-19",
+    "collected_at": "2026-10-19T17:02:30+09:00",
     "is_sample": false
   },
   {
@@ -99,6 +215,8 @@
     "source_url": "https://www.xserver.ne.jp/news_detail.php?view_id=19702",
     "published_at": "2026-10-18T00:00:00+09:00",
     "published_time_known": false,
+    "collected_at": "2026-10-19T08:57:01+09:00",
+    "edition_date": "2026-10-19",
     "image_url": null,
     "why_it_matters": "サーバーやドメインの契約管理を装うメールは、サイト運営者の日常業務に紛れ込みやすい。更新状況はメール内のリンクからではなく、普段利用する正規の管理画面で確かめる運用が有効だ。",
     "core_facts": [
@@ -115,8 +233,6 @@
     "featured": true,
     "priority": 2,
     "region": "japan",
-    "edition_date": "2026-10-19",
-    "collected_at": "2026-10-19T08:57:01+09:00",
     "is_sample": false
   },
   {
