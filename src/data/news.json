@@ -1,5 +1,124 @@
 [
   {
+    "id": "crowdworks-20261019-studio-data-risk",
+    "title": "クラウドワークス、Studio不正アクセスでフォーム情報が漏えいした可能性",
+    "summary": "クラウドワークスは10月19日、外部サービスStudioへの不正アクセスに伴い、3サービスのフォーム情報が漏えいした可能性を公表した。公表された4区分の送信件数は計12,131件で、人数ではない。第三者による実際の取得や二次被害は現時点で確認されていない。",
+    "category": "security",
+    "source": "クラウドワークス",
+    "source_url": "https://crowdworks.co.jp/news/v-2z1klpkvd/",
+    "published_at": "2026-10-19T00:00:00+09:00",
+    "published_time_known": false,
+    "image_url": null,
+    "why_it_matters": "外部のサイト制作基盤への侵害が、問い合わせやイベント申込みの情報管理にも波及する可能性を示す。企業は委託先だけでなく、自社フォームの収集項目と保存期間を確認し、利用者は過去の入力内容を使った不審な連絡に注意したい。",
+    "core_facts": [
+      "対象はクラウドワークス アカデミーの問い合わせ354件、クラウドタウンの申込み11,462件と問い合わせ299件、クラウドリンクスの問い合わせ16件。送信件数であり、人数とは一致しない場合がある。",
+      "氏名やメールアドレスなどが対象となり得る一方、クレジットカード情報・銀行口座情報・パスワードは含まれないとしている。",
+      "Studioは9月30日〜10月1日の不正アクセスを10月16日に公表し、クラウドワークスも同日に連絡を受けて影響範囲を確認したと説明した。",
+      "同社や各サービス、Studioを装うメール・SMS・電話・Discordメッセージへの注意を呼びかけ、事実関係と影響範囲の確認を続ける。"
+    ],
+    "tags": [
+      "情報漏えいの可能性",
+      "外部サービス",
+      "Studio",
+      "フォーム管理"
+    ],
+    "featured": true,
+    "priority": 1,
+    "region": "japan",
+    "edition_date": "2026-10-20",
+    "collected_at": "2026-10-20T01:04:42+09:00",
+    "is_sample": false
+  },
+  {
+    "id": "gmo-20261019-rag-joint-ai-flow",
+    "title": "GMO、社内文書を参照するRAGと業務ワークフロー基盤を連携",
+    "summary": "GMOプライム・ストラテジーとGMO AIコネクトは10月19日、「GMO AI RAG」と「JOINT AI Flow byGMO」の連携を提供開始した。社内規程やマニュアルを参照した判断・処理を、ノーコードの業務フローに組み込めるようにする。利用には両サービスの契約が必要。",
+    "category": "ai",
+    "source": "GMOグローバルサイン・ホールディングス",
+    "source_url": "https://www.gmogshd.com/news/news-17477",
+    "published_at": "2026-10-19T00:00:00+09:00",
+    "published_time_known": false,
+    "image_url": null,
+    "why_it_matters": "社内情報を検索して回答する用途から、申請や登録・通知などの処理へ生成AIをつなげる動きだ。実行を伴うため、文書の更新状況だけでなく、参照権限や誤判断時の承認・停止手順も含めた設計が重要になる。",
+    "core_facts": [
+      "10月19日から両サービスの連携を開始し、RAG基盤を個別開発せずに社内情報を参照するワークフローを構築できると説明している。",
+      "SharePoint、Google Drive、Windows共有フォルダなどにある文書を参照対象にし、保管場所を変えずに活用する構成。",
+      "規程やマニュアルを更新すると、次回の取り込み以降にワークフローの参照内容へ反映される。即時反映とはしていない。",
+      "利用にはGMO AI RAGとJOINT AI Flow byGMOそれぞれの契約が必要。"
+    ],
+    "tags": [
+      "RAG",
+      "生成AI",
+      "ワークフロー",
+      "業務自動化"
+    ],
+    "featured": false,
+    "priority": 3,
+    "region": "japan",
+    "edition_date": "2026-10-20",
+    "collected_at": "2026-10-20T01:04:42+09:00",
+    "is_sample": false
+  },
+  {
+    "id": "sakura-20261019-digest-auth-deprecation",
+    "title": "さくらのクラウド、APIのDigest認証を2027年2月4日に廃止へ",
+    "summary": "さくらインターネットは10月19日、さくらのクラウドAPIで利用できるDigest認証のサポート終了を予告した。2027年2月4日以降は同方式でのアクセスが認証エラーとなるため、利用者にBasic認証への移行を求めている。",
+    "category": "cloud",
+    "source": "さくらインターネット",
+    "source_url": "https://cloud.sakura.ad.jp/news/2026/10/19/digest-auth-deprecation/",
+    "published_at": "2026-10-19T00:00:00+09:00",
+    "published_time_known": false,
+    "image_url": null,
+    "why_it_matters": "APIを使う運用スクリプトや外部ツールが旧方式のままだと、認証終了後に自動処理が止まるおそれがある。国内クラウドを利用する開発・運用担当者は接続方式を確認し、期限前に移行と動作確認を済ませたい。",
+    "core_facts": [
+      "Digest認証の終了日は2027年2月4日と案内している。",
+      "同方式によるさくらのクラウドAPIへのアクセスは、終了後に認証エラーとなる。",
+      "移行先はBasic認証で、ユーザー名にAPIキー、パスワードにシークレットトークンを使用する。"
+    ],
+    "tags": [
+      "API",
+      "認証方式",
+      "移行対応",
+      "クラウド運用"
+    ],
+    "featured": true,
+    "priority": 2,
+    "region": "japan",
+    "edition_date": "2026-10-20",
+    "collected_at": "2026-10-20T01:04:42+09:00",
+    "is_sample": false
+  },
+  {
+    "id": "trendmicro-20261019-japan-resilience-initiative",
+    "title": "トレンドマイクロ、日本向け支援計画　最大100億円相当のライセンス枠を提供へ",
+    "summary": "トレンドマイクロは10月19日、日本の組織と個人を対象とするサイバーレジリエンス支援計画を発表した。法人向けに総額最大100億円相当のライセンスクレジットと専門家支援を用意する。現金給付ではなく、対象要件や資源に応じて段階的に提供する計画。",
+    "category": "security",
+    "source": "トレンドマイクロ",
+    "source_url": "https://www.trendmicro.com/ja_jp/about/newsroom/press-releases/2026/pr-20261019-01.html",
+    "published_at": "2026-10-19T00:00:00+09:00",
+    "published_time_known": false,
+    "image_url": null,
+    "why_it_matters": "製品導入だけでは対処しにくい運用や専門人材の不足に、ライセンスと技術支援を組み合わせる取り組みだ。利用を検討する日本企業は、適用条件、既存環境との整合性、無償期間後の費用を確認する必要がある。",
+    "core_facts": [
+      "支援計画名はJapan Cyber Resilience Initiative。重要インフラや大企業、サプライチェーン上の中小企業などを優先し、対象を広げる方針。",
+      "総額最大100億円相当はTrendAI Flexのライセンスクレジットで、配分や利用方法などの詳細は順次案内するとしている。",
+      "FDEや技術専門家、MDRの知見を活用し、パートナー経由の最大10日間の専門サービス無償提供も計画する。利用には要件がある。",
+      "中小企業向け製品の60日間体験や個人向け詐欺対策アプリの90日間無償利用も案内。開始期限は2026年12月31日で、提供チャネルごとに方法が異なる。"
+    ],
+    "tags": [
+      "サイバーレジリエンス",
+      "セキュリティ支援",
+      "中小企業",
+      "運用体制"
+    ],
+    "featured": true,
+    "priority": 2,
+    "region": "japan",
+    "edition_date": "2026-10-20",
+    "collected_at": "2026-10-20T01:04:42+09:00",
+    "is_sample": false
+  },
+  {
     "id": "gotoai-20261018-kari-data-analysis",
     "title": "GotoAIのKari、CSV・Excelの分析機能を追加　処理をPythonで保存",
     "summary": "GotoAIは10月18日、デスクトップAIエージェントKariにデータ分析機能を追加したと発表した。バージョン0.7.3からCSV・Excel・SQLiteの読み込み、結合、集計、グラフ作成に対応し、生成した処理を再実行可能なPythonスクリプトとして残す。",
@@ -99,6 +218,8 @@
     "source_url": "https://prtimes.jp/main/html/rd/p/000000031.000149029.html",
     "published_at": "2026-10-19T14:02:00+09:00",
     "published_time_known": true,
+    "collected_at": "2026-10-19T17:02:30+09:00",
+    "edition_date": "2026-10-19",
     "image_url": null,
     "why_it_matters": "自治体DXを継続するには、ツール導入に加えて現場で改善できる職員を育てる必要がある。内製開発の伴走支援と研修・実証を組み合わせる今回の枠組みは、地域の行政サービス改善を支える人材づくりの動きとして注目される。",
     "core_facts": [
@@ -115,8 +236,6 @@
     "featured": false,
     "priority": 3,
     "region": "japan",
-    "edition_date": "2026-10-19",
-    "collected_at": "2026-10-19T17:02:30+09:00",
     "is_sample": false
   },
   {
@@ -128,6 +247,8 @@
     "source_url": "https://prtimes.jp/main/html/rd/p/000000180.000089471.html",
     "published_at": "2026-10-19T11:30:00+09:00",
     "published_time_known": true,
+    "collected_at": "2026-10-19T17:02:30+09:00",
+    "edition_date": "2026-10-19",
     "image_url": null,
     "why_it_matters": "複数の注意喚起を読んでも、社内や委託先の確認担当と対応状況を追えなければ対策が止まりやすい。点検項目の整理と進捗管理を支援する取り組みであり、質問票への回答だけで安全性を保証するものではない。",
     "core_facts": [
@@ -144,8 +265,6 @@
     "featured": true,
     "priority": 2,
     "region": "japan",
-    "edition_date": "2026-10-19",
-    "collected_at": "2026-10-19T17:02:30+09:00",
     "is_sample": false
   },
   {
@@ -157,6 +276,8 @@
     "source_url": "https://www.tokyo-gas.co.jp/news/press/20261019-02.html",
     "published_at": "2026-10-19T00:00:00+09:00",
     "published_time_known": false,
+    "collected_at": "2026-10-19T17:02:30+09:00",
+    "edition_date": "2026-10-19",
     "image_url": null,
     "why_it_matters": "AI向け計算基盤の拡大では、GPUの調達だけでなく電力確保が立地や整備速度を左右する。電源とデータセンターを一体で計画する構想は、国内の設備展開の選択肢を広げる可能性があるが、事業化や環境面の効果は今後の具体化を見極める必要がある。",
     "core_facts": [
@@ -173,8 +294,6 @@
     "featured": true,
     "priority": 1,
     "region": "japan",
-    "edition_date": "2026-10-19",
-    "collected_at": "2026-10-19T17:02:30+09:00",
     "is_sample": false
   },
   {
@@ -186,6 +305,8 @@
     "source_url": "https://www.userlocal.jp/press/20261019sf/",
     "published_at": "2026-10-19T00:00:00+09:00",
     "published_time_known": false,
+    "collected_at": "2026-10-19T17:02:30+09:00",
+    "edition_date": "2026-10-19",
     "image_url": null,
     "why_it_matters": "法人営業の事前調査や提案準備を補助する用途で、国内企業が生成AIを試す入口になる。生成した課題の推測やメール文面をそのまま事実と扱わず、元情報の確認と担当者による修正を組み込むことが重要だ。",
     "core_facts": [
@@ -202,8 +323,6 @@
     "featured": true,
     "priority": 3,
     "region": "japan",
-    "edition_date": "2026-10-19",
-    "collected_at": "2026-10-19T17:02:30+09:00",
     "is_sample": false
   },
   {
