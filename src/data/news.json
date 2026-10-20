@@ -1,5 +1,121 @@
 [
   {
+    "id": "google-20261020-android-mynumber-launch",
+    "title": "Androidのマイナンバーカード提供開始　Googleウォレットに属性証明機能",
+    "summary": "Googleは10月20日、Googleウォレットに登録するAndroidのマイナンバーカードの提供開始を発表した。新たな属性証明機能により、対応する場面で本人・年齢・住所確認が可能になる。利用できる端末やサービスには条件があり、活用場面は順次拡大する。",
+    "category": "policy",
+    "source": "Google Japan",
+    "source_url": "https://blog.google/intl/ja-jp/products/android-chrome-play/mynumbercard-on-android-launch/",
+    "published_at": "2026-10-20T00:00:00+09:00",
+    "published_time_known": false,
+    "image_url": null,
+    "why_it_matters": "国内の本人確認をスマートフォンで行う選択肢が広がり、行政や金融・通信サービスの設計にも影響する。導入側は端末対応に加えて必要な属性だけを受け取る設計や、従来の確認方法との併用を検討する必要がある。",
+    "core_facts": [
+      "Googleウォレットに登録して利用するAndroidのマイナンバーカードを10月20日から提供開始した。",
+      "属性証明では、その場で必要な氏名・住所・年齢などの情報を利用者が選んで共有できると説明している。",
+      "端末には必要最小限の情報を保存し、税や年金などの情報は記録しない設計。対応端末と利用条件の詳細はデジタル庁の案内を確認するよう求めている。"
+    ],
+    "tags": [
+      "デジタルID",
+      "Android",
+      "マイナンバーカード",
+      "本人確認"
+    ],
+    "featured": true,
+    "priority": 2,
+    "region": "japan",
+    "edition_date": "2026-10-21",
+    "collected_at": "2026-10-21T01:00:44+09:00",
+    "is_sample": false
+  },
+  {
+    "id": "jpx-hitachi-20261020-ai-operations",
+    "title": "JPXと日立、取引システムの運用監視に生成AIを本格適用",
+    "summary": "JPXと日立は10月20日、国内金融市場の取引システムの運用監視に「JP1 Cloud Service 生成AIアシスタント」を10月から本格適用したと発表した。アラートに対する手順候補や判断根拠を提示し、オペレーターの初動判断を支援する。",
+    "category": "ai",
+    "source": "日本取引所グループ・日立製作所",
+    "source_url": "https://www.hitachi.com/ja-jp/press/articles/2026/10/1020/",
+    "published_at": "2026-10-20T00:00:00+09:00",
+    "published_time_known": false,
+    "image_url": null,
+    "why_it_matters": "停止の影響が大きい市場インフラで、熟練者の知見をAIによる判断支援へ組み込む事例となる。監視業務への適用と障害対応の全面自動化は区別し、根拠提示や人の判断を含む運用結果を見ていく必要がある。",
+    "core_facts": [
+      "対象業務は、株式やデリバティブ取引を担う40以上のシステムを24時間365日体制で集中監視する運用。",
+      "蓄積したインシデント事例と対処手順を活用し、アラート発生時の手順候補を絞り込むPoCを経て、10月から本格適用した。",
+      "初動切り分けや後続の対処へのAIエージェント適用は将来の展望としており、現段階ではオペレーターの判断を支援する。"
+    ],
+    "tags": [
+      "生成AI",
+      "システム運用",
+      "金融インフラ",
+      "知見継承"
+    ],
+    "featured": true,
+    "priority": 2,
+    "region": "japan",
+    "edition_date": "2026-10-21",
+    "collected_at": "2026-10-21T01:00:44+09:00",
+    "is_sample": false
+  },
+  {
+    "id": "pfn-20261020-tenstorrent-optical-xpu",
+    "title": "PFNとTenstorrent、光電融合AIプロセッサーの共同研究へ　NEDO事業に採択",
+    "summary": "PFNとTenstorrentは10月20日、光電融合技術を実装するxPU設計開発の共同研究がNEDO事業に採択されたと発表した。学習・推論向けAIプロセッサーのシステム化を目指し、2031年度まで研究開発を進める。成果の事業化は研究期間終了後を想定する。",
+    "category": "semiconductors",
+    "source": "Preferred Networks",
+    "source_url": "https://www.preferred.jp/ja/news/pr20261020",
+    "published_at": "2026-10-20T00:00:00+09:00",
+    "published_time_known": false,
+    "image_url": null,
+    "why_it_matters": "AI基盤の性能と電力効率を高めるには、演算器だけでなくメモリやチップ間接続の設計も重要になる。日本企業が光接続・先端実装とAI半導体を組み合わせる研究であり、製品の出荷や性能達成を示す発表ではない。",
+    "core_facts": [
+      "両社が光電融合と先端パッケージングを活用したAIプロセッサーのシステム化技術を開発する。",
+      "PFNは3次元メモリ実装による高メモリ帯域のAIチップレット、Tenstorrentは機密計算に対応するオープンアーキテクチャのCPUチップレットを担当する。",
+      "研究開発は2031年度まで実施し、期間終了後にAIエージェントなどでの活用を想定した事業化を目指す。"
+    ],
+    "tags": [
+      "AI半導体",
+      "光電融合",
+      "NEDO",
+      "研究開発"
+    ],
+    "featured": true,
+    "priority": 1,
+    "region": "japan",
+    "edition_date": "2026-10-21",
+    "collected_at": "2026-10-21T01:00:44+09:00",
+    "is_sample": false
+  },
+  {
+    "id": "servicenow-20261020-deloitte-security-operations",
+    "title": "ServiceNowとデロイト トーマツ サイバー、安全運用の共同支援を開始",
+    "summary": "ServiceNow Japanとデロイト トーマツ サイバーは10月20日、AI時代のセキュリティ運用を支援する共同ソリューションの提供開始を発表した。資産・権限・リスク・証跡を結び付け、導入から運用改善までを支援する。",
+    "category": "security",
+    "source": "ServiceNow Japan",
+    "source_url": "https://prtimes.jp/main/html/rd/p/000000218.000029239.html",
+    "published_at": "2026-10-20T13:00:00+09:00",
+    "published_time_known": true,
+    "image_url": null,
+    "why_it_matters": "セキュリティ製品を増やしても、資産情報や対応履歴が分断されると運用負担が残る。国内企業に向けて統合基盤と導入・運用支援を組み合わせる取り組みで、既存の管理体制にどう接続するかが重要になる。",
+    "core_facts": [
+      "公共・金融・重要インフラなどの国内組織を対象に、セキュリティ情報を資産・リスク・証跡と結び付ける基盤づくりを支援する。",
+      "ServiceNowはCMDBなどの基盤とワークフロー、DTCYはコンサルティング・実装・運用・人材育成の知見を提供する。",
+      "IT・OT・IoTやAIエージェント、非人間IDなどの可視化と統制を支援する方針。AI駆動のマネージドセキュリティサービスは今後の提供を目指すとしている。"
+    ],
+    "tags": [
+      "セキュリティ運用",
+      "資産管理",
+      "AIガバナンス",
+      "業務統合"
+    ],
+    "featured": false,
+    "priority": 3,
+    "region": "japan",
+    "edition_date": "2026-10-21",
+    "collected_at": "2026-10-21T01:00:44+09:00",
+    "is_sample": false
+  },
+  {
     "id": "acompany-20261019-css-confidential-ai-research",
     "title": "Acompany、CSS2026で機密AI・TEE検証など5件の研究を発表へ",
     "summary": "Acompanyは10月19日、CSS2026でConfidential AIと機密コンピューティングに関する計5件の論文を発表すると公表した。実行環境の完全性検証、物理攻撃対策、証拠付きレポート、プライバシー強化技術の法的論点を扱う。会期は10月19〜23日。",
@@ -96,6 +212,8 @@
     "source_url": "https://www.digital.go.jp/policies/genai/agent-safety-standard",
     "published_at": "2026-10-20T00:00:00+09:00",
     "published_time_known": false,
+    "collected_at": "2026-10-20T17:00:30+09:00",
+    "edition_date": "2026-10-20",
     "image_url": null,
     "why_it_matters": "政府のAI利用がチャット中心の支援から、複数工程を処理するエージェントへ広がる動きだ。導入環境と責任分担の基準を同時に示しており、自治体や企業が実行権限と安全管理を設計する際の参考になる。",
     "core_facts": [
@@ -112,8 +230,6 @@
     "featured": true,
     "priority": 1,
     "region": "japan",
-    "edition_date": "2026-10-20",
-    "collected_at": "2026-10-20T17:00:30+09:00",
     "is_sample": false
   },
   {
@@ -125,6 +241,8 @@
     "source_url": "https://www.future.co.jp/press_room/PDF/PressRelease_FutureVulsGO_2601020.pdf",
     "published_at": "2026-10-20T00:00:00+09:00",
     "published_time_known": false,
+    "collected_at": "2026-10-20T17:00:30+09:00",
+    "edition_date": "2026-10-20",
     "image_url": null,
     "why_it_matters": "脆弱性の検知件数だけでは、どこから対応すべきか判断しにくい。到達可能性と構成情報を合わせることで日本の開発・製造現場の判断を補助できるが、未到達という解析結果だけで安全を保証するものではない。",
     "core_facts": [
@@ -141,8 +259,6 @@
     "featured": true,
     "priority": 2,
     "region": "japan",
-    "edition_date": "2026-10-20",
-    "collected_at": "2026-10-20T17:00:30+09:00",
     "is_sample": false
   },
   {
@@ -184,6 +300,8 @@
     "source_url": "https://jp.newsroom.ibm.com/2026-10-20-NittoKogyo-Develops-GenAI-Application-to-Extract-Distribution-Board-Quotation-Information-with-Support-from-IBM-Japan",
     "published_at": "2026-10-20T00:00:00+09:00",
     "published_time_known": false,
+    "collected_at": "2026-10-20T17:00:30+09:00",
+    "edition_date": "2026-10-20",
     "image_url": null,
     "why_it_matters": "図面の読解と見積ノウハウが属人化しやすい製造業務で、人とAIの役割を分けた実装事例となる。抽出結果と修正を蓄積する設計は知見継承にもつながるが、見積判断の全面自動化を意味しない。",
     "core_facts": [
@@ -200,8 +318,6 @@
     "featured": false,
     "priority": 3,
     "region": "japan",
-    "edition_date": "2026-10-20",
-    "collected_at": "2026-10-20T17:00:30+09:00",
     "is_sample": false
   },
   {
@@ -213,6 +329,8 @@
     "source_url": "https://group.ntt/jp/newsrelease/2026/10/20/261020a.html",
     "published_at": "2026-10-20T00:00:00+09:00",
     "published_time_known": false,
+    "collected_at": "2026-10-20T17:00:30+09:00",
+    "edition_date": "2026-10-20",
     "image_url": null,
     "why_it_matters": "AIサーバーでは計算性能に加え、チップ間通信の消費電力と帯域が課題になる。光接続の量産工程を国内企業で整備する取り組みは供給網の強化につながり得るが、目標達成や商用量産を確認した発表ではない。",
     "core_facts": [
@@ -229,8 +347,6 @@
     "featured": true,
     "priority": 1,
     "region": "japan",
-    "edition_date": "2026-10-20",
-    "collected_at": "2026-10-20T17:00:30+09:00",
     "is_sample": false
   },
   {
