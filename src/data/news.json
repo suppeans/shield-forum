@@ -8,6 +8,8 @@
     "source_url": "https://www.acompany.tech/news/26-1019-1",
     "published_at": "2026-10-19T00:00:00+09:00",
     "published_time_known": false,
+    "collected_at": "2026-10-20T09:00:22+09:00",
+    "edition_date": "2026-10-20",
     "image_url": null,
     "why_it_matters": "機密情報を使うAIでは、データを隔離する仕組みと、その環境や処理を検証する仕組みの両方が課題になる。国内研究の発表として注目される一方、発表予定は製品の安全性が実証済みであることを意味しない。",
     "core_facts": [
@@ -24,8 +26,6 @@
     "featured": true,
     "priority": 3,
     "region": "japan",
-    "edition_date": "2026-10-20",
-    "collected_at": "2026-10-20T09:00:22+09:00",
     "is_sample": false
   },
   {
@@ -67,6 +67,8 @@
     "source_url": "https://cybertrust.co.jp/pressrelease/2026/1019-kms.html",
     "published_at": "2026-10-19T00:00:00+09:00",
     "published_time_known": false,
+    "collected_at": "2026-10-20T09:00:22+09:00",
+    "edition_date": "2026-10-20",
     "image_url": null,
     "why_it_matters": "国内にデータを置くだけでなく、復号に必要な鍵を誰が制御するかもデータ主権の重要な論点となる。国内クラウド事業者が鍵管理を分離する選択肢であり、利用企業は権限分担や障害時の運用も確認したい。",
     "core_facts": [
@@ -83,8 +85,64 @@
     "featured": true,
     "priority": 2,
     "region": "japan",
+    "is_sample": false
+  },
+  {
+    "id": "digital-agency-20261020-gennai-agents-standard",
+    "title": "デジタル庁、源内のAIエージェント環境を順次導入　安全利用の基準も公表",
+    "summary": "デジタル庁は10月20日、約18万人の政府職員を対象に、源内でAIエージェントを作成・実行できる環境の提供を開始すると発表した。「エージェントチャット」を同日から順次導入し、より高度な「源内工房」は12月頃までの導入を目指す。利用者・管理者・開発者の責務を定める「源内基準」も公表した。",
+    "category": "policy",
+    "source": "デジタル庁",
+    "source_url": "https://www.digital.go.jp/policies/genai/agent-safety-standard",
+    "published_at": "2026-10-20T00:00:00+09:00",
+    "published_time_known": false,
+    "image_url": null,
+    "why_it_matters": "政府のAI利用がチャット中心の支援から、複数工程を処理するエージェントへ広がる動きだ。導入環境と責任分担の基準を同時に示しており、自治体や企業が実行権限と安全管理を設計する際の参考になる。",
+    "core_facts": [
+      "エージェントチャットは10月20日から各府省庁等へ順次導入し、源内工房は2026年12月頃までの導入を目指す。全職員への即日導入完了を示す発表ではない。",
+      "両環境は源内OSS Ver.2.0として、2027年2月頃を目途に公開する予定。",
+      "AISIの協力を得て策定した源内基準では、利用者・管理者・開発者ごとに責務と遵守事項を定める。"
+    ],
+    "tags": [
+      "ガバメントAI",
+      "源内",
+      "AIエージェント",
+      "ガバナンス"
+    ],
+    "featured": true,
+    "priority": 1,
+    "region": "japan",
     "edition_date": "2026-10-20",
-    "collected_at": "2026-10-20T09:00:22+09:00",
+    "collected_at": "2026-10-20T17:00:30+09:00",
+    "is_sample": false
+  },
+  {
+    "id": "future-20261020-vuls-go-reachability",
+    "title": "FutureVuls、Goの到達可能性分析β版とC/C++ライブラリ識別を追加",
+    "summary": "フューチャーは10月20日、FutureVulsにGoアプリの脆弱性の到達可能性を判定するβ機能と、C/C++同梱ライブラリの識別・脆弱性検知機能を追加したと発表した。機能の公開日は10月14日。対応の優先順位付けとソフトウェア構成の把握を支援する。",
+    "category": "security",
+    "source": "フューチャー",
+    "source_url": "https://www.future.co.jp/press_room/PDF/PressRelease_FutureVulsGO_2601020.pdf",
+    "published_at": "2026-10-20T00:00:00+09:00",
+    "published_time_known": false,
+    "image_url": null,
+    "why_it_matters": "脆弱性の検知件数だけでは、どこから対応すべきか判断しにくい。到達可能性と構成情報を合わせることで日本の開発・製造現場の判断を補助できるが、未到達という解析結果だけで安全を保証するものではない。",
+    "core_facts": [
+      "10月20日付の公式資料は、2機能を10月14日に公開したと説明している。",
+      "Goのβ機能は、脆弱な関数がアプリから呼び出され得るかを解析・表示する。CSIRTプランに含まれる。",
+      "C/C++は専用CLIでソースをハッシュ化して照合し、ライブラリとバージョンを識別する。OSVのdetermineversion APIを利用し、対象はOSS-Fuzzで管理されるC/C++プロジェクト。"
+    ],
+    "tags": [
+      "脆弱性管理",
+      "Go",
+      "C/C++",
+      "ソフトウェア構成管理"
+    ],
+    "featured": true,
+    "priority": 2,
+    "region": "japan",
+    "edition_date": "2026-10-20",
+    "collected_at": "2026-10-20T17:00:30+09:00",
     "is_sample": false
   },
   {
@@ -118,6 +176,64 @@
     "is_sample": false
   },
   {
+    "id": "nittokogyo-ibm-20261020-drawing-estimation-ai",
+    "title": "日東工業と日本IBM、図面から分電盤の見積情報を抽出する生成AIアプリを開発",
+    "summary": "日東工業と日本IBMは10月20日、設備図面から分電盤の見積に必要な情報を抽出する生成AIアプリを開発したと発表した。全国23営業拠点・約50人が利用できる環境を整備し、10月から段階的に実業務へ導入する。AIの抽出結果は営業担当者が確認・補正する。",
+    "category": "dx",
+    "source": "日東工業・日本IBM",
+    "source_url": "https://jp.newsroom.ibm.com/2026-10-20-NittoKogyo-Develops-GenAI-Application-to-Extract-Distribution-Board-Quotation-Information-with-Support-from-IBM-Japan",
+    "published_at": "2026-10-20T00:00:00+09:00",
+    "published_time_known": false,
+    "image_url": null,
+    "why_it_matters": "図面の読解と見積ノウハウが属人化しやすい製造業務で、人とAIの役割を分けた実装事例となる。抽出結果と修正を蓄積する設計は知見継承にもつながるが、見積判断の全面自動化を意味しない。",
+    "core_facts": [
+      "Webアプリは設備図面から回路情報、機器情報、特記事項などをマルチモーダル生成AIで抽出する。",
+      "全国23営業拠点・約50人向けの運用環境を整備し、2026年10月より段階的に利用を始める。",
+      "AIが読み取りと整理を担い、営業担当者が確認・補正する。抽出結果と修正内容を構造化データとして蓄積する。"
+    ],
+    "tags": [
+      "製造業DX",
+      "生成AI",
+      "図面解析",
+      "知見継承"
+    ],
+    "featured": false,
+    "priority": 3,
+    "region": "japan",
+    "edition_date": "2026-10-20",
+    "collected_at": "2026-10-20T17:00:30+09:00",
+    "is_sample": false
+  },
+  {
+    "id": "ntt-20261020-optical-chiplet-manufacturing",
+    "title": "NTTなど、光チップレットの量産技術開発を本格化　NEDO事業に採択",
+    "summary": "NTTなど5社は10月20日、AI計算基盤向け光電融合デバイスの量産技術開発を本格化すると発表した。NTTイノベーティブデバイスを代表とする4社の提案がNEDO事業に採択され、NTTはアドバイザーとして参画する。パイロットラインで評価・検証を進める計画。",
+    "category": "semiconductors",
+    "source": "NTTほか",
+    "source_url": "https://group.ntt/jp/newsrelease/2026/10/20/261020a.html",
+    "published_at": "2026-10-20T00:00:00+09:00",
+    "published_time_known": false,
+    "image_url": null,
+    "why_it_matters": "AIサーバーでは計算性能に加え、チップ間通信の消費電力と帯域が課題になる。光接続の量産工程を国内企業で整備する取り組みは供給網の強化につながり得るが、目標達成や商用量産を確認した発表ではない。",
+    "core_facts": [
+      "共同提案の実施者はNTTイノベーティブデバイス、ジャパンセミコンダクター、古河電工、新光電気工業の4社。NTTは企業連携と供給網形成を支援する。",
+      "光半導体、シリコンフォトニクス、光接続、パッケージ実装・検査などの製造技術を開発する。",
+      "研究開発時点と比べて10倍以上の生産性向上を目標とし、実工場への適用を見据えたパイロットラインを構築・検証する計画。"
+    ],
+    "tags": [
+      "光電融合",
+      "光チップレット",
+      "NEDO",
+      "AIインフラ"
+    ],
+    "featured": true,
+    "priority": 1,
+    "region": "japan",
+    "edition_date": "2026-10-20",
+    "collected_at": "2026-10-20T17:00:30+09:00",
+    "is_sample": false
+  },
+  {
     "id": "polyscape-20261019-livai-partnership",
     "title": "Polyscapeとリヴァイ、ゲーム・IP企業の生成AI活用支援で提携",
     "summary": "クリーク・アンド・リバー社は10月19日、子会社リヴァイがPolyscapeと提携し、ゲーム・IPなどエンターテインメント企業の生成AI活用を支援すると発表した。AIエージェントの開発に加え、研修、品質・権利の管理、導入後の改善を組み合わせる。",
@@ -126,6 +242,8 @@
     "source_url": "https://prtimes.jp/main/html/rd/p/000005158.000003670.html",
     "published_at": "2026-10-19T10:00:00+09:00",
     "published_time_known": true,
+    "collected_at": "2026-10-20T09:00:22+09:00",
+    "edition_date": "2026-10-20",
     "image_url": null,
     "why_it_matters": "日本のゲーム制作では、出力の速さだけでなく作品固有の設定や権利、確認工数への配慮が重要になる。技術実装と人材育成・運用設計を組み合わせる提携で、効果は個別の制作工程で検証していく必要がある。",
     "core_facts": [
@@ -142,8 +260,6 @@
     "featured": true,
     "priority": 3,
     "region": "japan",
-    "edition_date": "2026-10-20",
-    "collected_at": "2026-10-20T09:00:22+09:00",
     "is_sample": false
   },
   {
