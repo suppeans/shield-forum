@@ -1,5 +1,34 @@
 [
   {
+    "id": "acompany-20261019-css-confidential-ai-research",
+    "title": "Acompany、CSS2026で機密AI・TEE検証など5件の研究を発表へ",
+    "summary": "Acompanyは10月19日、CSS2026でConfidential AIと機密コンピューティングに関する計5件の論文を発表すると公表した。実行環境の完全性検証、物理攻撃対策、証拠付きレポート、プライバシー強化技術の法的論点を扱う。会期は10月19〜23日。",
+    "category": "security",
+    "source": "Acompany",
+    "source_url": "https://www.acompany.tech/news/26-1019-1",
+    "published_at": "2026-10-19T00:00:00+09:00",
+    "published_time_known": false,
+    "image_url": null,
+    "why_it_matters": "機密情報を使うAIでは、データを隔離する仕組みと、その環境や処理を検証する仕組みの両方が課題になる。国内研究の発表として注目される一方、発表予定は製品の安全性が実証済みであることを意味しない。",
+    "core_facts": [
+      "CSS2026はアクトシティ浜松とオンラインで10月19〜23日に開催。Acompanyは論文5件と企画講演、展示を予定している。",
+      "研究テーマにはIntel TDXの測定値管理、コード非開示下のアテステーション、TEEを横断する物理攻撃対策を含む。",
+      "ほかに、PETsの法的な位置づけと、Confidential AIの証拠付きレポーティングに関する論文を発表するとしている。"
+    ],
+    "tags": [
+      "Confidential AI",
+      "機密コンピューティング",
+      "TEE",
+      "セキュリティ研究"
+    ],
+    "featured": true,
+    "priority": 3,
+    "region": "japan",
+    "edition_date": "2026-10-20",
+    "collected_at": "2026-10-20T09:00:22+09:00",
+    "is_sample": false
+  },
+  {
     "id": "crowdworks-20261019-studio-data-risk",
     "title": "クラウドワークス、Studio不正アクセスでフォーム情報が漏えいした可能性",
     "summary": "クラウドワークスは10月19日、外部サービスStudioへの不正アクセスに伴い、3サービスのフォーム情報が漏えいした可能性を公表した。公表された4区分の送信件数は計12,131件で、人数ではない。第三者による実際の取得や二次被害は現時点で確認されていない。",
@@ -8,6 +37,8 @@
     "source_url": "https://crowdworks.co.jp/news/v-2z1klpkvd/",
     "published_at": "2026-10-19T00:00:00+09:00",
     "published_time_known": false,
+    "collected_at": "2026-10-20T01:04:42+09:00",
+    "edition_date": "2026-10-20",
     "image_url": null,
     "why_it_matters": "外部のサイト制作基盤への侵害が、問い合わせやイベント申込みの情報管理にも波及する可能性を示す。企業は委託先だけでなく、自社フォームの収集項目と保存期間を確認し、利用者は過去の入力内容を使った不審な連絡に注意したい。",
     "core_facts": [
@@ -25,8 +56,35 @@
     "featured": true,
     "priority": 1,
     "region": "japan",
+    "is_sample": false
+  },
+  {
+    "id": "cybertrust-20261019-kms-announcement",
+    "title": "サイバートラスト、国内分散型の鍵管理サービスを11月提供へ",
+    "summary": "サイバートラストは10月19日、クラウド事業者向け「サイバートラスト KMS」を11月から提供すると発表した。ストレージの運用管理者と分離した環境で暗号鍵を管理し、利用者による鍵の制御を支援する。耐量子計算機暗号（PQC）への将来的な移行も見据えた設計。",
+    "category": "security",
+    "source": "サイバートラスト",
+    "source_url": "https://cybertrust.co.jp/pressrelease/2026/1019-kms.html",
+    "published_at": "2026-10-19T00:00:00+09:00",
+    "published_time_known": false,
+    "image_url": null,
+    "why_it_matters": "国内にデータを置くだけでなく、復号に必要な鍵を誰が制御するかもデータ主権の重要な論点となる。国内クラウド事業者が鍵管理を分離する選択肢であり、利用企業は権限分担や障害時の運用も確認したい。",
+    "core_facts": [
+      "提供開始予定は2026年11月で、対象はクラウドサービス事業者。10月19日の発表時点では提供開始前の計画。",
+      "国内の複数拠点に分散した電子認証センターで暗号鍵を管理し、クラウドストレージの運用管理者から分離した環境を設ける。",
+      "PQCへの将来的な移行を想定した鍵管理基盤であり、現時点の全面的なPQC対応を表明したものではない。"
+    ],
+    "tags": [
+      "暗号鍵管理",
+      "データ主権",
+      "PQC移行",
+      "国内クラウド"
+    ],
+    "featured": true,
+    "priority": 2,
+    "region": "japan",
     "edition_date": "2026-10-20",
-    "collected_at": "2026-10-20T01:04:42+09:00",
+    "collected_at": "2026-10-20T09:00:22+09:00",
     "is_sample": false
   },
   {
@@ -38,6 +96,8 @@
     "source_url": "https://www.gmogshd.com/news/news-17477",
     "published_at": "2026-10-19T00:00:00+09:00",
     "published_time_known": false,
+    "collected_at": "2026-10-20T01:04:42+09:00",
+    "edition_date": "2026-10-20",
     "image_url": null,
     "why_it_matters": "社内情報を検索して回答する用途から、申請や登録・通知などの処理へ生成AIをつなげる動きだ。実行を伴うため、文書の更新状況だけでなく、参照権限や誤判断時の承認・停止手順も含めた設計が重要になる。",
     "core_facts": [
@@ -55,8 +115,35 @@
     "featured": false,
     "priority": 3,
     "region": "japan",
+    "is_sample": false
+  },
+  {
+    "id": "polyscape-20261019-livai-partnership",
+    "title": "Polyscapeとリヴァイ、ゲーム・IP企業の生成AI活用支援で提携",
+    "summary": "クリーク・アンド・リバー社は10月19日、子会社リヴァイがPolyscapeと提携し、ゲーム・IPなどエンターテインメント企業の生成AI活用を支援すると発表した。AIエージェントの開発に加え、研修、品質・権利の管理、導入後の改善を組み合わせる。",
+    "category": "dx",
+    "source": "クリーク・アンド・リバー社",
+    "source_url": "https://prtimes.jp/main/html/rd/p/000005158.000003670.html",
+    "published_at": "2026-10-19T10:00:00+09:00",
+    "published_time_known": true,
+    "image_url": null,
+    "why_it_matters": "日本のゲーム制作では、出力の速さだけでなく作品固有の設定や権利、確認工数への配慮が重要になる。技術実装と人材育成・運用設計を組み合わせる提携で、効果は個別の制作工程で検証していく必要がある。",
+    "core_facts": [
+      "現状診断と構想策定からPoC、AIエージェント設計・実装、研修、ガバナンス設計、運用改善まで支援する方針。",
+      "リヴァイは導入構想、人材育成、ガバナンスや現場定着を中心に、Polyscapeは技術開発・実装・運用を中心に担当する。",
+      "PoCでは出力品質、作業時間、確認・修正の工数などを評価し、生成物は人が確認・修正・監修する前提で運用体制を設計する。"
+    ],
+    "tags": [
+      "ゲーム開発",
+      "生成AI",
+      "AI人材育成",
+      "ガバナンス"
+    ],
+    "featured": true,
+    "priority": 3,
+    "region": "japan",
     "edition_date": "2026-10-20",
-    "collected_at": "2026-10-20T01:04:42+09:00",
+    "collected_at": "2026-10-20T09:00:22+09:00",
     "is_sample": false
   },
   {
@@ -68,6 +155,8 @@
     "source_url": "https://cloud.sakura.ad.jp/news/2026/10/19/digest-auth-deprecation/",
     "published_at": "2026-10-19T00:00:00+09:00",
     "published_time_known": false,
+    "collected_at": "2026-10-20T01:04:42+09:00",
+    "edition_date": "2026-10-20",
     "image_url": null,
     "why_it_matters": "APIを使う運用スクリプトや外部ツールが旧方式のままだと、認証終了後に自動処理が止まるおそれがある。国内クラウドを利用する開発・運用担当者は接続方式を確認し、期限前に移行と動作確認を済ませたい。",
     "core_facts": [
@@ -84,8 +173,6 @@
     "featured": true,
     "priority": 2,
     "region": "japan",
-    "edition_date": "2026-10-20",
-    "collected_at": "2026-10-20T01:04:42+09:00",
     "is_sample": false
   },
   {
@@ -97,6 +184,8 @@
     "source_url": "https://www.trendmicro.com/ja_jp/about/newsroom/press-releases/2026/pr-20261019-01.html",
     "published_at": "2026-10-19T00:00:00+09:00",
     "published_time_known": false,
+    "collected_at": "2026-10-20T01:04:42+09:00",
+    "edition_date": "2026-10-20",
     "image_url": null,
     "why_it_matters": "製品導入だけでは対処しにくい運用や専門人材の不足に、ライセンスと技術支援を組み合わせる取り組みだ。利用を検討する日本企業は、適用条件、既存環境との整合性、無償期間後の費用を確認する必要がある。",
     "core_facts": [
@@ -114,8 +203,6 @@
     "featured": true,
     "priority": 2,
     "region": "japan",
-    "edition_date": "2026-10-20",
-    "collected_at": "2026-10-20T01:04:42+09:00",
     "is_sample": false
   },
   {
