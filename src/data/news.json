@@ -1,5 +1,96 @@
 [
   {
+    "id": "ntt-20261021-fiber-ai-water-leak-trial",
+    "title": "NTT、光ファイバとAIで漏水位置を特定　福岡の実証で約15分",
+    "summary": "NTTは10月21日、福岡市管工事協同組合との実証で、光ファイバセンシングとAIによる給水管の漏水位置特定に成功したと発表。測定から解析まで約15分で、水平誤差75cm以内の正解率88％を確認しました。",
+    "category": "dx",
+    "source": "NTT",
+    "source_url": "https://group.ntt/jp/newsrelease/2026/10/21/261021a.html",
+    "published_at": "2026-10-21T00:00:00+09:00",
+    "published_time_known": false,
+    "image_url": null,
+    "why_it_matters": "水道の維持管理では熟練作業者の不足と技術継承が課題です。振動計測とAI解析を組み合わせる実証は、国内自治体のインフラ点検を支えるIT活用の一例になります。",
+    "core_facts": [
+      "福岡市内のフィールドで、地下30～120cmの給水管の漏水による微弱振動を測定しました。",
+      "地上に設置する光ファイバデバイスで5分間測定し、AI解析を含む工程は約15分です。",
+      "実証結果は水平誤差75cm以内で正解率88％であり、すべての漏水を特定できるという結果ではありません。",
+      "今後は解析精度と現場での運用性を改善し、水道事業者や自治体への展開を目指します。"
+    ],
+    "tags": [
+      "NTT",
+      "光ファイバセンシング",
+      "AI",
+      "水道DX",
+      "インフラ点検"
+    ],
+    "featured": true,
+    "priority": 2,
+    "region": "japan",
+    "edition_date": "2026-10-22",
+    "collected_at": "2026-10-22T01:02:29+09:00",
+    "is_sample": false
+  },
+  {
+    "id": "php-20261021-critical-security-release",
+    "title": "PHP、未認証の遠隔コード実行につながる2件を修正　4系統の更新を公開",
+    "summary": "PHP開発チームは10月21日、重大な脆弱性を修正する8.5.12、8.4.27、8.3.36、8.2.35を公開しました。前日の予告とIPAの事前準備要請に続く正式公開で、Webリクエストを処理するPHP環境に直ちに更新するよう求めています。",
+    "category": "security",
+    "source": "The PHP Group",
+    "source_url": "https://www.php.net/archive/2026.php#2026-10-21-5",
+    "published_at": "2026-10-21T00:00:00+09:00",
+    "published_time_known": false,
+    "image_url": null,
+    "why_it_matters": "PHPを使う国内のWebサービスや業務システムでは、今回の正式公開を受け、事前確認から更新適用へ移る必要があります。配布元の修正パッケージと自組織の導入状況の照合が重要です。",
+    "core_facts": [
+      "修正対象はCVE-2026-109618とCVE-2026-109619で、認証なしの遠隔コード実行につながる可能性があります。",
+      "公式はPHP-FPM、mod_php、php-cgiなどWebリクエストを処理する環境をリスク対象として挙げています。",
+      "緩和策では完全に解消できず、更新が必要だとしています。",
+      "PHP 8.1以前は公式の通常更新対象外であり、利用者は配布元のバックポートやサポート中の系統への移行を確認する必要があります。"
+    ],
+    "tags": [
+      "PHP",
+      "セキュリティ更新",
+      "遠隔コード実行",
+      "Web運用"
+    ],
+    "featured": true,
+    "priority": 1,
+    "region": "global",
+    "edition_date": "2026-10-22",
+    "collected_at": "2026-10-22T01:02:29+09:00",
+    "is_sample": false
+  },
+  {
+    "id": "toyota-tsusho-20261021-chempower-investment",
+    "title": "豊田通商、半導体研磨材の米ChEmpowerに出資　国内供給と資源循環へ",
+    "summary": "豊田通商は10月21日、半導体CMP工程向けの材料を開発する米ChEmpowerに出資したと発表。砥粒を使わないケミカルと研磨パッドを日本の半導体メーカーへ供給し、廃液回収や希少金属再生につなげる方針です。",
+    "category": "semiconductors",
+    "source": "豊田通商",
+    "source_url": "https://www.toyota-tsusho.com/press/detail/261021_006947.html",
+    "published_at": "2026-10-21T00:00:00+09:00",
+    "published_time_known": false,
+    "image_url": null,
+    "why_it_matters": "半導体需要の拡大に伴い、製造材料の歩留まりと環境負荷の両立が課題になります。海外技術を国内メーカーに供給し、資源回収まで結ぶ取り組みとして事業化の進展が注目されます。",
+    "core_facts": [
+      "出資は、一定条件で将来株式を取得する権利となるSAFE型新株予約権によるものです。",
+      "ChEmpowerは砥粒を使用しないCMPケミカルと研磨パッドを開発しています。",
+      "豊田通商は国内メーカーへの製品供給と、半導体製造の廃液から希少金属を再生する事業を進める方針です。"
+    ],
+    "tags": [
+      "豊田通商",
+      "ChEmpower",
+      "半導体材料",
+      "CMP",
+      "資源循環"
+    ],
+    "featured": true,
+    "priority": 2,
+    "region": "japan",
+    "edition_date": "2026-10-22",
+    "collected_at": "2026-10-22T01:02:29+09:00",
+    "is_sample": false
+  },
+  {
     "id": "broadcom-docomo-20261020-private-cloud-agreement",
     "title": "Broadcomとドコモ、プライベートクラウド高度化へ10年間の包括契約",
     "summary": "Broadcomは10月20日、NTTドコモとVMware製品のライセンス、技術支援、保守を対象に10年間の包括契約を締結したと発表。VCFを中核に、既存クラウドの可用性や安全性、開発・運用の自動化を強化します。",
@@ -95,6 +186,8 @@
     "source_url": "https://www.hitachi.com/ja-jp/press/articles/2026/10/1021a/",
     "published_at": "2026-10-21T00:00:00+09:00",
     "published_time_known": false,
+    "collected_at": "2026-10-21T17:07:16+09:00",
+    "edition_date": "2026-10-21",
     "image_url": null,
     "why_it_matters": "AIデータセンターでは演算だけでなく冷却の電力も課題です。国内の冷却部材技術と設備制御の組み合わせは、設置地域の気候を踏まえた省電力設計の選択肢になり得ます。",
     "core_facts": [
@@ -113,8 +206,6 @@
     "featured": true,
     "priority": 2,
     "region": "japan",
-    "edition_date": "2026-10-21",
-    "collected_at": "2026-10-21T17:07:16+09:00",
     "is_sample": false
   },
   {
@@ -126,6 +217,8 @@
     "source_url": "https://www.ipa.go.jp/security/security-alert/2026/1021-jre.html",
     "published_at": "2026-10-21T00:00:00+09:00",
     "published_time_known": false,
+    "collected_at": "2026-10-21T17:07:16+09:00",
+    "edition_date": "2026-10-21",
     "image_url": null,
     "why_it_matters": "Javaを利用する業務アプリケーションでは、実行環境の把握と更新の調整が欠かせません。国内企業の開発・運用部門が対応対象を点検するきっかけとなる情報です。",
     "core_facts": [
@@ -142,8 +235,6 @@
     "featured": true,
     "priority": 2,
     "region": "japan",
-    "edition_date": "2026-10-21",
-    "collected_at": "2026-10-21T17:07:16+09:00",
     "is_sample": false
   },
   {
@@ -155,6 +246,8 @@
     "source_url": "https://www.ipa.go.jp/security/security-alert/2026/pre-alert20261021.html",
     "published_at": "2026-10-21T00:00:00+09:00",
     "published_time_known": false,
+    "collected_at": "2026-10-21T17:07:16+09:00",
+    "edition_date": "2026-10-21",
     "image_url": null,
     "why_it_matters": "PHPは国内のWebサービスや製品内部で広く使われます。公開後の対応時間を短くするため、運用者が依存関係と更新手順を事前に確認する必要があります。",
     "core_facts": [
@@ -171,8 +264,6 @@
     "featured": true,
     "priority": 1,
     "region": "japan",
-    "edition_date": "2026-10-21",
-    "collected_at": "2026-10-21T17:07:16+09:00",
     "is_sample": false
   },
   {
@@ -213,6 +304,8 @@
     "source_url": "https://prtimes.jp/main/html/rd/p/000000067.000082223.html",
     "published_at": "2026-10-21T15:30:00+09:00",
     "published_time_known": true,
+    "collected_at": "2026-10-21T17:07:16+09:00",
+    "edition_date": "2026-10-21",
     "image_url": null,
     "why_it_matters": "社内AIを活用する前段には、紙やPDFに残る情報の整備が必要です。人による確認を含む構造化の流れは、日本企業の帳票業務とデータ連携を改善する手段になります。",
     "core_facts": [
@@ -230,8 +323,6 @@
     "featured": false,
     "priority": 3,
     "region": "japan",
-    "edition_date": "2026-10-21",
-    "collected_at": "2026-10-21T17:07:16+09:00",
     "is_sample": false
   },
   {
@@ -243,6 +334,8 @@
     "source_url": "https://prtimes.jp/main/html/rd/p/000000272.000054269.html",
     "published_at": "2026-10-21T09:00:00+09:00",
     "published_time_known": true,
+    "collected_at": "2026-10-21T17:07:16+09:00",
+    "edition_date": "2026-10-21",
     "image_url": null,
     "why_it_matters": "製造・物流などのDXでは、部門ごとに分かれた記録を経営判断へつなぐことが課題です。国内SaaS企業が現場情報とAIの活用へ投資する動きとして、製品展開と採用の進展が注目されます。",
     "core_facts": [
@@ -261,8 +354,6 @@
     "featured": false,
     "priority": 3,
     "region": "japan",
-    "edition_date": "2026-10-21",
-    "collected_at": "2026-10-21T17:07:16+09:00",
     "is_sample": false
   },
   {
