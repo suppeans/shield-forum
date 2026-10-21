@@ -8,6 +8,8 @@
     "source_url": "https://prtimes.jp/main/html/rd/p/000000226.000014392.html",
     "published_at": "2026-10-20T15:53:00+09:00",
     "published_time_known": true,
+    "collected_at": "2026-10-21T08:58:56+09:00",
+    "edition_date": "2026-10-21",
     "image_url": null,
     "why_it_matters": "国内の大規模サービス基盤を長期契約で維持・更新する事例です。仮想マシンとコンテナの共通運用や支援体制は、企業がクラウド基盤の更新計画を考える際の論点になります。",
     "core_facts": [
@@ -24,8 +26,6 @@
     "featured": false,
     "priority": 3,
     "region": "japan",
-    "edition_date": "2026-10-21",
-    "collected_at": "2026-10-21T08:58:56+09:00",
     "is_sample": false
   },
   {
@@ -37,6 +37,8 @@
     "source_url": "https://www.digital.go.jp/councils/ai_digital",
     "published_at": "2026-10-20T00:00:00+09:00",
     "published_time_known": false,
+    "collected_at": "2026-10-21T08:58:56+09:00",
+    "edition_date": "2026-10-21",
     "image_url": null,
     "why_it_matters": "公共サービスや企業のAI導入では、技術だけでなく制度と運用の整備が課題です。政府横断の検討が、国内IT事業者の開発・導入条件にどう反映されるかが注目されます。",
     "core_facts": [
@@ -53,8 +55,6 @@
     "featured": true,
     "priority": 2,
     "region": "japan",
-    "edition_date": "2026-10-21",
-    "collected_at": "2026-10-21T08:58:56+09:00",
     "is_sample": false
   },
   {
@@ -87,6 +87,95 @@
     "is_sample": false
   },
   {
+    "id": "hitachi-20261021-gpu-cold-plate",
+    "title": "日立、GPU冷却用プレートを試作　冷却電力30％減の見込み",
+    "summary": "日立は10月21日、独自のU字トンネル流路を持つGPU冷却用コールドプレートを開発したと発表。高温の冷却液でも熱を回収しやすくし、特定の外気条件などを仮定した試算で冷却電力を30％削減できる見込みを示しました。",
+    "category": "cloud",
+    "source": "日立製作所",
+    "source_url": "https://www.hitachi.com/ja-jp/press/articles/2026/10/1021a/",
+    "published_at": "2026-10-21T00:00:00+09:00",
+    "published_time_known": false,
+    "image_url": null,
+    "why_it_matters": "AIデータセンターでは演算だけでなく冷却の電力も課題です。国内の冷却部材技術と設備制御の組み合わせは、設置地域の気候を踏まえた省電力設計の選択肢になり得ます。",
+    "core_facts": [
+      "数千本の微細な流路を並列に設け、冷却液をGPUの発熱部近くへ届ける構造です。",
+      "30％はデータセンター全体の消費電力削減率ではなく、回収した熱を外気へ放出するための冷却電力の試算値です。",
+      "試算は地域や外気温度などの条件に依存し、結果は条件により異なります。",
+      "今後は冷却設備の統合制御やHMAX Data Centerとの連携を進める方針です。"
+    ],
+    "tags": [
+      "日立",
+      "GPU",
+      "液冷",
+      "データセンター",
+      "省電力"
+    ],
+    "featured": true,
+    "priority": 2,
+    "region": "japan",
+    "edition_date": "2026-10-21",
+    "collected_at": "2026-10-21T17:07:16+09:00",
+    "is_sample": false
+  },
+  {
+    "id": "ipa-20261021-oracle-java-security-update",
+    "title": "IPA、Oracle Javaの10月セキュリティ更新の早期適用を呼びかけ",
+    "summary": "IPAは10月21日、Oracle Javaのセキュリティ更新が日本時間の同日に公表されたと案内しました。脆弱性の悪用でアプリケーションの異常終了や端末の制御などが起きるおそれがあり、最新版への更新を求めています。",
+    "category": "security",
+    "source": "IPA",
+    "source_url": "https://www.ipa.go.jp/security/security-alert/2026/1021-jre.html",
+    "published_at": "2026-10-21T00:00:00+09:00",
+    "published_time_known": false,
+    "image_url": null,
+    "why_it_matters": "Javaを利用する業務アプリケーションでは、実行環境の把握と更新の調整が欠かせません。国内企業の開発・運用部門が対応対象を点検するきっかけとなる情報です。",
+    "core_facts": [
+      "注意喚起の公開日は2026年10月21日です。",
+      "サポート対象のOracle Java SE 27、26、25、21、17、11、8の各系統が対象として示されています。",
+      "IPAはOracleが提供する最新版への更新を案内し、商用利用時はライセンス条件も確認するよう求めています。"
+    ],
+    "tags": [
+      "Oracle Java",
+      "IPA",
+      "セキュリティ更新",
+      "業務システム"
+    ],
+    "featured": true,
+    "priority": 2,
+    "region": "japan",
+    "edition_date": "2026-10-21",
+    "collected_at": "2026-10-21T17:07:16+09:00",
+    "is_sample": false
+  },
+  {
+    "id": "ipa-20261021-php-security-prerelease",
+    "title": "IPA、PHPの緊急更新に備え事前準備を要請　21日23時の公開予定",
+    "summary": "IPAは10月21日、PHPの2件の脆弱性に対する修正公開に備えるよう注意喚起しました。公開予定は同日23時（日本時間）で、利用状況の棚卸しと、公開後に迅速に更新できる体制の準備を求めています。",
+    "category": "security",
+    "source": "IPA",
+    "source_url": "https://www.ipa.go.jp/security/security-alert/2026/pre-alert20261021.html",
+    "published_at": "2026-10-21T00:00:00+09:00",
+    "published_time_known": false,
+    "image_url": null,
+    "why_it_matters": "PHPは国内のWebサービスや製品内部で広く使われます。公開後の対応時間を短くするため、運用者が依存関係と更新手順を事前に確認する必要があります。",
+    "core_facts": [
+      "IPAの発信時点では修正は未公開で、詳細な影響バージョンや修正版も未確認です。",
+      "脆弱性情報の公開や悪用の確認により、予定が前倒しされる可能性があります。",
+      "IPAは今回の2件を悪用した攻撃を現時点で確認したわけではなく、予防的な注意喚起としています。"
+    ],
+    "tags": [
+      "PHP",
+      "IPA",
+      "脆弱性",
+      "更新準備"
+    ],
+    "featured": true,
+    "priority": 1,
+    "region": "japan",
+    "edition_date": "2026-10-21",
+    "collected_at": "2026-10-21T17:07:16+09:00",
+    "is_sample": false
+  },
+  {
     "id": "jpx-hitachi-20261020-ai-operations",
     "title": "JPXと日立、取引システムの運用監視に生成AIを本格適用",
     "summary": "JPXと日立は10月20日、国内金融市場の取引システムの運用監視に「JP1 Cloud Service 生成AIアシスタント」を10月から本格適用したと発表した。アラートに対する手順候補や判断根拠を提示し、オペレーターの初動判断を支援する。",
@@ -116,6 +205,67 @@
     "is_sample": false
   },
   {
+    "id": "jtp-20261021-ai-ocr-web",
+    "title": "JTP、生成AIで書類を構造化する「AI OCR Web」を提供開始",
+    "summary": "JTPは10月21日、Third AI 生成AIソリューションに「AI OCR Web」を追加しました。OCRと生成AIで紙・PDFの情報を項目別に整理し、人が原本と照合・修正して確定する仕組みで、CSVやJSONなどに出力できます。",
+    "category": "ai",
+    "source": "JTP",
+    "source_url": "https://prtimes.jp/main/html/rd/p/000000067.000082223.html",
+    "published_at": "2026-10-21T15:30:00+09:00",
+    "published_time_known": true,
+    "image_url": null,
+    "why_it_matters": "社内AIを活用する前段には、紙やPDFに残る情報の整備が必要です。人による確認を含む構造化の流れは、日本企業の帳票業務とデータ連携を改善する手段になります。",
+    "core_facts": [
+      "項目定義、管理表、Markdown変換の3つの読み取りモードを備えます。",
+      "プリセットやサンプル書類からテンプレートを作成でき、AIが読み取る項目の案を提示します。",
+      "原本との比較表示や要確認の印を使って人が結果を確定し、CSV・JSON・Markdownで出力します。"
+    ],
+    "tags": [
+      "JTP",
+      "AI OCR",
+      "生成AI",
+      "帳票",
+      "データ整備"
+    ],
+    "featured": false,
+    "priority": 3,
+    "region": "japan",
+    "edition_date": "2026-10-21",
+    "collected_at": "2026-10-21T17:07:16+09:00",
+    "is_sample": false
+  },
+  {
+    "id": "kaminashi-20261021-series-c-operations-hub",
+    "title": "カミナシ、シリーズCで約22.1億円を調達　現場データと経営をつなぐ構想",
+    "summary": "カミナシは10月21日、シリーズCで約22.1億円を調達し、現場オペレーションHub構想を発表しました。写真や音声などを含む現場データの活用を進め、新製品の開発、共通基盤、事業体制と採用に資金を充てます。",
+    "category": "startups",
+    "source": "カミナシ",
+    "source_url": "https://prtimes.jp/main/html/rd/p/000000272.000054269.html",
+    "published_at": "2026-10-21T09:00:00+09:00",
+    "published_time_known": true,
+    "image_url": null,
+    "why_it_matters": "製造・物流などのDXでは、部門ごとに分かれた記録を経営判断へつなぐことが課題です。国内SaaS企業が現場情報とAIの活用へ投資する動きとして、製品展開と採用の進展が注目されます。",
+    "core_facts": [
+      "第三者割当増資で約22.1億円を調達し、株式による累計調達額は約61億円となりました。",
+      "リード投資家はインキュベイトファンドで、新製品やProject Lux、製品間の共通基盤の開発と人材採用に充当します。",
+      "カミナシ 生産実績は11月提供開始予定で、発表時点では将来の提供計画です。",
+      "Project Luxでは、キリングループロジスティクスとの協業で現場点検と安全管理のデータを結び付ける仕組みを構築中です。"
+    ],
+    "tags": [
+      "カミナシ",
+      "資金調達",
+      "現場DX",
+      "SaaS",
+      "採用"
+    ],
+    "featured": false,
+    "priority": 3,
+    "region": "japan",
+    "edition_date": "2026-10-21",
+    "collected_at": "2026-10-21T17:07:16+09:00",
+    "is_sample": false
+  },
+  {
     "id": "ntt-docomo-20261020-base-station-energy-trial",
     "title": "NTTとドコモ、基地局の通信負荷と蓄電池をAIで協調制御する実証を開始",
     "summary": "NTTとNTTドコモは10月20日、基地局間の通信処理負荷の移動と太陽光・蓄電池の制御を組み合わせる実証を開始。再エネ利用、電力需給への対応、停電時の通信継続への効果を年末まで検証します。",
@@ -124,6 +274,8 @@
     "source_url": "https://group.ntt/jp/newsrelease/2026/10/20/261020b.html",
     "published_at": "2026-10-20T00:00:00+09:00",
     "published_time_known": false,
+    "collected_at": "2026-10-21T08:58:56+09:00",
+    "edition_date": "2026-10-21",
     "image_url": null,
     "why_it_matters": "通信インフラの省電力と災害時の継続運用を同時に考える取り組みです。AIによる負荷配置と電源制御の連携は、国内の分散型インフラ運用にも参考となる可能性があります。",
     "core_facts": [
@@ -141,8 +293,6 @@
     "featured": true,
     "priority": 2,
     "region": "japan",
-    "edition_date": "2026-10-21",
-    "collected_at": "2026-10-21T08:58:56+09:00",
     "is_sample": false
   },
   {
@@ -183,6 +333,8 @@
     "source_url": "https://www.salesforce.com/jp/news/press-releases/2026/10/20/nara-partnership/",
     "published_at": "2026-10-20T00:00:00+09:00",
     "published_time_known": false,
+    "collected_at": "2026-10-21T08:58:56+09:00",
+    "edition_date": "2026-10-21",
     "image_url": null,
     "why_it_matters": "地方のDXでは研修の提供だけでなく、習得したスキルを生かす仕事との接続が重要です。教育と企業誘致を組み合わせる方針が、県内のIT就業機会につながるかが焦点になります。",
     "core_facts": [
@@ -200,8 +352,6 @@
     "featured": false,
     "priority": 3,
     "region": "japan",
-    "edition_date": "2026-10-21",
-    "collected_at": "2026-10-21T08:58:56+09:00",
     "is_sample": false
   },
   {
