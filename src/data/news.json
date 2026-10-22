@@ -8,6 +8,8 @@
     "source_url": "https://digital-gov.note.jp/n/n99cb228cc81c",
     "published_at": "2026-10-21T15:08:00+09:00",
     "published_time_known": true,
+    "collected_at": "2026-10-22T09:02:23+09:00",
+    "edition_date": "2026-10-22",
     "image_url": null,
     "why_it_matters": "行政や企業で使われる表データは、見た目の調整が自動処理の障害になる場合があります。決定論的な点検とAIによる作業支援を組み合わせる方法は、データ整備の再現性を考える材料になります。",
     "core_facts": [
@@ -26,8 +28,6 @@
     "featured": true,
     "priority": 2,
     "region": "japan",
-    "edition_date": "2026-10-22",
-    "collected_at": "2026-10-22T09:02:23+09:00",
     "is_sample": false
   },
   {
@@ -39,6 +39,8 @@
     "source_url": "https://jvn.jp/vu/JVNVU93110597/",
     "published_at": "2026-10-21T00:00:00+09:00",
     "published_time_known": false,
+    "collected_at": "2026-10-22T09:02:23+09:00",
+    "edition_date": "2026-10-22",
     "image_url": null,
     "why_it_matters": "Tomcatを利用する国内のJavaシステムでは、稼働系統や構成に応じた確認が必要です。複数の問題を一括して把握できる国内窓口の案内は、運用部門の更新判断を支えます。",
     "core_facts": [
@@ -56,8 +58,6 @@
     "featured": true,
     "priority": 2,
     "region": "japan",
-    "edition_date": "2026-10-22",
-    "collected_at": "2026-10-22T09:02:23+09:00",
     "is_sample": false
   },
   {
@@ -69,6 +69,8 @@
     "source_url": "https://prtimes.jp/main/html/rd/p/000000079.000129151.html",
     "published_at": "2026-10-21T10:00:00+09:00",
     "published_time_known": true,
+    "collected_at": "2026-10-22T09:02:23+09:00",
+    "edition_date": "2026-10-22",
     "image_url": null,
     "why_it_matters": "国内企業の基幹刷新では、クラウド移行とともにシステム間の接続が複雑化します。APIの共通管理を先行して整える事例として、開発・運用部門の連携設計に参考になります。",
     "core_facts": [
@@ -86,8 +88,6 @@
     "featured": true,
     "priority": 2,
     "region": "japan",
-    "edition_date": "2026-10-22",
-    "collected_at": "2026-10-22T09:02:23+09:00",
     "is_sample": false
   },
   {
@@ -179,6 +179,37 @@
     "featured": true,
     "priority": 2,
     "region": "japan",
+    "is_sample": false
+  },
+  {
+    "id": "veriserve-20261022-factory-ot-security",
+    "title": "ベリサーブ、工場OT向け安全対策サービスを開始　侵入試験から体制整備まで",
+    "summary": "ベリサーブは10月22日、製造業向けの工場・OTセキュリティサービスを提供開始しました。製造を支えるアプリケーションの侵入試験に加え、規程や運用の評価、工場向けガイドライン作成、事故対応体制の構築を支援します。",
+    "category": "security",
+    "source": "ベリサーブ",
+    "source_url": "https://www.veriserve.co.jp/news/2026/news-20261022.html",
+    "published_at": "2026-10-22T00:00:00+09:00",
+    "published_time_known": false,
+    "image_url": null,
+    "why_it_matters": "工場の外部接続や遠隔保守が広がるなか、攻撃は生産停止や品質にも影響します。国内製造業がアプリケーションの弱点と現場の対応手順を一緒に見直すための支援の選択肢になります。",
+    "core_facts": [
+      "サービスの提供開始日は2026年10月22日です。",
+      "侵入試験では製造アプリケーションを起点に重要資産への到達可能性を検証し、事業影響に応じた改善の優先順位を提示します。",
+      "アセスメント、工場向けガイドライン作成、工場の事故対応組織FSIRTの体制・プロセス構築も支援します。",
+      "各サービスは個別適用が可能で、インフラ領域の対策は協力会社とも連携します。"
+    ],
+    "tags": [
+      "ベリサーブ",
+      "OTセキュリティ",
+      "工場",
+      "侵入試験",
+      "事業継続"
+    ],
+    "featured": true,
+    "priority": 2,
+    "region": "japan",
+    "edition_date": "2026-10-22",
+    "collected_at": "2026-10-22T17:05:09+09:00",
     "is_sample": false
   },
   {
