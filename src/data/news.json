@@ -1,5 +1,96 @@
 [
   {
+    "id": "digital-agency-20261021-harunobu-guide",
+    "title": "デジタル庁、Harunobuの活用方法を紹介　表データの採点とAI整形を連携",
+    "summary": "デジタル庁は10月21日の公式記事で、公開済みツールHarunobuの判定方法とAIを組み合わせたデータ整備手順を紹介しました。Excelなどの機械可読性をルールに沿って評価し、判定結果を基に整形プログラムを作成・検証する流れを示しています。",
+    "category": "dx",
+    "source": "デジタル庁",
+    "source_url": "https://digital-gov.note.jp/n/n99cb228cc81c",
+    "published_at": "2026-10-21T15:08:00+09:00",
+    "published_time_known": true,
+    "image_url": null,
+    "why_it_matters": "行政や企業で使われる表データは、見た目の調整が自動処理の障害になる場合があります。決定論的な点検とAIによる作業支援を組み合わせる方法は、データ整備の再現性を考える材料になります。",
+    "core_facts": [
+      "今回の記事は既に公開されているツールの紹介であり、初回リリース日を示すものではありません。",
+      "Excel・CSV・TSVを点検し、違反箇所と理由を含む採点結果を出力します。",
+      "Harunobu自体はデータの形式を編集せず、公式記事はAIが生成した整形プログラムを実行して再検証する手順を説明しています。",
+      "通常の判定はローカルで行われ、任意の外部AI補助を有効にすると設定したAPIへデータが送信されます。"
+    ],
+    "tags": [
+      "デジタル庁",
+      "Harunobu",
+      "機械可読性",
+      "データ整備",
+      "行政DX"
+    ],
+    "featured": true,
+    "priority": 2,
+    "region": "japan",
+    "edition_date": "2026-10-22",
+    "collected_at": "2026-10-22T09:02:23+09:00",
+    "is_sample": false
+  },
+  {
+    "id": "jvn-20261021-apache-tomcat-advisories",
+    "title": "JVN、Apache Tomcatの8件の脆弱性を案内　修正版の確認を",
+    "summary": "JVNは10月21日、Apache Tomcatの8件の脆弱性に関する情報を公開しました。10月20日付の開発元アドバイザリを案内し、11.0.27、10.1.61、9.0.123での修正情報を示しています。",
+    "category": "security",
+    "source": "JVN／JPCERT/CC・IPA",
+    "source_url": "https://jvn.jp/vu/JVNVU93110597/",
+    "published_at": "2026-10-21T00:00:00+09:00",
+    "published_time_known": false,
+    "image_url": null,
+    "why_it_matters": "Tomcatを利用する国内のJavaシステムでは、稼働系統や構成に応じた確認が必要です。複数の問題を一括して把握できる国内窓口の案内は、運用部門の更新判断を支えます。",
+    "core_facts": [
+      "JVNの公開日・最終更新日は2026年10月21日で、対象アドバイザリの日付は10月20日です。",
+      "対象にはHTTP/2やAJPの応答混同、JNDIRealmの認証情報検証、TLS接続などに関する問題が含まれます。",
+      "JVNはTomcat 11.0.27、10.1.61、9.0.123の修正情報を案内し、詳細条件は開発元の各アドバイザリを参照するよう求めています。"
+    ],
+    "tags": [
+      "Apache Tomcat",
+      "JVN",
+      "脆弱性",
+      "Java",
+      "サーバー運用"
+    ],
+    "featured": true,
+    "priority": 2,
+    "region": "japan",
+    "edition_date": "2026-10-22",
+    "collected_at": "2026-10-22T09:02:23+09:00",
+    "is_sample": false
+  },
+  {
+    "id": "kong-toray-20261021-api-management",
+    "title": "東レ、基幹刷新のAPI管理にKong Konnectを採用　連携と運用を標準化",
+    "summary": "Kongは10月21日、東レが基幹システム刷新に向けたAPI管理基盤にKong Konnectを採用したと発表しました。ERPやクラウド、独自業務システムをつなぎ、APIの可視化、セキュリティポリシーの統一と運用標準化を進めます。",
+    "category": "development",
+    "source": "Kong",
+    "source_url": "https://prtimes.jp/main/html/rd/p/000000079.000129151.html",
+    "published_at": "2026-10-21T10:00:00+09:00",
+    "published_time_known": true,
+    "image_url": null,
+    "why_it_matters": "国内企業の基幹刷新では、クラウド移行とともにシステム間の接続が複雑化します。APIの共通管理を先行して整える事例として、開発・運用部門の連携設計に参考になります。",
+    "core_facts": [
+      "東レはファイル連携中心の構成から、APIファーストのシステム間連携への転換を進めています。",
+      "現在はERP、クラウドサービス、社内独自システムの連携に用い、相互TLS認証で接続しています。",
+      "2028年度に予定する基幹刷新やグループ展開を支え、将来はAIとの接続管理にも活用する方針です。"
+    ],
+    "tags": [
+      "東レ",
+      "Kong",
+      "API管理",
+      "基幹システム刷新",
+      "クラウド連携"
+    ],
+    "featured": true,
+    "priority": 2,
+    "region": "japan",
+    "edition_date": "2026-10-22",
+    "collected_at": "2026-10-22T09:02:23+09:00",
+    "is_sample": false
+  },
+  {
     "id": "ntt-20261021-fiber-ai-water-leak-trial",
     "title": "NTT、光ファイバとAIで漏水位置を特定　福岡の実証で約15分",
     "summary": "NTTは10月21日、福岡市管工事協同組合との実証で、光ファイバセンシングとAIによる給水管の漏水位置特定に成功したと発表。測定から解析まで約15分で、水平誤差75cm以内の正解率88％を確認しました。",
@@ -8,6 +99,8 @@
     "source_url": "https://group.ntt/jp/newsrelease/2026/10/21/261021a.html",
     "published_at": "2026-10-21T00:00:00+09:00",
     "published_time_known": false,
+    "collected_at": "2026-10-22T01:02:29+09:00",
+    "edition_date": "2026-10-22",
     "image_url": null,
     "why_it_matters": "水道の維持管理では熟練作業者の不足と技術継承が課題です。振動計測とAI解析を組み合わせる実証は、国内自治体のインフラ点検を支えるIT活用の一例になります。",
     "core_facts": [
@@ -26,8 +119,6 @@
     "featured": true,
     "priority": 2,
     "region": "japan",
-    "edition_date": "2026-10-22",
-    "collected_at": "2026-10-22T01:02:29+09:00",
     "is_sample": false
   },
   {
@@ -39,6 +130,8 @@
     "source_url": "https://www.php.net/archive/2026.php#2026-10-21-5",
     "published_at": "2026-10-21T00:00:00+09:00",
     "published_time_known": false,
+    "collected_at": "2026-10-22T01:02:29+09:00",
+    "edition_date": "2026-10-22",
     "image_url": null,
     "why_it_matters": "PHPを使う国内のWebサービスや業務システムでは、今回の正式公開を受け、事前確認から更新適用へ移る必要があります。配布元の修正パッケージと自組織の導入状況の照合が重要です。",
     "core_facts": [
@@ -56,8 +149,6 @@
     "featured": true,
     "priority": 1,
     "region": "global",
-    "edition_date": "2026-10-22",
-    "collected_at": "2026-10-22T01:02:29+09:00",
     "is_sample": false
   },
   {
@@ -69,6 +160,8 @@
     "source_url": "https://www.toyota-tsusho.com/press/detail/261021_006947.html",
     "published_at": "2026-10-21T00:00:00+09:00",
     "published_time_known": false,
+    "collected_at": "2026-10-22T01:02:29+09:00",
+    "edition_date": "2026-10-22",
     "image_url": null,
     "why_it_matters": "半導体需要の拡大に伴い、製造材料の歩留まりと環境負荷の両立が課題になります。海外技術を国内メーカーに供給し、資源回収まで結ぶ取り組みとして事業化の進展が注目されます。",
     "core_facts": [
@@ -86,8 +179,6 @@
     "featured": true,
     "priority": 2,
     "region": "japan",
-    "edition_date": "2026-10-22",
-    "collected_at": "2026-10-22T01:02:29+09:00",
     "is_sample": false
   },
   {
