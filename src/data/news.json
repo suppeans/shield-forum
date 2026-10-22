@@ -1,5 +1,93 @@
 [
   {
+    "id": "gartner-20261022-japan-cloud-cost-survey",
+    "title": "Gartner、国内クラウド費用調査を公表　管理ツール導入後の削減達成は49.8％",
+    "summary": "Gartnerは10月22日、4月に実施した国内企業調査を公表しました。クラウド費用の管理ツール導入率は65.8％。導入企業の回答では可視化を実現した割合が60.5％だった一方、費用削減を達成した割合は49.8％でした。",
+    "category": "cloud",
+    "source": "ガートナージャパン",
+    "source_url": "https://www.gartner.co.jp/ja/newsroom/press-releases/2026-10-22-gartner-unveils-findings-on-cloud-cost-management-among-organizations-in-japan",
+    "published_at": "2026-10-22T00:00:00+09:00",
+    "published_time_known": false,
+    "image_url": null,
+    "why_it_matters": "管理ツール導入と費用削減の間にある課題を示す国内調査です。クラウド利用企業が、可視化に続く運用改善や社内スキルを検討する材料になります。",
+    "core_facts": [
+      "調査実施は2026年4月、公表は10月22日で、数字は調査回答に基づきます。",
+      "ツール導入率65.8％と導入後の削減達成49.8％は、同じ母集団に対する割合ではありません。",
+      "構築・運用のほぼすべてを外部ITベンダーに依頼すると答えた企業は58.3％でした。"
+    ],
+    "tags": [
+      "Gartner",
+      "クラウド費用",
+      "FinOps",
+      "運用改善"
+    ],
+    "featured": true,
+    "priority": 2,
+    "region": "japan",
+    "edition_date": "2026-10-23",
+    "collected_at": "2026-10-23T00:58:55+09:00",
+    "is_sample": false
+  },
+  {
+    "id": "rakuten-20261022-ai-technology-conference",
+    "title": "楽天、11月14日にAI技術大会を開催へ　無料参加登録を案内",
+    "summary": "楽天は10月22日、Rakuten AI Technology Conference 2026を11月14日に本社で開催すると発表しました。AIを軸にクラウドやデータなどを議論し、国内外の技術者や研究者が登壇予定。公式サイトで無料参加登録を受け付けています。",
+    "category": "development",
+    "source": "楽天グループ",
+    "source_url": "https://corp.rakuten.co.jp/news/update/2026/1022_01.html",
+    "published_at": "2026-10-22T00:00:00+09:00",
+    "published_time_known": false,
+    "image_url": null,
+    "why_it_matters": "国内の技術者や学生が企業のAI活用と開発事例に触れる機会になります。英語中心のセッションを通じ、クラウドやエージェント技術の実践動向を学べる場として関心を集めそうです。",
+    "core_facts": [
+      "開催予定は2026年11月14日10時～18時、会場は東京都世田谷区の楽天クリムゾンハウスです。",
+      "18回目となる今年から名称をRakuten AI Technology Conferenceに変更します。",
+      "セッションは一部を除き英語で実施され、登壇者や内容は変更される可能性があります。"
+    ],
+    "tags": [
+      "楽天",
+      "AI",
+      "技術カンファレンス",
+      "エンジニア",
+      "学習機会"
+    ],
+    "featured": false,
+    "priority": 3,
+    "region": "japan",
+    "edition_date": "2026-10-23",
+    "collected_at": "2026-10-23T00:58:55+09:00",
+    "is_sample": false
+  },
+  {
+    "id": "ryosan-ryoyo-20261022-tel-product-security",
+    "title": "リョーサン菱洋、東京エレクトロンの製品安全対策を支援　一部装置へ搭載予定",
+    "summary": "リョーサン菱洋は10月22日、東京エレクトロンに製品セキュリティ対策と保守を提供し、採用されたと発表しました。装置への負荷を抑える国産ソリューションで、今後展開する一部製品に搭載される予定です。",
+    "category": "security",
+    "source": "リョーサン菱洋",
+    "source_url": "https://prtimes.jp/main/html/rd/p/000000029.000123293.html",
+    "published_at": "2026-10-22T11:00:00+09:00",
+    "published_time_known": true,
+    "image_url": null,
+    "why_it_matters": "半導体製造装置への攻撃は生産やサプライチェーンへ波及します。長期間使われる装置に対し、防御機能と継続保守を組み合わせる国内事例として注目されます。",
+    "core_facts": [
+      "装置への影響を抑える軽量設計や導入管理のしやすさが評価されたとしています。",
+      "採用された対策は東京エレクトロンが今後展開する一部製品への搭載予定で、全製品への搭載完了ではありません。",
+      "支援には更新管理、脅威情報の提供、開発元と連携した障害時のサポートを含みます。"
+    ],
+    "tags": [
+      "リョーサン菱洋",
+      "東京エレクトロン",
+      "製品セキュリティ",
+      "半導体製造装置"
+    ],
+    "featured": true,
+    "priority": 2,
+    "region": "japan",
+    "edition_date": "2026-10-23",
+    "collected_at": "2026-10-23T00:58:55+09:00",
+    "is_sample": false
+  },
+  {
     "id": "digital-agency-20261021-harunobu-guide",
     "title": "デジタル庁、Harunobuの活用方法を紹介　表データの採点とAI整形を連携",
     "summary": "デジタル庁は10月21日の公式記事で、公開済みツールHarunobuの判定方法とAIを組み合わせたデータ整備手順を紹介しました。Excelなどの機械可読性をルールに沿って評価し、判定結果を基に整形プログラムを作成・検証する流れを示しています。",
@@ -190,6 +278,8 @@
     "source_url": "https://www.veriserve.co.jp/news/2026/news-20261022.html",
     "published_at": "2026-10-22T00:00:00+09:00",
     "published_time_known": false,
+    "collected_at": "2026-10-22T17:05:09+09:00",
+    "edition_date": "2026-10-22",
     "image_url": null,
     "why_it_matters": "工場の外部接続や遠隔保守が広がるなか、攻撃は生産停止や品質にも影響します。国内製造業がアプリケーションの弱点と現場の対応手順を一緒に見直すための支援の選択肢になります。",
     "core_facts": [
@@ -208,8 +298,6 @@
     "featured": true,
     "priority": 2,
     "region": "japan",
-    "edition_date": "2026-10-22",
-    "collected_at": "2026-10-22T17:05:09+09:00",
     "is_sample": false
   },
   {
