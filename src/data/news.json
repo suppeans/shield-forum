@@ -37,6 +37,8 @@
     "source_url": "https://www.web-ksk.co.jp/news/20261022/",
     "published_at": "2026-10-22T00:00:00+09:00",
     "published_time_known": false,
+    "collected_at": "2026-10-23T09:03:10+09:00",
+    "edition_date": "2026-10-23",
     "image_url": null,
     "why_it_matters": "医薬品物流では時間指定と安定供給を守りながら人手不足に対応する必要があります。現場の配送条件と最適化技術を組み合わせる事例として、国内物流システムの実装に参考になります。",
     "core_facts": [
@@ -54,8 +56,68 @@
     "featured": true,
     "priority": 2,
     "region": "japan",
+    "is_sample": false
+  },
+  {
+    "id": "ipa-20261023-business-consultation-q3",
+    "title": "IPA、企業向け相談309件を公表　OAuth同意によるメール悪用の事例も紹介",
+    "summary": "IPAは10月23日、7～9月に企業組織向け窓口で対応した相談が309件だったと公表しました。Microsoftアカウントに付与されたアプリのOAuth同意を介し、大量メール送信が行われた可能性がある事例と調査の着眼点を紹介しています。",
+    "category": "security",
+    "source": "情報処理推進機構（IPA）",
+    "source_url": "https://www.ipa.go.jp/security/support/reports/2026q3outline.html",
+    "published_at": "2026-10-23T00:00:00+09:00",
+    "published_time_known": false,
+    "image_url": null,
+    "why_it_matters": "クラウドのアカウント管理では、パスワードに加えて外部アプリへの権限付与も運用上の論点になります。国内企業の相談事例は、情シス部門が承認設定やログ調査の手順を見直す材料になります。",
+    "core_facts": [
+      "統計の対象は2026年7月1日～9月30日に企業組織向け窓口で対応した相談で、国内被害の総件数ではありません。",
+      "紹介事例では不審なアプリへのOAuth同意が存在し、侵入経路と情報漏えいの有無は調査中とされています。",
+      "IPAはEntra IDやExchange Onlineのログなどを照合し、メール送信だけでなく受信データ取得の可能性も調べるよう案内しています。",
+      "ユーザーが同意できるアプリや権限の制限、管理者による承認運用も検討事項として示しています。"
+    ],
+    "tags": [
+      "IPA",
+      "OAuth",
+      "Microsoft 365",
+      "アカウント管理",
+      "企業セキュリティ"
+    ],
+    "featured": true,
+    "priority": 2,
+    "region": "japan",
     "edition_date": "2026-10-23",
-    "collected_at": "2026-10-23T09:03:10+09:00",
+    "collected_at": "2026-10-23T16:59:18+09:00",
+    "is_sample": false
+  },
+  {
+    "id": "ipa-20261023-personal-consultation-q3",
+    "title": "IPA、個人向け相談3,369件を公表　偽のウイルス警告が1,160件",
+    "summary": "IPAは10月23日、情報セキュリティ安心相談窓口の7～9月の対応件数を公表しました。個人からの相談は3,369件で、偽のウイルス検出警告に関する相談が1,160件。不正ログインは395件、フィッシングは117件でした。",
+    "category": "security",
+    "source": "情報処理推進機構（IPA）",
+    "source_url": "https://www.ipa.go.jp/security/anshin/reports/2026q3outline.html",
+    "published_at": "2026-10-23T00:00:00+09:00",
+    "published_time_known": false,
+    "image_url": null,
+    "why_it_matters": "個人向けサービスの運営者や利用者支援部門が、国内で寄せられる相談の傾向を把握する資料です。偽警告や認証情報の悪用を想定した案内・サポートを考える参考になります。",
+    "core_facts": [
+      "対象は2026年7月1日～9月30日の個人からの相談で、企業組織向け窓口の統計とは別です。",
+      "主な手口別では偽のウイルス検出警告が相談全体の34.4％を占めました。",
+      "国税庁をかたり不正アプリの導入へ誘導するメールの相談事例も紹介しています。",
+      "相談件数は窓口の対応実績であり、被害の発生件数や国内全体の被害率を示すものではありません。"
+    ],
+    "tags": [
+      "IPA",
+      "サポート詐欺",
+      "フィッシング",
+      "不正ログイン",
+      "利用者保護"
+    ],
+    "featured": true,
+    "priority": 3,
+    "region": "japan",
+    "edition_date": "2026-10-23",
+    "collected_at": "2026-10-23T16:59:18+09:00",
     "is_sample": false
   },
   {
@@ -67,6 +129,8 @@
     "source_url": "https://newsroom.kddi.com/news/detail/kddi_nr-1205_4772.html",
     "published_at": "2026-10-22T00:00:00+09:00",
     "published_time_known": false,
+    "collected_at": "2026-10-23T09:03:10+09:00",
+    "edition_date": "2026-10-23",
     "image_url": null,
     "why_it_matters": "AI基盤の拡大ではGPUだけでなく通信の電力も課題になります。国内通信事業者による実環境での検証は、次世代データセンターの設計や運用を考える材料になります。",
     "core_facts": [
@@ -84,8 +148,6 @@
     "featured": true,
     "priority": 2,
     "region": "japan",
-    "edition_date": "2026-10-23",
-    "collected_at": "2026-10-23T09:03:10+09:00",
     "is_sample": false
   },
   {
@@ -97,6 +159,8 @@
     "source_url": "https://group.ntt/jp/newsrelease/2026/10/22/261022a.html",
     "published_at": "2026-10-22T00:00:00+09:00",
     "published_time_known": false,
+    "collected_at": "2026-10-23T09:03:10+09:00",
+    "edition_date": "2026-10-23",
     "image_url": null,
     "why_it_matters": "国内IT企業でスキルを軸にした人材配置が進む事例です。就職先を考える際も、入社時の職種に加え、社内での学習や異動の仕組みを確認する材料になります。",
     "core_facts": [
@@ -115,8 +179,37 @@
     "featured": true,
     "priority": 3,
     "region": "japan",
+    "is_sample": false
+  },
+  {
+    "id": "ntt-jaxa-20261023-satellite-mimo-results",
+    "title": "NTTとJAXA、低軌道衛星MIMOの実証結果を公表　3×3構成で容量約2.67倍",
+    "summary": "NTTは10月23日、JAXAと進める衛星MIMO・IoT実証の成果を公表しました。3×3 MIMOの試験で単一アンテナ方式に比べ平均約2.67倍の伝送容量を確認。地上の2地点から同時に送ったLPWA信号の分離にも成功したとしています。",
+    "category": "development",
+    "source": "NTT／JAXA",
+    "source_url": "https://group.ntt/jp/newsrelease/2026/10/23/261023b.html",
+    "published_at": "2026-10-23T00:00:00+09:00",
+    "published_time_known": false,
+    "image_url": null,
+    "why_it_matters": "国内の山間部や海洋など、地上通信網が届きにくい場所のセンサー活用につながる研究です。衛星回線の容量と同時接続を改善する技術は、インフラ点検や環境観測を支える選択肢になります。",
+    "core_facts": [
+      "今回の公表は3月に定常運用を始めた軌道上実証の成果で、商用サービスの開始ではありません。",
+      "5月24日の3×3 MIMO試験で平均約2.67倍、5月5日の2×2試験で平均約1.94倍の容量を確認しました。",
+      "920MHz帯で地上の異なる2地点が同じ周波数を使って同時送信した信号を分離・復調しました。",
+      "今後も異なるアンテナ条件や衛星軌道で試験を続け、統計的な効果と適用条件を評価します。"
+    ],
+    "tags": [
+      "NTT",
+      "JAXA",
+      "衛星通信",
+      "MIMO",
+      "IoT"
+    ],
+    "featured": true,
+    "priority": 2,
+    "region": "japan",
     "edition_date": "2026-10-23",
-    "collected_at": "2026-10-23T09:03:10+09:00",
+    "collected_at": "2026-10-23T16:59:18+09:00",
     "is_sample": false
   },
   {
