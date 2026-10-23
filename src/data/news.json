@@ -1,5 +1,97 @@
 [
   {
+    "id": "mitsubishi-electric-20261022-embedded-ot-security",
+    "title": "三菱電機、産業機器に組み込むOTセキュリティー技術を開発　2027年度に提供予定",
+    "summary": "三菱電機は10月22日、Nozomi Networksの技術を活用し、産業機器上で監視やマルウェア対策を行う新ソリューションを発表しました。Nozomi Arcの拡張機能として2027年度中に提供する予定で、機器単位の防御と現場全体の可視化を目指します。",
+    "category": "security",
+    "source": "三菱電機",
+    "source_url": "https://www.mitsubishielectric.co.jp/ja/pr/2026/1022_di/",
+    "published_at": "2026-10-22T00:00:00+09:00",
+    "published_time_known": false,
+    "image_url": null,
+    "why_it_matters": "製造業のDXでは、ネットワークの監視に加えて制御機器自体の状態把握が課題になります。国内メーカーによる組み込み型対策は、製品開発と工場運用をつなぐ取り組みとして注目されます。",
+    "core_facts": [
+      "コントローラなどへの監視機能の搭載により、USBの監視、マルウェアの検知・隔離・削除、ソフトウェア管理を行う構想です。",
+      "Nozomiの資産可視化・脅威検知製品と連携し、機器からOT環境全体までを一元的に把握します。",
+      "提供開始は2027年度中の予定で、今回の発表時点で一般提供済みではありません。"
+    ],
+    "tags": [
+      "三菱電機",
+      "Nozomi Networks",
+      "OTセキュリティー",
+      "産業機器",
+      "製造業"
+    ],
+    "featured": true,
+    "priority": 2,
+    "region": "japan",
+    "edition_date": "2026-10-24",
+    "collected_at": "2026-10-24T01:06:32+09:00",
+    "is_sample": false
+  },
+  {
+    "id": "sojitz-ti-20261022-trade-hub-template",
+    "title": "双日テックイノベーション、Trade Hubに標準テンプレート　導入期間半減を試算",
+    "summary": "双日テックイノベーションは10月22日、貿易DXサービスTrade Hubに輸出入業務の標準プロセスを用意したと発表しました。新規導入企業向けに追加料金なしで提供し、ヒアリング開始から設定完了までの期間を約50％短縮できると試算しています。",
+    "category": "dx",
+    "source": "双日テックイノベーション",
+    "source_url": "https://www.sojitz-ti.com/ja/press/261022.html",
+    "published_at": "2026-10-22T00:00:00+09:00",
+    "published_time_known": false,
+    "image_url": null,
+    "why_it_matters": "貿易業務のシステム化では、企業ごとに異なる書類や照合手順の整理が負担になります。標準化と個別調整を組み合わせる方式は、国内企業がSaaSを業務に定着させる際の設計例になります。",
+    "core_facts": [
+      "提供開始日は2026年10月22日で、対象はTrade Hubの新規導入企業です。",
+      "AI-OCR、書類間照合、貿易書類作成、基幹システムとの連携や進捗管理を一つの流れに設定します。",
+      "約50％短縮は同じ対象範囲を従来方式と比較した同社試算で、全社での実績や保証ではありません。",
+      "特定原産地証明の出力やフォワーダー請求のデータ化は、順次提供する予定です。"
+    ],
+    "tags": [
+      "双日テックイノベーション",
+      "Trade Hub",
+      "貿易DX",
+      "AI-OCR",
+      "業務標準化"
+    ],
+    "featured": true,
+    "priority": 3,
+    "region": "japan",
+    "edition_date": "2026-10-24",
+    "collected_at": "2026-10-24T01:06:32+09:00",
+    "is_sample": false
+  },
+  {
+    "id": "toshiba-20261022-audio-recognition-ai",
+    "title": "東芝、少数の音見本と訂正記録を使うAIを開発　設備監視や作業記録への応用へ",
+    "summary": "東芝は10月22日、少数の見本から対象音を見つける技術と、過去の訂正記録で音声認識を補正する技術を公表しました。現場ごとのデータ収集や更新の負担を抑え、設備監視や専門用語を含む記録作成への適用を検討します。",
+    "category": "ai",
+    "source": "東芝",
+    "source_url": "https://www.global.toshiba/jp/technology/corporate/rdc/rd/topics/26/2610-01.html",
+    "published_at": "2026-10-22T00:00:00+09:00",
+    "published_time_known": false,
+    "image_url": null,
+    "why_it_matters": "現場AIの導入では、異常音の学習データや専門用語への対応が負担になりがちです。少量データへの適応を目指す研究は、国内製造業の保守業務や技術継承を支える可能性があります。",
+    "core_facts": [
+      "音響イベント検出は、少数の見本と収録音の特徴を比較し、現場ごとの追加学習を抑える方式です。",
+      "公表したF値62.35％は生物音の公開データによる評価で、工場設備音での実証値ではありません。",
+      "音声認識の補正では、現在の発話に関連する訂正記録を選んでLLMへ入力します。",
+      "日本語評価で示した入力文字数71.7％減は比較方式に対する結果で、処理時間や利用料金の削減率ではありません。"
+    ],
+    "tags": [
+      "東芝",
+      "音声認識",
+      "Few-shot",
+      "フィジカルAI",
+      "現場DX"
+    ],
+    "featured": true,
+    "priority": 2,
+    "region": "japan",
+    "edition_date": "2026-10-24",
+    "collected_at": "2026-10-24T01:06:32+09:00",
+    "is_sample": false
+  },
+  {
     "id": "gartner-20261022-japan-cloud-cost-survey",
     "title": "Gartner、国内クラウド費用調査を公表　管理ツール導入後の削減達成は49.8％",
     "summary": "Gartnerは10月22日、4月に実施した国内企業調査を公表しました。クラウド費用の管理ツール導入率は65.8％。導入企業の回答では可視化を実現した割合が60.5％だった一方、費用削減を達成した割合は49.8％でした。",
@@ -67,6 +159,8 @@
     "source_url": "https://www.ipa.go.jp/security/support/reports/2026q3outline.html",
     "published_at": "2026-10-23T00:00:00+09:00",
     "published_time_known": false,
+    "collected_at": "2026-10-23T16:59:18+09:00",
+    "edition_date": "2026-10-23",
     "image_url": null,
     "why_it_matters": "クラウドのアカウント管理では、パスワードに加えて外部アプリへの権限付与も運用上の論点になります。国内企業の相談事例は、情シス部門が承認設定やログ調査の手順を見直す材料になります。",
     "core_facts": [
@@ -85,8 +179,6 @@
     "featured": true,
     "priority": 2,
     "region": "japan",
-    "edition_date": "2026-10-23",
-    "collected_at": "2026-10-23T16:59:18+09:00",
     "is_sample": false
   },
   {
@@ -98,6 +190,8 @@
     "source_url": "https://www.ipa.go.jp/security/anshin/reports/2026q3outline.html",
     "published_at": "2026-10-23T00:00:00+09:00",
     "published_time_known": false,
+    "collected_at": "2026-10-23T16:59:18+09:00",
+    "edition_date": "2026-10-23",
     "image_url": null,
     "why_it_matters": "個人向けサービスの運営者や利用者支援部門が、国内で寄せられる相談の傾向を把握する資料です。偽警告や認証情報の悪用を想定した案内・サポートを考える参考になります。",
     "core_facts": [
@@ -116,8 +210,6 @@
     "featured": true,
     "priority": 3,
     "region": "japan",
-    "edition_date": "2026-10-23",
-    "collected_at": "2026-10-23T16:59:18+09:00",
     "is_sample": false
   },
   {
@@ -190,6 +282,8 @@
     "source_url": "https://group.ntt/jp/newsrelease/2026/10/23/261023b.html",
     "published_at": "2026-10-23T00:00:00+09:00",
     "published_time_known": false,
+    "collected_at": "2026-10-23T16:59:18+09:00",
+    "edition_date": "2026-10-23",
     "image_url": null,
     "why_it_matters": "国内の山間部や海洋など、地上通信網が届きにくい場所のセンサー活用につながる研究です。衛星回線の容量と同時接続を改善する技術は、インフラ点検や環境観測を支える選択肢になります。",
     "core_facts": [
@@ -208,8 +302,6 @@
     "featured": true,
     "priority": 2,
     "region": "japan",
-    "edition_date": "2026-10-23",
-    "collected_at": "2026-10-23T16:59:18+09:00",
     "is_sample": false
   },
   {
