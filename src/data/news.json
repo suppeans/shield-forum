@@ -8,6 +8,8 @@
     "source_url": "https://www.gartner.co.jp/ja/newsroom/press-releases/2026-10-22-gartner-unveils-findings-on-cloud-cost-management-among-organizations-in-japan",
     "published_at": "2026-10-22T00:00:00+09:00",
     "published_time_known": false,
+    "collected_at": "2026-10-23T00:58:55+09:00",
+    "edition_date": "2026-10-23",
     "image_url": null,
     "why_it_matters": "管理ツール導入と費用削減の間にある課題を示す国内調査です。クラウド利用企業が、可視化に続く運用改善や社内スキルを検討する材料になります。",
     "core_facts": [
@@ -24,8 +26,97 @@
     "featured": true,
     "priority": 2,
     "region": "japan",
+    "is_sample": false
+  },
+  {
+    "id": "hitachi-ksk-20261022-logistics-dx",
+    "title": "日立とケーエスケー、医薬品配送DXの実証完了　欠員時の代行工数を60％削減",
+    "summary": "日立とケーエスケーは10月22日、9月末に完了した医薬品配送DXの実証結果を公表しました。欠員時に配送先を別ルートへ自動再配分し、営業担当者の代行配送工数を60％削減したとしています。11月から各支店で順次稼働する予定です。",
+    "category": "dx",
+    "source": "ケーエスケー／日立製作所",
+    "source_url": "https://www.web-ksk.co.jp/news/20261022/",
+    "published_at": "2026-10-22T00:00:00+09:00",
+    "published_time_known": false,
+    "image_url": null,
+    "why_it_matters": "医薬品物流では時間指定と安定供給を守りながら人手不足に対応する必要があります。現場の配送条件と最適化技術を組み合わせる事例として、国内物流システムの実装に参考になります。",
+    "core_facts": [
+      "HDSLのポイントダイナミック機能で、納品時間や車両の入場可否などを考慮してルートを再編します。",
+      "60％は対象支店の稼働状況などから算出した営業担当者の代行配送工数の削減効果で、配送全体の工数削減率ではありません。",
+      "NFCカードを使った電子受領も導入し、2026年11月から各支店での定着を進めます。"
+    ],
+    "tags": [
+      "日立",
+      "ケーエスケー",
+      "物流DX",
+      "配送最適化",
+      "医薬品物流"
+    ],
+    "featured": true,
+    "priority": 2,
+    "region": "japan",
     "edition_date": "2026-10-23",
-    "collected_at": "2026-10-23T00:58:55+09:00",
+    "collected_at": "2026-10-23T09:03:10+09:00",
+    "is_sample": false
+  },
+  {
+    "id": "kddi-20261022-broadcom-cpo-validation",
+    "title": "KDDIとBroadcom、光電融合の共同検証を開始　AIデータセンターの省電力化へ",
+    "summary": "KDDIは10月22日、Broadcomとのネットワーク技術提携を発表しました。同日からCPO技術を使ったGPU間通信の共同検証を開始し、消費電力と通信性能を評価します。検証成果を踏まえた構成の確立を目指す段階です。",
+    "category": "semiconductors",
+    "source": "KDDI",
+    "source_url": "https://newsroom.kddi.com/news/detail/kddi_nr-1205_4772.html",
+    "published_at": "2026-10-22T00:00:00+09:00",
+    "published_time_known": false,
+    "image_url": null,
+    "why_it_matters": "AI基盤の拡大ではGPUだけでなく通信の電力も課題になります。国内通信事業者による実環境での検証は、次世代データセンターの設計や運用を考える材料になります。",
+    "core_facts": [
+      "KDDIのAIデータセンターにCPOスイッチを導入する検証環境を構築します。",
+      "BroadcomのTomahawk 6と光エンジンモジュールDavissonを活用します。",
+      "消費電力の削減効果に加え、パケットロス、輻輳制御、実効スループットを評価し、削減率の実績は今回示していません。"
+    ],
+    "tags": [
+      "KDDI",
+      "Broadcom",
+      "光電融合",
+      "CPO",
+      "AIデータセンター"
+    ],
+    "featured": true,
+    "priority": 2,
+    "region": "japan",
+    "edition_date": "2026-10-23",
+    "collected_at": "2026-10-23T09:03:10+09:00",
+    "is_sample": false
+  },
+  {
+    "id": "ntt-20261022-group-job-scout",
+    "title": "NTT、社内スカウト制度を10月中に開始へ　66社約10万人が対象",
+    "summary": "NTTグループは10月22日、社員のスキルや希望に基づき組織側から異動を打診するNTT Group Job Scoutを発表しました。10月中に希望者を募って開始する方針で、共通の人材管理基盤を使う66社約10万人が対象です。",
+    "category": "careers",
+    "source": "NTTグループ",
+    "source_url": "https://group.ntt/jp/newsrelease/2026/10/22/261022a.html",
+    "published_at": "2026-10-22T00:00:00+09:00",
+    "published_time_known": false,
+    "image_url": null,
+    "why_it_matters": "国内IT企業でスキルを軸にした人材配置が進む事例です。就職先を考える際も、入社時の職種に加え、社内での学習や異動の仕組みを確認する材料になります。",
+    "core_facts": [
+      "社内版ビズリーチ by HRMOSを活用し、社員のスキル・経験・キャリア志向と組織の需要を結び付けます。",
+      "対象はNTTドコモ、NTTデータ、NTT東日本、NTT西日本などのグループ会社で、外部向けの採用制度ではありません。",
+      "利用には本人が異動を希望していることや入社から3年経過していることなどの条件があります。",
+      "7月に利用を始めたスキル管理基盤の対象約16万5,000人と、今回の制度対象約10万人は異なります。"
+    ],
+    "tags": [
+      "NTT",
+      "IT人材",
+      "社内異動",
+      "スキル管理",
+      "キャリア形成"
+    ],
+    "featured": true,
+    "priority": 3,
+    "region": "japan",
+    "edition_date": "2026-10-23",
+    "collected_at": "2026-10-23T09:03:10+09:00",
     "is_sample": false
   },
   {
@@ -37,6 +128,8 @@
     "source_url": "https://corp.rakuten.co.jp/news/update/2026/1022_01.html",
     "published_at": "2026-10-22T00:00:00+09:00",
     "published_time_known": false,
+    "collected_at": "2026-10-23T00:58:55+09:00",
+    "edition_date": "2026-10-23",
     "image_url": null,
     "why_it_matters": "国内の技術者や学生が企業のAI活用と開発事例に触れる機会になります。英語中心のセッションを通じ、クラウドやエージェント技術の実践動向を学べる場として関心を集めそうです。",
     "core_facts": [
@@ -54,8 +147,6 @@
     "featured": false,
     "priority": 3,
     "region": "japan",
-    "edition_date": "2026-10-23",
-    "collected_at": "2026-10-23T00:58:55+09:00",
     "is_sample": false
   },
   {
@@ -67,6 +158,8 @@
     "source_url": "https://prtimes.jp/main/html/rd/p/000000029.000123293.html",
     "published_at": "2026-10-22T11:00:00+09:00",
     "published_time_known": true,
+    "collected_at": "2026-10-23T00:58:55+09:00",
+    "edition_date": "2026-10-23",
     "image_url": null,
     "why_it_matters": "半導体製造装置への攻撃は生産やサプライチェーンへ波及します。長期間使われる装置に対し、防御機能と継続保守を組み合わせる国内事例として注目されます。",
     "core_facts": [
@@ -83,8 +176,6 @@
     "featured": true,
     "priority": 2,
     "region": "japan",
-    "edition_date": "2026-10-23",
-    "collected_at": "2026-10-23T00:58:55+09:00",
     "is_sample": false
   },
   {
