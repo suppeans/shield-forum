@@ -1,5 +1,36 @@
 [
   {
+    "id": "rakus-persol-20261023-stepbase-expense-bpo",
+    "title": "ラクスとパーソル、楽楽精算の運用を支援するBPOサービスを開始",
+    "summary": "ラクスとパーソルビジネスプロセスデザインは10月23日、経費精算業務を支援するStepBase for 楽楽精算を提供開始しました。申請の確認、社内規定のチェック、一次承認、経理処理などから必要な業務を委託できます。",
+    "category": "dx",
+    "source": "パーソルビジネスプロセスデザイン／ラクス",
+    "source_url": "https://prtimes.jp/main/html/rd/p/000000208.000124841.html",
+    "published_at": "2026-10-23T10:00:00+09:00",
+    "published_time_known": true,
+    "image_url": null,
+    "why_it_matters": "国内企業のDXでは、クラウド導入後に運用を担う人材の確保も課題になります。SaaSと業務支援を組み合わせる事例として、情シスと経理部門が導入後の体制や委託範囲を考える材料になります。",
+    "core_facts": [
+      "2026年1月に始めた両社の業務提携を通じた知見をもとに共同開発したサービスです。",
+      "対象は楽楽精算を利用中または導入予定の企業で、主に従業員999名以下を想定しています。",
+      "業務フローをヒアリングから整備し、必要な業務から段階的に委託できるとしています。",
+      "最短約1カ月での運用開始を案内していますが、すべての企業で同期間を保証するものではありません。"
+    ],
+    "tags": [
+      "ラクス",
+      "パーソル",
+      "楽楽精算",
+      "BPO",
+      "バックオフィスDX"
+    ],
+    "featured": true,
+    "priority": 3,
+    "region": "japan",
+    "edition_date": "2026-10-25",
+    "collected_at": "2026-10-25T00:57:04+09:00",
+    "is_sample": false
+  },
+  {
     "id": "chitose-20261023-semiconductor-rd-agreement",
     "title": "千歳市・三菱地所・NTTドコモビジネス、先端半導体R&D拠点へ連携協定",
     "summary": "千歳市、三菱地所、NTTドコモビジネスは10月23日、千歳美々ワールドに計画するChitose Technology Frontier（仮称）の形成に向けて協定を締結しました。前工程から後工程までの研究開発・検証や、企業・研究者の交流を支える環境づくりを進めます。",
@@ -39,6 +70,8 @@
     "source_url": "https://www.docomo.ne.jp/info/news_release/2026/10/23_01.html",
     "published_at": "2026-10-23T00:00:00+09:00",
     "published_time_known": false,
+    "collected_at": "2026-10-24T17:04:57+09:00",
+    "edition_date": "2026-10-24",
     "image_url": null,
     "why_it_matters": "国内のライブ配信では、視聴者ごとの体験と制作・配信基盤の両立が課題になります。映像理解AIと通信技術を組み合わせる研究として、スポーツやXRへの応用可能性を考える材料になります。",
     "core_facts": [
@@ -56,8 +89,6 @@
     "featured": true,
     "priority": 3,
     "region": "japan",
-    "edition_date": "2026-10-24",
-    "collected_at": "2026-10-24T17:04:57+09:00",
     "is_sample": false
   },
   {
@@ -69,6 +100,8 @@
     "source_url": "https://group.gmo/info/alert/20261023/",
     "published_at": "2026-10-23T00:00:00+09:00",
     "published_time_known": false,
+    "collected_at": "2026-10-24T17:04:57+09:00",
+    "edition_date": "2026-10-24",
     "image_url": null,
     "why_it_matters": "クラウド上の保存情報が別サービスの口座に及ぼす影響を示す国内事案です。認証情報の更新に加えて既存セッションの管理を含める必要があり、利用企業のインシデント対応や委託先管理の参考になります。",
     "core_facts": [
@@ -87,8 +120,6 @@
     "featured": true,
     "priority": 1,
     "region": "japan",
-    "edition_date": "2026-10-24",
-    "collected_at": "2026-10-24T17:04:57+09:00",
     "is_sample": false
   },
   {
