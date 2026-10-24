@@ -8,6 +8,8 @@
     "source_url": "https://www.mec.co.jp/news/detail/2026/10/23_mec261023_chitosetechnologyfrontier",
     "published_at": "2026-10-23T00:00:00+09:00",
     "published_time_known": false,
+    "collected_at": "2026-10-24T09:01:29+09:00",
+    "edition_date": "2026-10-24",
     "image_url": null,
     "why_it_matters": "国内の半導体産業では、製造拠点と研究・検証環境、人材の連携が課題になります。北海道の産業集積を活かす計画として、ICT基盤整備や技術者の交流・育成につながる動きです。",
     "core_facts": [
@@ -26,8 +28,67 @@
     "featured": true,
     "priority": 2,
     "region": "japan",
+    "is_sample": false
+  },
+  {
+    "id": "docomo-20261023-personalized-live-video",
+    "title": "ドコモ、好みに合わせてライブ映像をAIが自動構成　11月に体験デモ予定",
+    "summary": "NTTドコモは10月23日、視聴者が設定した出演者のアップとステージ全体の見どころを組み合わせる映像技術を発表しました。VLMを使って自動構成し、手動のカメラ切り替えを減らします。11月のNTT R&Dフォーラムで音響技術と組み合わせて展示する予定です。",
+    "category": "ai",
+    "source": "NTTドコモ",
+    "source_url": "https://www.docomo.ne.jp/info/news_release/2026/10/23_01.html",
+    "published_at": "2026-10-23T00:00:00+09:00",
+    "published_time_known": false,
+    "image_url": null,
+    "why_it_matters": "国内のライブ配信では、視聴者ごとの体験と制作・配信基盤の両立が課題になります。映像理解AIと通信技術を組み合わせる研究として、スポーツやXRへの応用可能性を考える材料になります。",
+    "core_facts": [
+      "VLMで映像を理解し、好みの出演者とステージ全体の演出をバランスよく構成します。",
+      "体験デモはNTTの音響XRと組み合わせ、特定の歌声の強調や音の方向制御を行う予定です。",
+      "今回の発表は開発成果と展示予定で、商用配信サービスの提供開始ではありません。"
+    ],
+    "tags": [
+      "NTTドコモ",
+      "VLM",
+      "ライブ配信",
+      "映像AI",
+      "XR"
+    ],
+    "featured": true,
+    "priority": 3,
+    "region": "japan",
     "edition_date": "2026-10-24",
-    "collected_at": "2026-10-24T09:01:29+09:00",
+    "collected_at": "2026-10-24T17:04:57+09:00",
+    "is_sample": false
+  },
+  {
+    "id": "gmo-20261023-desktop-cloud-third-report",
+    "title": "GMO、デスクトップクラウド不正アクセスの第3報　口座パスワード変更とセッション切断を要請",
+    "summary": "GMOは10月23日、21日・22日の公表に続く第3報を出し、デスクトップクラウド内の取引口座情報が取得・悪用された可能性を調査中と説明しました。利用者に口座などのパスワード変更と、変更後も残り得る接続セッションの切断を求めています。",
+    "category": "security",
+    "source": "GMOインターネットグループ／GMOインターネット",
+    "source_url": "https://group.gmo/info/alert/20261023/",
+    "published_at": "2026-10-23T00:00:00+09:00",
+    "published_time_known": false,
+    "image_url": null,
+    "why_it_matters": "クラウド上の保存情報が別サービスの口座に及ぼす影響を示す国内事案です。認証情報の更新に加えて既存セッションの管理を含める必要があり、利用企業のインシデント対応や委託先管理の参考になります。",
+    "core_facts": [
+      "公告は2026年10月23日16時10分時点の調査状況で、個別の情報取得・不正利用の有無や範囲は引き続き調査中です。",
+      "影響の可能性があるサーバーは26,739件であり、侵害や情報取得が確認された件数ではありません。",
+      "全プランのサーバー停止を継続しており、第3報時点で再開時期は未定です。",
+      "GMOは、FX取引に使用していない別端末からのパスワード変更と、ログイン中の全セッションの切断を至急行うよう案内しています。"
+    ],
+    "tags": [
+      "GMO",
+      "お名前.com",
+      "不正アクセス",
+      "認証情報",
+      "インシデント対応"
+    ],
+    "featured": true,
+    "priority": 1,
+    "region": "japan",
+    "edition_date": "2026-10-24",
+    "collected_at": "2026-10-24T17:04:57+09:00",
     "is_sample": false
   },
   {
@@ -69,6 +130,8 @@
     "source_url": "https://group.ntt/jp/newsrelease/2026/10/23/261023a.html",
     "published_at": "2026-10-23T00:00:00+09:00",
     "published_time_known": false,
+    "collected_at": "2026-10-24T09:01:29+09:00",
+    "edition_date": "2026-10-24",
     "image_url": null,
     "why_it_matters": "国内のシステム保守では、古い設計書と実装のずれが改修の負担になっています。AIでの開発支援を既存資産へ広げるには、コード生成に加え、仕様とテストの整合性を整えることが重要になります。",
     "core_facts": [
@@ -87,8 +150,6 @@
     "featured": true,
     "priority": 2,
     "region": "japan",
-    "edition_date": "2026-10-24",
-    "collected_at": "2026-10-24T09:01:29+09:00",
     "is_sample": false
   },
   {
