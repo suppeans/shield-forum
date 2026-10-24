@@ -1,5 +1,36 @@
 [
   {
+    "id": "chitose-20261023-semiconductor-rd-agreement",
+    "title": "千歳市・三菱地所・NTTドコモビジネス、先端半導体R&D拠点へ連携協定",
+    "summary": "千歳市、三菱地所、NTTドコモビジネスは10月23日、千歳美々ワールドに計画するChitose Technology Frontier（仮称）の形成に向けて協定を締結しました。前工程から後工程までの研究開発・検証や、企業・研究者の交流を支える環境づくりを進めます。",
+    "category": "semiconductors",
+    "source": "三菱地所",
+    "source_url": "https://www.mec.co.jp/news/detail/2026/10/23_mec261023_chitosetechnologyfrontier",
+    "published_at": "2026-10-23T00:00:00+09:00",
+    "published_time_known": false,
+    "image_url": null,
+    "why_it_matters": "国内の半導体産業では、製造拠点と研究・検証環境、人材の連携が課題になります。北海道の産業集積を活かす計画として、ICT基盤整備や技術者の交流・育成につながる動きです。",
+    "core_facts": [
+      "対象地は北海道千歳市美々の工業団地で、Rapidusや研究開発拠点に近接する立地を活用します。",
+      "千歳市が全体統括、三菱地所がエリア開発、NTTドコモビジネスがICT基盤の企画・推進を担います。",
+      "企業誘致や研究機関との連携、運営組織の組成などを具体的に検討する段階で、拠点の開業発表ではありません。"
+    ],
+    "tags": [
+      "千歳市",
+      "三菱地所",
+      "NTTドコモビジネス",
+      "半導体",
+      "研究開発",
+      "人材育成"
+    ],
+    "featured": true,
+    "priority": 2,
+    "region": "japan",
+    "edition_date": "2026-10-24",
+    "collected_at": "2026-10-24T09:01:29+09:00",
+    "is_sample": false
+  },
+  {
     "id": "mitsubishi-electric-20261022-embedded-ot-security",
     "title": "三菱電機、産業機器に組み込むOTセキュリティー技術を開発　2027年度に提供予定",
     "summary": "三菱電機は10月22日、Nozomi Networksの技術を活用し、産業機器上で監視やマルウェア対策を行う新ソリューションを発表しました。Nozomi Arcの拡張機能として2027年度中に提供する予定で、機器単位の防御と現場全体の可視化を目指します。",
@@ -8,6 +39,8 @@
     "source_url": "https://www.mitsubishielectric.co.jp/ja/pr/2026/1022_di/",
     "published_at": "2026-10-22T00:00:00+09:00",
     "published_time_known": false,
+    "collected_at": "2026-10-24T01:06:32+09:00",
+    "edition_date": "2026-10-24",
     "image_url": null,
     "why_it_matters": "製造業のDXでは、ネットワークの監視に加えて制御機器自体の状態把握が課題になります。国内メーカーによる組み込み型対策は、製品開発と工場運用をつなぐ取り組みとして注目されます。",
     "core_facts": [
@@ -25,8 +58,37 @@
     "featured": true,
     "priority": 2,
     "region": "japan",
+    "is_sample": false
+  },
+  {
+    "id": "ntt-20261023-ai-ready-software-assets",
+    "title": "NTT、既存ソフトウェアをAI向けに整理する技術　設計とコードの不整合を検出",
+    "summary": "NTTは10月23日、仕様書・設計書・コード・テストの関係を解析し、既存システムをAIが理解しやすい状態に整える技術を公表しました。サンプルアプリでの予備実験では、設計書に埋め込んだ誤り41件中33件を検出。実案件への適用を進め、実用化を目指します。",
+    "category": "development",
+    "source": "NTT",
+    "source_url": "https://group.ntt/jp/newsrelease/2026/10/23/261023a.html",
+    "published_at": "2026-10-23T00:00:00+09:00",
+    "published_time_known": false,
+    "image_url": null,
+    "why_it_matters": "国内のシステム保守では、古い設計書と実装のずれが改修の負担になっています。AIでの開発支援を既存資産へ広げるには、コード生成に加え、仕様とテストの整合性を整えることが重要になります。",
+    "core_facts": [
+      "成果物間の対応を整理する解析技術と、不足するテスト観点・ケースを補う技術を組み合わせます。",
+      "不整合の検出はサンプルアプリATRSでの予備評価で、従来RAGは11／41件、提案手法は33／41件でした。",
+      "テスト生成の評価では埋め込んだバグ6件中4件と、別の潜在バグ3件を検出したとしています。",
+      "実験結果を実システム全般の精度保証とするものではなく、今後実際の開発・保守案件に適用する方針です。"
+    ],
+    "tags": [
+      "NTT",
+      "AI駆動開発",
+      "ソフトウェア保守",
+      "トレーサビリティ",
+      "テスト生成"
+    ],
+    "featured": true,
+    "priority": 2,
+    "region": "japan",
     "edition_date": "2026-10-24",
-    "collected_at": "2026-10-24T01:06:32+09:00",
+    "collected_at": "2026-10-24T09:01:29+09:00",
     "is_sample": false
   },
   {
@@ -38,6 +100,8 @@
     "source_url": "https://www.sojitz-ti.com/ja/press/261022.html",
     "published_at": "2026-10-22T00:00:00+09:00",
     "published_time_known": false,
+    "collected_at": "2026-10-24T01:06:32+09:00",
+    "edition_date": "2026-10-24",
     "image_url": null,
     "why_it_matters": "貿易業務のシステム化では、企業ごとに異なる書類や照合手順の整理が負担になります。標準化と個別調整を組み合わせる方式は、国内企業がSaaSを業務に定着させる際の設計例になります。",
     "core_facts": [
@@ -56,8 +120,6 @@
     "featured": true,
     "priority": 3,
     "region": "japan",
-    "edition_date": "2026-10-24",
-    "collected_at": "2026-10-24T01:06:32+09:00",
     "is_sample": false
   },
   {
@@ -69,6 +131,8 @@
     "source_url": "https://www.global.toshiba/jp/technology/corporate/rdc/rd/topics/26/2610-01.html",
     "published_at": "2026-10-22T00:00:00+09:00",
     "published_time_known": false,
+    "collected_at": "2026-10-24T01:06:32+09:00",
+    "edition_date": "2026-10-24",
     "image_url": null,
     "why_it_matters": "現場AIの導入では、異常音の学習データや専門用語への対応が負担になりがちです。少量データへの適応を目指す研究は、国内製造業の保守業務や技術継承を支える可能性があります。",
     "core_facts": [
@@ -87,8 +151,6 @@
     "featured": true,
     "priority": 2,
     "region": "japan",
-    "edition_date": "2026-10-24",
-    "collected_at": "2026-10-24T01:06:32+09:00",
     "is_sample": false
   },
   {
