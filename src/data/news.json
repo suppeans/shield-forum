@@ -1,5 +1,36 @@
 [
   {
+    "id": "freedia-20261023-lise-crm-plan",
+    "title": "FREEDIA、LINE系チャットとSalesforceを結ぶLISEを年内提供へ",
+    "summary": "FREEDIAは10月23日、LINE WORKSやLINE公式アカウントとSalesforceを連携するLISEの提供計画を発表しました。年内の提供を予定し、一部機能は来年以降の予定です。正式な開始時期や価格は別途公表します。",
+    "category": "dx",
+    "source": "FREEDIA",
+    "source_url": "https://prtimes.jp/main/html/rd/p/000000007.000179847.html",
+    "published_at": "2026-10-23T18:00:00+09:00",
+    "published_time_known": true,
+    "image_url": null,
+    "why_it_matters": "国内の営業・顧客対応では、チャットの履歴とCRMの記録が分散しやすくなっています。導入を検討する企業には、会話の共有範囲や保存・アクセス権限を含めた運用設計が必要になります。",
+    "core_facts": [
+      "LINE WORKS連携とLINE公式アカウント連携の2つのサービスを構成する計画です。",
+      "LINE WORKSの会話をSalesforceの活動記録へ蓄積し、組織で共有する機能を案内しています。",
+      "LINE公式アカウント連携には構想・検討中の機能が含まれ、仕様が変わる可能性があります。",
+      "発表時点では提供予定の告知であり、全機能の正式提供開始ではありません。"
+    ],
+    "tags": [
+      "FREEDIA",
+      "LINE WORKS",
+      "Salesforce",
+      "CRM",
+      "業務連携"
+    ],
+    "featured": true,
+    "priority": 3,
+    "region": "japan",
+    "edition_date": "2026-10-25",
+    "collected_at": "2026-10-25T17:05:51+09:00",
+    "is_sample": false
+  },
+  {
     "id": "jstartup-20261023-sixth-open-call",
     "title": "J-Startup、第6次選定で公募制を導入　11月13日17時まで募集",
     "summary": "J-Startup事務局は10月23日、第6次選定の募集開始を公表しました。従来の推薦制に公募制を加え、海外での成長を目指すスタートアップを募ります。締め切りは11月13日17時必着、選定企業の公表は2027年2月以降の予定です。",
@@ -8,6 +39,8 @@
     "source_url": "https://www.j-startup.go.jp/news/jstartup-6th-koubo.html",
     "published_at": "2026-10-23T00:00:00+09:00",
     "published_time_known": false,
+    "collected_at": "2026-10-25T09:00:10+09:00",
+    "edition_date": "2026-10-25",
     "image_url": null,
     "why_it_matters": "国内ITスタートアップが政府・民間の支援へつながる選定方法の変更です。推薦だけでなく自ら応募できる経路が加わり、海外展開や研究開発を目指す企業にとって制度を検討する機会になります。",
     "core_facts": [
@@ -26,8 +59,67 @@
     "featured": true,
     "priority": 2,
     "region": "japan",
+    "is_sample": false
+  },
+  {
+    "id": "nec-20261023-disaster-precursor-scoring",
+    "title": "NEC、ライブ映像の変化を数値化する災害予兆AI　2027年度の実用化を目指す",
+    "summary": "NECは10月23日、道路や河川のライブカメラ映像をVLMで解析し、冠水や積雪などの進行を数値で捉える技術を発表しました。既設カメラの活用を想定し、現場に適したプロンプトも自動生成します。",
+    "category": "ai",
+    "source": "NEC",
+    "source_url": "https://jpn.nec.com/press/202610/20261023_02.html",
+    "published_at": "2026-10-23T00:00:00+09:00",
+    "published_time_known": false,
+    "image_url": null,
+    "why_it_matters": "自治体やインフラ事業者の監視業務では、多数の映像から小さな変化を見つける負担があります。状況を継続的な数値として扱う研究は、確認する現場の優先順位や対応判断を支える可能性があります。",
+    "core_facts": [
+      "VLM内部の文生成の確からしさを解析し、映像の微細な変化をスコアに変換します。",
+      "災害の種類や画角に応じたプロンプトを自動で生成・調整する仕組みです。",
+      "運用者は現場や災害に合わせて判定基準を設定できます。",
+      "2027年度中の実用化を目指す開発成果で、一般提供の開始ではありません。"
+    ],
+    "tags": [
+      "NEC",
+      "視覚言語モデル",
+      "防災",
+      "自治体DX"
+    ],
+    "featured": true,
+    "priority": 2,
+    "region": "japan",
     "edition_date": "2026-10-25",
-    "collected_at": "2026-10-25T09:00:10+09:00",
+    "collected_at": "2026-10-25T17:05:51+09:00",
+    "is_sample": false
+  },
+  {
+    "id": "nict-20261023-ai-cooperative-ran-call",
+    "title": "NICT、端末とネットワークのAI協調RANを公募　予算上限52億円",
+    "summary": "NICTは10月23日、Beyond 5G基金の電波有効利用研究開発プログラムで第2回公募を開始しました。端末側とネットワーク側のAIが協調する無線通信技術を対象とし、応募は11月24日正午必着です。",
+    "category": "policy",
+    "source": "情報通信研究機構（NICT）",
+    "source_url": "https://www.nict.go.jp/press/2026/10/23-1.html",
+    "published_at": "2026-10-23T00:00:00+09:00",
+    "published_time_known": false,
+    "image_url": null,
+    "why_it_matters": "国内の6G関連開発で、基地局側だけでなく端末側のAIを含む最適化が研究対象になります。通信機器やネットワークソフトウェアを開発する企業・研究機関にとって、参加条件と開発目標を確認する機会です。",
+    "core_facts": [
+      "課題番号110として、高効率で柔軟な無線アクセスネットワーク技術を募ります。",
+      "研究期間は2026年度の契約締結日からで、2027年度の評価などを踏まえて最長2030年度まで継続予定です。",
+      "予算上限は総額52億円、2026・2027年度の累計上限は30億円で、いずれも税込です。",
+      "応募はe-Rad経由で、11月4日にオンライン説明会を予定しています。"
+    ],
+    "tags": [
+      "NICT",
+      "6G",
+      "AI-RAN",
+      "研究開発",
+      "公募"
+    ],
+    "featured": true,
+    "priority": 2,
+    "region": "japan",
+    "edition_date": "2026-10-25",
+    "collected_at": "2026-10-25T17:05:51+09:00",
     "is_sample": false
   },
   {
