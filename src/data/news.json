@@ -1,5 +1,36 @@
 [
   {
+    "id": "jstartup-20261023-sixth-open-call",
+    "title": "J-Startup、第6次選定で公募制を導入　11月13日17時まで募集",
+    "summary": "J-Startup事務局は10月23日、第6次選定の募集開始を公表しました。従来の推薦制に公募制を加え、海外での成長を目指すスタートアップを募ります。締め切りは11月13日17時必着、選定企業の公表は2027年2月以降の予定です。",
+    "category": "startups",
+    "source": "経済産業省／J-Startup事務局",
+    "source_url": "https://www.j-startup.go.jp/news/jstartup-6th-koubo.html",
+    "published_at": "2026-10-23T00:00:00+09:00",
+    "published_time_known": false,
+    "image_url": null,
+    "why_it_matters": "国内ITスタートアップが政府・民間の支援へつながる選定方法の変更です。推薦だけでなく自ら応募できる経路が加わり、海外展開や研究開発を目指す企業にとって制度を検討する機会になります。",
+    "core_facts": [
+      "革新的な技術や事業モデルを持ち、世界市場で急成長する可能性があるスタートアップが対象です。",
+      "J-Startup未選定の企業が対象ですが、地域版の選定企業は応募できます。",
+      "応募手数料は不要で、企業情報やPR事項、直近3期分の財務情報などを提出します。",
+      "募集開始の公告であり、応募企業の選定や支援の決定を発表したものではありません。"
+    ],
+    "tags": [
+      "J-Startup",
+      "経済産業省",
+      "スタートアップ",
+      "公募",
+      "海外展開"
+    ],
+    "featured": true,
+    "priority": 2,
+    "region": "japan",
+    "edition_date": "2026-10-25",
+    "collected_at": "2026-10-25T09:00:10+09:00",
+    "is_sample": false
+  },
+  {
     "id": "rakus-persol-20261023-stepbase-expense-bpo",
     "title": "ラクスとパーソル、楽楽精算の運用を支援するBPOサービスを開始",
     "summary": "ラクスとパーソルビジネスプロセスデザインは10月23日、経費精算業務を支援するStepBase for 楽楽精算を提供開始しました。申請の確認、社内規定のチェック、一次承認、経理処理などから必要な業務を委託できます。",
@@ -8,6 +39,8 @@
     "source_url": "https://prtimes.jp/main/html/rd/p/000000208.000124841.html",
     "published_at": "2026-10-23T10:00:00+09:00",
     "published_time_known": true,
+    "collected_at": "2026-10-25T00:57:04+09:00",
+    "edition_date": "2026-10-25",
     "image_url": null,
     "why_it_matters": "国内企業のDXでは、クラウド導入後に運用を担う人材の確保も課題になります。SaaSと業務支援を組み合わせる事例として、情シスと経理部門が導入後の体制や委託範囲を考える材料になります。",
     "core_facts": [
@@ -26,8 +59,6 @@
     "featured": true,
     "priority": 3,
     "region": "japan",
-    "edition_date": "2026-10-25",
-    "collected_at": "2026-10-25T00:57:04+09:00",
     "is_sample": false
   },
   {
