@@ -1,5 +1,35 @@
 [
   {
+    "id": "docomo-business-20261026-wideangle-asm-campaign",
+    "title": "ドコモビジネス、WideAngle ASMを期間限定で無償提供へ",
+    "summary": "NTTドコモビジネスは10月26日、外部公開IT資産や脆弱性の候補を可視化するWideAngle ASMの無償キャンペーンを発表しました。利用期間は11月1日開始予定から12月31日までで、1独自ドメインと最大99サブドメインを対象とします。",
+    "category": "security",
+    "source": "NTTドコモビジネス",
+    "source_url": "https://www.ntt.com/about-us/press-releases/news/article/2026/1026_2.html",
+    "published_at": "2026-10-26T00:00:00+09:00",
+    "published_time_known": false,
+    "image_url": null,
+    "why_it_matters": "国内企業ではクラウドやVPNなどの管理台帳と、実際の公開状態がずれることがあります。外部から見える資産を調べる機会として活用できますが、検出結果の確認と修正対応は別途必要になります。",
+    "core_facts": [
+      "週1回のスキャン、通知、ダッシュボード、ヘルプデスクなどで公開資産の把握を支援します。",
+      "公式説明資料では、途中から利用しても無償期間の終了日は12月31日です。",
+      "キャンペーン後の継続利用には別途申し込み・契約が必要です。",
+      "調査は脆弱性や設定不備の候補を示すもので、すべての弱点の検出や安全性を保証するものではありません。"
+    ],
+    "tags": [
+      "NTTドコモビジネス",
+      "ASM",
+      "公開IT資産",
+      "脆弱性管理"
+    ],
+    "featured": true,
+    "priority": 2,
+    "region": "japan",
+    "edition_date": "2026-10-26",
+    "collected_at": "2026-10-26T17:28:08+09:00",
+    "is_sample": false
+  },
+  {
     "id": "exabase-20261026-gemini4-argon",
     "title": "エクサベース AI、Gemini 4 Argonの提供開始を発表",
     "summary": "Exa Enterprise AIは10月26日、法人向けサービス「エクサベース AI」でGemini 4 Argonの提供を開始すると発表しました。複数段階の作業や画像・動画の理解、長い文章の出力を想定しています。",
@@ -8,6 +38,8 @@
     "source_url": "https://prtimes.jp/main/html/rd/p/000000510.000030192.html",
     "published_at": "2026-10-26T08:30:00+09:00",
     "published_time_known": true,
+    "collected_at": "2026-10-26T09:03:10+09:00",
+    "edition_date": "2026-10-26",
     "image_url": null,
     "why_it_matters": "国内企業が利用する生成AIサービスでモデルの選択肢が増える動きです。法務・金融や開発業務への適用を検討する際も、自社の情報管理条件と実際の出力品質を確認する必要があります。",
     "core_facts": [
@@ -25,8 +57,69 @@
     "featured": true,
     "priority": 2,
     "region": "japan",
+    "is_sample": false
+  },
+  {
+    "id": "ntt-20261026-duplex-voice-dialogue",
+    "title": "NTT、相槌や割込みに対応する音声対話AI　模擬評価で平均応答0.43秒",
+    "summary": "NTTは10月26日、相手の声を聞きながら応答でき、指示に沿った会話や外部システムの参照・更新を行う音声対話技術を発表しました。コールセンタへの適用を目指す研究成果で、11月のNTT R&D FORUMに展示する予定です。",
+    "category": "ai",
+    "source": "NTT",
+    "source_url": "https://group.ntt/jp/newsrelease/2026/10/26/261026a.html",
+    "published_at": "2026-10-26T00:00:00+09:00",
+    "published_time_known": false,
+    "image_url": null,
+    "why_it_matters": "国内の顧客応対では、回答内容だけでなく待ち時間や会話の中断への対応も品質を左右します。音声AIとCRMを結びつける際には、評価条件と実業務での正確さ、更新権限の設計が重要になります。",
+    "core_facts": [
+      "日本語のコールセンタを模した400対話で、応答時間や発話待ち、割込みへの対応を評価しました。",
+      "同社の比較評価で平均応答時間は0.43秒となり、比較対象の商用AIより50％以上短縮したとしています。",
+      "指示文の変更で業務別の会話に対応し、対話中に外部情報を参照・更新する技術です。",
+      "実運用に向けた共同実験は計画段階で、商用サービスの一般提供開始を告知したものではありません。"
+    ],
+    "tags": [
+      "NTT",
+      "音声対話AI",
+      "コールセンタ",
+      "CRM",
+      "研究開発"
+    ],
+    "featured": true,
+    "priority": 2,
+    "region": "japan",
     "edition_date": "2026-10-26",
-    "collected_at": "2026-10-26T09:03:10+09:00",
+    "collected_at": "2026-10-26T17:28:08+09:00",
+    "is_sample": false
+  },
+  {
+    "id": "rapidus-hcltech-20261026-india-development-centers",
+    "title": "RapidusとHCLTechが協業　インドの開発2拠点が本格稼働",
+    "summary": "RapidusとHCLTechは10月26日、Rapidusの半導体技術開発を支えるインドの開発センター2拠点が本格稼働したと発表しました。設計関連の技術支援に加え、将来の日本での人材需要を見据えた技術者育成・確保でも連携します。",
+    "category": "semiconductors",
+    "source": "HCLTech／エイチシーエル・ジャパン",
+    "source_url": "https://prtimes.jp/main/html/rd/p/000000075.000094683.html",
+    "published_at": "2026-10-26T16:05:00+09:00",
+    "published_time_known": true,
+    "image_url": null,
+    "why_it_matters": "国内の先端半導体事業には、製造設備だけでなく設計基盤と技術者の確保も必要です。日本での事業を海外の専任開発体制で補完する動きとして、技術支援と人材育成の広がりが注目されます。",
+    "core_facts": [
+      "開発拠点はインドのベンガルールとフブリに設置されました。",
+      "マスク設計、設計インフラ、PDK開発、DTCO、レイアウト設計などを支援します。",
+      "HCLTechはRapidusと連携し、インドで技術者の育成・確保に取り組む方針です。",
+      "今回の発表は開発協業と拠点稼働であり、Rapidusの半導体量産開始を発表したものではありません。"
+    ],
+    "tags": [
+      "Rapidus",
+      "HCLTech",
+      "半導体",
+      "PDK",
+      "インド",
+      "エンジニア育成"
+    ],
+    "featured": true,
+    "priority": 2,
+    "region": "japan",
+    "edition_date": "2026-10-26",
+    "collected_at": "2026-10-26T17:28:08+09:00",
     "is_sample": false
   },
   {
@@ -38,6 +131,8 @@
     "source_url": "https://prtimes.jp/main/html/rd/p/000000007.000187370.html",
     "published_at": "2026-10-26T07:41:00+09:00",
     "published_time_known": true,
+    "collected_at": "2026-10-26T09:03:10+09:00",
+    "edition_date": "2026-10-26",
     "image_url": null,
     "why_it_matters": "情シスの人数が限られる国内企業でも、既存の安全対策とAI利用の管理を同じ表で見直す材料になります。自己点検の結果を、経営への説明や委託先への確認につなげる使い方が考えられます。",
     "core_facts": [
@@ -56,8 +151,6 @@
     "featured": true,
     "priority": 3,
     "region": "japan",
-    "edition_date": "2026-10-26",
-    "collected_at": "2026-10-26T09:03:10+09:00",
     "is_sample": false
   },
   {
