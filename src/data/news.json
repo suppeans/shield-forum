@@ -1,5 +1,97 @@
 [
   {
+    "id": "joshin-20261026-unauthorized-access-second-report",
+    "title": "Joshin、不正アクセス第2報　会員情報最大約600万件に漏洩の可能性",
+    "summary": "Joshinは10月26日、10月17日の初報に続く調査状況を公表しました。会員情報データベースやサブスクなどで情報が漏洩した可能性を調べており、一部サービスの停止が続いています。公表件数は漏洩が確定した件数ではありません。",
+    "category": "security",
+    "source": "Joshin",
+    "source_url": "https://www.joshin.co.jp/ja/ir/news/auto_20261026556267/pdfFile.pdf",
+    "published_at": "2026-10-26T00:00:00+09:00",
+    "published_time_known": false,
+    "image_url": null,
+    "why_it_matters": "国内の小売サービスで、会員情報と複数の業務システムへの影響が調査されています。利用者にはなりすまし連絡への注意が必要で、企業には顧客情報の保管範囲やシステム分離を見直す材料になります。",
+    "core_facts": [
+      "会員情報データベースでは氏名・住所・電話番号・会員番号の最大約600万件に漏洩の可能性があります。",
+      "サブスクでは最大約23万件が対象で、初期パスワード、手書きサイン、請求履歴などが含まれる可能性があります。",
+      "リフォーム写真アップロードシステムでは最大約800件が調査対象で、本人確認書類の画像などを含む該当者には個別連絡しています。",
+      "同社はクレジットカード情報を保有していないと説明し、不審なメール・SMS・電話への注意を呼びかけています。"
+    ],
+    "tags": [
+      "Joshin",
+      "不正アクセス",
+      "個人情報",
+      "インシデント対応"
+    ],
+    "featured": true,
+    "priority": 1,
+    "region": "japan",
+    "edition_date": "2026-10-27",
+    "collected_at": "2026-10-27T01:07:45+09:00",
+    "is_sample": false
+  },
+  {
+    "id": "servicenow-ntt-cpsol-20261026-integrated-security",
+    "title": "ServiceNow・NTT Security・CP-SOL、IT／OT／IoT統合セキュリティで協業",
+    "summary": "ServiceNow Japan、NTTセキュリティホールディングス、クロスポイントソリューションは10月26日、資産の可視化から脆弱性対応までを支える協業を発表しました。脆弱性管理を起点に、2027年度に向けてSOC運用を含むサービスを段階的に始める予定です。",
+    "category": "security",
+    "source": "ServiceNow Japan",
+    "source_url": "https://prtimes.jp/main/html/rd/p/000000223.000029239.html",
+    "published_at": "2026-10-26T13:00:00+09:00",
+    "published_time_known": true,
+    "image_url": null,
+    "why_it_matters": "国内の製造業や重要インフラでは、事務系ITと制御機器をまたぐ資産管理が課題になります。検出したリスクを対応業務までつなぐ取り組みとして、現場とSOCの役割分担を考える材料になります。",
+    "core_facts": [
+      "Armisを活用したデバイスの脆弱性管理サービスの具体化を第一段階とします。",
+      "ServiceNowのCMDBとセキュリティ情報を関連付け、リスクの優先順位や対応履歴を扱う構想です。",
+      "NTT SecurityのIT・OTの専門性と、CP-SOLの監視・初動対応などの運用力を組み合わせます。",
+      "協業と提供計画の発表であり、統合サービス全体の提供開始ではありません。"
+    ],
+    "tags": [
+      "ServiceNow",
+      "NTT Security",
+      "CP-SOL",
+      "OTセキュリティ",
+      "SOC"
+    ],
+    "featured": true,
+    "priority": 2,
+    "region": "japan",
+    "edition_date": "2026-10-27",
+    "collected_at": "2026-10-27T01:07:45+09:00",
+    "is_sample": false
+  },
+  {
+    "id": "tai-20261026-series-c-first-close",
+    "title": "TAI、シリーズC初回で12.7億円調達　AI半導体と現場向けAIを強化",
+    "summary": "Tokyo Artisan Intelligenceは10月26日、第三者割当増資と銀行融資により総額12.7億円を調達したと発表しました。AI半導体Manta Rayの生産・供給体制、産業向けAIソリューション、技術者採用などに充てる方針です。",
+    "category": "startups",
+    "source": "Tokyo Artisan Intelligence",
+    "source_url": "https://prtimes.jp/main/html/rd/p/000000043.000072103.html",
+    "published_at": "2026-10-26T13:00:00+09:00",
+    "published_time_known": true,
+    "image_url": null,
+    "why_it_matters": "国内のエッジAI事業で、半導体設計と現場のソフトウェアを組み合わせる投資です。省電力化や産業現場での導入を目指す研究開発に加え、半導体・組込み分野の人材需要にもつながる動きです。",
+    "core_facts": [
+      "シリーズCのファーストクローズで、12.7億円は増資と融資を合わせた額です。",
+      "三井住友海上キャピタルをリードとする出資に加え、みずほ銀行から融資を受けました。",
+      "マレーシアの半導体エコシステムなどを活用した生産・供給体制の整備を進めます。",
+      "自社チップをソリューションへ組み込む実証も今後の計画で、今回の発表は量産完了を意味しません。"
+    ],
+    "tags": [
+      "TAI",
+      "資金調達",
+      "エッジAI",
+      "AI半導体",
+      "エンジニア採用"
+    ],
+    "featured": true,
+    "priority": 2,
+    "region": "japan",
+    "edition_date": "2026-10-27",
+    "collected_at": "2026-10-27T01:07:45+09:00",
+    "is_sample": false
+  },
+  {
     "id": "docomo-business-20261026-wideangle-asm-campaign",
     "title": "ドコモビジネス、WideAngle ASMを期間限定で無償提供へ",
     "summary": "NTTドコモビジネスは10月26日、外部公開IT資産や脆弱性の候補を可視化するWideAngle ASMの無償キャンペーンを発表しました。利用期間は11月1日開始予定から12月31日までで、1独自ドメインと最大99サブドメインを対象とします。",
@@ -8,6 +100,8 @@
     "source_url": "https://www.ntt.com/about-us/press-releases/news/article/2026/1026_2.html",
     "published_at": "2026-10-26T00:00:00+09:00",
     "published_time_known": false,
+    "collected_at": "2026-10-26T17:28:08+09:00",
+    "edition_date": "2026-10-26",
     "image_url": null,
     "why_it_matters": "国内企業ではクラウドやVPNなどの管理台帳と、実際の公開状態がずれることがあります。外部から見える資産を調べる機会として活用できますが、検出結果の確認と修正対応は別途必要になります。",
     "core_facts": [
@@ -25,8 +119,6 @@
     "featured": true,
     "priority": 2,
     "region": "japan",
-    "edition_date": "2026-10-26",
-    "collected_at": "2026-10-26T17:28:08+09:00",
     "is_sample": false
   },
   {
@@ -68,6 +160,8 @@
     "source_url": "https://group.ntt/jp/newsrelease/2026/10/26/261026a.html",
     "published_at": "2026-10-26T00:00:00+09:00",
     "published_time_known": false,
+    "collected_at": "2026-10-26T17:28:08+09:00",
+    "edition_date": "2026-10-26",
     "image_url": null,
     "why_it_matters": "国内の顧客応対では、回答内容だけでなく待ち時間や会話の中断への対応も品質を左右します。音声AIとCRMを結びつける際には、評価条件と実業務での正確さ、更新権限の設計が重要になります。",
     "core_facts": [
@@ -86,8 +180,6 @@
     "featured": true,
     "priority": 2,
     "region": "japan",
-    "edition_date": "2026-10-26",
-    "collected_at": "2026-10-26T17:28:08+09:00",
     "is_sample": false
   },
   {
@@ -99,6 +191,8 @@
     "source_url": "https://prtimes.jp/main/html/rd/p/000000075.000094683.html",
     "published_at": "2026-10-26T16:05:00+09:00",
     "published_time_known": true,
+    "collected_at": "2026-10-26T17:28:08+09:00",
+    "edition_date": "2026-10-26",
     "image_url": null,
     "why_it_matters": "国内の先端半導体事業には、製造設備だけでなく設計基盤と技術者の確保も必要です。日本での事業を海外の専任開発体制で補完する動きとして、技術支援と人材育成の広がりが注目されます。",
     "core_facts": [
@@ -118,8 +212,6 @@
     "featured": true,
     "priority": 2,
     "region": "japan",
-    "edition_date": "2026-10-26",
-    "collected_at": "2026-10-26T17:28:08+09:00",
     "is_sample": false
   },
   {
