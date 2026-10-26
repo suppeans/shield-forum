@@ -1,5 +1,66 @@
 [
   {
+    "id": "exabase-20261026-gemini4-argon",
+    "title": "エクサベース AI、Gemini 4 Argonの提供開始を発表",
+    "summary": "Exa Enterprise AIは10月26日、法人向けサービス「エクサベース AI」でGemini 4 Argonの提供を開始すると発表しました。複数段階の作業や画像・動画の理解、長い文章の出力を想定しています。",
+    "category": "ai",
+    "source": "エクサウィザーズ／Exa Enterprise AI",
+    "source_url": "https://prtimes.jp/main/html/rd/p/000000510.000030192.html",
+    "published_at": "2026-10-26T08:30:00+09:00",
+    "published_time_known": true,
+    "image_url": null,
+    "why_it_matters": "国内企業が利用する生成AIサービスでモデルの選択肢が増える動きです。法務・金融や開発業務への適用を検討する際も、自社の情報管理条件と実際の出力品質を確認する必要があります。",
+    "core_facts": [
+      "今回の発表は、Googleのモデルを国内法人向けサービスへ追加するものです。",
+      "同社は、長い作業でも推論を維持する設計や、動画・グラフの読み取りを特徴として紹介しています。",
+      "コーディングに加え、法務・金融などの専門業務での利用を想定しています。",
+      "紹介された適性は提供企業の説明であり、個別業務での性能を保証するものではありません。"
+    ],
+    "tags": [
+      "エクサベース AI",
+      "Exa Enterprise AI",
+      "Gemini",
+      "法人向け生成AI"
+    ],
+    "featured": true,
+    "priority": 2,
+    "region": "japan",
+    "edition_date": "2026-10-26",
+    "collected_at": "2026-10-26T09:03:10+09:00",
+    "is_sample": false
+  },
+  {
+    "id": "securoi-20261026-checklist-v13",
+    "title": "SecuROI、無料の安全点検表を53問に更新　社内AIの統制6項目を追加",
+    "summary": "SecuROIは10月26日、国の注意喚起への対応を確認する点検表をv1.3に更新しました。攻撃への備え47問に社内AIの統制6問を加え、ExcelとPDFを登録不要で提供します。",
+    "category": "security",
+    "source": "SecuROI",
+    "source_url": "https://prtimes.jp/main/html/rd/p/000000007.000187370.html",
+    "published_at": "2026-10-26T07:41:00+09:00",
+    "published_time_known": true,
+    "image_url": null,
+    "why_it_matters": "情シスの人数が限られる国内企業でも、既存の安全対策とAI利用の管理を同じ表で見直す材料になります。自己点検の結果を、経営への説明や委託先への確認につなげる使い方が考えられます。",
+    "core_facts": [
+      "追加項目はAI専用ID、権限、操作記録、人の事前承認、停止手順、外部AIサービスの委託先管理です。",
+      "Excel版は回答に応じて優先度や経営向けの理由を表示する仕組みです。",
+      "委託先にも確認できる設問を抽出し、質問票として使えると案内しています。",
+      "民間企業による自己点検用資料で、ISMSなどの包括的な枠組みを代替するものではありません。"
+    ],
+    "tags": [
+      "SecuROI",
+      "AIガバナンス",
+      "チェックリスト",
+      "情シス",
+      "委託先管理"
+    ],
+    "featured": true,
+    "priority": 3,
+    "region": "japan",
+    "edition_date": "2026-10-26",
+    "collected_at": "2026-10-26T09:03:10+09:00",
+    "is_sample": false
+  },
+  {
     "id": "freedia-20261023-lise-crm-plan",
     "title": "FREEDIA、LINE系チャットとSalesforceを結ぶLISEを年内提供へ",
     "summary": "FREEDIAは10月23日、LINE WORKSやLINE公式アカウントとSalesforceを連携するLISEの提供計画を発表しました。年内の提供を予定し、一部機能は来年以降の予定です。正式な開始時期や価格は別途公表します。",
@@ -8,6 +69,8 @@
     "source_url": "https://prtimes.jp/main/html/rd/p/000000007.000179847.html",
     "published_at": "2026-10-23T18:00:00+09:00",
     "published_time_known": true,
+    "collected_at": "2026-10-25T17:05:51+09:00",
+    "edition_date": "2026-10-25",
     "image_url": null,
     "why_it_matters": "国内の営業・顧客対応では、チャットの履歴とCRMの記録が分散しやすくなっています。導入を検討する企業には、会話の共有範囲や保存・アクセス権限を含めた運用設計が必要になります。",
     "core_facts": [
@@ -26,8 +89,6 @@
     "featured": true,
     "priority": 3,
     "region": "japan",
-    "edition_date": "2026-10-25",
-    "collected_at": "2026-10-25T17:05:51+09:00",
     "is_sample": false
   },
   {
@@ -70,6 +131,8 @@
     "source_url": "https://jpn.nec.com/press/202610/20261023_02.html",
     "published_at": "2026-10-23T00:00:00+09:00",
     "published_time_known": false,
+    "collected_at": "2026-10-25T17:05:51+09:00",
+    "edition_date": "2026-10-25",
     "image_url": null,
     "why_it_matters": "自治体やインフラ事業者の監視業務では、多数の映像から小さな変化を見つける負担があります。状況を継続的な数値として扱う研究は、確認する現場の優先順位や対応判断を支える可能性があります。",
     "core_facts": [
@@ -87,8 +150,6 @@
     "featured": true,
     "priority": 2,
     "region": "japan",
-    "edition_date": "2026-10-25",
-    "collected_at": "2026-10-25T17:05:51+09:00",
     "is_sample": false
   },
   {
@@ -100,6 +161,8 @@
     "source_url": "https://www.nict.go.jp/press/2026/10/23-1.html",
     "published_at": "2026-10-23T00:00:00+09:00",
     "published_time_known": false,
+    "collected_at": "2026-10-25T17:05:51+09:00",
+    "edition_date": "2026-10-25",
     "image_url": null,
     "why_it_matters": "国内の6G関連開発で、基地局側だけでなく端末側のAIを含む最適化が研究対象になります。通信機器やネットワークソフトウェアを開発する企業・研究機関にとって、参加条件と開発目標を確認する機会です。",
     "core_facts": [
@@ -118,8 +181,6 @@
     "featured": true,
     "priority": 2,
     "region": "japan",
-    "edition_date": "2026-10-25",
-    "collected_at": "2026-10-25T17:05:51+09:00",
     "is_sample": false
   },
   {
