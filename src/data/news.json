@@ -1,5 +1,97 @@
 [
   {
+    "id": "crowdworks-20261026-security-support-plan",
+    "title": "クラウドワークス、担当者不在の企業向け安全対策支援を開始",
+    "summary": "クラウドワークスは10月26日、AIクラウドワークスの新サービスとしてマルっとセキュリティ対策プランを発表しました。社員と登録専門家が、体制診断や優先対策の整理、規程・設定の見直しを支援します。",
+    "category": "security",
+    "source": "クラウドワークス",
+    "source_url": "https://prtimes.jp/main/html/rd/p/000000325.000050142.html",
+    "published_at": "2026-10-26T16:54:00+09:00",
+    "published_time_known": true,
+    "image_url": null,
+    "why_it_matters": "国内の中小企業では、AI利用ルールの整備と基本的な安全対策を担う人材が不足しがちです。外部の専門家を活用する方式として、委託範囲や社内で判断を担う責任者を明確にすることが重要になります。",
+    "core_facts": [
+      "体制診断、レポート、初期対策などから必要なメニューを選ぶ方式です。",
+      "体制診断とレポートは税込33万円からで、初期対策や技術診断は個別見積もりです。",
+      "規程やAI利用ガイドラインの整備も対象とし、技術診断には書面同意と範囲・期間の合意が必要です。",
+      "監視AIエージェントは順次提供予定で、発表時点ですべてのメニューが提供済みではありません。"
+    ],
+    "tags": [
+      "クラウドワークス",
+      "中小企業",
+      "セキュリティ人材",
+      "AIガバナンス"
+    ],
+    "featured": true,
+    "priority": 3,
+    "region": "japan",
+    "edition_date": "2026-10-27",
+    "collected_at": "2026-10-27T08:59:24+09:00",
+    "is_sample": false
+  },
+  {
+    "id": "hutzper-20261026-rakurag-agent-update",
+    "title": "フツパー、ラクラグにAIエージェント機能　11月1日に正式提供へ",
+    "summary": "フツパーは10月26日、ローカルLLMのラクラグを刷新し、社内資料の検索から集計、ファイル作成までを支援する機能を発表しました。正式提供は11月1日で、保守契約の利用者には順次先行提供しています。",
+    "category": "ai",
+    "source": "フツパー",
+    "source_url": "https://prtimes.jp/main/html/rd/p/000000077.000058475.html",
+    "published_at": "2026-10-26T13:00:00+09:00",
+    "published_time_known": true,
+    "image_url": null,
+    "why_it_matters": "国内企業が機密資料を扱うAIを導入する際には、データの配置場所と権限管理が重要になります。検索に加えて計算や成果物作成へ用途を広げる動きは、製造現場の記録整理などの業務設計に関わります。",
+    "core_facts": [
+      "社内サーバーで完結する構成を選べるほか、要望に応じてクラウド上の専用サーバーにも対応します。",
+      "Excel・CSVの集計や、Word・PowerPoint・PDFなどの成果物作成を案内しています。",
+      "資料・グループ単位の権限、監査ログ、計算処理の隔離環境を備えるとしています。",
+      "専用サーバーとソフトウェアの買い切り型で、構成に応じて個別見積もりとなります。"
+    ],
+    "tags": [
+      "フツパー",
+      "ラクラグ",
+      "ローカルLLM",
+      "AIエージェント",
+      "製造DX"
+    ],
+    "featured": true,
+    "priority": 2,
+    "region": "japan",
+    "edition_date": "2026-10-27",
+    "collected_at": "2026-10-27T08:59:24+09:00",
+    "is_sample": false
+  },
+  {
+    "id": "jbcc-20261026-ai-development-organization",
+    "title": "JBCC、AI戦略統括を新設　SIエージェントの実案件展開へ体制強化",
+    "summary": "JBCCは10月26日、AI駆動開発を進めるAI戦略統括とAI推進部の新設を発表しました。スパイスコードと共同開発するSIエージェントを実案件で検証し、大規模案件へのパイロット展開につなげる方針です。",
+    "category": "development",
+    "source": "JBCC",
+    "source_url": "https://www.jbcc.co.jp/news/2026/10/26/8619.html",
+    "published_at": "2026-10-26T00:00:00+09:00",
+    "published_time_known": false,
+    "image_url": null,
+    "why_it_matters": "国内SIでは、既存システムの知識継承と上流工程の負担軽減が課題です。AIの導入を技術検証だけで終わらせず、実務の開発プロセスや担当者の役割まで変える動きとして注目されます。",
+    "core_facts": [
+      "現状分析・構想策定・要件定義の成果物を、熟練者と同程度の項目・粒度で生成できたと同社は説明しています。",
+      "この説明は成果物の項目・粒度に関するもので、開発全体の品質が人と同等と保証するものではありません。",
+      "技術検証と開発プロセス整備、顧客への提案を連携させる体制です。",
+      "顧客も利用する月額課金型サービスへの発展は将来構想で、今回の提供開始ではありません。"
+    ],
+    "tags": [
+      "JBCC",
+      "AI駆動開発",
+      "SIエージェント",
+      "要件定義",
+      "技術継承"
+    ],
+    "featured": true,
+    "priority": 2,
+    "region": "japan",
+    "edition_date": "2026-10-27",
+    "collected_at": "2026-10-27T08:59:24+09:00",
+    "is_sample": false
+  },
+  {
     "id": "joshin-20261026-unauthorized-access-second-report",
     "title": "Joshin、不正アクセス第2報　会員情報最大約600万件に漏洩の可能性",
     "summary": "Joshinは10月26日、10月17日の初報に続く調査状況を公表しました。会員情報データベースやサブスクなどで情報が漏洩した可能性を調べており、一部サービスの停止が続いています。公表件数は漏洩が確定した件数ではありません。",
@@ -8,6 +100,8 @@
     "source_url": "https://www.joshin.co.jp/ja/ir/news/auto_20261026556267/pdfFile.pdf",
     "published_at": "2026-10-26T00:00:00+09:00",
     "published_time_known": false,
+    "collected_at": "2026-10-27T01:07:45+09:00",
+    "edition_date": "2026-10-27",
     "image_url": null,
     "why_it_matters": "国内の小売サービスで、会員情報と複数の業務システムへの影響が調査されています。利用者にはなりすまし連絡への注意が必要で、企業には顧客情報の保管範囲やシステム分離を見直す材料になります。",
     "core_facts": [
@@ -25,8 +119,6 @@
     "featured": true,
     "priority": 1,
     "region": "japan",
-    "edition_date": "2026-10-27",
-    "collected_at": "2026-10-27T01:07:45+09:00",
     "is_sample": false
   },
   {
@@ -38,6 +130,8 @@
     "source_url": "https://prtimes.jp/main/html/rd/p/000000223.000029239.html",
     "published_at": "2026-10-26T13:00:00+09:00",
     "published_time_known": true,
+    "collected_at": "2026-10-27T01:07:45+09:00",
+    "edition_date": "2026-10-27",
     "image_url": null,
     "why_it_matters": "国内の製造業や重要インフラでは、事務系ITと制御機器をまたぐ資産管理が課題になります。検出したリスクを対応業務までつなぐ取り組みとして、現場とSOCの役割分担を考える材料になります。",
     "core_facts": [
@@ -56,8 +150,6 @@
     "featured": true,
     "priority": 2,
     "region": "japan",
-    "edition_date": "2026-10-27",
-    "collected_at": "2026-10-27T01:07:45+09:00",
     "is_sample": false
   },
   {
@@ -69,6 +161,8 @@
     "source_url": "https://prtimes.jp/main/html/rd/p/000000043.000072103.html",
     "published_at": "2026-10-26T13:00:00+09:00",
     "published_time_known": true,
+    "collected_at": "2026-10-27T01:07:45+09:00",
+    "edition_date": "2026-10-27",
     "image_url": null,
     "why_it_matters": "国内のエッジAI事業で、半導体設計と現場のソフトウェアを組み合わせる投資です。省電力化や産業現場での導入を目指す研究開発に加え、半導体・組込み分野の人材需要にもつながる動きです。",
     "core_facts": [
@@ -87,8 +181,6 @@
     "featured": true,
     "priority": 2,
     "region": "japan",
-    "edition_date": "2026-10-27",
-    "collected_at": "2026-10-27T01:07:45+09:00",
     "is_sample": false
   },
   {
