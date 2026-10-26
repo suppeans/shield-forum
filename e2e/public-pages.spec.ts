@@ -17,6 +17,20 @@ test("unknown pages return 404", async ({ page }) => {
   const response = await page.goto("/missing-page");
   expect(response?.status()).toBe(404);
 });
+test("older briefs remain reachable beyond the eight date links", async ({ page }) => {
+  const dates = [...new Set(news.map(item => item.edition_date))].sort().reverse();
+  expect(dates.length).toBeGreaterThan(8);
+  await page.goto(`/?date=${dates[0]}`);
+  const archive = page.locator(".archive-panel");
+  await expect(archive.locator(".archive-links a")).toHaveCount(8);
+  await archive.getByRole("combobox", { name: "以前のブリーフ" }).selectOption(dates[8]);
+  await archive.getByRole("button", { name: "表示", exact: true }).click();
+  await expect(page).toHaveURL(new RegExp(`date=${dates[8]}$`));
+  await expect(page.locator(".edition-stamp strong")).toHaveText(dates[8].replaceAll("-", "/"));
+  await expect(page.locator(".archive-panel select")).toHaveValue(dates[8]);
+  await page.goto("/archive");
+  await expect(page.locator(".archive-links a")).toHaveCount(8);
+});
 test("reading layout stays visible with reduced motion and fits the viewport", async ({ page }) => {
   await page.emulateMedia({ reducedMotion: "reduce" });
   await page.goto(`/?date=${article.edition_date}`);

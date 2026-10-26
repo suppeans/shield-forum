@@ -130,6 +130,9 @@ a, button, input { -webkit-tap-highlight-color: transparent; }
 .archive-links a { display: flex; justify-content: space-between; gap: 24px; padding: 18px 0; border-bottom: 1px solid var(--line); color: var(--muted); font-size: 14px; font-variant-numeric: tabular-nums; }
 .archive-links a:hover { color: var(--text); }
 .archive-links a[aria-current] { color: var(--text); box-shadow: inset 2px 0 var(--primary); padding-left: 12px; }
+.archive-select { display: grid; gap: 12px; margin-top: 24px; }
+.archive-select label { display: grid; gap: 8px; color: var(--muted); font-size: 13px; }
+.archive-select select { min-height: 44px; font: inherit; font-size: 14px; }
 .archive-panel .read-link { margin-top: 20px; }
 .empty-state { padding: 40px 24px; border: 1px solid var(--line); border-radius: 8px; background: var(--surface); color: var(--muted); line-height: 1.9; }
 .empty-state h1 { color: var(--text); }
