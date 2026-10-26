@@ -78,6 +78,7 @@ a, button, input { -webkit-tap-highlight-color: transparent; }
 .article-body h2 { font-size: 23px; font-weight: 600; margin: 0 0 18px; }
 .article-body section + section { padding-top: 32px; margin-top: 32px; border-top: 1px solid var(--line); }
 .search-form { display: flex; gap: 12px; margin-bottom: 40px; }
+.search-form .button { flex: 0 0 auto; white-space: nowrap; }
 .input { width: 100%; min-width: 0; border: 1px solid var(--line); border-radius: 8px; background: var(--surface-strong); color: var(--text); padding: 14px 16px; }
 .input:focus { border-color: var(--primary-active); }
 .brief-heading { position: relative; isolation: isolate; overflow: hidden; display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 48px; align-items: center; padding: 32px 0 48px; }
