@@ -10,7 +10,7 @@ export const languages = [
 const ja = {
   "header.home": "SHIELD NEWS ホーム", "header.primaryNavigation": "メインナビゲーション", "language.select": "表示言語を選択",
   "nav.home": "ホーム", "nav.ai": "AI", "nav.security": "セキュリティ", "nav.business": "企業", "nav.semiconductors": "半導体", "nav.cloud": "クラウド", "nav.careers": "IT就職", "nav.about": "このサイトについて", "nav.search": "ニュースを検索", "nav.menu": "メニュー",
-  "home.label": "日本 IT ニュース / デイリーブリーフ", "home.title": "今日の変化を、\n明日の視点に。", "home.description": "日本のIT業界の重要な動きと、その意味を。日本時間09:00・17:00・翌01:00の1日3回、8時間間隔で確認し、ニュースをお届けします。",
+  "home.label": "日本 IT ニュース / デイリーブリーフ", "home.title": "今日の変化を、\n明日の視点に。", "home.description": "日本のIT業界の重要な動きと、その意味を。確認できた情報を整理し、要点と背景をわかりやすくお届けします。",
   "home.focus": "注目ニュース", "home.list": "ニュース一覧", "home.today": "今日のブリーフ", "home.total": "収録ニュース", "home.sources": "出典", "home.archive": "過去のブリーフ", "home.all": "すべて", "home.empty": "この日のニュースはまだ公開されていません。", "home.emptyFilter": "このカテゴリーのニュースはありません。", "home.updated": "最新の収録時刻", "home.latest": "最新の公開号を見る",
   "news.why": "注目する理由", "news.read": "ニュースを読む", "news.original": "原文を読む", "news.sample": "表示サンプル", "news.sampleNotice": "現在は架空の表示サンプルです。実際のニュースではありません。", "news.japan": "日本", "news.global": "海外 / 日本への影響", "news.facts": "主な事実", "news.summary": "ニュースの概要", "news.source": "情報源", "news.disclosure": "原記事を要約したニュースブリーフです。事実確認や詳細は、情報源の原文をご確認ください。", "news.related": "同じ日のニュース", "news.edition": "収録日", "news.published": "原記事の公開日時（日本時間）",
   "common.tags": "関連タグ", "common.search": "検索", "common.back": "ブリーフに戻る", "list.noArticles": "該当するニュースはありません。",
@@ -25,7 +25,7 @@ export type TranslationKey = keyof typeof ja;
 const en: Record<TranslationKey, string> = {
   "header.home": "SHIELD NEWS home", "header.primaryNavigation": "Main navigation", "language.select": "Select interface language",
   "nav.home": "Home", "nav.ai": "AI", "nav.security": "Security", "nav.business": "Business", "nav.semiconductors": "Chips", "nav.cloud": "Cloud", "nav.careers": "IT careers", "nav.about": "About", "nav.search": "Search news", "nav.menu": "Menu",
-  "home.label": "JAPAN IT / DAILY BRIEF", "home.title": "Today's changes.\nTomorrow's perspective.", "home.description": "The developments that matter in Japan's IT industry, and why. News checks start three times daily at 09:00, 17:00 and 01:00 the next day (Japan time), eight hours apart.",
+  "home.label": "JAPAN IT / DAILY BRIEF", "home.title": "Today's changes.\nTomorrow's perspective.", "home.description": "The developments that matter in Japan's IT industry, and why. Clear summaries and context, grounded in verified sources.",
   "home.focus": "In focus", "home.list": "News feed", "home.today": "Today's brief", "home.total": "Stories", "home.sources": "Sources", "home.archive": "Previous briefs", "home.all": "All", "home.empty": "No news has been published for this date yet.", "home.emptyFilter": "No stories in this category.", "home.updated": "Latest story timestamp", "home.latest": "Read the latest edition",
   "news.why": "Why it matters", "news.read": "Read brief", "news.original": "Read original", "news.sample": "Display sample", "news.sampleNotice": "Fictional display samples. These are not actual news reports.", "news.japan": "Japan", "news.global": "Global / impact on Japan", "news.facts": "Key facts", "news.summary": "Summary", "news.source": "Source", "news.disclosure": "This is a summarized news brief. Check the original source for facts and full details.", "news.related": "From the same edition", "news.edition": "Edition date", "news.published": "Source publication date (Japan time)",
   "common.tags": "Related tags", "common.search": "Search", "common.back": "Back to the brief", "list.noArticles": "No matching stories.",
@@ -39,7 +39,7 @@ const en: Record<TranslationKey, string> = {
 const zh: Record<TranslationKey, string> = {
   "header.home": "SHIELD NEWS 首页", "header.primaryNavigation": "主导航", "language.select": "选择界面语言",
   "nav.home": "首页", "nav.ai": "AI", "nav.security": "网络安全", "nav.business": "企业", "nav.semiconductors": "半导体", "nav.cloud": "云计算", "nav.careers": "IT 就职", "nav.about": "关于本站", "nav.search": "搜索新闻", "nav.menu": "菜单",
-  "home.label": "日本 IT / 每日简报", "home.title": "今日的变化，\n明日的视角。", "home.description": "关注日本 IT 行业的重要动态及其影响。日本时间09:00、17:00、次日01:00，每隔8小时核实一次，每日三次。",
+  "home.label": "日本 IT / 每日简报", "home.title": "今日的变化，\n明日的视角。", "home.description": "关注日本 IT 行业的重要动态及其影响。梳理已核实的信息，清晰呈现新闻要点与背景。",
   "home.focus": "重点新闻", "home.list": "新闻列表", "home.today": "今日简报", "home.total": "收录新闻", "home.sources": "新闻来源", "home.archive": "历史简报", "home.all": "全部", "home.empty": "当天新闻尚未发布。", "home.emptyFilter": "该分类暂无新闻。", "home.updated": "最新收录新闻时间", "home.latest": "查看最新一期",
   "news.why": "为什么值得关注", "news.read": "阅读摘要", "news.original": "阅读原文", "news.sample": "展示样例", "news.sampleNotice": "当前为虚构的展示样例，并非真实新闻。", "news.japan": "日本", "news.global": "全球 / 对日本的影响", "news.facts": "核心事实", "news.summary": "新闻摘要", "news.source": "新闻来源", "news.disclosure": "本站提供新闻摘要，请通过原始来源核实事实并查看完整报道。", "news.related": "同日新闻", "news.edition": "收录日期", "news.published": "原文发布时间（日本时间）",
   "common.tags": "相关标签", "common.search": "搜索", "common.back": "返回简报", "list.noArticles": "没有匹配的新闻。",
