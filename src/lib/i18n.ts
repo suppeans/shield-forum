@@ -19,7 +19,7 @@ const ja = {
   "archive.choose": "以前のブリーフ", "archive.selectDate": "日付を選択", "archive.open": "表示",
   "archive.title": "毎日の変化を、記録する。", "archive.description": "日付から過去の日本ITニュースを振り返る。",
   "about.title": "日本のITを、毎日の視点に。", "about.description": "SHIELD NEWS は日本IT業界のニュースを要約する情報集約サイトです。",
-  "footer.description": "日本のIT業界を読む、毎日のブリーフ。", "footer.content": "記事は日本語で提供しています。", "footer.notice": "独立したニュース集約サイトです。各記事の権利は原発信者に帰属します。", "footer.archive": "アーカイブ", "footer.topics": "トピック", "footer.about": "編集方針",
+  "footer.description": "日本のIT業界を読む、毎日のブリーフ。", "footer.notice": "独立したニュース集約サイトです。各記事の権利は原発信者に帰属します。", "footer.archive": "アーカイブ", "footer.topics": "トピック", "footer.about": "編集方針",
 } as const;
 export type TranslationKey = keyof typeof ja;
 const en: Record<TranslationKey, string> = {
@@ -34,7 +34,7 @@ const en: Record<TranslationKey, string> = {
   "archive.choose": "Older briefs", "archive.selectDate": "Select a date", "archive.open": "View",
   "archive.title": "A record of daily change.", "archive.description": "Browse Japan IT news by edition date.",
   "about.title": "A daily perspective on Japan IT.", "about.description": "SHIELD NEWS aggregates and summarizes news about Japan's IT industry.",
-  "footer.description": "Your daily brief on Japan's IT industry.", "footer.content": "Articles are provided in Japanese.", "footer.notice": "An independent news aggregation site. Original publishers retain their content rights.", "footer.archive": "Archive", "footer.topics": "Topics", "footer.about": "Editorial policy",
+  "footer.description": "Your daily brief on Japan's IT industry.", "footer.notice": "An independent news aggregation site. Original publishers retain their content rights.", "footer.archive": "Archive", "footer.topics": "Topics", "footer.about": "Editorial policy",
 };
 const zh: Record<TranslationKey, string> = {
   "header.home": "SHIELD NEWS 首页", "header.primaryNavigation": "主导航", "language.select": "选择界面语言",
@@ -48,7 +48,7 @@ const zh: Record<TranslationKey, string> = {
   "archive.choose": "更早的简报", "archive.selectDate": "选择日期", "archive.open": "查看",
   "archive.title": "记录每天的变化。", "archive.description": "按日期查看过去的日本 IT 新闻。",
   "about.title": "每日关注日本 IT。", "about.description": "SHIELD NEWS 是日本 IT 行业新闻摘要与信息聚合站。",
-  "footer.description": "日本 IT 行业每日简报。", "footer.content": "新闻正文使用日语。", "footer.notice": "独立新闻聚合站，原文版权归原始发布者所有。", "footer.archive": "历史新闻", "footer.topics": "主题", "footer.about": "编辑方针",
+  "footer.description": "日本 IT 行业每日简报。", "footer.notice": "独立新闻聚合站，原文版权归原始发布者所有。", "footer.archive": "历史新闻", "footer.topics": "主题", "footer.about": "编辑方针",
 };
 export function isLanguage(value: string | null | undefined): value is Language { return value === "zh" || value === "ja" || value === "en"; }
 export function t(language: Language, key: TranslationKey | string, values: Record<string, string | number> = {}) {

@@ -157,7 +157,7 @@ a, button, input { -webkit-tap-highlight-color: transparent; }
 .footer-inner, .footer-bottom { max-width: 1280px; margin: 0 auto; }
 .footer-inner { display: flex; justify-content: space-between; gap: 40px; align-items: start; }
 .site-footer .brand svg { color: var(--ink); }
-.site-footer p, .site-footer small { color: var(--muted); line-height: 1.8; font-size: 13px; }
+.site-footer p { color: var(--muted); line-height: 1.8; font-size: 13px; }
 .footer-inner nav { display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px 64px; font-size: 13px; }
 .footer-inner a:hover { text-decoration: underline; }
 .footer-bottom { display: flex; align-items: center; justify-content: space-between; gap: 24px; margin-top: 40px; padding-top: 20px; border-top: 1px solid var(--line); font-size: 12px; }
