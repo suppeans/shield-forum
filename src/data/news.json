@@ -1,5 +1,98 @@
 [
   {
+    "id": "daihatsu-20261027-blastmail-data-leak",
+    "title": "ダイハツ、外部メールサービスへの不正アクセスで登録者情報の漏えいを公表",
+    "summary": "ダイハツ工業は10月27日、利用するブラストメールへの不正アクセスに伴い、メディアサイト登録者の個人情報が外部へ漏えいしたとの報告を運営会社から受けたと公表しました。メディアサイトは利用できず、発表時点で再開時期は未定です。",
+    "category": "security",
+    "source": "ダイハツ工業",
+    "source_url": "https://www.daihatsu.com/jp/news/2026/20261027-1.html",
+    "published_at": "2026-10-27T00:00:00+09:00",
+    "published_time_known": false,
+    "image_url": null,
+    "why_it_matters": "国内企業が広報や顧客対応に外部サービスを使う場合、委託先の事故が情報管理と業務継続の両方に影響します。氏名や所属を使ったなりすましへの注意喚起に加え、委託先の管理状況や代替の連絡手段を見直す契機になります。",
+    "core_facts": [
+      "対象はメディアサイト登録者の氏名、会社名、役職、メールアドレスで、同社は漏えいの可能性がある情報として列挙しています。",
+      "ブラストメールはラクスライトクラウドのサービスで、メディアサイトと希望者向けのプレス情報配信に利用しています。",
+      "公表時点で情報の不正利用や、この件による二次被害は確認していないとしています。",
+      "運営会社と詳細・影響範囲の確認を進め、不審なメールのリンクや添付ファイルを開かないよう呼びかけています。"
+    ],
+    "tags": [
+      "ダイハツ",
+      "ブラストメール",
+      "情報漏えい",
+      "委託先管理",
+      "なりすまし"
+    ],
+    "featured": true,
+    "priority": 2,
+    "region": "japan",
+    "edition_date": "2026-10-28",
+    "collected_at": "2026-10-28T01:07:25+09:00",
+    "is_sample": false
+  },
+  {
+    "id": "elyza-robotics-20261027-business-start",
+    "title": "KDDIとELYZA、フィジカルAI新会社の事業開始を発表　研究開発に300億円",
+    "summary": "KDDIとELYZAは10月27日、ELYZA Roboticsが10月1日に事業を開始したと発表しました。ロボット基盤モデルの研究から現場導入までを担い、KDDIグループとして2030年度までに研究開発へ300億円を投じる計画です。",
+    "category": "ai",
+    "source": "KDDI・ELYZA",
+    "source_url": "https://newsroom.kddi.com/news/detail/kddi_nr-1209_4783.html",
+    "published_at": "2026-10-27T00:00:00+09:00",
+    "published_time_known": false,
+    "image_url": null,
+    "why_it_matters": "国内の小売・物流・製造業でロボットを活用するには、モデル開発だけでなく現場データの収集と運用体制が必要です。通信や遠隔監視と組み合わせる構想は、実証から継続運用へ移る際の費用や安全管理の検討に関わります。",
+    "core_facts": [
+      "研究開発、業務への組み込み、フィジカルAIプラットフォーム開発の3領域を事業の柱とします。",
+      "2030年度までに300名以上の専門組織を構築し、現場へのロボット導入1,000台以上を目指します。",
+      "2026年から幅広い現場で概念実証を行い、段階的に導入する方針で、導入目標は達成済みの実績ではありません。",
+      "10月1日の事業開始を10月27日に公表したもので、同日発表のアライアンスパーク構想とは別に新会社の体制と投資計画を示しました。"
+    ],
+    "tags": [
+      "ELYZA Robotics",
+      "KDDI",
+      "フィジカルAI",
+      "ロボット",
+      "研究開発"
+    ],
+    "featured": true,
+    "priority": 2,
+    "region": "japan",
+    "edition_date": "2026-10-28",
+    "collected_at": "2026-10-28T01:07:25+09:00",
+    "is_sample": false
+  },
+  {
+    "id": "ryosan-ryoyo-20261027-physical-ai-training",
+    "title": "リョーサン菱洋、実機で学ぶフィジカルAI入門パッケージを提供",
+    "summary": "リョーサン菱洋は10月27日、製造業などの技術者がロボット実機で模倣学習や強化学習を学ぶ入門パッケージを発表しました。提供は10月に開始しており、既存のAI Techmate Programの人材育成メニューを拡充します。",
+    "category": "careers",
+    "source": "リョーサン菱洋",
+    "source_url": "https://prtimes.jp/main/html/rd/p/000000030.000123293.html",
+    "published_at": "2026-10-27T11:00:00+09:00",
+    "published_time_known": true,
+    "image_url": null,
+    "why_it_matters": "国内製造業がフィジカルAIを導入する際には、装置の調達と並行して学習データや動作検証を扱う人材の育成が課題になります。研究・評価用の構成として導入前に検証できる一方、生産設備への適用には別途設計と安全確認が必要です。",
+    "core_facts": [
+      "模倣学習向けにはロボットアーム、Jetson Thor、LeRobotなどを組み合わせ、操作からデータ収集・学習・推論までを試せます。",
+      "強化学習向けにはDGX Spark、Isaac Sim、Isaac Lab、ROS 2などを用いた構成を案内しています。",
+      "引き渡しから6カ月間、最大5回のメールによる技術サポートを提供します。",
+      "価格は個別見積もりで、研究・評価・学習向けの入門構成です。量産設備や商用の実運用は対象外です。"
+    ],
+    "tags": [
+      "リョーサン菱洋",
+      "フィジカルAI",
+      "IT人材",
+      "製造業",
+      "ロボット"
+    ],
+    "featured": false,
+    "priority": 3,
+    "region": "japan",
+    "edition_date": "2026-10-28",
+    "collected_at": "2026-10-28T01:07:25+09:00",
+    "is_sample": false
+  },
+  {
     "id": "crowdworks-20261026-security-support-plan",
     "title": "クラウドワークス、担当者不在の企業向け安全対策支援を開始",
     "summary": "クラウドワークスは10月26日、AIクラウドワークスの新サービスとしてマルっとセキュリティ対策プランを発表しました。社員と登録専門家が、体制診断や優先対策の整理、規程・設定の見直しを支援します。",
@@ -69,6 +162,8 @@
     "source_url": "https://www.ipa.go.jp/security/security-alert/2026/alert20261022.html",
     "published_at": "2026-10-22T00:00:00+09:00",
     "published_time_known": false,
+    "collected_at": "2026-10-27T16:59:17+09:00",
+    "edition_date": "2026-10-27",
     "image_url": null,
     "why_it_matters": "国内企業のWebサービスや組み込み製品でもPHPが使われています。実際の悪用を示す情報が加わったため、利用箇所と提供元の対応状況を確認し、更新の優先順位を見直す材料になります。",
     "core_facts": [
@@ -87,8 +182,6 @@
     "featured": true,
     "priority": 1,
     "region": "japan",
-    "edition_date": "2026-10-27",
-    "collected_at": "2026-10-27T16:59:17+09:00",
     "is_sample": false
   },
   {
@@ -161,6 +254,8 @@
     "source_url": "https://newsroom.kddi.com/news/detail/kddi_nr-1209_4784.html",
     "published_at": "2026-10-27T00:00:00+09:00",
     "published_time_known": false,
+    "collected_at": "2026-10-27T16:59:17+09:00",
+    "edition_date": "2026-10-27",
     "image_url": null,
     "why_it_matters": "国内のフィジカルAIには、計算基盤と実際の産業現場を結ぶ検証環境が必要です。通信事業者が地域拠点を使い、モデル開発やロボティクス企業との協業を広げる動きです。",
     "core_facts": [
@@ -179,8 +274,6 @@
     "featured": true,
     "priority": 2,
     "region": "japan",
-    "edition_date": "2026-10-27",
-    "collected_at": "2026-10-27T16:59:17+09:00",
     "is_sample": false
   },
   {
