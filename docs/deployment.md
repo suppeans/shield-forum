@@ -6,7 +6,7 @@
 
 Vercel 项目 `shield-forum` 连接 `suppeans/shield-forum` 的 `main` 分支。框架选择 Next.js，项目根目录为仓库根目录，构建命令为 `npm run build`，输出目录使用框架默认值。`package.json` 固定 Node 24.x；`vercel.json` 设置框架、函数区域和安全响应头，`next.config.ts` 将新闻 JSON 打包进服务端函数。
 
-公开网站：[shield-news-suppeans.vercel.app](https://shield-news-suppeans.vercel.app/)。Vercel 原生处理 Next.js 动态页面和 API，无须静态导出或添加框架插件。
+公开网站：[shieldnews.devs.li](https://shieldnews.devs.li/)。Vercel 原生处理 Next.js 动态页面和 API，无须静态导出或添加框架插件。
 
 默认 `NEWS_STORAGE=file`：导入 JSON，提交 `src/data/news.json` 并推送到 `main`，Vercel 自动构建和发布。云端函数的文件修改无法持久保存，因此文件模式禁用 HTTP 写入。每日任务流程见 [daily-news-workflow.md](daily-news-workflow.md)。
 

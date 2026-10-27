@@ -8,7 +8,7 @@
 
 1. 使用自己的 ChatGPT 账号，建立仅自己可用的云端工作环境，关联 `suppeans/shield-forum`。环境使用 Node 24 和 `npm ci`；不要上传本地 SSH 私钥，也不要把电脑路径写入云端提示词。
 2. 为该环境配置此仓库的 GitHub 写入授权。公开仓库可以读取，并不代表能够推送。优先使用平台提供的仓库授权；需要个人令牌时，由账号所有者在密钥管理界面填写，限定此仓库的 Contents 读写权限。不要在聊天、日志、JSON 或仓库中填写令牌。
-3. 确认任务可以检索并打开新闻原文，以及访问 GitHub 和 `shield-news-suppeans.vercel.app`。不能访问的来源直接省略，不能用模型记忆替代当天检索。
+3. 确认任务可以检索并打开新闻原文，以及访问 GitHub 和 `shieldnews.devs.li`。不能访问的来源直接省略，不能用模型记忆替代当天检索。
 4. 先使用下方提示词执行一次普通云端任务，验证导入、检查、GitHub 推送和 Vercel 上线。没有新消息时允许不写数据；另行确认仓库写入授权后再安排定时运行。
 5. 在 ChatGPT 网页端的“定时任务”中设置每天 **09:00、17:00、次日 01:00（每隔 8 小时，每日三次），Asia/Tokyo**，采用下方完整提示词和相同的云端工具／环境。先执行一次，确认检索、仓库写入和公网发布成功。
 
@@ -21,7 +21,7 @@
 
 仓库：https://github.com/suppeans/shield-forum
 生产分支：main
-网站：https://shield-news-suppeans.vercel.app/
+网站：https://shieldnews.devs.li/
 数据：src/data/news.json
 规则：docs/daily-news-workflow.md、docs/news-import.md、docs/cloud-news-task.md
 

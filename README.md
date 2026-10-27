@@ -2,7 +2,7 @@
 
 日本のIT業界の動きを、出典付きの日本語要約で届けるニュース集約サイトです。AI・生成AI、サイバーセキュリティ、IT企業、半導体、クラウド、ソフトウェア開発、DX、政策、IT人材、スタートアップを扱い、日本本土のニュースを優先しています。
 
-**公開サイト： [shield-news-suppeans.vercel.app](https://shield-news-suppeans.vercel.app/)**
+**公開サイト： [shieldnews.devs.li](https://shieldnews.devs.li/)**
 
 ## 主な機能
 
