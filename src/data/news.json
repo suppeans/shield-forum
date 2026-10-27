@@ -8,6 +8,8 @@
     "source_url": "https://prtimes.jp/main/html/rd/p/000000325.000050142.html",
     "published_at": "2026-10-26T16:54:00+09:00",
     "published_time_known": true,
+    "collected_at": "2026-10-27T08:59:24+09:00",
+    "edition_date": "2026-10-27",
     "image_url": null,
     "why_it_matters": "国内の中小企業では、AI利用ルールの整備と基本的な安全対策を担う人材が不足しがちです。外部の専門家を活用する方式として、委託範囲や社内で判断を担う責任者を明確にすることが重要になります。",
     "core_facts": [
@@ -25,8 +27,6 @@
     "featured": true,
     "priority": 3,
     "region": "japan",
-    "edition_date": "2026-10-27",
-    "collected_at": "2026-10-27T08:59:24+09:00",
     "is_sample": false
   },
   {
@@ -38,6 +38,8 @@
     "source_url": "https://prtimes.jp/main/html/rd/p/000000077.000058475.html",
     "published_at": "2026-10-26T13:00:00+09:00",
     "published_time_known": true,
+    "collected_at": "2026-10-27T08:59:24+09:00",
+    "edition_date": "2026-10-27",
     "image_url": null,
     "why_it_matters": "国内企業が機密資料を扱うAIを導入する際には、データの配置場所と権限管理が重要になります。検索に加えて計算や成果物作成へ用途を広げる動きは、製造現場の記録整理などの業務設計に関わります。",
     "core_facts": [
@@ -56,8 +58,37 @@
     "featured": true,
     "priority": 2,
     "region": "japan",
+    "is_sample": false
+  },
+  {
+    "id": "ipa-20261027-php2shell-kev-update",
+    "title": "IPA、PHP2shell注意喚起を更新　CISAの悪用確認リストへの追加を案内",
+    "summary": "IPAは10月27日、10月22日公開のPHP脆弱性情報を更新しました。CVE-2026-109618とCVE-2026-109619が、26日現地時間にCISAのKEVカタログへ掲載されたとして、対策済み版への移行を改めて呼びかけています。",
+    "category": "security",
+    "source": "情報処理推進機構（IPA）",
+    "source_url": "https://www.ipa.go.jp/security/security-alert/2026/alert20261022.html",
+    "published_at": "2026-10-22T00:00:00+09:00",
+    "published_time_known": false,
+    "image_url": null,
+    "why_it_matters": "国内企業のWebサービスや組み込み製品でもPHPが使われています。実際の悪用を示す情報が加わったため、利用箇所と提供元の対応状況を確認し、更新の優先順位を見直す材料になります。",
+    "core_facts": [
+      "今回の収録対象は10月27日の追記で、元の注意喚起の公開日は10月22日です。",
+      "IPAはKEVへの掲載を案内する一方、国内の攻撃被害事例は把握していないと説明しています。",
+      "修正版としてPHP 8.2.35、8.3.36、8.4.27、8.5.12を案内しています。",
+      "PHP 8.1以前のサポート終了版では、サポート中の版や対策済み製品・サービスへの移行を検討するよう求めています。"
+    ],
+    "tags": [
+      "IPA",
+      "PHP",
+      "PHP2shell",
+      "KEV",
+      "脆弱性対策"
+    ],
+    "featured": true,
+    "priority": 1,
+    "region": "japan",
     "edition_date": "2026-10-27",
-    "collected_at": "2026-10-27T08:59:24+09:00",
+    "collected_at": "2026-10-27T16:59:17+09:00",
     "is_sample": false
   },
   {
@@ -69,6 +100,8 @@
     "source_url": "https://www.jbcc.co.jp/news/2026/10/26/8619.html",
     "published_at": "2026-10-26T00:00:00+09:00",
     "published_time_known": false,
+    "collected_at": "2026-10-27T08:59:24+09:00",
+    "edition_date": "2026-10-27",
     "image_url": null,
     "why_it_matters": "国内SIでは、既存システムの知識継承と上流工程の負担軽減が課題です。AIの導入を技術検証だけで終わらせず、実務の開発プロセスや担当者の役割まで変える動きとして注目されます。",
     "core_facts": [
@@ -87,8 +120,6 @@
     "featured": true,
     "priority": 2,
     "region": "japan",
-    "edition_date": "2026-10-27",
-    "collected_at": "2026-10-27T08:59:24+09:00",
     "is_sample": false
   },
   {
@@ -119,6 +150,37 @@
     "featured": true,
     "priority": 1,
     "region": "japan",
+    "is_sample": false
+  },
+  {
+    "id": "kddi-20261027-alliance-park-project",
+    "title": "KDDI、アライアンスパーク始動　大阪・堺でフィジカルAIの実装へ",
+    "summary": "KDDIは10月27日、地域拠点で企業や研究機関と産業創出を進めるアライアンスパーク・プロジェクトを開始しました。大阪・堺ではデータセンターを起点にロボットや自動運転などを検証し、現場データをAIの改良へつなげる方針です。",
+    "category": "ai",
+    "source": "KDDI",
+    "source_url": "https://newsroom.kddi.com/news/detail/kddi_nr-1209_4784.html",
+    "published_at": "2026-10-27T00:00:00+09:00",
+    "published_time_known": false,
+    "image_url": null,
+    "why_it_matters": "国内のフィジカルAIには、計算基盤と実際の産業現場を結ぶ検証環境が必要です。通信事業者が地域拠点を使い、モデル開発やロボティクス企業との協業を広げる動きです。",
+    "core_facts": [
+      "東京・高輪、山口、大阪・堺を、それぞれの特色を生かす拠点として位置づけます。",
+      "大阪・堺では、AI開発企業やモビリティ事業者、大学などが連携し、ELYZA Roboticsのロボットも順次導入する予定です。",
+      "現場で得たデータを学習・改良に使い、成果を現場へ戻す循環を目指します。",
+      "NVIDIA HGX Rubin NVL8の導入は2027年度の計画で、今回の時点で導入済みではありません。"
+    ],
+    "tags": [
+      "KDDI",
+      "フィジカルAI",
+      "大阪堺",
+      "データセンター",
+      "産業共創"
+    ],
+    "featured": true,
+    "priority": 2,
+    "region": "japan",
+    "edition_date": "2026-10-27",
+    "collected_at": "2026-10-27T16:59:17+09:00",
     "is_sample": false
   },
   {
