@@ -62,6 +62,37 @@
     "is_sample": false
   },
   {
+    "id": "kddi-20261028-ai-vulnerability-management",
+    "title": "KDDI、AI脆弱性管理サービスを開始　侵入経路・設定・コードを横断診断",
+    "summary": "KDDIは10月28日、ラックとKDDI総合研究所の知見を組み合わせたAI脆弱性管理ソリューションの提供を開始しました。IT資産のリスクを評価し、悪用の可能性や業務への影響を踏まえた対策の優先順位付けから改修までを支援します。",
+    "category": "security",
+    "source": "KDDI・KDDI総合研究所・ラック",
+    "source_url": "https://newsroom.kddi.com/news/detail/kddi_nr-1212_4787.html",
+    "published_at": "2026-10-28T00:00:00+09:00",
+    "published_time_known": false,
+    "image_url": null,
+    "why_it_matters": "国内企業では、発見した脆弱性を列挙するだけでなく、自社の構成と業務への影響に応じて対処を選ぶ運用が課題になります。AIの解析を専門家の評価や改修につなぐ仕組みは、海外拠点・取引先を含む継続的な管理にも関わります。",
+    "core_facts": [
+      "ラックの侵入経路診断、AIによるネットワーク設定診断、AIによるソースコード診断の結果を組み合わせます。",
+      "ネットワーク設定の診断では、過剰な通信許可や多要素認証の未設定などを抽出し、専門家が評価したうえで改善策を提案します。",
+      "本社だけでなく海外拠点、子会社、取引先も対象とし、可視化から対処までを継続する運用を支援します。",
+      "10月28日～12月28日に申し込むネットワーク設定診断のトライアルでは、ネットワーク機器1台を1回まで無償診断します。サービス全体が無償になるものではありません。"
+    ],
+    "tags": [
+      "KDDI",
+      "ラック",
+      "脆弱性管理",
+      "AI",
+      "サプライチェーン"
+    ],
+    "featured": true,
+    "priority": 2,
+    "region": "japan",
+    "edition_date": "2026-10-28",
+    "collected_at": "2026-10-28T17:01:52+09:00",
+    "is_sample": false
+  },
+  {
     "id": "kddi-wing-20261027-drone-delivery-partnership",
     "title": "KDDIとWing、国内ドローン配送で提携　2027年の一部地域での開始を目指す",
     "summary": "KDDI、KDDIスマートドローン、Alphabet傘下のWingは10月27日、日本でのドローン配送に向けた戦略的提携を締結しました。2027年中に一部エリアで、ローソン商品を含む食料品や日用品の配送開始を目指します。",
@@ -70,6 +101,8 @@
     "source_url": "https://newsroom.kddi.com/news/detail/kddi_nr-1209_4782.html",
     "published_at": "2026-10-27T00:00:00+09:00",
     "published_time_known": false,
+    "collected_at": "2026-10-28T09:01:47+09:00",
+    "edition_date": "2026-10-28",
     "image_url": null,
     "why_it_matters": "国内のラストワンマイル配送では、運び手不足に加え、通信・運航管理や制度対応を含む仕組みの整備が課題になります。海外の自律配送技術と国内の通信基盤を組み合わせる取り組みであり、対象地域や運用条件の具体化が今後の焦点です。",
     "core_facts": [
@@ -88,8 +121,6 @@
     "featured": true,
     "priority": 2,
     "region": "japan",
-    "edition_date": "2026-10-28",
-    "collected_at": "2026-10-28T09:01:47+09:00",
     "is_sample": false
   },
   {
@@ -101,6 +132,8 @@
     "source_url": "https://prtimes.jp/main/html/rd/p/000001465.000078149.html",
     "published_at": "2026-10-27T11:00:00+09:00",
     "published_time_known": true,
+    "collected_at": "2026-10-28T09:01:47+09:00",
+    "edition_date": "2026-10-28",
     "image_url": null,
     "why_it_matters": "国内の小売・EC事業者にとって、販売チャネルごとに分かれた顧客情報をどう統合するかはシステム刷新の論点です。共通サービスを使う場合も、既存システムとの接続や個人情報の利用目的、導入規模に応じた費用を確認する必要があります。",
     "core_facts": [
@@ -119,8 +152,6 @@
     "featured": false,
     "priority": 3,
     "region": "japan",
-    "edition_date": "2026-10-28",
-    "collected_at": "2026-10-28T09:01:47+09:00",
     "is_sample": false
   },
   {
@@ -155,6 +186,38 @@
     "is_sample": false
   },
   {
+    "id": "six-companies-20261028-quantum-materials-research",
+    "title": "TOPPAN・ソフトバンクなど6社、量子計算とAIによる材料開発基盤を共同研究",
+    "summary": "TOPPANホールディングス、アイシン、旭化成、ソフトバンク、AGC、DICは10月28日、量子技術を用いる材料開発基盤の共同研究を発表しました。NEDO事業への採択を受け、2026～2028年度に量子計算とAIを組み合わせる手法を検証します。",
+    "category": "development",
+    "source": "TOPPANホールディングス・アイシン・旭化成・ソフトバンク・AGC・DIC",
+    "source_url": "https://www.softbank.jp/corp/news/press/sbkk/2026/20261028_01/",
+    "published_at": "2026-10-28T00:00:00+09:00",
+    "published_time_known": false,
+    "image_url": null,
+    "why_it_matters": "日本の材料産業にとって、量子計算を実際の設計・合成・評価へ接続することが実用化の論点です。計算基盤側と複数の材料メーカーが共同で検証することで、精度や計算費用を既存手法と比較する機会になります。",
+    "core_facts": [
+      "6社は協定を締結し、NEDOのポスト5G事業における量子コンピュータのユースケース創出に向けた大型実証に取り組みます。",
+      "電池材料、光機能性材料、超電導材料など複数の材料系で、量子計算の適用可能性を検証します。",
+      "シミュレーションに基づく材料の合成・性能評価と、その結果のフィードバックを通じて予測精度や実益を確認します。",
+      "ソフトバンクは量子コンピュータとスーパーコンピュータを連携させた基盤やAIによるデータ活用を担当します。",
+      "現状の量子ビット数やエラー率には制約があり、今回の発表は研究開始で、材料開発基盤の完成や商用化を示すものではありません。"
+    ],
+    "tags": [
+      "量子コンピュータ",
+      "材料開発",
+      "NEDO",
+      "AI",
+      "共同研究"
+    ],
+    "featured": true,
+    "priority": 2,
+    "region": "japan",
+    "edition_date": "2026-10-28",
+    "collected_at": "2026-10-28T17:01:52+09:00",
+    "is_sample": false
+  },
+  {
     "id": "sonet-20261027-member-database-breach",
     "title": "So-net、会員情報約258万件の漏えいを公表　一部メールのパスワードを初期化",
     "summary": "ソニーネットワークコミュニケーションズは10月27日、So-netの会員データベースへの不正アクセスを公表しました。So-netとplala（Sコース）の会員情報計258万5,481件が漏えいし、一部メールサービスのパスワードも対象となっています。",
@@ -163,6 +226,8 @@
     "source_url": "https://www.so-net.ne.jp/info/2026/20261027_0001.html",
     "published_at": "2026-10-27T00:00:00+09:00",
     "published_time_known": false,
+    "collected_at": "2026-10-28T09:01:47+09:00",
+    "edition_date": "2026-10-28",
     "image_url": null,
     "why_it_matters": "通信サービスの会員情報に加え、一部のメール認証情報も含まれる事故です。対象者は公式案内から該当サービスと再設定の要否を確認する必要があり、企業側にも認証情報の保護と事故後の連絡体制を見直す材料となります。",
     "core_facts": [
@@ -182,8 +247,6 @@
     "featured": true,
     "priority": 1,
     "region": "japan",
-    "edition_date": "2026-10-28",
-    "collected_at": "2026-10-28T09:01:47+09:00",
     "is_sample": false
   },
   {
