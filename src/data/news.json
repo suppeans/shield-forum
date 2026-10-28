@@ -1,5 +1,98 @@
 [
   {
+    "id": "canon-eset-20261028-home-security-v20",
+    "title": "ESET HOME V20を国内提供開始　AI利用時のリスク対策と家族端末管理を強化",
+    "summary": "キヤノンマーケティングジャパンとイーセットジャパンは10月28日、ESET HOME セキュリティV20の提供を開始しました。AIが扱うリンク・コード・ファイルなどへの対策を強化し、iPhone向け詐欺対策アプリも公開予定としています。",
+    "category": "security",
+    "source": "キヤノンマーケティングジャパン・イーセットジャパン",
+    "source_url": "https://corporate.jp.canon/newsroom/newsrelease/2026/pr-1028a",
+    "published_at": "2026-10-28T00:00:00+09:00",
+    "published_time_known": false,
+    "image_url": null,
+    "why_it_matters": "生成AIの回答やエージェントが扱うファイルも、利用者の端末上で確認・実行されるため保護の対象になります。国内の個人・家族向け製品が対応範囲を広げる一方、OSや契約による機能差、アプリの公開状況を確認することが大切です。",
+    "core_facts": [
+      "不審なリンクやコードの確認、AIエージェントが扱うファイル・プログラムの検出、実行時の挙動監視などを案内しています。",
+      "ESET HOMEを通じて、異なるOSを使う家族の端末の保護状況をまとめて確認できる構成を拡充します。",
+      "ESET Mobile Security for iOSはApp Storeの承認後に公開予定で、発表だけで配信済みと判断することはできません。",
+      "同アプリはiPhone向けで、iPadには対応しないと明記しています。"
+    ],
+    "tags": [
+      "ESET",
+      "キヤノンMJ",
+      "端末保護",
+      "AIセキュリティ",
+      "詐欺対策"
+    ],
+    "featured": true,
+    "priority": 3,
+    "region": "japan",
+    "edition_date": "2026-10-29",
+    "collected_at": "2026-10-29T01:06:08+09:00",
+    "is_sample": false
+  },
+  {
+    "id": "nttcom-20261028-ancar-agent-marketing",
+    "title": "ドコモビジネス、ANCARにAIエージェントと音声データ活用機能を追加へ",
+    "summary": "NTTドコモビジネスは10月28日、顧客接点向けサービスANCARの機能拡充を発表しました。電話応対や運用を担うAgentは2026年度内、音声・応対・コールデータを分析するMarketingは2026年12月に提供開始する予定です。",
+    "category": "ai",
+    "source": "NTTドコモビジネス",
+    "source_url": "https://www.ntt.com/about-us/press-releases/news/article/2026/1028.html",
+    "published_at": "2026-10-28T00:00:00+09:00",
+    "published_time_known": false,
+    "image_url": null,
+    "why_it_matters": "国内の顧客窓口では、AIによる応答だけでなく、予約などの業務システム連携と継続的な運用改善が課題です。通話と購買などのデータを組み合わせる場合は、利用目的やアクセス権限、人への引き継ぎ条件の設計が重要になります。",
+    "core_facts": [
+      "Agentは既存の窓口電話番号を入口とし、外部システムと連携する予約・注文・手配までを完結できる仕組みを目指します。",
+      "Marketingは通話関連データと顧客属性・購買履歴・Web行動履歴などを分析し、有望顧客の抽出や施策立案を支援する計画です。",
+      "自社の主要コンタクトセンター9拠点へのANCAR導入を進め、AgentとMarketingについても今後検証する方針です。",
+      "2030年度までに導入企業の窓口への入電の8割をAIが最初に応対する状態を目指しており、現時点の達成実績ではありません。"
+    ],
+    "tags": [
+      "NTTドコモビジネス",
+      "ANCAR",
+      "AIエージェント",
+      "コンタクトセンター",
+      "データ活用"
+    ],
+    "featured": true,
+    "priority": 2,
+    "region": "japan",
+    "edition_date": "2026-10-29",
+    "collected_at": "2026-10-29T01:06:08+09:00",
+    "is_sample": false
+  },
+  {
+    "id": "yoii-medix-20261028-saas-growth-program",
+    "title": "Yoiiとメディックス、SaaS企業の成長診断と資金確保をつなぐ共同支援を開始",
+    "summary": "Yoiiとメディックスは10月28日、SaaS Growth Programの開始を発表しました。売上改善の余地や投資の優先課題を診断し、将来売上の予測に基づく資金提供とマーケティングなどの実行支援を組み合わせます。",
+    "category": "startups",
+    "source": "Yoii",
+    "source_url": "https://prtimes.jp/main/html/rd/p/000000024.000078333.html",
+    "published_at": "2026-10-28T10:30:00+09:00",
+    "published_time_known": true,
+    "image_url": null,
+    "why_it_matters": "国内SaaS企業では、開発・採用・顧客獲得の費用が売上に先行するため、投資判断と資金繰りを接続する支援に意味があります。今回の仕組みは成長課題の整理から実行までを対象としますが、資金提供は診断や審査を踏まえるものです。",
+    "core_facts": [
+      "メディックスはマーケティング・営業・カスタマーサクセスなどのデータを分析し、課題と投資の優先順位を整理します。",
+      "Yoiiは売上実績などから将来売上を予測し、RBFによる資金調達の可能性を確認します。",
+      "RBFは将来の売上やキャッシュフローなどに基づく審査を行う方式で、新株発行を伴わないと説明しています。",
+      "診断と予測の結果を踏まえて資金提供と伴走支援につなげる構成で、すべての申込企業への資金提供を保証する発表ではありません。"
+    ],
+    "tags": [
+      "Yoii",
+      "メディックス",
+      "SaaS",
+      "スタートアップ",
+      "事業成長"
+    ],
+    "featured": false,
+    "priority": 3,
+    "region": "japan",
+    "edition_date": "2026-10-29",
+    "collected_at": "2026-10-29T01:06:08+09:00",
+    "is_sample": false
+  },
+  {
     "id": "daihatsu-20261027-blastmail-data-leak",
     "title": "ダイハツ、外部メールサービスへの不正アクセスで登録者情報の漏えいを公表",
     "summary": "ダイハツ工業は10月27日、利用するブラストメールへの不正アクセスに伴い、メディアサイト登録者の個人情報が外部へ漏えいしたとの報告を運営会社から受けたと公表しました。メディアサイトは利用できず、発表時点で再開時期は未定です。",
@@ -70,6 +163,8 @@
     "source_url": "https://newsroom.kddi.com/news/detail/kddi_nr-1212_4787.html",
     "published_at": "2026-10-28T00:00:00+09:00",
     "published_time_known": false,
+    "collected_at": "2026-10-28T17:01:52+09:00",
+    "edition_date": "2026-10-28",
     "image_url": null,
     "why_it_matters": "国内企業では、発見した脆弱性を列挙するだけでなく、自社の構成と業務への影響に応じて対処を選ぶ運用が課題になります。AIの解析を専門家の評価や改修につなぐ仕組みは、海外拠点・取引先を含む継続的な管理にも関わります。",
     "core_facts": [
@@ -88,8 +183,6 @@
     "featured": true,
     "priority": 2,
     "region": "japan",
-    "edition_date": "2026-10-28",
-    "collected_at": "2026-10-28T17:01:52+09:00",
     "is_sample": false
   },
   {
@@ -194,6 +287,8 @@
     "source_url": "https://www.softbank.jp/corp/news/press/sbkk/2026/20261028_01/",
     "published_at": "2026-10-28T00:00:00+09:00",
     "published_time_known": false,
+    "collected_at": "2026-10-28T17:01:52+09:00",
+    "edition_date": "2026-10-28",
     "image_url": null,
     "why_it_matters": "日本の材料産業にとって、量子計算を実際の設計・合成・評価へ接続することが実用化の論点です。計算基盤側と複数の材料メーカーが共同で検証することで、精度や計算費用を既存手法と比較する機会になります。",
     "core_facts": [
@@ -213,8 +308,6 @@
     "featured": true,
     "priority": 2,
     "region": "japan",
-    "edition_date": "2026-10-28",
-    "collected_at": "2026-10-28T17:01:52+09:00",
     "is_sample": false
   },
   {
