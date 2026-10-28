@@ -8,6 +8,8 @@
     "source_url": "https://www.daihatsu.com/jp/news/2026/20261027-1.html",
     "published_at": "2026-10-27T00:00:00+09:00",
     "published_time_known": false,
+    "collected_at": "2026-10-28T01:07:25+09:00",
+    "edition_date": "2026-10-28",
     "image_url": null,
     "why_it_matters": "国内企業が広報や顧客対応に外部サービスを使う場合、委託先の事故が情報管理と業務継続の両方に影響します。氏名や所属を使ったなりすましへの注意喚起に加え、委託先の管理状況や代替の連絡手段を見直す契機になります。",
     "core_facts": [
@@ -26,8 +28,6 @@
     "featured": true,
     "priority": 2,
     "region": "japan",
-    "edition_date": "2026-10-28",
-    "collected_at": "2026-10-28T01:07:25+09:00",
     "is_sample": false
   },
   {
@@ -39,6 +39,8 @@
     "source_url": "https://newsroom.kddi.com/news/detail/kddi_nr-1209_4783.html",
     "published_at": "2026-10-27T00:00:00+09:00",
     "published_time_known": false,
+    "collected_at": "2026-10-28T01:07:25+09:00",
+    "edition_date": "2026-10-28",
     "image_url": null,
     "why_it_matters": "国内の小売・物流・製造業でロボットを活用するには、モデル開発だけでなく現場データの収集と運用体制が必要です。通信や遠隔監視と組み合わせる構想は、実証から継続運用へ移る際の費用や安全管理の検討に関わります。",
     "core_facts": [
@@ -57,8 +59,68 @@
     "featured": true,
     "priority": 2,
     "region": "japan",
+    "is_sample": false
+  },
+  {
+    "id": "kddi-wing-20261027-drone-delivery-partnership",
+    "title": "KDDIとWing、国内ドローン配送で提携　2027年の一部地域での開始を目指す",
+    "summary": "KDDI、KDDIスマートドローン、Alphabet傘下のWingは10月27日、日本でのドローン配送に向けた戦略的提携を締結しました。2027年中に一部エリアで、ローソン商品を含む食料品や日用品の配送開始を目指します。",
+    "category": "dx",
+    "source": "KDDI・KDDIスマートドローン・Wing",
+    "source_url": "https://newsroom.kddi.com/news/detail/kddi_nr-1209_4782.html",
+    "published_at": "2026-10-27T00:00:00+09:00",
+    "published_time_known": false,
+    "image_url": null,
+    "why_it_matters": "国内のラストワンマイル配送では、運び手不足に加え、通信・運航管理や制度対応を含む仕組みの整備が課題になります。海外の自律配送技術と国内の通信基盤を組み合わせる取り組みであり、対象地域や運用条件の具体化が今後の焦点です。",
+    "core_facts": [
+      "Wingの自律飛行ドローン、運航システム、自動地上インフラと、KDDIグループの通信基盤や制度対応の知見を組み合わせます。",
+      "日用品、食品、市販薬、小口の小売商品を届けるための基盤構築に3社で取り組みます。",
+      "最初の配送開始は2027年中の目標であり、発表時点で国内サービスを開始したものではありません。",
+      "その後は自治体や地域パートナーと連携し、配送品と展開エリアを広げる方針です。"
+    ],
+    "tags": [
+      "KDDI",
+      "Wing",
+      "ドローン配送",
+      "物流DX",
+      "ラストワンマイル"
+    ],
+    "featured": true,
+    "priority": 2,
+    "region": "japan",
     "edition_date": "2026-10-28",
-    "collected_at": "2026-10-28T01:07:25+09:00",
+    "collected_at": "2026-10-28T09:01:47+09:00",
+    "is_sample": false
+  },
+  {
+    "id": "nec-20261027-neosarf-loyalty-core",
+    "title": "NEC、店舗・ECの顧客情報とポイント施策を統合するクラウドを提供",
+    "summary": "NECは10月27日、NeoSarf Loyalty Core Serviceの提供を10月に開始したと発表しました。店舗・EC・アプリの顧客情報を統合し、マイページを接点にポイントやクーポンなどの施策を運用するクラウドサービスです。",
+    "category": "cloud",
+    "source": "NEC",
+    "source_url": "https://prtimes.jp/main/html/rd/p/000001465.000078149.html",
+    "published_at": "2026-10-27T11:00:00+09:00",
+    "published_time_known": true,
+    "image_url": null,
+    "why_it_matters": "国内の小売・EC事業者にとって、販売チャネルごとに分かれた顧客情報をどう統合するかはシステム刷新の論点です。共通サービスを使う場合も、既存システムとの接続や個人情報の利用目的、導入規模に応じた費用を確認する必要があります。",
+    "core_facts": [
+      "顧客・購買情報の統合、セグメント化やランク管理、ポイント・特典を使った継続利用施策などを支援します。",
+      "会員数100万～300万人規模を費用の目安として示し、初期費用1,000万円から、月額200万円からと案内しています。",
+      "会員数に応じた従量課金制で、導入期間は最短4カ月としています。",
+      "AIと連携したデータ分析や施策立案の支援は将来構想としており、今回の提供済み機能とは区別されます。"
+    ],
+    "tags": [
+      "NEC",
+      "NeoSarf",
+      "クラウド",
+      "顧客データ",
+      "小売DX"
+    ],
+    "featured": false,
+    "priority": 3,
+    "region": "japan",
+    "edition_date": "2026-10-28",
+    "collected_at": "2026-10-28T09:01:47+09:00",
     "is_sample": false
   },
   {
@@ -70,6 +132,8 @@
     "source_url": "https://prtimes.jp/main/html/rd/p/000000030.000123293.html",
     "published_at": "2026-10-27T11:00:00+09:00",
     "published_time_known": true,
+    "collected_at": "2026-10-28T01:07:25+09:00",
+    "edition_date": "2026-10-28",
     "image_url": null,
     "why_it_matters": "国内製造業がフィジカルAIを導入する際には、装置の調達と並行して学習データや動作検証を扱う人材の育成が課題になります。研究・評価用の構成として導入前に検証できる一方、生産設備への適用には別途設計と安全確認が必要です。",
     "core_facts": [
@@ -88,8 +152,38 @@
     "featured": false,
     "priority": 3,
     "region": "japan",
+    "is_sample": false
+  },
+  {
+    "id": "sonet-20261027-member-database-breach",
+    "title": "So-net、会員情報約258万件の漏えいを公表　一部メールのパスワードを初期化",
+    "summary": "ソニーネットワークコミュニケーションズは10月27日、So-netの会員データベースへの不正アクセスを公表しました。So-netとplala（Sコース）の会員情報計258万5,481件が漏えいし、一部メールサービスのパスワードも対象となっています。",
+    "category": "security",
+    "source": "ソニーネットワークコミュニケーションズ",
+    "source_url": "https://www.so-net.ne.jp/info/2026/20261027_0001.html",
+    "published_at": "2026-10-27T00:00:00+09:00",
+    "published_time_known": false,
+    "image_url": null,
+    "why_it_matters": "通信サービスの会員情報に加え、一部のメール認証情報も含まれる事故です。対象者は公式案内から該当サービスと再設定の要否を確認する必要があり、企業側にも認証情報の保護と事故後の連絡体制を見直す材料となります。",
+    "core_facts": [
+      "不正アクセスは10月19日に発生し、同社は23日に確認して対象サーバーの停止と通信遮断を実施しました。",
+      "会員情報の内訳はSo-netが214万1,986件、plala（Sコース）が44万3,495件です。氏名、連絡先、ユーザーIDなどが含まれます。",
+      "一部メールサービスでは計5万4,401アドレスとパスワードの漏えいを確認し、27日に対象パスワードを初期化しました。会員情報欄に記載されたパスワード漏えいなしという説明とは対象を区別しています。",
+      "銀行口座情報16件と通知書情報7件も漏えいしました。クレジットカード情報は含まれず、NUROを含むその他のサービスでは漏えいを確認していないとしています。",
+      "27日時点で本件による二次被害は確認しておらず、原因と影響範囲の詳細は調査中です。"
+    ],
+    "tags": [
+      "So-net",
+      "個人情報",
+      "情報漏えい",
+      "認証情報",
+      "インシデント対応"
+    ],
+    "featured": true,
+    "priority": 1,
+    "region": "japan",
     "edition_date": "2026-10-28",
-    "collected_at": "2026-10-28T01:07:25+09:00",
+    "collected_at": "2026-10-28T09:01:47+09:00",
     "is_sample": false
   },
   {
