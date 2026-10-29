@@ -1,5 +1,100 @@
 [
   {
+    "id": "fujisoft-20261029-bizsaas-erp-launch-plan",
+    "title": "富士ソフト、クラウドERP「BizSaaS」を12月1日から販売　まずIT企業向け",
+    "summary": "富士ソフトと連結会社のBizSaaSは10月29日、クラウドネイティブERPの提供計画を発表しました。第1弾はIT企業向けで、富士ソフトが実装パートナーとして12月1日から販売・導入支援を担います。",
+    "category": "cloud",
+    "source": "富士ソフト",
+    "source_url": "https://www.fsi.co.jp/company/news/20261029.html",
+    "published_at": "2026-10-29T00:00:00+09:00",
+    "published_time_known": false,
+    "image_url": null,
+    "why_it_matters": "国内の業務システム刷新では、個別開発への依存と、導入後の変更・保守費用が課題になります。既存の会計などと連携しつつ業種別機能を組み立てる方式は、ERPの更新やIT企業の商流管理を検討する際の選択肢になります。",
+    "core_facts": [
+      "初期製品のBizSaaS for ITは、請負開発・SES・SaaS・製品販売などの商流を一元管理する構成です。",
+      "AWSのクラウド基盤、ノーコード開発基盤BizCodeless、業種別アプリケーションの3層で構成します。",
+      "利用者と現場の技術者が動作する画面で要件を確認し、AIとノーコードを使って実装する手法を採用しています。",
+      "提供開始日は2026年12月1日で、発表時点では将来の計画です。流通・製造・小売向けは今後2年以内の展開を予定しています。"
+    ],
+    "tags": [
+      "富士ソフト",
+      "BizSaaS",
+      "ERP",
+      "ノーコード",
+      "業務システム"
+    ],
+    "featured": true,
+    "priority": 3,
+    "region": "japan",
+    "edition_date": "2026-10-30",
+    "collected_at": "2026-10-30T01:02:23+09:00",
+    "is_sample": false
+  },
+  {
+    "id": "hinemos-20261029-ai-incident-response-trial",
+    "title": "Hinemos、AIによる障害対応の実証を公表　重要な対処には人が承認",
+    "summary": "NTTデータ先端技術は10月29日、Hinemosで障害対応などを担うAIエージェントの実証を公表しました。実験期間は10月1日～12月31日で、原因分析から復旧確認・報告までの自律化やジョブ異常調査を検証します。",
+    "category": "development",
+    "source": "NTTデータ先端技術",
+    "source_url": "https://www.intellilink.co.jp/topics/news_release/2026/102900.aspx",
+    "published_at": "2026-10-29T00:00:00+09:00",
+    "published_time_known": false,
+    "image_url": null,
+    "why_it_matters": "日本企業のシステム運用では、熟練者への依存を減らしながら、誤った対処による影響を抑える設計が必要です。ルールに基づく対処選択と人の承認を組み込む実証は、AIを実運用へ導入する際の検討材料になります。",
+    "core_facts": [
+      "障害対応、ジョブ異常の影響・原因調査、アラートの抑制・集約ルール作成の3テーマを検証します。",
+      "障害対応では必要な運用情報を集め、原因分析、対処の選択と実行、復旧確認、報告へ進む仕組みを試しています。",
+      "影響の大きい対処は実行前に人が承認する設計です。",
+      "社内開発環境の特定ユースケースで復旧時間を83%短縮したとしています。すべての障害や顧客環境での効果を示す数値ではありません。",
+      "実運用への適用可能性を評価し、2027年度上期をめどにサービス化を進める方針です。"
+    ],
+    "tags": [
+      "Hinemos",
+      "NTTデータ先端技術",
+      "AIエージェント",
+      "システム運用",
+      "実証実験"
+    ],
+    "featured": true,
+    "priority": 2,
+    "region": "japan",
+    "edition_date": "2026-10-30",
+    "collected_at": "2026-10-30T01:02:23+09:00",
+    "is_sample": false
+  },
+  {
+    "id": "it-subsidy-20261029-tool-registration-deadline",
+    "title": "デジタル化・AI導入補助金、ITツールの新規登録は12月9日17時に締め切り",
+    "summary": "デジタル化・AI導入補助金2026の事務局は10月29日、IT導入支援事業者やITツールの登録申請などの最終期限を12月9日17時と案内しました。一部レジ関連ツールや不備訂正には例外があり、補助金の交付申請期限とは区別が必要です。",
+    "category": "policy",
+    "source": "デジタル化・AI導入補助金2026事務局",
+    "source_url": "https://it-shien.smrj.go.jp/news/40312",
+    "published_at": "2026-10-29T00:00:00+09:00",
+    "published_time_known": false,
+    "image_url": null,
+    "why_it_matters": "国内のITベンダーが補助金対象として製品を提供するには、事業者・ツール登録の日程管理が必要です。対象区分と例外を把握することは、中小企業向けの販売や導入計画を立てるうえで実務上の意味があります。",
+    "core_facts": [
+      "締め切りは2026年12月9日水曜日17時です。",
+      "対象は支援事業者の新規登録、ITツールの新規登録、ITツール情報の変更追加申請です。",
+      "不備訂正は引き続き可能とし、その期限は決定後に公表するとしています。",
+      "スマートレジやPOSレジ類型対象のツールなど、指定された区分は期限後も申請可能としています。",
+      "入力途中で期限を超えた申請は破棄されるため、余裕をもった提出を呼びかけています。"
+    ],
+    "tags": [
+      "デジタル化・AI導入補助金",
+      "ITツール",
+      "事業者登録",
+      "中小企業",
+      "DX政策"
+    ],
+    "featured": false,
+    "priority": 3,
+    "region": "japan",
+    "edition_date": "2026-10-30",
+    "collected_at": "2026-10-30T01:02:23+09:00",
+    "is_sample": false
+  },
+  {
     "id": "canon-eset-20261028-home-security-v20",
     "title": "ESET HOME V20を国内提供開始　AI利用時のリスク対策と家族端末管理を強化",
     "summary": "キヤノンマーケティングジャパンとイーセットジャパンは10月28日、ESET HOME セキュリティV20の提供を開始しました。AIが扱うリンク・コード・ファイルなどへの対策を強化し、iPhone向け詐欺対策アプリも公開予定としています。",
@@ -102,6 +197,8 @@
     "source_url": "https://www.jbcc.co.jp/news/2026/10/29/8626.html",
     "published_at": "2026-10-29T00:00:00+09:00",
     "published_time_known": false,
+    "collected_at": "2026-10-29T16:57:36+09:00",
+    "edition_date": "2026-10-29",
     "image_url": null,
     "why_it_matters": "国内の中堅・中小企業では、会計や在庫などのデータが複数システムに分かれ、AIを何に使うかを具体化しにくい場合があります。既存データから利用案を選び、足りない整備を明確にする方式は、実証と本番運用の間を埋める取り組みです。",
     "core_facts": [
@@ -120,8 +217,6 @@
     "featured": true,
     "priority": 3,
     "region": "japan",
-    "edition_date": "2026-10-29",
-    "collected_at": "2026-10-29T16:57:36+09:00",
     "is_sample": false
   },
   {
@@ -164,6 +259,8 @@
     "source_url": "https://www.ntt-west.co.jp/news/2610/261029a.html",
     "published_at": "2026-10-29T00:00:00+09:00",
     "published_time_known": false,
+    "collected_at": "2026-10-29T16:57:36+09:00",
+    "edition_date": "2026-10-29",
     "image_url": null,
     "why_it_matters": "国内企業や自治体が境界防御から構成を見直す際には、製品導入後のポリシー変更やログ調査も継続して必要になります。複数機能の運用窓口を集約する仕組みは、担当者の確保が難しい組織の導入・維持体制を検討する材料になります。",
     "core_facts": [
@@ -182,8 +279,6 @@
     "featured": true,
     "priority": 2,
     "region": "japan",
-    "edition_date": "2026-10-29",
-    "collected_at": "2026-10-29T16:57:36+09:00",
     "is_sample": false
   },
   {
