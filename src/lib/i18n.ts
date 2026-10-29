@@ -21,6 +21,15 @@ const ja = {
   "archive.choose": "以前のブリーフ", "archive.selectDate": "日付を選択", "archive.open": "表示",
   "archive.title": "毎日の変化を、記録する。", "archive.description": "日付から過去の日本ITニュースを振り返る。",
   "about.title": "日本のITを、毎日の視点に。", "about.description": "SHIELD NEWS は日本IT業界のニュースを要約する情報集約サイトです。",
+  "about.focusTitle": "日本のニュースを、優先する。",
+  "about.focusBody": "AI、サイバーセキュリティ、IT企業、半導体、クラウド、ソフトウェア開発、DX、政策、IT人材、スタートアップ。日本本土の動きを中心に、日本のIT業界への影響が大きい世界のニュースも扱います。",
+  "about.sourcesTitle": "情報源が見えるブリーフ。",
+  "about.sourcesBody": "各記事には情報源と原文へのリンクを明記します。SHIELD NEWS は原発信者や報道機関ではありません。ニュースの事実と、注目する理由としての解説を分けて掲載します。原文の全文を転載せず、確認できる事実を短く要約します。",
+  "about.updatesTitle": "確認できた情報を、順次届ける。",
+  "about.updatesBody": "情報源を確認し、要点を整理したうえでブリーフを更新します。公開号の収録日、当サイトの収録時刻、原記事の公開日時は区別します。原文に時刻がない場合は日付のみ表示します。休日などは直近の発表を含め、新たな確認済み情報がない場合は既存記事を維持します。",
+  "about.accuracyTitle": "正確さと透明性。",
+  "about.accuracyBody": "AIで生成された要約には誤りが含まれる場合があります。重要な判断には原文をご確認ください。修正・お問い合わせは",
+  "about.contactSuffix": " まで。",
   "footer.description": "日本のIT業界を読む、毎日のブリーフ。", "footer.notice": "独立したニュース集約サイトです。各記事の権利は原発信者に帰属します。", "footer.archive": "アーカイブ", "footer.topics": "トピック", "footer.about": "編集方針",
 } as const;
 export type TranslationKey = keyof typeof ja;
@@ -38,6 +47,15 @@ const en: Record<TranslationKey, string> = {
   "archive.choose": "Older briefs", "archive.selectDate": "Select a date", "archive.open": "View",
   "archive.title": "A record of daily change.", "archive.description": "Browse Japan IT news by edition date.",
   "about.title": "A daily perspective on Japan IT.", "about.description": "SHIELD NEWS aggregates and summarizes news about Japan's IT industry.",
+  "about.focusTitle": "Japan's news comes first.",
+  "about.focusBody": "AI, cybersecurity, IT companies, semiconductors, cloud computing, software development, digital transformation, policy, IT talent and startups. We focus on developments in Japan, alongside global news with a significant impact on Japan's IT industry.",
+  "about.sourcesTitle": "Briefs with visible sources.",
+  "about.sourcesBody": "Every article identifies its source and links to the original. SHIELD NEWS is neither the original publisher nor a news agency. We separate reported facts from our explanation of why they matter. We briefly summarize verifiable facts rather than reproducing entire articles.",
+  "about.updatesTitle": "Verified information, published as it is ready.",
+  "about.updatesBody": "We update the brief after checking sources and organizing the key points. We distinguish the edition date, our collection time and the original article's publication date and time. If the source gives no time, we display only the date. On holidays, we may include recent announcements; when there is no newly verified information, existing stories remain unchanged.",
+  "about.accuracyTitle": "Accuracy and transparency.",
+  "about.accuracyBody": "AI-generated summaries may contain errors. Check the original source before making important decisions. For corrections or inquiries, contact",
+  "about.contactSuffix": ".",
   "footer.description": "Your daily brief on Japan's IT industry.", "footer.notice": "An independent news aggregation site. Original publishers retain their content rights.", "footer.archive": "Archive", "footer.topics": "Topics", "footer.about": "Editorial policy",
 };
 const zh: Record<TranslationKey, string> = {
@@ -54,6 +72,15 @@ const zh: Record<TranslationKey, string> = {
   "archive.choose": "更早的简报", "archive.selectDate": "选择日期", "archive.open": "查看",
   "archive.title": "记录每天的变化。", "archive.description": "按日期查看过去的日本 IT 新闻。",
   "about.title": "每日关注日本 IT。", "about.description": "SHIELD NEWS 是日本 IT 行业新闻摘要与信息聚合站。",
+  "about.focusTitle": "优先关注日本新闻。",
+  "about.focusBody": "涵盖 AI、网络安全、IT 企业、半导体、云计算、软件开发、数字化转型、政策、IT 人才和初创企业。以日本本土动态为重点，同时关注对日本 IT 行业有重要影响的全球新闻。",
+  "about.sourcesTitle": "每篇简报，来源清晰。",
+  "about.sourcesBody": "每篇新闻均注明信息来源并附上原文链接。SHIELD NEWS 并非原始发布者或新闻机构。我们将新闻事实与“为什么值得关注”的解读分开呈现，简要归纳可核实的事实，不全文转载原文。",
+  "about.updatesTitle": "核实信息后，陆续发布。",
+  "about.updatesBody": "我们在核实来源、梳理要点后更新简报，并区分简报收录日期、本站收录时间与原文发布时间。原文未提供具体时刻时，仅显示日期。节假日期间可能收录近期公告；没有新增的已核实信息时，保留现有新闻。",
+  "about.accuracyTitle": "准确与透明。",
+  "about.accuracyBody": "AI 生成的摘要可能存在错误。作出重要判断前，请核对原文。如需更正或咨询，请联系",
+  "about.contactSuffix": "。",
   "footer.description": "日本 IT 行业每日简报。", "footer.notice": "独立新闻聚合站，原文版权归原始发布者所有。", "footer.archive": "历史新闻", "footer.topics": "主题", "footer.about": "编辑方针",
 };
 export function isLanguage(value: string | null | undefined): value is Language { return value === "zh" || value === "ja" || value === "en"; }
