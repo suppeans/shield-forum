@@ -39,6 +39,8 @@
     "source_url": "https://prtimes.jp/main/html/rd/p/000000127.000031716.html",
     "published_at": "2026-10-28T09:33:00+09:00",
     "published_time_known": true,
+    "collected_at": "2026-10-29T09:03:08+09:00",
+    "edition_date": "2026-10-29",
     "image_url": null,
     "why_it_matters": "日本の教育DXでは、学習コンテンツだけでなく、オンラインで参加を継続する仕組みや自治体・学校への導入体制も事業の要素になります。今回の調達は、個人向けサービスから学校向けの展開を広げる動きとして注目されます。",
     "core_facts": [
@@ -57,8 +59,6 @@
     "featured": false,
     "priority": 3,
     "region": "japan",
-    "edition_date": "2026-10-29",
-    "collected_at": "2026-10-29T09:03:08+09:00",
     "is_sample": false
   },
   {
@@ -70,6 +70,8 @@
     "source_url": "https://www.jal.co.jp/ja-jp/news/general/2026/other/261028.html",
     "published_at": "2026-10-28T00:00:00+09:00",
     "published_time_known": false,
+    "collected_at": "2026-10-29T09:03:08+09:00",
+    "edition_date": "2026-10-29",
     "image_url": null,
     "why_it_matters": "予約・発券・搭乗手続きを支える共通の委託システムでの事故は、利用企業をまたぐデータ管理の課題を示します。予約情報を使ったなりすましへの備えに加え、委託先からの報告と対象者への連絡をどうつなぐかが重要です。",
     "core_facts": [
@@ -89,8 +91,37 @@
     "featured": true,
     "priority": 1,
     "region": "japan",
+    "is_sample": false
+  },
+  {
+    "id": "jbcc-20261029-data-driven-ai-service",
+    "title": "JBCC、実業務データからAI活用案を提案　データ整備の道筋も提示",
+    "summary": "JBCCは10月29日、独自のAIエージェントを使い、企業の業務データから分析ユースケースを提案する支援サービスを発表しました。データがAI活用に適した状態かを評価し、技術者が顧客とともに着手対象と整備計画を決めます。",
+    "category": "ai",
+    "source": "JBCC・JBCCホールディングス",
+    "source_url": "https://www.jbcc.co.jp/news/2026/10/29/8626.html",
+    "published_at": "2026-10-29T00:00:00+09:00",
+    "published_time_known": false,
+    "image_url": null,
+    "why_it_matters": "国内の中堅・中小企業では、会計や在庫などのデータが複数システムに分かれ、AIを何に使うかを具体化しにくい場合があります。既存データから利用案を選び、足りない整備を明確にする方式は、実証と本番運用の間を埋める取り組みです。",
+    "core_facts": [
+      "2026年7月に始めたMicrosoft Fabricによる分析基盤の検証支援を土台に、技術者のノウハウを取り込んだAIエージェントを開発しました。",
+      "ユースケースを、現状で実現可能、条件付きで実現可能、データ整備後に目指すものの3種類に整理します。",
+      "提案とデータ評価の後、JBCCの技術者と顧客が着手対象を選定し、本番活用に向けた整備ロードマップを策定します。",
+      "Microsoft Fabricでの分析・検証へつなげる構成で、開発中のAI Orchestration Platformを構成するサービスの一つと位置づけています。"
+    ],
+    "tags": [
+      "JBCC",
+      "AIエージェント",
+      "業務データ",
+      "Microsoft Fabric",
+      "中小企業DX"
+    ],
+    "featured": true,
+    "priority": 3,
+    "region": "japan",
     "edition_date": "2026-10-29",
-    "collected_at": "2026-10-29T09:03:08+09:00",
+    "collected_at": "2026-10-29T16:57:36+09:00",
     "is_sample": false
   },
   {
@@ -125,6 +156,37 @@
     "is_sample": false
   },
   {
+    "id": "nttwest-20261029-zero-trust-managed-service",
+    "title": "NTT西日本、ゼロトラストの導入・運用を一元支援するサービスを開始",
+    "summary": "NTT西日本とNTTスマートコネクトは10月29日、企業・自治体向けにゼロトラスト環境の導入から運用までを支援するサービスを開始しました。Zscalerを軸に、調達・構築、運用代行、監視、ヘルプデスクをまとめて提供します。",
+    "category": "security",
+    "source": "NTT西日本・NTTスマートコネクト",
+    "source_url": "https://www.ntt-west.co.jp/news/2610/261029a.html",
+    "published_at": "2026-10-29T00:00:00+09:00",
+    "published_time_known": false,
+    "image_url": null,
+    "why_it_matters": "国内企業や自治体が境界防御から構成を見直す際には、製品導入後のポリシー変更やログ調査も継続して必要になります。複数機能の運用窓口を集約する仕組みは、担当者の確保が難しい組織の導入・維持体制を検討する材料になります。",
+    "core_facts": [
+      "両社はZscalerのMSSPパートナー認定を受け、自社グループでの導入・運用の知見も活用するとしています。",
+      "NTT西日本が要件定義・設計と構築・運用を担い、NTTスマートコネクトがZscalerと付随するクラウド基盤を提供・保守します。",
+      "ID管理、エンドポイント保護、情報漏えい対策などは順次提供予定とされ、全機能が開始日に提供済みという発表ではありません。",
+      "料金は顧客の利用環境や構成により異なり、個別問い合わせとなります。"
+    ],
+    "tags": [
+      "NTT西日本",
+      "NTTスマートコネクト",
+      "ゼロトラスト",
+      "Zscaler",
+      "セキュリティ運用"
+    ],
+    "featured": true,
+    "priority": 2,
+    "region": "japan",
+    "edition_date": "2026-10-29",
+    "collected_at": "2026-10-29T16:57:36+09:00",
+    "is_sample": false
+  },
+  {
     "id": "sap-ntt-20261028-sovereign-cloud-cooperation",
     "title": "SAPとNTT、ソブリンクラウドと業務AIで協力計画　現地でのデータ管理を支援へ",
     "summary": "SAPとNTTは10月28日、SAP Sovereign CloudとSAP Business AIの分野で協力する意向を表明しました。SAPの業務アプリケーションとNTTのインフラ・運用を組み合わせ、厳格な管理要件を持つ公共機関や企業への対応を目指します。",
@@ -133,6 +195,8 @@
     "source_url": "https://www.group.ntt/jp/newsrelease/2026/10/28/261028a.html",
     "published_at": "2026-10-28T00:00:00+09:00",
     "published_time_known": false,
+    "collected_at": "2026-10-29T09:03:08+09:00",
+    "edition_date": "2026-10-29",
     "image_url": null,
     "why_it_matters": "日本の公共機関や規制対象企業がクラウドとAIを選ぶ際には、データの保管場所だけでなく、物理管理や運用の権限も検討対象になります。今回の連携計画は、業務アプリケーションとインフラを一体で検討する選択肢につながります。",
     "core_facts": [
@@ -151,8 +215,6 @@
     "featured": true,
     "priority": 2,
     "region": "japan",
-    "edition_date": "2026-10-29",
-    "collected_at": "2026-10-29T09:03:08+09:00",
     "is_sample": false
   },
   {
@@ -164,6 +226,8 @@
     "source_url": "https://prtimes.jp/main/html/rd/p/000000610.000044347.html",
     "published_at": "2026-10-28T15:30:00+09:00",
     "published_time_known": true,
+    "collected_at": "2026-10-29T09:03:08+09:00",
+    "edition_date": "2026-10-29",
     "image_url": null,
     "why_it_matters": "自治体のDXは申請のオンライン化に加え、行政からの通知や受領確認にも広がっています。法務AIを組み合わせる運用では、根拠文献を確認できる仕組みと職員による判断・審査の設計が重要になります。",
     "core_facts": [
@@ -182,8 +246,6 @@
     "featured": true,
     "priority": 3,
     "region": "japan",
-    "edition_date": "2026-10-29",
-    "collected_at": "2026-10-29T09:03:08+09:00",
     "is_sample": false
   },
   {
