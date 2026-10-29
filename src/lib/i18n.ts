@@ -1,4 +1,4 @@
-import type { Category } from "./types";
+import { categoryName, type Category } from "./types";
 export type Language = "zh" | "ja" | "en";
 export const defaultLanguage: Language = "ja";
 export const languageStorageKey = "shield-news-language";
@@ -9,6 +9,8 @@ export const languages = [
 ] as const;
 const ja = {
   "header.home": "SHIELD NEWS ホーム", "header.primaryNavigation": "メインナビゲーション", "language.select": "表示言語を選択",
+  "translation.loading": "翻訳中…", "translation.error": "翻訳を取得できません。日本語の原文を表示しています。", "translation.retry": "再試行", "translation.notice": "AI翻訳 · 詳細は原文をご確認ください。",
+  "nav.development": "開発", "nav.dx": "DX", "nav.policy": "政策", "nav.startups": "スタートアップ", "nav.global": "グローバル",
   "nav.home": "ホーム", "nav.ai": "AI", "nav.security": "セキュリティ", "nav.business": "企業", "nav.semiconductors": "半導体", "nav.cloud": "クラウド", "nav.careers": "IT就職", "nav.about": "このサイトについて", "nav.search": "ニュースを検索", "nav.menu": "メニュー",
   "home.label": "日本 IT ニュース / デイリーブリーフ", "home.title": "今日の変化を、\n明日の視点に。", "home.description": "日本のIT業界の重要な動きと、その意味を。確認できた情報を整理し、要点と背景をわかりやすくお届けします。",
   "home.focus": "注目ニュース", "home.list": "ニュース一覧", "home.today": "今日のブリーフ", "home.total": "収録ニュース", "home.sources": "出典", "home.archive": "過去のブリーフ", "home.all": "すべて", "home.empty": "この日のニュースはまだ公開されていません。", "home.emptyFilter": "このカテゴリーのニュースはありません。", "home.updated": "最新の収録時刻", "home.latest": "最新の公開号を見る",
@@ -23,7 +25,9 @@ const ja = {
 } as const;
 export type TranslationKey = keyof typeof ja;
 const en: Record<TranslationKey, string> = {
-  "header.home": "SHIELD NEWS home", "header.primaryNavigation": "Main navigation", "language.select": "Select interface language",
+  "header.home": "SHIELD NEWS home", "header.primaryNavigation": "Main navigation", "language.select": "Select language",
+  "translation.loading": "Translating…", "translation.error": "Translation unavailable. Showing the Japanese original.", "translation.retry": "Retry", "translation.notice": "AI translation · Check the original for details.",
+  "nav.development": "Development", "nav.dx": "DX", "nav.policy": "Policy", "nav.startups": "Startups", "nav.global": "Global",
   "nav.home": "Home", "nav.ai": "AI", "nav.security": "Security", "nav.business": "Business", "nav.semiconductors": "Chips", "nav.cloud": "Cloud", "nav.careers": "IT careers", "nav.about": "About", "nav.search": "Search news", "nav.menu": "Menu",
   "home.label": "JAPAN IT / DAILY BRIEF", "home.title": "Today's changes.\nTomorrow's perspective.", "home.description": "The developments that matter in Japan's IT industry, and why. Clear summaries and context, grounded in verified sources.",
   "home.focus": "In focus", "home.list": "News feed", "home.today": "Today's brief", "home.total": "Stories", "home.sources": "Sources", "home.archive": "Previous briefs", "home.all": "All", "home.empty": "No news has been published for this date yet.", "home.emptyFilter": "No stories in this category.", "home.updated": "Latest story timestamp", "home.latest": "Read the latest edition",
@@ -37,7 +41,9 @@ const en: Record<TranslationKey, string> = {
   "footer.description": "Your daily brief on Japan's IT industry.", "footer.notice": "An independent news aggregation site. Original publishers retain their content rights.", "footer.archive": "Archive", "footer.topics": "Topics", "footer.about": "Editorial policy",
 };
 const zh: Record<TranslationKey, string> = {
-  "header.home": "SHIELD NEWS 首页", "header.primaryNavigation": "主导航", "language.select": "选择界面语言",
+  "header.home": "SHIELD NEWS 首页", "header.primaryNavigation": "主导航", "language.select": "选择语言",
+  "translation.loading": "正在翻译…", "translation.error": "翻译暂不可用，当前显示日文原文。", "translation.retry": "重试", "translation.notice": "AI 译文 · 详情请核对原文。",
+  "nav.development": "开发", "nav.dx": "数字化转型", "nav.policy": "政策", "nav.startups": "初创企业", "nav.global": "全球",
   "nav.home": "首页", "nav.ai": "AI", "nav.security": "网络安全", "nav.business": "企业", "nav.semiconductors": "半导体", "nav.cloud": "云计算", "nav.careers": "IT 就职", "nav.about": "关于本站", "nav.search": "搜索新闻", "nav.menu": "菜单",
   "home.label": "日本 IT / 每日简报", "home.title": "今日的变化，\n明日的视角。", "home.description": "关注日本 IT 行业的重要动态及其影响。梳理已核实的信息，清晰呈现新闻要点与背景。",
   "home.focus": "重点新闻", "home.list": "新闻列表", "home.today": "今日简报", "home.total": "收录新闻", "home.sources": "新闻来源", "home.archive": "历史简报", "home.all": "全部", "home.empty": "当天新闻尚未发布。", "home.emptyFilter": "该分类暂无新闻。", "home.updated": "最新收录新闻时间", "home.latest": "查看最新一期",
@@ -60,4 +66,9 @@ export function getDateLocale(language: Language) { return { ja: "ja-JP", zh: "z
 export function translateCategory<T extends Category>(category: T, language: Language): T {
   const key = `nav.${category.slug}`;
   return { ...category, name: key in ja ? t(language, key) : category.name };
+}
+
+export function translatedCategoryName(slug: string, language: Language) {
+  const key = `nav.${slug}`;
+  return key in ja ? t(language, key) : categoryName(slug);
 }

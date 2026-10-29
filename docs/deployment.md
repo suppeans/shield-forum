@@ -24,3 +24,15 @@ Vercel 项目 `shield-forum` 连接 `suppeans/shield-forum` 的 `main` 分支。
 ## 安全与缓存
 
 `next.config.ts` 和 `vercel.json` 设置安全响应头。缓存不可变静态资源；新闻 HTML、动态响应和 `POST /api/news/import` 不使用共享缓存。导入接口验证服务端 Bearer 令牌、数据格式和批次大小。不要在日志中输出令牌。
+
+## DeepSeek 新闻翻译
+
+在 Vercel 项目的 Environment Variables 中设置服务端 `DEEPSEEK_API_KEY`，范围至少包含 Production；修改后需要重新部署。本地开发在 `.env.local` 填写同名变量。不要使用 `NEXT_PUBLIC_` 前缀，不要将密钥提交到 Git 或粘贴到聊天/日志。
+
+`DEEPSEEK_TRANSLATION_MODEL` 默认为 `deepseek-flash`，可按 DeepSeek 账号可用模型覆盖。使用官方 `https://api.deepseek.com/chat/completions` 接口及 JSON Output，不引入 SDK。参考 [DeepSeek JSON Output](https://api-docs.deepseek.com/guides/json_mode/) 和 [Chat Completions API](https://api-docs.deepseek.com/api/create-chat-completion/)。
+
+切换为中文或英文时，进入阅读区域的新闻会请求 `/api/news/{id}/translation?language=zh`（或 `en`），覆盖标题、摘要、核心事实、解读和标签。日本語始终恢复本站日文原稿；来源、日期、原文链接和标签筛选地址不变。AI 译文附有标记，失败时保留日文并提供重试入口。
+
+接口只接受本站现存新闻 ID 和 `zh` / `en`，不接收用户提供的待译文本或提示词。译文经格式与数组长度验证后，使用 Next.js Data Cache 按完整原文、目标语言、模型和翻译版本缓存；原稿修改会生成新的缓存项。浏览器会合并同篇新闻请求，服务端合并当前实例内的在途请求，限制同时处理数量。浏览器响应不缓存，避免新闻修正后继续显示旧稿。
+
+翻译会使用 DeepSeek API 额度。缓存和实例内并发限制不等于全局限额；生产环境应在服务商设置用量控制，并按访问量配置 Vercel Firewall。未配置密钥、额度不足或超时会返回通用 503，不把服务商响应、密钥或内部错误返回浏览器。该功能无需变更新闻 JSON、数据库或每日编辑任务。

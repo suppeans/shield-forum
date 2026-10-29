@@ -31,7 +31,7 @@ a, button, input { -webkit-tap-highlight-color: transparent; }
 .icon-link.language-trigger { display: inline-flex; align-items: center; width: auto; gap: 6px; padding: 0 8px; }
 .language-trigger span { font-size: 12px; white-space: nowrap; }
 .language-menu { position: absolute; right: 0; top: calc(100% + 8px); display: none; min-width: 150px; border: 1px solid var(--line); border-radius: 8px; background: var(--surface); padding: 6px; }
-.language-switcher:focus-within .language-menu, .language-switcher:hover .language-menu { display: grid; }
+.language-menu:not([hidden]) { display: grid; }
 .language-option { display: grid; gap: 3px; width: 100%; border: 0; border-radius: 6px; background: transparent; color: var(--text); padding: 10px; text-align: left; }
 .language-option:hover, .language-option[aria-checked="true"] { background: var(--surface-strong); }
 .language-option small { color: var(--muted); }
@@ -243,3 +243,6 @@ a, button, input { -webkit-tap-highlight-color: transparent; }
   .uiverse-button .button-icon, .uiverse-button svg, .read-link svg, .row-arrow svg, .lead-story { transition: none; }
   .uiverse-button:hover svg, .uiverse-button:focus-visible svg, .read-link:hover svg, .row-arrow:hover svg { transform: none; }
 }
+
+.translation-status { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; margin: 12px 0; color: var(--muted); font-size: 12px; line-height: 1.6; }
+.translation-status button { border: 0; border-bottom: 1px solid currentColor; padding: 0; background: none; color: var(--text); cursor: pointer; font: inherit; }
