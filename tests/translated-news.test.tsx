@@ -21,9 +21,9 @@ describe("news content language switching", () => {
     const trigger = screen.getByRole("button", { name: "表示言語を選択" });
     expect(trigger).toHaveAttribute("aria-expanded", "false");
     trigger.focus(); fireEvent.keyDown(trigger, { key: "ArrowDown" });
-    const chinese = await screen.findByRole("menuitemradio", { name: /^中文/ });
-    await waitFor(() => expect(chinese).toHaveFocus());
-    fireEvent.keyDown(chinese, { key: "Escape" });
+    const japanese = await screen.findByRole("menuitemradio", { name: /^日本語/ });
+    await waitFor(() => expect(japanese).toHaveFocus());
+    fireEvent.keyDown(japanese, { key: "Escape" });
     expect(trigger).toHaveFocus(); expect(trigger).toHaveAttribute("aria-expanded", "false");
     fireEvent.click(trigger); fireEvent.pointerDown(document.body);
     expect(trigger).toHaveAttribute("aria-expanded", "false");

@@ -3,9 +3,9 @@ export type Language = "zh" | "ja" | "en";
 export const defaultLanguage: Language = "ja";
 export const languageStorageKey = "shield-news-language";
 export const languages = [
-  { code: "zh", label: "Chinese", nativeLabel: "中文" },
   { code: "ja", label: "Japanese", nativeLabel: "日本語" },
   { code: "en", label: "English", nativeLabel: "English" },
+  { code: "zh", label: "Chinese", nativeLabel: "中文" },
 ] as const;
 const ja = {
   "header.home": "SHIELD NEWS ホーム", "header.primaryNavigation": "メインナビゲーション", "language.select": "表示言語を選択",
