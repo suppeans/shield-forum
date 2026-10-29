@@ -8,6 +8,8 @@
     "source_url": "https://corporate.jp.canon/newsroom/newsrelease/2026/pr-1028a",
     "published_at": "2026-10-28T00:00:00+09:00",
     "published_time_known": false,
+    "collected_at": "2026-10-29T01:06:08+09:00",
+    "edition_date": "2026-10-29",
     "image_url": null,
     "why_it_matters": "生成AIの回答やエージェントが扱うファイルも、利用者の端末上で確認・実行されるため保護の対象になります。国内の個人・家族向け製品が対応範囲を広げる一方、OSや契約による機能差、アプリの公開状況を確認することが大切です。",
     "core_facts": [
@@ -26,8 +28,69 @@
     "featured": true,
     "priority": 3,
     "region": "japan",
+    "is_sample": false
+  },
+  {
+    "id": "gecipe-20261028-series-b-final-close",
+    "title": "ゲシピ、シリーズBを総額6.6億円で完了　没入型教育DXの展開を強化",
+    "summary": "ゲシピは10月28日、出資と借り入れによる資金調達を実施し、シリーズB全体の調達額が6.6億円になったと発表しました。eスポーツを活用した英会話などの事業拡大、人材採用、組織強化や上場準備に充てる方針です。",
+    "category": "startups",
+    "source": "ゲシピ",
+    "source_url": "https://prtimes.jp/main/html/rd/p/000000127.000031716.html",
+    "published_at": "2026-10-28T09:33:00+09:00",
+    "published_time_known": true,
+    "image_url": null,
+    "why_it_matters": "日本の教育DXでは、学習コンテンツだけでなく、オンラインで参加を継続する仕組みや自治体・学校への導入体制も事業の要素になります。今回の調達は、個人向けサービスから学校向けの展開を広げる動きとして注目されます。",
+    "core_facts": [
+      "日本ベンチャーキャピタルの追加出資に加え、京都キャピタルパートナーズなどの出資・金融機関からの借り入れを実施しました。",
+      "6.6億円はシリーズB全体の金額であり、今回だけの追加調達額として示された数字ではありません。",
+      "eスポーツ英会話のeスピ！などを提供し、同社発表では累計受講回数が60万回を超えています。",
+      "自治体の学校などを対象とする教育DXプログラムの導入拡大や、新たな教育価値の創出を進める方針です。"
+    ],
+    "tags": [
+      "ゲシピ",
+      "教育DX",
+      "eスポーツ",
+      "資金調達",
+      "スタートアップ"
+    ],
+    "featured": false,
+    "priority": 3,
+    "region": "japan",
     "edition_date": "2026-10-29",
-    "collected_at": "2026-10-29T01:06:08+09:00",
+    "collected_at": "2026-10-29T09:03:08+09:00",
+    "is_sample": false
+  },
+  {
+    "id": "jal-jta-20261028-amadeus-unauthorized-access",
+    "title": "JAL・JTA、委託先システムで約9.2万人の予約情報に外部参照の形跡",
+    "summary": "日本航空と日本トランスオーシャン航空は10月28日、Amadeusの旅客サービスシステムへの不正アクセスにより、約9万2,000人分の予約情報に外部参照の形跡があったと公表しました。カード番号と各種パスワードの漏えいはなく、運航への影響もないとしています。",
+    "category": "security",
+    "source": "日本航空・日本トランスオーシャン航空",
+    "source_url": "https://www.jal.co.jp/ja-jp/news/general/2026/other/261028.html",
+    "published_at": "2026-10-28T00:00:00+09:00",
+    "published_time_known": false,
+    "image_url": null,
+    "why_it_matters": "予約・発券・搭乗手続きを支える共通の委託システムでの事故は、利用企業をまたぐデータ管理の課題を示します。予約情報を使ったなりすましへの備えに加え、委託先からの報告と対象者への連絡をどうつなぐかが重要です。",
+    "core_facts": [
+      "両社は10月23日にAmadeusから報告を受け、28日に公表しました。",
+      "約9万人分では予約番号、氏名、搭乗日・区間・クラスに参照の形跡があり、約2,000人分では連絡先やパスポート番号なども含まれます。",
+      "予約記録が外部から参照された形跡がある期間は、2023年8月10日～2026年9月23日としています。",
+      "Amadeusは必要なセキュリティ対策を完了しており、公表時点で情報が不正使用された事実は確認されていません。",
+      "対象者へ個別に連絡し、10月29日から専用窓口を設けると案内しています。"
+    ],
+    "tags": [
+      "JAL",
+      "JTA",
+      "Amadeus",
+      "不正アクセス",
+      "委託先管理"
+    ],
+    "featured": true,
+    "priority": 1,
+    "region": "japan",
+    "edition_date": "2026-10-29",
+    "collected_at": "2026-10-29T09:03:08+09:00",
     "is_sample": false
   },
   {
@@ -39,6 +102,8 @@
     "source_url": "https://www.ntt.com/about-us/press-releases/news/article/2026/1028.html",
     "published_at": "2026-10-28T00:00:00+09:00",
     "published_time_known": false,
+    "collected_at": "2026-10-29T01:06:08+09:00",
+    "edition_date": "2026-10-29",
     "image_url": null,
     "why_it_matters": "国内の顧客窓口では、AIによる応答だけでなく、予約などの業務システム連携と継続的な運用改善が課題です。通話と購買などのデータを組み合わせる場合は、利用目的やアクセス権限、人への引き継ぎ条件の設計が重要になります。",
     "core_facts": [
@@ -57,8 +122,68 @@
     "featured": true,
     "priority": 2,
     "region": "japan",
+    "is_sample": false
+  },
+  {
+    "id": "sap-ntt-20261028-sovereign-cloud-cooperation",
+    "title": "SAPとNTT、ソブリンクラウドと業務AIで協力計画　現地でのデータ管理を支援へ",
+    "summary": "SAPとNTTは10月28日、SAP Sovereign CloudとSAP Business AIの分野で協力する意向を表明しました。SAPの業務アプリケーションとNTTのインフラ・運用を組み合わせ、厳格な管理要件を持つ公共機関や企業への対応を目指します。",
+    "category": "cloud",
+    "source": "SAPジャパン・NTT",
+    "source_url": "https://www.group.ntt/jp/newsrelease/2026/10/28/261028a.html",
+    "published_at": "2026-10-28T00:00:00+09:00",
+    "published_time_known": false,
+    "image_url": null,
+    "why_it_matters": "日本の公共機関や規制対象企業がクラウドとAIを選ぶ際には、データの保管場所だけでなく、物理管理や運用の権限も検討対象になります。今回の連携計画は、業務アプリケーションとインフラを一体で検討する選択肢につながります。",
+    "core_facts": [
+      "最初の連携分野として、SAP Sovereign Cloud On-SiteとNTTが管理するインフラ・運用サービスを組み合わせる計画です。",
+      "On-Siteは、顧客が所有または選定するデータセンターでSAP管理のクラウドを運用できる導入形態です。",
+      "政府・防衛機関、重要インフラ事業者など、現地管理や規制対応に厳格な要件を持つ顧客を想定しています。",
+      "今回の発表は協力の意向と計画であり、新たな共同サービスの提供開始を示すものではありません。"
+    ],
+    "tags": [
+      "SAP",
+      "NTT",
+      "ソブリンクラウド",
+      "データ管理",
+      "業務AI"
+    ],
+    "featured": true,
+    "priority": 2,
+    "region": "japan",
     "edition_date": "2026-10-29",
-    "collected_at": "2026-10-29T01:06:08+09:00",
+    "collected_at": "2026-10-29T09:03:08+09:00",
+    "is_sample": false
+  },
+  {
+    "id": "shiga-20261028-cloudsign-legalbrain",
+    "title": "滋賀県、処分通知の電子化にクラウドサイン　法務AIも導入",
+    "summary": "弁護士ドットコムは10月28日、滋賀県が処分通知などのデジタル化にクラウドサインの利用を開始したと発表しました。法令・要件の確認業務を支援するLegalBrain エージェントも導入したとしています。",
+    "category": "dx",
+    "source": "弁護士ドットコム",
+    "source_url": "https://prtimes.jp/main/html/rd/p/000000610.000044347.html",
+    "published_at": "2026-10-28T15:30:00+09:00",
+    "published_time_known": true,
+    "image_url": null,
+    "why_it_matters": "自治体のDXは申請のオンライン化に加え、行政からの通知や受領確認にも広がっています。法務AIを組み合わせる運用では、根拠文献を確認できる仕組みと職員による判断・審査の設計が重要になります。",
+    "core_facts": [
+      "滋賀県は各種処分通知などの送付と受領確認をオンラインで完結させる基盤としてクラウドサインを採用しました。",
+      "LegalBrain エージェントは、法令・判例・ガイドライン・法律専門書籍などを根拠とし、回答に引用と原典参照を付す設計と説明しています。",
+      "法務AIは処分通知の電子化や法務・審査業務における法令・要件の確認支援を目的に導入しています。",
+      "同社はLegalBrain エージェントの自治体導入として全国初としています。"
+    ],
+    "tags": [
+      "滋賀県",
+      "自治体DX",
+      "クラウドサイン",
+      "LegalBrain",
+      "電子通知"
+    ],
+    "featured": true,
+    "priority": 3,
+    "region": "japan",
+    "edition_date": "2026-10-29",
+    "collected_at": "2026-10-29T09:03:08+09:00",
     "is_sample": false
   },
   {
@@ -70,6 +195,8 @@
     "source_url": "https://prtimes.jp/main/html/rd/p/000000024.000078333.html",
     "published_at": "2026-10-28T10:30:00+09:00",
     "published_time_known": true,
+    "collected_at": "2026-10-29T01:06:08+09:00",
+    "edition_date": "2026-10-29",
     "image_url": null,
     "why_it_matters": "国内SaaS企業では、開発・採用・顧客獲得の費用が売上に先行するため、投資判断と資金繰りを接続する支援に意味があります。今回の仕組みは成長課題の整理から実行までを対象としますが、資金提供は診断や審査を踏まえるものです。",
     "core_facts": [
@@ -88,8 +215,6 @@
     "featured": false,
     "priority": 3,
     "region": "japan",
-    "edition_date": "2026-10-29",
-    "collected_at": "2026-10-29T01:06:08+09:00",
     "is_sample": false
   },
   {
