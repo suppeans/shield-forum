@@ -1,5 +1,98 @@
 [
   {
+    "id": "ipa-20261030-data-ai-exam-sample",
+    "title": "IPA、データ・AI新試験の科目Bサンプル問題を公開　2027年度開始を予定",
+    "summary": "IPAは10月30日、プロフェッショナルデジタルスキル（データ・AI）試験（仮称）の科目Bサンプル問題を追加しました。同日、シラバス案も掲載しています。2027年度から開始予定の新試験制度に向けた資料で、試験開始や正式な出題内容の確定を示すものではありません。",
+    "category": "careers",
+    "source": "IPA",
+    "source_url": "https://www.ipa.go.jp/shiken/syllabus/henkou/2026/20260622.html",
+    "published_at": "2026-10-30T00:00:00+09:00",
+    "published_time_known": false,
+    "image_url": null,
+    "why_it_matters": "データ・AI分野を学ぶ学生や技術者にとって、新制度で想定される問題形式を確認する材料になります。企業や教育機関が育成計画を検討する際にも参照できますが、シラバス案には変更の可能性があります。",
+    "core_facts": [
+      "案内ページの初回公開日は6月22日で、データ・AI試験の科目Bサンプル問題を追加した日は10月30日です。",
+      "新たな出題分野や形式のイメージを共有する目的で作られたもので、実際の試験と同様の作成・チェック工程を経た問題ではありません。",
+      "シラバス案の案内ページでも、データ・AI試験のVer.0.1を10月30日に掲載したと確認できます。",
+      "IPAは新試験制度を2027年度から開始予定とし、シラバス案は公表時点の検討状況に基づき変更する可能性があるとしています。"
+    ],
+    "tags": [
+      "IPA",
+      "データ・AI",
+      "資格試験",
+      "IT人材育成",
+      "シラバス"
+    ],
+    "featured": true,
+    "priority": 3,
+    "region": "japan",
+    "edition_date": "2026-10-31",
+    "collected_at": "2026-10-31T00:59:36+09:00",
+    "is_sample": false
+  },
+  {
+    "id": "ipa-20261030-supply-chain-data-guide-v2",
+    "title": "IPA、企業間データ連携の手引きを2.0版に改訂　ODS-RAM V2に対応",
+    "summary": "IPAは10月30日、サプライチェーンの企業間データ連携に関する共通編の手引き2.0版を公開しました。共通要件を見直し、用途別のガイドラインを作る際の使い方と、公益デジタルプラットフォーム運営事業者認定制度との関係を整理しています。",
+    "category": "dx",
+    "source": "IPA",
+    "source_url": "https://www.ipa.go.jp/pressrelease/2026/press20261030.html",
+    "published_at": "2026-10-30T00:00:00+09:00",
+    "published_time_known": false,
+    "image_url": null,
+    "why_it_matters": "国内製造業のデータ連携では、個別の業界・用途で要件を作り直す負担や、システム間の接続性が課題になります。共通の設計要件と用途別文書の関係が整理されることで、トレーサビリティ管理などのシステムを設計する際の参照先が明確になります。",
+    "core_facts": [
+      "原材料の調達から製造・流通までの企業間データ連携を対象に、業務・機能・設計の共通要件を整理した文書です。",
+      "ODS-RAM V2を参照し、原則の構成や機能配置図、用語を見直しました。",
+      "用途別ガイドラインでは原則を踏襲し、第3章以降は目的や業務に応じて編集するなど、文書の使い方を示しています。",
+      "初版は2026年3月公開です。今回の2.0版では、用途別ガイドラインが公益DPF認定制度の準拠確認対象となり得る関係も整理しました。"
+    ],
+    "tags": [
+      "IPA",
+      "データ連携",
+      "サプライチェーン",
+      "ODS-RAM",
+      "製造業DX"
+    ],
+    "featured": true,
+    "priority": 3,
+    "region": "japan",
+    "edition_date": "2026-10-31",
+    "collected_at": "2026-10-31T00:59:36+09:00",
+    "is_sample": false
+  },
+  {
+    "id": "lightz-20261030-omotech-acquisition-announcement",
+    "title": "LIGHTz、おもしろテクノロジーの完全子会社化を発表　製造業AIの実装体制を強化",
+    "summary": "LIGHTzは10月30日、AI開発やセキュリティの技術を持つおもしろテクノロジーの全株式を取得したと発表しました。株式譲渡の実行日は9月30日です。製造現場の課題発見からAI実装・運用改善までを支援する体制の強化を狙います。",
+    "category": "business",
+    "source": "LIGHTz",
+    "source_url": "https://prtimes.jp/main/html/rd/p/000000051.000099017.html",
+    "published_at": "2026-10-30T17:40:00+09:00",
+    "published_time_known": true,
+    "image_url": null,
+    "why_it_matters": "製造業のAI導入では、基盤の提供に加えて現場の業務を理解し、実装と運用まで支える技術者が必要になります。国内AI企業がセキュリティを含む開発人材をグループに迎える動きは、製品と現場支援を組み合わせる事業展開の一例です。",
+    "core_facts": [
+      "株式譲渡による全株式取得で完全子会社化しました。10月30日の発表に、実行日を2026年9月30日と記載しています。",
+      "おもしろテクノロジーはAIを活用したシステム開発支援、ソフトウェアの設計・構築・運用保守などを手がけています。",
+      "LIGHTzは、現場実装力の強化、開発・改善サイクルの短縮、現場の声を製品へ反映することを連携の狙いに挙げています。",
+      "子会社は社名を維持し、既存顧客へのサービスも継続します。新サービスなどは決定後に改めて案内する方針です。"
+    ],
+    "tags": [
+      "LIGHTz",
+      "おもしろテクノロジー",
+      "M&A",
+      "製造業AI",
+      "セキュリティエンジニア"
+    ],
+    "featured": true,
+    "priority": 3,
+    "region": "japan",
+    "edition_date": "2026-10-31",
+    "collected_at": "2026-10-31T00:59:36+09:00",
+    "is_sample": false
+  },
+  {
     "id": "digitalagency-20261030-gennai-diet-answer-prototype",
     "title": "デジタル庁、国会答弁作成を補助するAI原型を政府職員に提供",
     "summary": "デジタル庁は10月30日、ガバメントAI 源内で国会答弁作成支援AIアプリのプロトタイプ版を約18万人の政府職員に提供すると発表しました。資料検索・整理や答弁案作成を補助し、実業務で有効性と出力品質を検証します。",
@@ -8,6 +101,8 @@
     "source_url": "https://www.digital.go.jp/policies/genai/b736d2d7-b03b-43f0-9932-eba7da7f8142",
     "published_at": "2026-10-30T00:00:00+09:00",
     "published_time_known": false,
+    "collected_at": "2026-10-30T17:06:56+09:00",
+    "edition_date": "2026-10-30",
     "image_url": null,
     "why_it_matters": "政府の文書作成でAIを実務に組み込む動きは、行政向けシステムの設計や評価の論点を具体化します。出典との照合、過去答弁との整合性、最終判断の責任を明確にした運用は、国内組織が生成AIを導入する際にも参考になります。",
     "core_facts": [
@@ -26,8 +121,6 @@
     "featured": true,
     "priority": 2,
     "region": "japan",
-    "edition_date": "2026-10-30",
-    "collected_at": "2026-10-30T17:06:56+09:00",
     "is_sample": false
   },
   {
@@ -101,6 +194,8 @@
     "source_url": "https://global.fujitsu/ja-jp/pr/news/2026/10/30-01",
     "published_at": "2026-10-30T00:00:00+09:00",
     "published_time_known": false,
+    "collected_at": "2026-10-30T17:06:56+09:00",
+    "edition_date": "2026-10-30",
     "image_url": null,
     "why_it_matters": "国内企業が攻撃を受けた際、被害範囲を把握して復旧方針を決めるまでの時間は事業継続に関わります。AIの解析と専門家の判断を組み合わせる方式は、社内だけで常時対応体制を維持しにくい組織の選択肢になります。",
     "core_facts": [
@@ -119,8 +214,6 @@
     "featured": true,
     "priority": 2,
     "region": "japan",
-    "edition_date": "2026-10-30",
-    "collected_at": "2026-10-30T17:06:56+09:00",
     "is_sample": false
   },
   {
@@ -196,6 +289,8 @@
     "source_url": "https://news.panasonic.com/jp/press/jn261030-3",
     "published_at": "2026-10-30T00:00:00+09:00",
     "published_time_known": false,
+    "collected_at": "2026-10-30T17:06:56+09:00",
+    "edition_date": "2026-10-30",
     "image_url": null,
     "why_it_matters": "AIインフラの拡大はGPUだけでなく、高速通信を支える基板材料や電源部品の需要にも波及します。国内の研究・生産拠点と海外工場を組み合わせる投資は、日本の電子材料産業の供給力と次世代パッケージ技術の開発に関わります。",
     "core_facts": [
@@ -214,8 +309,6 @@
     "featured": true,
     "priority": 2,
     "region": "japan",
-    "edition_date": "2026-10-30",
-    "collected_at": "2026-10-30T17:06:56+09:00",
     "is_sample": false
   },
   {
