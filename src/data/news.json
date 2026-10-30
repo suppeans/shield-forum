@@ -1,5 +1,36 @@
 [
   {
+    "id": "eguardian-20261029-ec-product-information-monitor-beta",
+    "title": "イー・ガーディアン、ECの商品情報の更新漏れを検知するAI監視をベータ提供",
+    "summary": "イー・ガーディアンは10月29日、メーカー向けのEC商品情報AI監視ソリューションのベータ版を提供開始しました。販売ページに古い仕様や価格などが残っていないかを確認し、是正依頼や反映完了の記録まで支援します。",
+    "category": "dx",
+    "source": "イー・ガーディアン",
+    "source_url": "https://prtimes.jp/main/html/rd/p/000000434.000018759.html",
+    "published_at": "2026-10-29T15:30:00+09:00",
+    "published_time_known": true,
+    "image_url": null,
+    "why_it_matters": "国内メーカーが複数のECモールや販売店に商品を展開すると、仕様変更の通知と実際のページ更新にずれが生じます。AIによる巡回に人の確認と修正依頼を組み合わせる方式は、商品情報の管理業務を継続して運用するための選択肢になります。",
+    "core_facts": [
+      "説明文や仕様表に加え、商品画像内の文字も照合し、判断が難しいページは専門オペレーターが確認します。",
+      "是正依頼の送付・進捗管理と、反映完了後の画面や履歴の保存までを扱います。代行範囲はメーカーと相談して決めます。",
+      "楽天市場、Yahoo!ショッピング、Amazon、販売事業者の自社ECなどを対象として案内しています。",
+      "ベータ版は先着5社に全機能を3カ月無料で提供し、検証後に順次正式提供へ移行する予定です。正式提供後の価格は個別見積もりです。"
+    ],
+    "tags": [
+      "イー・ガーディアン",
+      "EC",
+      "商品情報管理",
+      "AI監視",
+      "ベータ版"
+    ],
+    "featured": true,
+    "priority": 3,
+    "region": "japan",
+    "edition_date": "2026-10-30",
+    "collected_at": "2026-10-30T09:06:11+09:00",
+    "is_sample": false
+  },
+  {
     "id": "fujisoft-20261029-bizsaas-erp-launch-plan",
     "title": "富士ソフト、クラウドERP「BizSaaS」を12月1日から販売　まずIT企業向け",
     "summary": "富士ソフトと連結会社のBizSaaSは10月29日、クラウドネイティブERPの提供計画を発表しました。第1弾はIT企業向けで、富士ソフトが実装パートナーとして12月1日から販売・導入支援を担います。",
@@ -8,6 +39,8 @@
     "source_url": "https://www.fsi.co.jp/company/news/20261029.html",
     "published_at": "2026-10-29T00:00:00+09:00",
     "published_time_known": false,
+    "collected_at": "2026-10-30T01:02:23+09:00",
+    "edition_date": "2026-10-30",
     "image_url": null,
     "why_it_matters": "国内の業務システム刷新では、個別開発への依存と、導入後の変更・保守費用が課題になります。既存の会計などと連携しつつ業種別機能を組み立てる方式は、ERPの更新やIT企業の商流管理を検討する際の選択肢になります。",
     "core_facts": [
@@ -26,8 +59,6 @@
     "featured": true,
     "priority": 3,
     "region": "japan",
-    "edition_date": "2026-10-30",
-    "collected_at": "2026-10-30T01:02:23+09:00",
     "is_sample": false
   },
   {
@@ -39,6 +70,8 @@
     "source_url": "https://www.intellilink.co.jp/topics/news_release/2026/102900.aspx",
     "published_at": "2026-10-29T00:00:00+09:00",
     "published_time_known": false,
+    "collected_at": "2026-10-30T01:02:23+09:00",
+    "edition_date": "2026-10-30",
     "image_url": null,
     "why_it_matters": "日本企業のシステム運用では、熟練者への依存を減らしながら、誤った対処による影響を抑える設計が必要です。ルールに基づく対処選択と人の承認を組み込む実証は、AIを実運用へ導入する際の検討材料になります。",
     "core_facts": [
@@ -58,8 +91,6 @@
     "featured": true,
     "priority": 2,
     "region": "japan",
-    "edition_date": "2026-10-30",
-    "collected_at": "2026-10-30T01:02:23+09:00",
     "is_sample": false
   },
   {
@@ -71,6 +102,8 @@
     "source_url": "https://it-shien.smrj.go.jp/news/40312",
     "published_at": "2026-10-29T00:00:00+09:00",
     "published_time_known": false,
+    "collected_at": "2026-10-30T01:02:23+09:00",
+    "edition_date": "2026-10-30",
     "image_url": null,
     "why_it_matters": "国内のITベンダーが補助金対象として製品を提供するには、事業者・ツール登録の日程管理が必要です。対象区分と例外を把握することは、中小企業向けの販売や導入計画を立てるうえで実務上の意味があります。",
     "core_facts": [
@@ -90,8 +123,6 @@
     "featured": false,
     "priority": 3,
     "region": "japan",
-    "edition_date": "2026-10-30",
-    "collected_at": "2026-10-30T01:02:23+09:00",
     "is_sample": false
   },
   {
