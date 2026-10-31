@@ -1,5 +1,67 @@
 [
   {
+    "id": "gmo-trustlogin-20261030-third-report",
+    "title": "GMOトラスト・ログイン、漏えい対象を2,492社・45,030人に更新　第三報を公表",
+    "summary": "GMOグローバルサインは10月30日、GMOトラスト・ログインの情報漏えい調査結果を公表しました。対象件数を更新し、公開ストレージの設定不備が原因だったと説明。初報で示した遮断時期や、第三者による取得を確認できた期間も訂正しました。",
+    "category": "security",
+    "source": "GMOグローバルサイン",
+    "source_url": "https://news.trustlogin.com/20261030",
+    "published_at": "2026-10-30T15:00:00+09:00",
+    "published_time_known": true,
+    "image_url": null,
+    "why_it_matters": "国内のID管理サービスでも、一時ファイルの保存先やクラウドストレージが診断対象から漏れると長期の露出につながります。利用企業の影響確認に加え、公開範囲・保存期間・削除方法を開発と運用の両方で管理する必要性を示す事例です。",
+    "core_facts": [
+      "初報は9月16日。追加調査を踏まえ、対象を暫定の2,007社・37,747人から2,492社・45,030人へ更新しました。人数はメールアドレスの重複を除いた値です。",
+      "外部取得が可能だったのは2017年11月頃からですが、ログで取得を確認できるのは2021年6月8日以降です。それ以前は記録がなく、取得の有無は未確認です。",
+      "対象には氏名、メールアドレス、連携アプリ名などが含まれます。ログイン用や連携先のパスワード、多要素認証情報、決済情報は含まれないとしています。",
+      "外部取得は9月15日までに遮断済みです。保存領域を含む診断や監視を強化し、未完了の再発防止策の進捗を継続報告する方針です。"
+    ],
+    "tags": [
+      "GMOトラスト・ログイン",
+      "情報漏えい",
+      "クラウド設定",
+      "ID管理",
+      "調査結果"
+    ],
+    "featured": true,
+    "priority": 1,
+    "region": "japan",
+    "edition_date": "2026-11-01",
+    "collected_at": "2026-11-01T01:00:53+09:00",
+    "is_sample": false
+  },
+  {
+    "id": "toyota-waymo-20261030-bz4x-japan-initial-operations",
+    "title": "トヨタとWaymo、bZ4Xの自動運転タクシーを2027年に国内で初期運行へ",
+    "summary": "トヨタとWaymoは10月30日、自動運転分野の協業拡大を発表しました。bZ4Xを使い、2027年に日本で試験・検証を含む初期運行を始める計画です。車両組み立てから自動運転用ハードウェアの搭載までを高岡工場で行います。",
+    "category": "dx",
+    "source": "トヨタ自動車・Waymo",
+    "source_url": "https://global.toyota/jp/newsroom/corporate/44960910.html",
+    "published_at": "2026-10-30T00:00:00+09:00",
+    "published_time_known": false,
+    "image_url": null,
+    "why_it_matters": "自動運転ソフトウェアと国内の量産・車両統合技術を組み合わせる計画が具体化しました。日本の移動サービスや車載システム開発に関わる動きですが、今回の発表を一般向け商用サービスの開始済みと受け取ることはできません。",
+    "core_facts": [
+      "2025年4月の基本合意に基づき、Waymoの自動運転タクシー向けにbZ4Xを採用します。",
+      "愛知県豊田市の高岡工場で、ベース車両の組み立てとWaymoの自動運転用ハードウェア搭載を一貫して行う計画です。",
+      "2027年の日本での初期運行後、数年にわたり英国など他の展開市場へ順次導入する予定です。",
+      "限定条件下でシステムが全運転操作を担うレベル4を想定しています。市販車向け技術やWoven by Toyotaとの知見活用は引き続き検討する方針です。"
+    ],
+    "tags": [
+      "トヨタ",
+      "Waymo",
+      "bZ4X",
+      "自動運転",
+      "国内実証"
+    ],
+    "featured": true,
+    "priority": 2,
+    "region": "japan",
+    "edition_date": "2026-11-01",
+    "collected_at": "2026-11-01T01:00:53+09:00",
+    "is_sample": false
+  },
+  {
     "id": "freee-20261029-ai-app-connector",
     "title": "freee IT管理、APIのないアプリからアカウント情報を同期するAI機能を提供",
     "summary": "freeeは10月29日、API非対応のSaaSや社内システムからアカウント情報を取り込むAIアプリコネクターを発表しました。ブラウザの管理画面を読み取り、利用者が確認・確定した情報をfreee IT管理へ同期します。",
@@ -39,6 +101,8 @@
     "source_url": "https://www.fujifilm.com/jp/ja/news/list/14137",
     "published_at": "2026-10-29T00:00:00+09:00",
     "published_time_known": false,
+    "collected_at": "2026-10-31T17:01:32+09:00",
+    "edition_date": "2026-10-31",
     "image_url": null,
     "why_it_matters": "国内の材料・製造技術が、クラウドやデータセンターの長期保存基盤を支える投資です。ネットワークから切り離して保管できる媒体はバックアップ設計にも関わりますが、運用や復旧手順を含めた検討が必要です。",
     "core_facts": [
@@ -57,8 +121,6 @@
     "featured": true,
     "priority": 2,
     "region": "japan",
-    "edition_date": "2026-10-31",
-    "collected_at": "2026-10-31T17:01:32+09:00",
     "is_sample": false
   },
   {
@@ -256,6 +318,8 @@
     "source_url": "https://www.sbintuitions.co.jp/blog/entry/2026/10/29/133000",
     "published_at": "2026-10-29T13:30:00+09:00",
     "published_time_known": true,
+    "collected_at": "2026-10-31T17:01:32+09:00",
+    "edition_date": "2026-10-31",
     "image_url": null,
     "why_it_matters": "国内で開発された日本語向けモデルを、検索や業務システム連携の実装で比較する選択肢が増えます。待ち時間と回答品質を調整できる一方、導入判断では用途ごとの評価が必要です。公表された性能は開発元によるベンチマーク結果です。",
     "core_facts": [
@@ -274,8 +338,6 @@
     "featured": true,
     "priority": 2,
     "region": "japan",
-    "edition_date": "2026-10-31",
-    "collected_at": "2026-10-31T17:01:32+09:00",
     "is_sample": false
   },
   {
