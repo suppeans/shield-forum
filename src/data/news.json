@@ -8,6 +8,8 @@
     "source_url": "https://corp.freee.co.jp/news/20261029freee_aiappconnector.html",
     "published_at": "2026-10-29T00:00:00+09:00",
     "published_time_known": false,
+    "collected_at": "2026-10-31T09:00:57+09:00",
+    "edition_date": "2026-10-31",
     "image_url": null,
     "why_it_matters": "国内企業の情報システム部門では、APIがないサービスのアカウント棚卸しが手作業として残ります。ブラウザ操作で情報を集約する方式は管理負担を減らす選択肢になりますが、画面の読み取り結果と取り込み内容の確認が運用上の要点です。",
     "core_facts": [
@@ -26,8 +28,37 @@
     "featured": true,
     "priority": 3,
     "region": "japan",
+    "is_sample": false
+  },
+  {
+    "id": "fujifilm-20261029-data-tape-capacity-investment",
+    "title": "富士フイルム、磁気テープに約100億円投資　出荷容量ベースで能力5倍へ",
+    "summary": "富士フイルムは10月29日、小田原サイトへ約100億円を投じ、データ保存用磁気テープの製造能力を増強すると発表しました。生成AIやクラウドの普及に伴うアーカイブ需要に対応し、2026～2028年度に設備増強や増員を進める計画です。",
+    "category": "cloud",
+    "source": "富士フイルム",
+    "source_url": "https://www.fujifilm.com/jp/ja/news/list/14137",
+    "published_at": "2026-10-29T00:00:00+09:00",
+    "published_time_known": false,
+    "image_url": null,
+    "why_it_matters": "国内の材料・製造技術が、クラウドやデータセンターの長期保存基盤を支える投資です。ネットワークから切り離して保管できる媒体はバックアップ設計にも関わりますが、運用や復旧手順を含めた検討が必要です。",
+    "core_facts": [
+      "投資先は神奈川事業場の小田原サイトで、投資額は2026～2028年度の合計約100億円です。",
+      "約5倍という目標は2025年度比の出荷容量ベースで、テープの本数や工場数を示す数値ではありません。",
+      "製造設備の増強と生産体制を強化するための増員などに投資し、LTO Ultrium10を含む安定供給体制を強化する方針です。",
+      "能力増強の決定を公表した段階であり、すでに5倍の生産能力で稼働しているという発表ではありません。"
+    ],
+    "tags": [
+      "富士フイルム",
+      "磁気テープ",
+      "LTO",
+      "データアーカイブ",
+      "データセンター"
+    ],
+    "featured": true,
+    "priority": 2,
+    "region": "japan",
     "edition_date": "2026-10-31",
-    "collected_at": "2026-10-31T09:00:57+09:00",
+    "collected_at": "2026-10-31T17:01:32+09:00",
     "is_sample": false
   },
   {
@@ -132,6 +163,8 @@
     "source_url": "https://www.release.tdnet.info/inbs/140120261030561172.pdf",
     "published_at": "2026-10-30T00:00:00+09:00",
     "published_time_known": false,
+    "collected_at": "2026-10-31T09:00:57+09:00",
+    "edition_date": "2026-10-31",
     "image_url": null,
     "why_it_matters": "国内の注文・会員アプリで保有する個人情報の範囲と、侵害後の調査・通知が課題となる事例です。件数だけでなく情報の区分を分けて把握し、原因調査中の事項と確認済みの事実を区別する必要があります。",
     "core_facts": [
@@ -150,8 +183,6 @@
     "featured": true,
     "priority": 1,
     "region": "japan",
-    "edition_date": "2026-10-31",
-    "collected_at": "2026-10-31T09:00:57+09:00",
     "is_sample": false
   },
   {
@@ -163,6 +194,8 @@
     "source_url": "https://www.ntt-tx.co.jp/whatsnew/2026/261029.html",
     "published_at": "2026-10-29T00:00:00+09:00",
     "published_time_known": false,
+    "collected_at": "2026-10-31T09:00:57+09:00",
+    "edition_date": "2026-10-31",
     "image_url": null,
     "why_it_matters": "国内のコールセンターでは、複雑な問い合わせへの対応と新人育成の負担が課題です。既存の業務手順を会話の進行に合わせて提示する方式は、人の応対を支援するAIの導入例となります。品質向上などの効果は同社が期待するもので、実績値の公表ではありません。",
     "core_facts": [
@@ -181,8 +214,6 @@
     "featured": true,
     "priority": 3,
     "region": "japan",
-    "edition_date": "2026-10-31",
-    "collected_at": "2026-10-31T09:00:57+09:00",
     "is_sample": false
   },
   {
@@ -194,6 +225,8 @@
     "source_url": "https://www.ryohin-keikaku.jp/news/articles/2026_1030_01",
     "published_at": "2026-10-30T00:00:00+09:00",
     "published_time_known": false,
+    "collected_at": "2026-10-31T09:00:57+09:00",
+    "edition_date": "2026-10-31",
     "image_url": null,
     "why_it_matters": "大規模な会員サービスでは、退会者の情報を含む保有データの管理と、侵害範囲の調査が重要になります。国内企業の利用者通知や監視体制を考える際にも、流出の可能性と確認済みの被害を分けて伝える事例です。",
     "core_facts": [
@@ -212,8 +245,37 @@
     "featured": true,
     "priority": 1,
     "region": "japan",
+    "is_sample": false
+  },
+  {
+    "id": "sbintuitions-20261029-sarashina32-mini-thinking",
+    "title": "SB Intuitions、国産の思考モデル「Sarashina3.2 mini thinking」を追加",
+    "summary": "SB Intuitionsは10月29日、無償ベータ版のSarashinaサービスに新たな思考モデルを追加すると公式ブログで発表しました。APIで思考の深さを3段階に設定でき、ツール呼び出しや検索を伴う利用を想定しています。",
+    "category": "ai",
+    "source": "SB Intuitions",
+    "source_url": "https://www.sbintuitions.co.jp/blog/entry/2026/10/29/133000",
+    "published_at": "2026-10-29T13:30:00+09:00",
+    "published_time_known": true,
+    "image_url": null,
+    "why_it_matters": "国内で開発された日本語向けモデルを、検索や業務システム連携の実装で比較する選択肢が増えます。待ち時間と回答品質を調整できる一方、導入判断では用途ごとの評価が必要です。公表された性能は開発元によるベンチマーク結果です。",
+    "core_facts": [
+      "日本語・英語・コードを中心に学習したモデルで、回答前に推論する方式を採用しています。",
+      "APIのreasoning_effortでlow、medium、highを選び、思考にかける時間と精度のバランスを調整できます。",
+      "開発元はコード生成、Web検索、構造化データの抽出、ツールを使う顧客対応の例を示しています。",
+      "同社の比較評価では多くの項目で前世代から改善した一方、日本文化QAは低下し、コーディングエージェント向け学習にも課題が残ると説明しています。"
+    ],
+    "tags": [
+      "SB Intuitions",
+      "Sarashina",
+      "国産LLM",
+      "思考モデル",
+      "AIエージェント"
+    ],
+    "featured": true,
+    "priority": 2,
+    "region": "japan",
     "edition_date": "2026-10-31",
-    "collected_at": "2026-10-31T09:00:57+09:00",
+    "collected_at": "2026-10-31T17:01:32+09:00",
     "is_sample": false
   },
   {
