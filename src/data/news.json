@@ -1,5 +1,36 @@
 [
   {
+    "id": "chot-20261030-cross-marketing-group-plan",
+    "title": "ちょっと、クロス・マーケティンググループ参画へ　Web制作・Orizm事業は分割予定",
+    "summary": "ちょっと株式会社は10月30日、株式譲渡契約を締結し、12月1日付でクロス・マーケティンググループに参画する予定と発表しました。同日付の会社分割により、同社はフロントエンド開発支援に特化し、Orizm・Web制作事業を新会社へ引き継ぐ計画です。",
+    "category": "business",
+    "source": "ちょっと株式会社",
+    "source_url": "https://prtimes.jp/main/html/rd/p/000000024.000045314.html",
+    "published_at": "2026-10-30T16:00:00+09:00",
+    "published_time_known": true,
+    "image_url": null,
+    "why_it_matters": "国内のWeb・AI開発企業がマーケティング企業の顧客基盤と連携し、開発支援を広げる計画です。発注企業にとっては、フロントエンド開発とCMS・Web制作で事業の承継先が分かれる予定が、今後の取引体制を確認する材料になります。",
+    "core_facts": [
+      "株式譲渡の実行予定日は2026年12月1日で、発表日の10月30日に参画が完了したという内容ではありません。",
+      "新設分割で設立するAX ONE株式会社がOrizm事業とWeb制作事業を承継し、小島芳樹氏が代表として事業を継続する計画です。",
+      "ちょっとはNext.jsなどのWeb技術や生成AIを使うアプリ開発支援を、グループの顧客企業へ展開する方針です。",
+      "グループ各社のサービスや社内システムの刷新、業務効率化にも開発ノウハウを活用する狙いを示しています。"
+    ],
+    "tags": [
+      "ちょっと",
+      "クロス・マーケティング",
+      "Next.js",
+      "事業再編",
+      "開発支援"
+    ],
+    "featured": true,
+    "priority": 3,
+    "region": "japan",
+    "edition_date": "2026-11-01",
+    "collected_at": "2026-11-01T17:02:14+09:00",
+    "is_sample": false
+  },
+  {
     "id": "dentsusoken-20261030-emaff20",
     "title": "電通総研、農水省の「eMAFF申請2.0」を開発　約360手続を段階的にオンライン化",
     "summary": "電通総研は10月30日、農林水産省のオンライン申請システムeMAFF申請2.0を開発したと発表しました。10月から順次運用が始まり、2027年4月にかけて約30制度・360手続をオンライン申請の対象とする予定です。",
@@ -8,6 +39,8 @@
     "source_url": "https://www.dentsusoken.com/news/release/2026/1030.html",
     "published_at": "2026-10-30T00:00:00+09:00",
     "published_time_known": false,
+    "collected_at": "2026-11-01T09:05:42+09:00",
+    "edition_date": "2026-11-01",
     "image_url": null,
     "why_it_matters": "行政システムの刷新では、手続を集約するだけでなく、利用しやすさと運用費用の両立が課題です。共通認証やデザインシステムを活用し、制度変更に行政側が対応できる構成は、国内の行政DXを設計する際の参考になります。",
     "core_facts": [
@@ -26,8 +59,6 @@
     "featured": true,
     "priority": 3,
     "region": "japan",
-    "edition_date": "2026-11-01",
-    "collected_at": "2026-11-01T09:05:42+09:00",
     "is_sample": false
   },
   {
@@ -70,6 +101,8 @@
     "source_url": "https://www.ntt-east.co.jp/release/detail/20261030_01.html",
     "published_at": "2026-10-30T00:00:00+09:00",
     "published_time_known": false,
+    "collected_at": "2026-11-01T09:05:42+09:00",
+    "edition_date": "2026-11-01",
     "image_url": null,
     "why_it_matters": "国内のAI研究や科学計算では、離れた拠点間で大規模データを共有する通信基盤も重要です。実アプリケーションで広帯域回線を活用できるかを検証した結果であり、一般利用者向け回線の速度を保証するものではありません。",
     "core_facts": [
@@ -87,8 +120,37 @@
     "featured": true,
     "priority": 2,
     "region": "japan",
+    "is_sample": false
+  },
+  {
+    "id": "rakus-20261030-ai-agent-client-certificate",
+    "title": "楽楽精算、AI伝票作成と端末認証の併用に対応　アクセス制限を維持",
+    "summary": "ラクスは10月30日、楽楽精算の伝票作成AIエージェントが、SSLクライアント認証オプションと併用できるようになったと発表しました。10月から対応し、許可端末だけにアクセスを限定する企業でもAIによる伝票作成を利用できます。",
+    "category": "dx",
+    "source": "ラクス",
+    "source_url": "https://www.rakus.co.jp/news/2026/1030.html",
+    "published_at": "2026-10-30T00:00:00+09:00",
+    "published_time_known": false,
+    "image_url": null,
+    "why_it_matters": "企業のAI導入では、機能の便利さと既存のアクセス管理を両立できるかが選定条件になります。経費などの情報を扱う国内SaaSで、端末を制限する設定を維持したままAI機能を使える範囲が広がった事例です。",
+    "core_facts": [
+      "SSLクライアント認証は電子証明書を設定した端末からのアクセスに制限するオプションです。",
+      "従来は伝票作成AIエージェントとの併用に対応していませんでした。今回、既存利用企業と導入を検討する企業の双方で組み合わせられるようになりました。",
+      "AIエージェント自体は2026年6月から提供されており、今回の発表はAI機能の新設ではなく認証オプションとの併用対応です。",
+      "領収書やカード明細、事前申請、過去の申請データを参照し、経費精算の申請伝票を作成する機能です。"
+    ],
+    "tags": [
+      "ラクス",
+      "楽楽精算",
+      "AIエージェント",
+      "クライアント証明書",
+      "経費精算"
+    ],
+    "featured": true,
+    "priority": 3,
+    "region": "japan",
     "edition_date": "2026-11-01",
-    "collected_at": "2026-11-01T09:05:42+09:00",
+    "collected_at": "2026-11-01T17:02:14+09:00",
     "is_sample": false
   },
   {
@@ -100,6 +162,8 @@
     "source_url": "https://cloud.sakura.ad.jp/news/2026/10/30/sacloud-sdk-dotnet/",
     "published_at": "2026-10-30T00:00:00+09:00",
     "published_time_known": false,
+    "collected_at": "2026-11-01T09:05:42+09:00",
+    "edition_date": "2026-11-01",
     "image_url": null,
     "why_it_matters": "国内クラウドを.NETの業務システムや自動化処理から扱う選択肢が増えます。対象APIを確認して組み込む必要があり、現時点でクラウドの全サービスに対応するSDKと捉えることはできません。",
     "core_facts": [
@@ -118,8 +182,6 @@
     "featured": true,
     "priority": 3,
     "region": "japan",
-    "edition_date": "2026-11-01",
-    "collected_at": "2026-11-01T09:05:42+09:00",
     "is_sample": false
   },
   {
