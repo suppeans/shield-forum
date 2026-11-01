@@ -1,5 +1,36 @@
 [
   {
+    "id": "dentsusoken-20261030-emaff20",
+    "title": "電通総研、農水省の「eMAFF申請2.0」を開発　約360手続を段階的にオンライン化",
+    "summary": "電通総研は10月30日、農林水産省のオンライン申請システムeMAFF申請2.0を開発したと発表しました。10月から順次運用が始まり、2027年4月にかけて約30制度・360手続をオンライン申請の対象とする予定です。",
+    "category": "dx",
+    "source": "電通総研",
+    "source_url": "https://www.dentsusoken.com/news/release/2026/1030.html",
+    "published_at": "2026-10-30T00:00:00+09:00",
+    "published_time_known": false,
+    "image_url": null,
+    "why_it_matters": "行政システムの刷新では、手続を集約するだけでなく、利用しやすさと運用費用の両立が課題です。共通認証やデザインシステムを活用し、制度変更に行政側が対応できる構成は、国内の行政DXを設計する際の参考になります。",
+    "core_facts": [
+      "GビズID連携による登録情報の自動入力や、過去の申請内容のコピーに対応します。",
+      "申請状況・履歴を一元管理し、行政担当者が画面設定や選択肢を更新できる機能を備えています。",
+      "AWSとローコード基盤iPLAssを組み合わせ、iPLAssは利用者数ではなくサーバー単位の課金体系を採用しています。",
+      "約360手続への対応は段階的な計画で、発表時点ですべてが運用済みという意味ではありません。"
+    ],
+    "tags": [
+      "電通総研",
+      "eMAFF",
+      "行政DX",
+      "GビズID",
+      "ローコード"
+    ],
+    "featured": true,
+    "priority": 3,
+    "region": "japan",
+    "edition_date": "2026-11-01",
+    "collected_at": "2026-11-01T09:05:42+09:00",
+    "is_sample": false
+  },
+  {
     "id": "gmo-trustlogin-20261030-third-report",
     "title": "GMOトラスト・ログイン、漏えい対象を2,492社・45,030人に更新　第三報を公表",
     "summary": "GMOグローバルサインは10月30日、GMOトラスト・ログインの情報漏えい調査結果を公表しました。対象件数を更新し、公開ストレージの設定不備が原因だったと説明。初報で示した遮断時期や、第三者による取得を確認できた期間も訂正しました。",
@@ -8,6 +39,8 @@
     "source_url": "https://news.trustlogin.com/20261030",
     "published_at": "2026-10-30T15:00:00+09:00",
     "published_time_known": true,
+    "collected_at": "2026-11-01T01:00:53+09:00",
+    "edition_date": "2026-11-01",
     "image_url": null,
     "why_it_matters": "国内のID管理サービスでも、一時ファイルの保存先やクラウドストレージが診断対象から漏れると長期の露出につながります。利用企業の影響確認に加え、公開範囲・保存期間・削除方法を開発と運用の両方で管理する必要性を示す事例です。",
     "core_facts": [
@@ -26,8 +59,67 @@
     "featured": true,
     "priority": 1,
     "region": "japan",
+    "is_sample": false
+  },
+  {
+    "id": "ntt-nii-20261030-iown-storage-transfer",
+    "title": "NTT東西・NIIなど、神戸―柏のストレージ間で750Gbps超の転送を実証",
+    "summary": "NTT東西、NII、理研、東京大学は10月30日、IOWN APNを使う大容量データ転送の実証結果を発表しました。神戸と柏の研究拠点を800Gbps帯域で結び、二つの実用アプリケーションを同時に使って750Gbps超の転送を確認しています。",
+    "category": "cloud",
+    "source": "NTT東日本・NTT西日本・NII・理化学研究所・東京大学",
+    "source_url": "https://www.ntt-east.co.jp/release/detail/20261030_01.html",
+    "published_at": "2026-10-30T00:00:00+09:00",
+    "published_time_known": false,
+    "image_url": null,
+    "why_it_matters": "国内のAI研究や科学計算では、離れた拠点間で大規模データを共有する通信基盤も重要です。実アプリケーションで広帯域回線を活用できるかを検証した結果であり、一般利用者向け回線の速度を保証するものではありません。",
+    "core_facts": [
+      "接続先は理研計算科学研究センターの神戸拠点と、東京大学柏地区キャンパスです。",
+      "NTT東西の光波長専有接続サービスAll-Photonics Connect powered by IOWNを利用しました。",
+      "2025年12月の共同研究契約に基づく実証で、既存アプリケーションを使った長距離転送で800Gbps回線を活用できることを確認したとしています。"
+    ],
+    "tags": [
+      "IOWN",
+      "APN",
+      "NTT",
+      "研究データ",
+      "大容量通信"
+    ],
+    "featured": true,
+    "priority": 2,
+    "region": "japan",
     "edition_date": "2026-11-01",
-    "collected_at": "2026-11-01T01:00:53+09:00",
+    "collected_at": "2026-11-01T09:05:42+09:00",
+    "is_sample": false
+  },
+  {
+    "id": "sakura-20261030-dotnet-sdk",
+    "title": "さくらのクラウド、.NET向けOSS SDKを提供開始　サーバー関連APIは今後対応",
+    "summary": "さくらインターネットは10月30日、C#などからクラウドのAPIを操作する.NET SDKを提供開始したと発表しました。各サービスのAPIクライアントを単一リポジトリにまとめ、ソースと利用方法をGitHub、パッケージをNuGetで公開しています。",
+    "category": "development",
+    "source": "さくらインターネット",
+    "source_url": "https://cloud.sakura.ad.jp/news/2026/10/30/sacloud-sdk-dotnet/",
+    "published_at": "2026-10-30T00:00:00+09:00",
+    "published_time_known": false,
+    "image_url": null,
+    "why_it_matters": "国内クラウドを.NETの業務システムや自動化処理から扱う選択肢が増えます。対象APIを確認して組み込む必要があり、現時点でクラウドの全サービスに対応するSDKと捉えることはできません。",
+    "core_facts": [
+      "sacloud-sdk-dotnetはApache License 2.0で提供され、C# 7.3以降と.NET Standard 2.0に対応する環境向けに開発されています。",
+      "対応対象にはAppRun、オブジェクトストレージ、KMS、シークレットマネージャ、IAMなどが含まれます。",
+      "サーバーやスイッチなどIaaS・アプライアンス関連への対応と、プロファイル機能の実装は今後の予定です。",
+      "v1.0までは後方互換性のない変更の可能性があるため、更新時の変更点確認を求めています。"
+    ],
+    "tags": [
+      "さくらのクラウド",
+      ".NET",
+      "C#",
+      "OSS",
+      "SDK"
+    ],
+    "featured": true,
+    "priority": 3,
+    "region": "japan",
+    "edition_date": "2026-11-01",
+    "collected_at": "2026-11-01T09:05:42+09:00",
     "is_sample": false
   },
   {
@@ -39,6 +131,8 @@
     "source_url": "https://global.toyota/jp/newsroom/corporate/44960910.html",
     "published_at": "2026-10-30T00:00:00+09:00",
     "published_time_known": false,
+    "collected_at": "2026-11-01T01:00:53+09:00",
+    "edition_date": "2026-11-01",
     "image_url": null,
     "why_it_matters": "自動運転ソフトウェアと国内の量産・車両統合技術を組み合わせる計画が具体化しました。日本の移動サービスや車載システム開発に関わる動きですが、今回の発表を一般向け商用サービスの開始済みと受け取ることはできません。",
     "core_facts": [
@@ -57,8 +151,6 @@
     "featured": true,
     "priority": 2,
     "region": "japan",
-    "edition_date": "2026-11-01",
-    "collected_at": "2026-11-01T01:00:53+09:00",
     "is_sample": false
   },
   {
