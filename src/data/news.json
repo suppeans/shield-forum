@@ -1,5 +1,36 @@
 [
   {
+    "id": "tangle-20261101-naviu-ar-tourism",
+    "title": "TANGLE、訪日客向けAI・AR観光アプリ「Naviu」を提供開始　29言語に対応",
+    "summary": "TANGLEは11月1日、AIガイドとAR経路案内を組み合わせた訪日旅行者向けアプリNaviuをiOS・Android向けに提供開始したと発表しました。現在地に応じた質問への回答、写真認識、旅程作成などを案内しています。",
+    "category": "dx",
+    "source": "TANGLE",
+    "source_url": "https://prtimes.jp/main/html/rd/p/000000004.000182356.html",
+    "published_at": "2026-11-01T10:00:00+09:00",
+    "published_time_known": true,
+    "image_url": null,
+    "why_it_matters": "国内の観光DXでは、多言語案内と位置情報・現地体験を結び付けるサービスが広がっています。自治体や事業者が空間コンテンツを配置できる仕組みは地域案内の選択肢になりますが、AIの説明や経路の正確性・利用効果を独立に検証した発表ではありません。",
+    "core_facts": [
+      "開発元によると、現在地に基づくAIガイドは29言語に対応し、現実の街並みにARの経路を重ねて表示します。",
+      "食事の制約や興味、アクセシビリティ、滞在時間に応じた旅程生成と、カメラを使った質問機能を備えています。",
+      "企業・自治体・クリエイターが場所に3D・ARコンテンツを配置する機能を用意し、浅草寺や東京駅などでの展開を紹介しています。",
+      "位置情報を活用する独自技術は特許出願中と説明しており、特許取得済みという発表ではありません。"
+    ],
+    "tags": [
+      "TANGLE",
+      "Naviu",
+      "観光DX",
+      "AR",
+      "多言語AI"
+    ],
+    "featured": true,
+    "priority": 3,
+    "region": "japan",
+    "edition_date": "2026-11-02",
+    "collected_at": "2026-11-02T00:57:52+09:00",
+    "is_sample": false
+  },
+  {
     "id": "chot-20261030-cross-marketing-group-plan",
     "title": "ちょっと、クロス・マーケティンググループ参画へ　Web制作・Orizm事業は分割予定",
     "summary": "ちょっと株式会社は10月30日、株式譲渡契約を締結し、12月1日付でクロス・マーケティンググループに参画する予定と発表しました。同日付の会社分割により、同社はフロントエンド開発支援に特化し、Orizm・Web制作事業を新会社へ引き継ぐ計画です。",
@@ -8,6 +39,8 @@
     "source_url": "https://prtimes.jp/main/html/rd/p/000000024.000045314.html",
     "published_at": "2026-10-30T16:00:00+09:00",
     "published_time_known": true,
+    "collected_at": "2026-11-01T17:02:14+09:00",
+    "edition_date": "2026-11-01",
     "image_url": null,
     "why_it_matters": "国内のWeb・AI開発企業がマーケティング企業の顧客基盤と連携し、開発支援を広げる計画です。発注企業にとっては、フロントエンド開発とCMS・Web制作で事業の承継先が分かれる予定が、今後の取引体制を確認する材料になります。",
     "core_facts": [
@@ -26,8 +59,6 @@
     "featured": true,
     "priority": 3,
     "region": "japan",
-    "edition_date": "2026-11-01",
-    "collected_at": "2026-11-01T17:02:14+09:00",
     "is_sample": false
   },
   {
@@ -131,6 +162,8 @@
     "source_url": "https://www.rakus.co.jp/news/2026/1030.html",
     "published_at": "2026-10-30T00:00:00+09:00",
     "published_time_known": false,
+    "collected_at": "2026-11-01T17:02:14+09:00",
+    "edition_date": "2026-11-01",
     "image_url": null,
     "why_it_matters": "企業のAI導入では、機能の便利さと既存のアクセス管理を両立できるかが選定条件になります。経費などの情報を扱う国内SaaSで、端末を制限する設定を維持したままAI機能を使える範囲が広がった事例です。",
     "core_facts": [
@@ -149,8 +182,6 @@
     "featured": true,
     "priority": 3,
     "region": "japan",
-    "edition_date": "2026-11-01",
-    "collected_at": "2026-11-01T17:02:14+09:00",
     "is_sample": false
   },
   {
