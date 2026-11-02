@@ -1,5 +1,125 @@
 [
   {
+    "id": "blackpanda-gsx-20261102-mdr-forensic-option",
+    "title": "GSXとBLACKPANDA、監視・初動調査・保険を組み合わせるMDRオプション",
+    "summary": "BLACKPANDAはGSXとの協業を拡充し、事前契約型のインシデント対応サービス「IR-1」を組み込む新オプションを発表した。GSXのMDR契約者向けに、デジタルフォレンジック対応とサイバー保険を提供する。",
+    "category": "security",
+    "source": "BLACKPANDA JAPAN株式会社",
+    "source_url": "https://prtimes.jp/main/html/rd/p/000000012.000177299.html",
+    "published_at": "2026-11-02T10:00:00+09:00",
+    "published_time_known": true,
+    "image_url": null,
+    "why_it_matters": "監視で異常を検知した後の調査体制を事前に確保する選択肢となる。専門人材が限られる国内企業では、対応範囲と保険条件を含めた備えの検討につながる。",
+    "core_facts": [
+      "提供開始日は11月1日で、11月2日に公表した。",
+      "GSX MDRサービス for CrowdStrike Falconの契約者が対象で、別途オプション契約が必要。",
+      "1インシデントのデジタルフォレンジック対応とサイバー保険を標準で組み込む。",
+      "GSXが状況を整理し、顧客の同意を得てBLACKPANDAへ通報する。"
+    ],
+    "tags": [
+      "MDR",
+      "インシデント対応",
+      "フォレンジック",
+      "サイバー保険"
+    ],
+    "featured": true,
+    "priority": 2,
+    "region": "japan",
+    "edition_date": "2026-11-03",
+    "collected_at": "2026-11-03T01:07:01.000+09:00",
+    "is_sample": false
+  },
+  {
+    "id": "fronteo-20261102-supply-chain-analysis",
+    "title": "FRONTEO、供給網調査の自動化と途絶リスク解析の新技術を発表",
+    "summary": "FRONTEOは、サプライチェーンの調査対象経路を絞り込む技術と、材料・工程の依存関係から供給途絶への脆弱性を解析するMVAを開発し、それぞれ特許を出願したと発表した。",
+    "category": "ai",
+    "source": "株式会社FRONTEO",
+    "source_url": "https://www.fronteo.com/news/pr/20261102",
+    "published_at": "2026-11-02T00:00:00+09:00",
+    "published_time_known": false,
+    "image_url": null,
+    "why_it_matters": "調達先の把握や代替手段の検討は、日本の製造業や先端材料分野の経済安全保障に関わる。AIで確認対象を絞り込みつつ、専門家が根拠と不足情報を検証する運用が重要になる。",
+    "core_facts": [
+      "オートデューデリジェンスは、AIで多層的な取引経路を一次チェックする技術。",
+      "同機能はKIBIT Seizu Analysisで近日中に試用提供する予定。",
+      "MVAは原材料・部品・工程のつながりから供給途絶の影響を分析する。",
+      "MVAを用いた分析はコンサルティングサービスの一環として提供する。"
+    ],
+    "tags": [
+      "AI",
+      "サプライチェーン",
+      "経済安全保障",
+      "リスク分析"
+    ],
+    "featured": false,
+    "priority": 3,
+    "region": "japan",
+    "edition_date": "2026-11-03",
+    "collected_at": "2026-11-03T01:07:01.000+09:00",
+    "is_sample": false
+  },
+  {
+    "id": "tai-20261102-global-south-ai-chip-project",
+    "title": "TAI、日馬連携のAI半導体実証が経産省の支援事業に採択",
+    "summary": "Tokyo Artisan Intelligenceは、ASEAN向け大型実証事業への採択を発表した。マレーシアのOppstarなどと協業し、低消費電力AI半導体「Manta Ray」の開発・評価と将来の量産に向けた実証を進める。",
+    "category": "semiconductors",
+    "source": "Tokyo Artisan Intelligence株式会社",
+    "source_url": "https://tokyo-ai.co.jp/news/info_20261102/",
+    "published_at": "2026-11-02T00:00:00+09:00",
+    "published_time_known": false,
+    "image_url": null,
+    "why_it_matters": "日本のエッジAI技術と海外の半導体設計能力を組み合わせ、鉄道や製造現場への実装を目指す取り組み。量産開始の発表ではなく、設計・評価から事業化に向けた計画として捉える必要がある。",
+    "core_facts": [
+      "令和7年度補正のグローバルサウス未来志向型 共創等事業（大型実証 ASEAN加盟国）の第一回公募に採択された。",
+      "TAIがAIハードウェア構造設計や現場実装を担い、Oppstarがシリコン設計・検証を担う予定。",
+      "2027年に設計・製造・評価、2028年に初期顧客向け評価と先行導入を進める計画。",
+      "2029年以降の本格事業化を目指す。"
+    ],
+    "tags": [
+      "AI半導体",
+      "エッジAI",
+      "国際連携",
+      "マレーシア",
+      "実証事業"
+    ],
+    "featured": false,
+    "priority": 3,
+    "region": "japan",
+    "edition_date": "2026-11-03",
+    "collected_at": "2026-11-03T01:07:01.000+09:00",
+    "is_sample": false
+  },
+  {
+    "id": "tier4-20261102-autoware-2-development",
+    "title": "ティアフォー、Autoware 2.0の開発・普及を主導へ",
+    "summary": "ティアフォーは、Autoware Foundationや開発コミュニティと連携し、次世代の自動運転用OSS「Autoware 2.0」の開発と普及を推進すると発表した。従来のルールベース方式との互換性を維持しつつ、AI方式への対応を広げる。",
+    "category": "development",
+    "source": "株式会社ティアフォー",
+    "source_url": "https://tier4.co.jp/updates/press-release/20261102-tieriv-spearheads-autoware2.0-initiatives",
+    "published_at": "2026-11-02T00:00:00+09:00",
+    "published_time_known": false,
+    "image_url": null,
+    "why_it_matters": "国内の自動運転開発で、AIモデルと車載OS、計算基盤、クラウドを統合する選択肢が広がる。OSSの共通基盤を使いながら商用運用に必要な検証を進める動きとして注目される。",
+    "core_facts": [
+      "AI方式とルールベース方式を組み合わせられるアーキテクチャを掲げる。",
+      "モジュール統合のためのインデックス機構と、再利用可能なリファレンスデザインを整備する。",
+      "Armと計算基盤、AWSとクラウドネイティブ環境、Red HatとAutoSDとの統合を推進する。"
+    ],
+    "tags": [
+      "Autoware",
+      "自動運転",
+      "オープンソース",
+      "車載ソフトウェア"
+    ],
+    "featured": true,
+    "priority": 2,
+    "region": "japan",
+    "edition_date": "2026-11-03",
+    "collected_at": "2026-11-03T01:07:01.000+09:00",
+    "is_sample": false
+  },
+  {
     "id": "aisin-tohoku-20261102-stt-mram-ai-soc",
     "title": "東北大とアイシン、STT-MRAM内蔵の16nm AI SoCを開発",
     "summary": "東北大学とアイシンは、32MBの組込みSTT-MRAMを搭載したAI SoCを開発した。OSの起動データとAIモデルの重みをチップ内に保持し、外部メモリに依存しない物体検出を実現したと報告している。",
@@ -8,6 +128,8 @@
     "source_url": "https://prtimes.jp/main/html/rd/p/000000227.000112940.html",
     "published_at": "2026-11-02T12:50:00+09:00",
     "published_time_known": true,
+    "collected_at": "2026-11-02T17:18:30.000+09:00",
+    "edition_date": "2026-11-02",
     "image_url": null,
     "why_it_matters": "起動時や推論時のデータ転送を減らす設計は、車載機器やロボットなど省電力が求められるエッジAIに関わる。研究成果であり、量産製品の発売発表ではない。",
     "core_facts": [
@@ -26,8 +148,6 @@
     "featured": true,
     "priority": 2,
     "region": "japan",
-    "edition_date": "2026-11-02",
-    "collected_at": "2026-11-02T17:18:30.000+09:00",
     "is_sample": false
   },
   {
@@ -39,6 +159,8 @@
     "source_url": "https://prtimes.jp/main/html/rd/p/000000128.000045956.html",
     "published_at": "2026-11-02T08:40:00+09:00",
     "published_time_known": true,
+    "collected_at": "2026-11-02T17:18:30.000+09:00",
+    "edition_date": "2026-11-02",
     "image_url": null,
     "why_it_matters": "企業のAI導入では利用状況の把握と出力の品質管理が課題となる。販売基盤と研究開発力を組み合わせる動きとして、具体的な機能や提供条件が注目される。",
     "core_facts": [
@@ -56,8 +178,6 @@
     "featured": true,
     "priority": 2,
     "region": "japan",
-    "edition_date": "2026-11-02",
-    "collected_at": "2026-11-02T17:18:30.000+09:00",
     "is_sample": false
   },
   {
@@ -100,6 +220,8 @@
     "source_url": "https://prtimes.jp/main/html/rd/p/000000050.000178657.html",
     "published_at": "2026-11-02T15:14:00+09:00",
     "published_time_known": true,
+    "collected_at": "2026-11-02T17:18:30.000+09:00",
+    "edition_date": "2026-11-02",
     "image_url": null,
     "why_it_matters": "漏えい後はフィッシングなどの二次被害への対応も必要になる。サービス運営企業が利用者への案内を整える際にも、公的な相談先を確認できる。",
     "core_facts": [
@@ -117,8 +239,6 @@
     "featured": true,
     "priority": 2,
     "region": "japan",
-    "edition_date": "2026-11-02",
-    "collected_at": "2026-11-02T17:18:30.000+09:00",
     "is_sample": false
   },
   {
@@ -130,6 +250,8 @@
     "source_url": "https://prtimes.jp/main/html/rd/p/000000043.000166714.html",
     "published_at": "2026-11-02T10:50:00+09:00",
     "published_time_known": true,
+    "collected_at": "2026-11-02T17:18:30.000+09:00",
+    "edition_date": "2026-11-02",
     "image_url": null,
     "why_it_matters": "就業・人材情報と学習履歴の連携は、人事担当者の研修管理を効率化する手段となる。導入検討ではデータ連携の範囲や権限管理、提供条件の確認が必要になる。",
     "core_facts": [
@@ -147,8 +269,6 @@
     "featured": false,
     "priority": 3,
     "region": "japan",
-    "edition_date": "2026-11-02",
-    "collected_at": "2026-11-02T17:18:30.000+09:00",
     "is_sample": false
   },
   {
@@ -160,6 +280,8 @@
     "source_url": "https://prtimes.jp/main/html/rd/p/000000069.000181531.html",
     "published_at": "2026-11-02T13:00:00+09:00",
     "published_time_known": true,
+    "collected_at": "2026-11-02T17:18:30.000+09:00",
+    "edition_date": "2026-11-02",
     "image_url": null,
     "why_it_matters": "サイバー対策を事業継続や経営判断と結び付ける取り組みとなる。経営層とセキュリティ責任者の間で、AIやサプライチェーンのリスクに関する共通理解を深める場が増える。",
     "core_facts": [
@@ -177,8 +299,6 @@
     "featured": false,
     "priority": 3,
     "region": "japan",
-    "edition_date": "2026-11-02",
-    "collected_at": "2026-11-02T17:18:30.000+09:00",
     "is_sample": false
   },
   {
@@ -190,6 +310,8 @@
     "source_url": "https://www.scsk.jp/news/2026/pdf/20261102_2.pdf",
     "published_at": "2026-11-02T00:00:00+09:00",
     "published_time_known": false,
+    "collected_at": "2026-11-02T17:18:30.000+09:00",
+    "edition_date": "2026-11-02",
     "image_url": null,
     "why_it_matters": "車載ソフトウェアの複雑化に対し、車両全体の要求整理と統合検証を担うサービスの拡大を示す。国内の車載開発企業には、分野をまたぐ設計・検証能力がより重要になりそうだ。",
     "core_facts": [
@@ -207,8 +329,6 @@
     "featured": false,
     "priority": 3,
     "region": "japan",
-    "edition_date": "2026-11-02",
-    "collected_at": "2026-11-02T17:18:30.000+09:00",
     "is_sample": false
   },
   {
