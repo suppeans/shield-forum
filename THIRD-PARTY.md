@@ -15,5 +15,10 @@ The components below are adapted for SHIELD NEWS, rather than installed as whole
   Adaptation: use an anchor for the news-feed destination; remove inset shadows, use black/mint pills, and limit capsule expansion so the label remains visible. Include keyboard focus and reduced motion.
 - **Inter**, by Rasmus Andersson.
   [Source](https://github.com/rsms/inter), SIL Open Font License 1.1 retained in `licenses/inter.txt`. The variable WOFF2 is self-hosted under `public/fonts/`.
+- **COBE**, copyright (c) 2021 Shu Ding.
+  [Source](https://github.com/shuding/cobe), MIT license retained in `licenses/cobe.txt`.
+  Used for the lightweight WebGL globe, with a finite camera animation, no markers, and local CSS atmosphere/clouds.
+- **World map blank without borders**, by Crates (2009), via COBE's embedded map texture.
+  [Original and attribution](https://commons.wikimedia.org/wiki/File:World_map_blank_without_borders.svg), [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). The map is sampled/coloured by COBE; `public/illustrations/globe-japan.svg` is our recoloured orthographic projection centred on Japan for browsers without WebGL or JavaScript. This derived SVG is also available under CC BY-SA 4.0; see `licenses/globe-map.txt`. The share-alike terms apply to the map artwork, not the application code.
 
 The Mintlify reference is an independent design analysis from [voltagent/awesome-design-md](https://github.com/voltagent/awesome-design-md) (MIT). SHIELD NEWS keeps its own name, content and editorial identity.

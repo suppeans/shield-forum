@@ -1,0 +1,10 @@
+World map blank without borders, by Crates (2009).
+Source: https://commons.wikimedia.org/wiki/File:World_map_blank_without_borders.svg
+License: Creative Commons Attribution-ShareAlike 4.0 International
+https://creativecommons.org/licenses/by-sa/4.0/
+
+Used through the map texture embedded in COBE (https://github.com/shuding/cobe).
+Changes by SHIELD NEWS: orthographic projection centred on 36 N, 138 E,
+mint recolouring, shading, and simplification for a static SVG fallback.
+The resulting public/illustrations/globe-japan.svg is licensed CC BY-SA 4.0.
+No endorsement by the original author is implied.
