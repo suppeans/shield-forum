@@ -1,5 +1,66 @@
 [
   {
+    "id": "aisin-tohoku-20261102-stt-mram-ai-soc",
+    "title": "東北大とアイシン、STT-MRAM内蔵の16nm AI SoCを開発",
+    "summary": "東北大学とアイシンは、32MBの組込みSTT-MRAMを搭載したAI SoCを開発した。OSの起動データとAIモデルの重みをチップ内に保持し、外部メモリに依存しない物体検出を実現したと報告している。",
+    "category": "semiconductors",
+    "source": "株式会社アイシン・東北大学",
+    "source_url": "https://prtimes.jp/main/html/rd/p/000000227.000112940.html",
+    "published_at": "2026-11-02T12:50:00+09:00",
+    "published_time_known": true,
+    "image_url": null,
+    "why_it_matters": "起動時や推論時のデータ転送を減らす設計は、車載機器やロボットなど省電力が求められるエッジAIに関わる。研究成果であり、量産製品の発売発表ではない。",
+    "core_facts": [
+      "16nm FinFETのAI SoCに32MBの組込みSTT-MRAMを搭載した。",
+      "OSの起動データとAIモデルの重みデータを不揮発性メモリに格納する。",
+      "Tiny YOLOv3による物体検出を実現し、OS起動は65.7ミリ秒と報告した。",
+      "11月1～4日に台湾で開催されるA-SSCC 2026で成果を発表する。"
+    ],
+    "tags": [
+      "半導体",
+      "エッジAI",
+      "STT-MRAM",
+      "車載技術",
+      "東北大学"
+    ],
+    "featured": true,
+    "priority": 2,
+    "region": "japan",
+    "edition_date": "2026-11-02",
+    "collected_at": "2026-11-02T17:18:30.000+09:00",
+    "is_sample": false
+  },
+  {
+    "id": "coconala-20261102-elith-jv-established",
+    "title": "ココナラとElith、AIセキュリティの合弁会社を設立",
+    "summary": "ココナラは11月1日付でElithとの合弁会社「ココナラエリス」を設立したと発表した。シャドーAI対策とAIの品質評価を軸に、法人向け製品の企画・開発・販売を進める。",
+    "category": "security",
+    "source": "株式会社ココナラ",
+    "source_url": "https://prtimes.jp/main/html/rd/p/000000128.000045956.html",
+    "published_at": "2026-11-02T08:40:00+09:00",
+    "published_time_known": true,
+    "image_url": null,
+    "why_it_matters": "企業のAI導入では利用状況の把握と出力の品質管理が課題となる。販売基盤と研究開発力を組み合わせる動きとして、具体的な機能や提供条件が注目される。",
+    "core_facts": [
+      "10月13日に公表した合弁計画に基づき、11月1日付で会社を設立した。",
+      "出資比率はココナラ51％、Elith49％。",
+      "GENFLUXを基盤にAI利用の可視化・制御・記録と回答の品質評価に取り組む。",
+      "製品構成、提供開始時期、料金などは今後公表する。"
+    ],
+    "tags": [
+      "AIセキュリティ",
+      "シャドーAI",
+      "品質評価",
+      "合弁会社"
+    ],
+    "featured": true,
+    "priority": 2,
+    "region": "japan",
+    "edition_date": "2026-11-02",
+    "collected_at": "2026-11-02T17:18:30.000+09:00",
+    "is_sample": false
+  },
+  {
     "id": "henry-20261102-emr-certification-application",
     "title": "ヘンリー、電子カルテ「Henry」の標準仕様認証を申請　取得は今後の審査へ",
     "summary": "ヘンリーは11月2日、中小病院向け電子カルテHenryについて、厚生労働省の標準仕様に係る認証制度へ11月1日に申請したと発表しました。病院で稼働中の現行製品を対象とする申請で、認証取得済みという発表ではありません。",
@@ -8,6 +69,8 @@
     "source_url": "https://prtimes.jp/main/html/rd/p/000000033.000102549.html",
     "published_at": "2026-11-02T07:20:00+09:00",
     "published_time_known": true,
+    "collected_at": "2026-11-02T09:02:48+09:00",
+    "edition_date": "2026-11-02",
     "image_url": null,
     "why_it_matters": "国内の医療DXでは、クラウド型の基幹システムへの移行と、事業者の運用・安全性を確認する仕組みが関わります。導入候補を比較する際は、事業者による適合性の説明と、審査を経た認証結果を分けて確認する必要があります。",
     "core_facts": [
@@ -26,8 +89,126 @@
     "featured": true,
     "priority": 3,
     "region": "japan",
+    "is_sample": false
+  },
+  {
+    "id": "ipa-20261102-leak-victim-consultation",
+    "title": "IPA、個人情報漏えいの被害者向け相談体制を強化",
+    "summary": "IPAは、相次ぐ不正アクセスによる情報漏えいを受け、「情報セキュリティ安心相談窓口」の体制強化を発表した。個人利用者に対し、二次被害を防ぐ対処や日頃の対策を案内する。",
+    "category": "security",
+    "source": "独立行政法人情報処理推進機構（IPA）",
+    "source_url": "https://prtimes.jp/main/html/rd/p/000000050.000178657.html",
+    "published_at": "2026-11-02T15:14:00+09:00",
+    "published_time_known": true,
+    "image_url": null,
+    "why_it_matters": "漏えい後はフィッシングなどの二次被害への対応も必要になる。サービス運営企業が利用者への案内を整える際にも、公的な相談先を確認できる。",
+    "core_facts": [
+      "対象は全国の個人利用者で、電話と電子メールで相談を受け付ける。",
+      "電話相談の受付時間は平日10～17時。",
+      "ウイルス、不正アクセス、漏えい後の不安、ネット詐欺などに技術的な助言を行う。",
+      "消費生活センターなど関係行政機関の相談窓口との連携を強化する。"
+    ],
+    "tags": [
+      "IPA",
+      "個人情報保護",
+      "情報漏えい",
+      "二次被害対策"
+    ],
+    "featured": true,
+    "priority": 2,
+    "region": "japan",
     "edition_date": "2026-11-02",
-    "collected_at": "2026-11-02T09:02:48+09:00",
+    "collected_at": "2026-11-02T17:18:30.000+09:00",
+    "is_sample": false
+  },
+  {
+    "id": "kinjiro-insource-20261102-hrm-lms-partnership",
+    "title": "勤次郎とインソースが提携、労務管理と学習管理を連携へ",
+    "summary": "勤次郎はインソースとの業務提携を発表した。「Universal 勤次郎」とLMS「Leafシリーズ」を連携し、人材育成サービス「勤次郎 Learning（仮）」の提供と相互販売を進める。",
+    "category": "dx",
+    "source": "勤次郎株式会社",
+    "source_url": "https://prtimes.jp/main/html/rd/p/000000043.000166714.html",
+    "published_at": "2026-11-02T10:50:00+09:00",
+    "published_time_known": true,
+    "image_url": null,
+    "why_it_matters": "就業・人材情報と学習履歴の連携は、人事担当者の研修管理を効率化する手段となる。導入検討ではデータ連携の範囲や権限管理、提供条件の確認が必要になる。",
+    "core_facts": [
+      "両社は業務提携契約を締結した。",
+      "就業・人材・給与・健康情報とLeafシリーズの学習管理を連携する。",
+      "研修計画やeラーニングの選択・配信などの利用を支援する。",
+      "両社の顧客基盤を通じて関連サービスを相互に提案・販売する。"
+    ],
+    "tags": [
+      "人事DX",
+      "労務管理",
+      "学習管理",
+      "人材育成"
+    ],
+    "featured": false,
+    "priority": 3,
+    "region": "japan",
+    "edition_date": "2026-11-02",
+    "collected_at": "2026-11-02T17:18:30.000+09:00",
+    "is_sample": false
+  },
+  {
+    "id": "ntt-20261102-security-trust-forum",
+    "title": "NTT、経営者向けサイバーリスクの会員制フォーラムを発足へ",
+    "summary": "NTTグループは、経営者がサイバーリスクを議論する「Security Trust Forum」の発足を発表した。招待制・有償会員制で運営し、11月27日に第1回会合を開催する予定。",
+    "category": "security",
+    "source": "NTT株式会社",
+    "source_url": "https://prtimes.jp/main/html/rd/p/000000069.000181531.html",
+    "published_at": "2026-11-02T13:00:00+09:00",
+    "published_time_known": true,
+    "image_url": null,
+    "why_it_matters": "サイバー対策を事業継続や経営判断と結び付ける取り組みとなる。経営層とセキュリティ責任者の間で、AIやサプライチェーンのリスクに関する共通理解を深める場が増える。",
+    "core_facts": [
+      "NTTセキュリティ・ジャパンが事務局を担う。",
+      "第1回会合は11月27日の開催予定で、開催済みではない。",
+      "経営者向け勉強会やセキュリティリーダー交流会などを計画している。",
+      "サイバーセキュリティ、AI、サプライチェーンリスク、経済安全保障を議論する。"
+    ],
+    "tags": [
+      "サイバーリスク",
+      "経営",
+      "人材育成",
+      "NTT"
+    ],
+    "featured": false,
+    "priority": 3,
+    "region": "japan",
+    "edition_date": "2026-11-02",
+    "collected_at": "2026-11-02T17:18:30.000+09:00",
+    "is_sample": false
+  },
+  {
+    "id": "scsk-sumitomo-20261102-sdv-engineering",
+    "title": "住友商事とSCSK、SDVの企画から検証まで一括支援へ",
+    "summary": "住友商事とSCSKは「SDVデジタルエンジニアリングサービス」の提供開始を発表した。車両・メカ・システム・ソフトウェアを横断し、派生車種の開発を支援する。",
+    "category": "development",
+    "source": "住友商事株式会社・SCSK株式会社",
+    "source_url": "https://www.scsk.jp/news/2026/pdf/20261102_2.pdf",
+    "published_at": "2026-11-02T00:00:00+09:00",
+    "published_time_known": false,
+    "image_url": null,
+    "why_it_matters": "車載ソフトウェアの複雑化に対し、車両全体の要求整理と統合検証を担うサービスの拡大を示す。国内の車載開発企業には、分野をまたぐ設計・検証能力がより重要になりそうだ。",
+    "core_facts": [
+      "企画、設計、実装、システム統合、検証までを一括して支援する。",
+      "11月1日付でSCSK内にシステムズエンジニアリング本部を設置した。",
+      "2026年度中に顧客ニーズを踏まえた派生車種開発サービスのメニューを整備する。",
+      "2027年度以降は事業会社の設立も視野に、提供体制と連携の仕組みを整える。"
+    ],
+    "tags": [
+      "SDV",
+      "車載ソフトウェア",
+      "システム設計",
+      "開発支援"
+    ],
+    "featured": false,
+    "priority": 3,
+    "region": "japan",
+    "edition_date": "2026-11-02",
+    "collected_at": "2026-11-02T17:18:30.000+09:00",
     "is_sample": false
   },
   {
@@ -70,6 +251,8 @@
     "source_url": "https://prtimes.jp/main/html/rd/p/000000397.000015060.html",
     "published_at": "2026-11-02T08:40:00+09:00",
     "published_time_known": true,
+    "collected_at": "2026-11-02T09:02:48+09:00",
+    "edition_date": "2026-11-02",
     "image_url": null,
     "why_it_matters": "国内のシステム開発では、AIの導入だけでなく、構成や運用費用を判断できる技術支援が求められます。技術者が顧客への提案から運用まで担当する体制は、企業が開発委託やクラウド移行の支援先を比較する材料になります。",
     "core_facts": [
@@ -88,8 +271,6 @@
     "featured": true,
     "priority": 3,
     "region": "japan",
-    "edition_date": "2026-11-02",
-    "collected_at": "2026-11-02T09:02:48+09:00",
     "is_sample": false
   },
   {
