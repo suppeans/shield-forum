@@ -30,7 +30,7 @@ const ja = {
   "about.accuracyTitle": "正確さと透明性。",
   "about.accuracyBody": "AIで生成された要約には誤りが含まれる場合があります。重要な判断には原文をご確認ください。修正・お問い合わせは",
   "about.contactSuffix": " まで。",
-  "footer.description": "日本のIT業界を読む、毎日のブリーフ。", "footer.notice": "独立したニュース集約サイトです。各記事の権利は原発信者に帰属します。", "footer.archive": "アーカイブ", "footer.topics": "トピック", "footer.about": "編集方針",
+  "footer.description": "日本のIT業界を読む、毎日のブリーフ。", "footer.globeCredit": "地球画像：", "footer.notice": "独立したニュース集約サイトです。各記事の権利は原発信者に帰属します。", "footer.archive": "アーカイブ", "footer.topics": "トピック", "footer.about": "編集方針",
 } as const;
 export type TranslationKey = keyof typeof ja;
 const en: Record<TranslationKey, string> = {
@@ -56,7 +56,7 @@ const en: Record<TranslationKey, string> = {
   "about.accuracyTitle": "Accuracy and transparency.",
   "about.accuracyBody": "AI-generated summaries may contain errors. Check the original source before making important decisions. For corrections or inquiries, contact",
   "about.contactSuffix": ".",
-  "footer.description": "Your daily brief on Japan's IT industry.", "footer.notice": "An independent news aggregation site. Original publishers retain their content rights.", "footer.archive": "Archive", "footer.topics": "Topics", "footer.about": "Editorial policy",
+  "footer.description": "Your daily brief on Japan's IT industry.", "footer.globeCredit": "Globe imagery: ", "footer.notice": "An independent news aggregation site. Original publishers retain their content rights.", "footer.archive": "Archive", "footer.topics": "Topics", "footer.about": "Editorial policy",
 };
 const zh: Record<TranslationKey, string> = {
   "header.home": "SHIELD NEWS 首页", "header.primaryNavigation": "主导航", "language.select": "选择语言",
@@ -81,7 +81,7 @@ const zh: Record<TranslationKey, string> = {
   "about.accuracyTitle": "准确与透明。",
   "about.accuracyBody": "AI 生成的摘要可能存在错误。作出重要判断前，请核对原文。如需更正或咨询，请联系",
   "about.contactSuffix": "。",
-  "footer.description": "日本 IT 行业每日简报。", "footer.notice": "独立新闻聚合站，原文版权归原始发布者所有。", "footer.archive": "历史新闻", "footer.topics": "主题", "footer.about": "编辑方针",
+  "footer.description": "日本 IT 行业每日简报。", "footer.globeCredit": "地球图像：", "footer.notice": "独立新闻聚合站，原文版权归原始发布者所有。", "footer.archive": "历史新闻", "footer.topics": "主题", "footer.about": "编辑方针",
 };
 export function isLanguage(value: string | null | undefined): value is Language { return value === "zh" || value === "ja" || value === "en"; }
 export function t(language: Language, key: TranslationKey | string, values: Record<string, string | number> = {}) {

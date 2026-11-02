@@ -1,0 +1,15 @@
+Earth day, cloud, normal and specular maps by Solar System Scope / INOVE.
+Source: https://www.solarsystemscope.com/textures/
+License: Creative Commons Attribution 4.0 International
+https://creativecommons.org/licenses/by/4.0/
+
+Original downloads:
+https://www.solarsystemscope.com/textures/download/2k_earth_daymap.jpg
+https://www.solarsystemscope.com/textures/download/2k_earth_clouds.jpg
+https://www.solarsystemscope.com/textures/download/2k_earth_normal_map.tif
+https://www.solarsystemscope.com/textures/download/2k_earth_specular_map.tif
+
+Changes: the normal and specular maps are converted losslessly from TIFF to PNG.
+The renderer recolours the Earth into white/mint and applies terrain lighting.
+public/illustrations/globe-japan-soft.png is a rendered static view of these maps,
+and retains the same source credit. No endorsement by INOVE is implied.

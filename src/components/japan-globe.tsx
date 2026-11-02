@@ -1,8 +1,8 @@
 "use client";
 
 import { useEffect, useRef } from "react";
-import createGlobe from "cobe";
 import { globeIntroDuration, globePose, globeSessionKey, japanPose } from "@/lib/globe-animation";
+import type { SoftGlobe } from "@/lib/soft-globe-renderer";
 
 export function JapanGlobe() {
   const rootRef = useRef<HTMLDivElement>(null);
@@ -11,88 +11,97 @@ export function JapanGlobe() {
   useEffect(() => {
     const root = rootRef.current;
     const host = hostRef.current;
-    if (!root || !host || typeof WebGLRenderingContext === "undefined") return;
-
+    if (!root || !host || typeof WebGL2RenderingContext === "undefined") return;
     const motion = window.matchMedia("(prefers-reduced-motion: reduce)");
     let seen = false;
     try { seen = sessionStorage.getItem(globeSessionKey) === "1"; } catch { /* Storage can be disabled. */ }
-    let animate = !motion.matches && !seen;
-    const canvas = document.createElement("canvas");
-    const context = { alpha: true, stencil: false, antialias: true, depth: false };
-    let globe: ReturnType<typeof createGlobe>;
-    try {
-      if (!canvas.getContext("webgl2", context) && !canvas.getContext("webgl", context)) return;
-      host.append(canvas);
-      globe = createGlobe(canvas, {
-        width: host.clientWidth, height: host.clientWidth,
-        devicePixelRatio: Math.min(window.devicePixelRatio || 1, 2),
-        ...(animate ? globePose(0) : japanPose), dark: 0, diffuse: 1.2,
-        mapBrightness: 1.25, baseColor: [0.75, 1, 0.94],
-        glowColor: [0.88, 1, 0.96], markerColor: [0, 0.83, 0.64],
-        markers: [], context,
-      });
-    } catch {
-      host.replaceChildren();
-      return;
-    }
-
-    root.dataset.state = animate ? "turning" : "settled";
-
-    let frame = 0;
-    let elapsed = 0;
-    let previous = performance.now();
+    let finished = motion.matches || seen;
+    let ready = false;
+    let cancelled = false;
     let visible = true;
-    let finished = false;
+    let frame = 0;
+    let timer = 0;
+    let elapsed = 0;
+    let cloudTime = 0;
+    let previous = 0;
+    let globe: SoftGlobe | undefined;
+    const canvas = document.createElement("canvas");
+    host.append(canvas);
+    const stop = () => { cancelAnimationFrame(frame); window.clearTimeout(timer); };
+    const fallback = () => {
+      ready = false;
+      stop();
+      delete root.dataset.ready;
+      root.dataset.state = "fallback";
+      globe?.destroy();
+    };
+    const settle = () => {
+      finished = true;
+      root.dataset.state = "settled";
+      try { sessionStorage.setItem(globeSessionKey, "1"); } catch { /* Storage can be disabled. */ }
+    };
     const draw = (now: number) => {
-      elapsed += now - previous;
+      if (!globe || !ready) return;
+      const delta = now - previous;
       previous = now;
-      globe.update(animate ? globePose(elapsed) : japanPose);
-      // Give the embedded map texture time to load, including for a static visit.
-      if (elapsed > 150) root.dataset.ready = "true";
-      if (elapsed < (animate ? globeIntroDuration : 250)) {
-        frame = requestAnimationFrame(draw);
-      } else {
-        finished = true;
-        root.dataset.state = "settled";
-        try { sessionStorage.setItem(globeSessionKey, "1"); } catch { /* Storage can be disabled. */ }
+      cloudTime += delta;
+      if (!finished) {
+        elapsed += delta;
+        globe.update(globePose(elapsed));
+        if (elapsed >= globeIntroDuration) settle();
       }
+      globe.render(motion.matches ? 0 : cloudTime);
+      if (!finished) frame = requestAnimationFrame(draw);
+      else if (!motion.matches) timer = window.setTimeout(() => { frame = requestAnimationFrame(draw); }, 80);
     };
     const sync = () => {
-      cancelAnimationFrame(frame);
-      root.dataset.paused = String(document.hidden || !visible);
-      if (!finished && !document.hidden && visible) {
+      stop();
+      const paused = document.hidden || !visible;
+      root.dataset.paused = String(paused);
+      if (ready && !paused) {
         previous = performance.now();
         frame = requestAnimationFrame(draw);
       }
     };
     const reduceMotion = () => {
-      if (motion.matches) {
-        animate = false;
-        globe.update(japanPose);
-        root.dataset.state = "settled";
-        sync();
-      }
+      if (motion.matches) { settle(); globe?.update(japanPose); }
+      sync();
     };
     const resize = new ResizeObserver(() => {
-      globe.update({ width: host.clientWidth, height: host.clientWidth });
+      globe?.resize(host.clientWidth);
+      if (ready) globe?.render(motion.matches ? 0 : cloudTime);
     });
     const intersection = new IntersectionObserver(([entry]) => { visible = entry.isIntersecting; sync(); });
-    const lostContext = () => { cancelAnimationFrame(frame); finished = true; delete root.dataset.ready; root.dataset.state = "fallback"; };
     resize.observe(host);
     intersection.observe(root);
-    canvas.addEventListener("webglcontextlost", lostContext);
+    canvas.addEventListener("webglcontextlost", fallback);
     motion.addEventListener("change", reduceMotion);
     document.addEventListener("visibilitychange", sync);
-    sync();
+
+    import("@/lib/soft-globe-renderer").then(({ createSoftGlobe }) => {
+      if (cancelled) return;
+      globe = createSoftGlobe(canvas, host.clientWidth, finished ? japanPose : globePose(0));
+      return globe.ready.then(() => {
+        if (cancelled) return;
+        ready = true;
+        globe!.render(0);
+        root.dataset.ready = "true";
+        root.dataset.state = finished ? "settled" : "turning";
+        if (finished) settle();
+        sync();
+      });
+    }).catch(() => { if (!cancelled) fallback(); });
 
     return () => {
-      cancelAnimationFrame(frame);
+      cancelled = true;
+      ready = false;
+      stop();
       resize.disconnect();
       intersection.disconnect();
       motion.removeEventListener("change", reduceMotion);
       document.removeEventListener("visibilitychange", sync);
-      canvas.removeEventListener("webglcontextlost", lostContext);
-      globe.destroy();
+      canvas.removeEventListener("webglcontextlost", fallback);
+      globe?.destroy();
       host.replaceChildren();
       delete root.dataset.ready;
       root.dataset.state = "fallback";
@@ -100,11 +109,9 @@ export function JapanGlobe() {
   }, []);
 
   return <div className="japan-globe" ref={rootRef} aria-hidden="true" data-state="fallback">
-    {/* A static Japan-facing globe also covers no-JavaScript and unavailable WebGL. */}
     {/* eslint-disable-next-line @next/next/no-img-element */}
-    <img className="globe-fallback" src="/illustrations/globe-japan.svg" alt="" width="400" height="400" />
+    <img className="globe-fallback" src="/illustrations/globe-japan-soft.png" alt="" width="720" height="720" />
     <div className="globe-canvas" ref={hostRef} />
     <div className="globe-atmosphere" />
-    <div className="globe-clouds"><span /><span /></div>
   </div>;
 }
