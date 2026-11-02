@@ -1,5 +1,36 @@
 [
   {
+    "id": "henry-20261102-emr-certification-application",
+    "title": "ヘンリー、電子カルテ「Henry」の標準仕様認証を申請　取得は今後の審査へ",
+    "summary": "ヘンリーは11月2日、中小病院向け電子カルテHenryについて、厚生労働省の標準仕様に係る認証制度へ11月1日に申請したと発表しました。病院で稼働中の現行製品を対象とする申請で、認証取得済みという発表ではありません。",
+    "category": "dx",
+    "source": "ヘンリー",
+    "source_url": "https://prtimes.jp/main/html/rd/p/000000033.000102549.html",
+    "published_at": "2026-11-02T07:20:00+09:00",
+    "published_time_known": true,
+    "image_url": null,
+    "why_it_matters": "国内の医療DXでは、クラウド型の基幹システムへの移行と、事業者の運用・安全性を確認する仕組みが関わります。導入候補を比較する際は、事業者による適合性の説明と、審査を経た認証結果を分けて確認する必要があります。",
+    "core_facts": [
+      "申請日は認証制度の受付が始まった11月1日で、発表日は11月2日です。",
+      "同社は全国の病院で利用中のHenryを現行仕様のまま申請し、認証を取得した際は改めて公表するとしています。",
+      "Henryは電子カルテ、オーダー、レセプトコンピューターを一体化したクラウド型の病院基幹システムです。",
+      "審査への対応と並行して、製品の機能拡充と病院への導入・移行体制を強化する方針です。"
+    ],
+    "tags": [
+      "ヘンリー",
+      "Henry",
+      "電子カルテ",
+      "医療DX",
+      "認証申請"
+    ],
+    "featured": true,
+    "priority": 3,
+    "region": "japan",
+    "edition_date": "2026-11-02",
+    "collected_at": "2026-11-02T09:02:48+09:00",
+    "is_sample": false
+  },
+  {
     "id": "tangle-20261101-naviu-ar-tourism",
     "title": "TANGLE、訪日客向けAI・AR観光アプリ「Naviu」を提供開始　29言語に対応",
     "summary": "TANGLEは11月1日、AIガイドとAR経路案内を組み合わせた訪日旅行者向けアプリNaviuをiOS・Android向けに提供開始したと発表しました。現在地に応じた質問への回答、写真認識、旅程作成などを案内しています。",
@@ -8,6 +39,8 @@
     "source_url": "https://prtimes.jp/main/html/rd/p/000000004.000182356.html",
     "published_at": "2026-11-01T10:00:00+09:00",
     "published_time_known": true,
+    "collected_at": "2026-11-02T00:57:52+09:00",
+    "edition_date": "2026-11-02",
     "image_url": null,
     "why_it_matters": "国内の観光DXでは、多言語案内と位置情報・現地体験を結び付けるサービスが広がっています。自治体や事業者が空間コンテンツを配置できる仕組みは地域案内の選択肢になりますが、AIの説明や経路の正確性・利用効果を独立に検証した発表ではありません。",
     "core_facts": [
@@ -26,8 +59,37 @@
     "featured": true,
     "priority": 3,
     "region": "japan",
+    "is_sample": false
+  },
+  {
+    "id": "twostone-20261102-fabric-jv",
+    "title": "TWOSTONE&Sons、クラウド開発の合弁会社Fabricを設立　技術者が提案から運用まで担当",
+    "summary": "TWOSTONE&Sonsは11月2日、平野弘紀氏との共同出資でTWOSTONE Fabricを11月1日に設立したと発表しました。Google Cloudを中心とするクラウド開発、AI・DX支援、システム投資への第三者評価を展開します。",
+    "category": "business",
+    "source": "TWOSTONE&Sons",
+    "source_url": "https://prtimes.jp/main/html/rd/p/000000397.000015060.html",
+    "published_at": "2026-11-02T08:40:00+09:00",
+    "published_time_known": true,
+    "image_url": null,
+    "why_it_matters": "国内のシステム開発では、AIの導入だけでなく、構成や運用費用を判断できる技術支援が求められます。技術者が顧客への提案から運用まで担当する体制は、企業が開発委託やクラウド移行の支援先を比較する材料になります。",
+    "core_facts": [
+      "出資比率はTWOSTONE&Sonsと平野弘紀氏がそれぞれ50％で、平野氏が代表取締役CEOを務めます。",
+      "クラウド開発、AX・DX推進、システムのセカンドオピニオンの3事業を掲げています。",
+      "システム構成やコスト、既存ベンダーの提案などを評価し、必要に応じて設計・開発・運用の見直しも支援する方針です。",
+      "少人数の技術者による支援とAIによる開発効率化を事業モデルに挙げています。生産性の効果を独立に検証した発表ではありません。"
+    ],
+    "tags": [
+      "TWOSTONE&Sons",
+      "TWOSTONE Fabric",
+      "Google Cloud",
+      "クラウド開発",
+      "合弁会社"
+    ],
+    "featured": true,
+    "priority": 3,
+    "region": "japan",
     "edition_date": "2026-11-02",
-    "collected_at": "2026-11-02T00:57:52+09:00",
+    "collected_at": "2026-11-02T09:02:48+09:00",
     "is_sample": false
   },
   {
