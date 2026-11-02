@@ -107,7 +107,7 @@ it("renders once with reduced motion and falls back without WebGL2", async () =>
   vi.stubGlobal("WebGL2RenderingContext", undefined);
   const fallback = await mount();
   expect(fallback.container.firstChild).toHaveAttribute("data-state", "fallback");
-  expect(fallback.container.querySelector("img")).toHaveAttribute("src", "/illustrations/globe-japan-soft.png?v=2");
+  expect(fallback.container.querySelector("img")).toHaveAttribute("src", "/illustrations/globe-japan-soft.png?v=3");
   expect(createSoftGlobe).not.toHaveBeenCalled();
 });
 

@@ -110,7 +110,7 @@ export function JapanGlobe() {
 
   return <div className="japan-globe" ref={rootRef} aria-hidden="true" data-state="fallback">
     {/* eslint-disable-next-line @next/next/no-img-element */}
-    <img className="globe-fallback" src="/illustrations/globe-japan-soft.png?v=2" alt="" width="720" height="720" />
+    <img className="globe-fallback" src="/illustrations/globe-japan-soft.png?v=3" alt="" width="720" height="720" />
     <div className="globe-canvas" ref={hostRef} />
     <div className="globe-atmosphere" />
   </div>;
