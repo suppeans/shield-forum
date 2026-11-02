@@ -40,7 +40,7 @@ function advance(milliseconds: number) {
   });
 }
 
-it("centres Japan geographically, eases toward it and clamps at three seconds", () => {
+it("centres Japan geographically and zooms toward it within 1.5 seconds", () => {
   const longitude = 138 * Math.PI / 180;
   const latitude = 36 * Math.PI / 180;
   const x = Math.cos(latitude) * Math.cos(longitude);
@@ -50,16 +50,34 @@ it("centres Japan geographically, eases toward it and clamps at three seconds", 
   expect(Math.cos(phi) * x + Math.sin(phi) * z).toBeCloseTo(0);
   expect(Math.sin(phi) * Math.sin(theta) * x + Math.cos(theta) * y - Math.cos(phi) * Math.sin(theta) * z).toBeCloseTo(0);
   expect(-Math.sin(phi) * Math.cos(theta) * x + Math.sin(theta) * y + Math.cos(phi) * Math.cos(theta) * z).toBeCloseTo(1);
-  expect(globePose(1500).phi).toBeGreaterThan(globePose(0).phi);
+  expect(globeIntroDuration).toBe(1500);
+  expect(globePose(750).phi).toBeGreaterThan(globePose(0).phi);
+  expect(globePose(0).scale).toBe(1.08);
+  expect(globePose(750).scale).toBeGreaterThan(globePose(0).scale);
+  expect(globePose(750).scale).toBeLessThan(japanPose.scale);
+  expect(japanPose.mapSamples).toBe(72000);
+  expect(globePose(750).mapSamples).toBeGreaterThan(globePose(0).mapSamples);
   expect(globePose(-1)).toEqual(globePose(0));
   expect(globePose(globeIntroDuration)).toEqual(japanPose);
   expect(globePose(9000)).toEqual(japanPose);
 });
 
+it("keeps visible samples within COBE's 15-bit Fibonacci index range while zooming", () => {
+  for (let elapsed = 0; elapsed <= globeIntroDuration; elapsed += 25) {
+    const { theta, scale, mapSamples } = globePose(elapsed);
+    const lowestLatitude = theta - Math.asin(1.08 / scale);
+    const lastVisibleIndex = mapSamples * (1 - Math.sin(lowestLatitude)) / 2;
+    expect(lastVisibleIndex).toBeLessThan(32768);
+  }
+});
+
 it("turns once per session, stops rendering after settling, and releases its renderer", () => {
   const first = render(<JapanGlobe />);
   expect(first.container.firstChild).toHaveAttribute("data-state", "turning");
-  advance(3100);
+  advance(1400);
+  expect(first.container.firstChild).toHaveAttribute("data-state", "turning");
+  expect(update.mock.calls.at(-1)![0].scale).toBeLessThan(japanPose.scale);
+  advance(200);
   expect(first.container.firstChild).toHaveAttribute("data-state", "settled");
   expect(update).toHaveBeenLastCalledWith(japanPose);
   expect(nextFrame).toBeUndefined();
@@ -79,7 +97,7 @@ it("shows Japan immediately with reduced motion, and falls back without WebGL", 
   advance(300);
   expect(reduced.container.firstChild).toHaveAttribute("aria-hidden", "true");
   expect(reduced.container.firstChild).toHaveAttribute("data-state", "settled");
-  expect(update.mock.calls.every(([pose]) => pose.phi === japanPose.phi)).toBe(true);
+  expect(update.mock.calls.every(([pose]) => pose.phi === japanPose.phi && pose.scale === japanPose.scale)).toBe(true);
   reduced.unmount();
   vi.mocked(createGlobe).mockClear();
   vi.stubGlobal("WebGLRenderingContext", undefined);
@@ -87,6 +105,19 @@ it("shows Japan immediately with reduced motion, and falls back without WebGL", 
   expect(fallback.container.firstChild).toHaveAttribute("data-state", "fallback");
   expect(fallback.container.querySelector("img")).toHaveAttribute("src", "/illustrations/globe-japan.svg");
   expect(createGlobe).not.toHaveBeenCalled();
+});
+
+it("finishes on time even when a graphics frame is delayed", () => {
+  const view = render(<JapanGlobe />);
+  act(() => {
+    now = globeIntroDuration + 1;
+    const callback = nextFrame!;
+    nextFrame = undefined;
+    callback(now);
+  });
+  expect(view.container.firstChild).toHaveAttribute("data-state", "settled");
+  expect(update).toHaveBeenLastCalledWith(japanPose);
+  expect(nextFrame).toBeUndefined();
 });
 
 it("pauses in a hidden tab and keeps a static fallback if the graphics context is lost", () => {

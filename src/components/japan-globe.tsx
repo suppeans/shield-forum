@@ -13,6 +13,10 @@ export function JapanGlobe() {
     const host = hostRef.current;
     if (!root || !host || typeof WebGLRenderingContext === "undefined") return;
 
+    const motion = window.matchMedia("(prefers-reduced-motion: reduce)");
+    let seen = false;
+    try { seen = sessionStorage.getItem(globeSessionKey) === "1"; } catch { /* Storage can be disabled. */ }
+    let animate = !motion.matches && !seen;
     const canvas = document.createElement("canvas");
     const context = { alpha: true, stencil: false, antialias: true, depth: false };
     let globe: ReturnType<typeof createGlobe>;
@@ -21,21 +25,17 @@ export function JapanGlobe() {
       host.append(canvas);
       globe = createGlobe(canvas, {
         width: host.clientWidth, height: host.clientWidth,
-        devicePixelRatio: Math.min(window.devicePixelRatio || 1, 1.5),
-        ...japanPose, dark: 0, diffuse: 1.2, mapSamples: 40000,
+        devicePixelRatio: Math.min(window.devicePixelRatio || 1, 2),
+        ...(animate ? globePose(0) : japanPose), dark: 0, diffuse: 1.2,
         mapBrightness: 1.25, baseColor: [0.75, 1, 0.94],
         glowColor: [0.88, 1, 0.96], markerColor: [0, 0.83, 0.64],
-        markers: [], scale: 1.08, context,
+        markers: [], context,
       });
     } catch {
       host.replaceChildren();
       return;
     }
 
-    const motion = window.matchMedia("(prefers-reduced-motion: reduce)");
-    let seen = false;
-    try { seen = sessionStorage.getItem(globeSessionKey) === "1"; } catch { /* Storage can be disabled. */ }
-    let animate = !motion.matches && !seen;
     root.dataset.state = animate ? "turning" : "settled";
 
     let frame = 0;
@@ -44,7 +44,7 @@ export function JapanGlobe() {
     let visible = true;
     let finished = false;
     const draw = (now: number) => {
-      elapsed += Math.min(now - previous, 64);
+      elapsed += now - previous;
       previous = now;
       globe.update(animate ? globePose(elapsed) : japanPose);
       // Give the embedded map texture time to load, including for a static visit.
