@@ -60,6 +60,58 @@
     "is_sample": false
   },
   {
+    "id": "gomumari-20261103-payment-reconciliation",
+    "title": "ゴムマリ、入金明細と請求データを照合するAIサービスを開始",
+    "summary": "銀行の入出金明細を売掛金・請求データと照合し、判断が難しい取引を経理担当者の確認に回すサービスを11月3日に提供開始した。",
+    "category": "dx",
+    "source": "ゴムマリ株式会社",
+    "source_url": "https://prtimes.jp/main/html/rd/p/000000028.000185093.html",
+    "published_at": "2026-11-03T11:00:00+09:00",
+    "published_time_known": true,
+    "image_url": null,
+    "why_it_matters": "経理担当者が確認の必要な取引に時間を割きやすくなる。導入時には、実データを使って自動照合できる範囲を見極める必要がある。",
+    "core_facts": [
+      "複数の請求をまとめた振込や、一部入金、金額の過不足を判定する。",
+      "消込結果と、判断根拠を添えた要確認明細を別々に出力する。"
+    ],
+    "tags": [
+      "経理DX",
+      "入金消込"
+    ],
+    "featured": true,
+    "priority": 3,
+    "region": "japan",
+    "edition_date": "2026-11-03",
+    "collected_at": "2026-11-03T17:05:51+09:00",
+    "is_sample": false
+  },
+  {
+    "id": "knowledgesense-20261103-cowork-tab-visibility",
+    "title": "ChatSenseのCowork、AIが操作するタブを見える化",
+    "summary": "ナレッジセンスは11月3日、法人向けブラウザー操作機能Coworkに、AIの操作対象を画面上で見分けやすくする機能を追加したと発表した。",
+    "category": "ai",
+    "source": "株式会社ナレッジセンス",
+    "source_url": "https://prtimes.jp/main/html/rd/p/000000435.000073671.html",
+    "published_at": "2026-11-03T10:46:00+09:00",
+    "published_time_known": true,
+    "image_url": null,
+    "why_it_matters": "複数のタブをまたぐ自動作業を人が監督しやすくなり、意図しないページを操作している場合に気づく手掛かりになる。",
+    "core_facts": [
+      "操作中のページを枠とバナーで示す。",
+      "作業履歴に操作対象のタブを記録し、画面上のボタンで操作を停止できる。"
+    ],
+    "tags": [
+      "AIエージェント",
+      "ブラウザー操作"
+    ],
+    "featured": true,
+    "priority": 3,
+    "region": "japan",
+    "edition_date": "2026-11-03",
+    "collected_at": "2026-11-03T17:05:51+09:00",
+    "is_sample": false
+  },
+  {
     "id": "tai-20261102-global-south-ai-chip-project",
     "title": "TAI、日馬連携のAI半導体実証が経産省の支援事業に採択",
     "summary": "Tokyo Artisan Intelligenceは、ASEAN向け大型実証事業への採択を発表した。マレーシアのOppstarなどと協業し、低消費電力AI半導体「Manta Ray」の開発・評価と将来の量産に向けた実証を進める。",
@@ -128,6 +180,8 @@
     "source_url": "https://prtimes.jp/main/html/rd/p/000000108.000054524.html",
     "published_at": "2026-11-02T16:38:00+09:00",
     "published_time_known": true,
+    "collected_at": "2026-11-03T09:03:46+09:00",
+    "edition_date": "2026-11-03",
     "image_url": null,
     "why_it_matters": "漏えい後に情報システム部門と法務部門が同じ記録を参照できれば、対応の抜け漏れを減らしやすい。報告や通知の最終判断は担当者が確認する必要がある。",
     "core_facts": [
@@ -143,8 +197,6 @@
     "featured": true,
     "priority": 3,
     "region": "japan",
-    "edition_date": "2026-11-03",
-    "collected_at": "2026-11-03T09:03:46+09:00",
     "is_sample": false
   },
   {
