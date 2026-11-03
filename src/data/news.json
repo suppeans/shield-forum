@@ -1,5 +1,33 @@
 [
   {
+    "id": "itera-20261103-llmocheki-ai-referral-conversions",
+    "title": "Itera、AI検索からの流入と問い合わせを計測する機能を提供",
+    "summary": "Iteraは11月3日、分析ツール「LLMOチェキ」に、AI検索経由の訪問と問い合わせなどの成果をサービス別に集計する機能を追加した。",
+    "category": "ai",
+    "source": "株式会社Itera",
+    "source_url": "https://prtimes.jp/main/html/rd/p/000000074.000177930.html",
+    "published_at": "2026-11-03T11:30:00+09:00",
+    "published_time_known": true,
+    "image_url": null,
+    "why_it_matters": "サイト運営者は、AIの回答で引用されるだけでなく、訪問や問い合わせにつながったかを把握しやすくなる。参照元が取得できない流入は集計されないため、数値は参考として扱う必要がある。",
+    "core_facts": [
+      "計測タグを設置すると、ChatGPTやGeminiなどからの訪問とフォーム送信などをサービス別に集計できる。",
+      "質問別の内訳は引用先と訪問先の照合に基づく推定値。",
+      "GoogleのAI OverviewとAIモードからの流入は計測対象外。"
+    ],
+    "tags": [
+      "AI検索",
+      "アクセス解析",
+      "流入計測"
+    ],
+    "featured": true,
+    "priority": 3,
+    "region": "japan",
+    "edition_date": "2026-11-04",
+    "collected_at": "2026-11-04T01:05:36+09:00",
+    "is_sample": false
+  },
+  {
     "id": "blackpanda-gsx-20261102-mdr-forensic-option",
     "title": "GSXとBLACKPANDA、監視・初動調査・保険を組み合わせるMDRオプション",
     "summary": "BLACKPANDAはGSXとの協業を拡充し、事前契約型のインシデント対応サービス「IR-1」を組み込む新オプションを発表した。GSXのMDR契約者向けに、デジタルフォレンジック対応とサイバー保険を提供する。",
@@ -68,6 +96,8 @@
     "source_url": "https://prtimes.jp/main/html/rd/p/000000028.000185093.html",
     "published_at": "2026-11-03T11:00:00+09:00",
     "published_time_known": true,
+    "collected_at": "2026-11-03T17:05:51+09:00",
+    "edition_date": "2026-11-03",
     "image_url": null,
     "why_it_matters": "経理担当者が確認の必要な取引に時間を割きやすくなる。導入時には、実データを使って自動照合できる範囲を見極める必要がある。",
     "core_facts": [
@@ -81,8 +111,6 @@
     "featured": true,
     "priority": 3,
     "region": "japan",
-    "edition_date": "2026-11-03",
-    "collected_at": "2026-11-03T17:05:51+09:00",
     "is_sample": false
   },
   {
@@ -94,6 +122,8 @@
     "source_url": "https://prtimes.jp/main/html/rd/p/000000435.000073671.html",
     "published_at": "2026-11-03T10:46:00+09:00",
     "published_time_known": true,
+    "collected_at": "2026-11-03T17:05:51+09:00",
+    "edition_date": "2026-11-03",
     "image_url": null,
     "why_it_matters": "複数のタブをまたぐ自動作業を人が監督しやすくなり、意図しないページを操作している場合に気づく手掛かりになる。",
     "core_facts": [
@@ -107,8 +137,6 @@
     "featured": true,
     "priority": 3,
     "region": "japan",
-    "edition_date": "2026-11-03",
-    "collected_at": "2026-11-03T17:05:51+09:00",
     "is_sample": false
   },
   {
