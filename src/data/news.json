@@ -8,6 +8,8 @@
     "source_url": "https://prtimes.jp/main/html/rd/p/000000012.000177299.html",
     "published_at": "2026-11-02T10:00:00+09:00",
     "published_time_known": true,
+    "collected_at": "2026-11-03T01:07:01.000+09:00",
+    "edition_date": "2026-11-03",
     "image_url": null,
     "why_it_matters": "監視で異常を検知した後の調査体制を事前に確保する選択肢となる。専門人材が限られる国内企業では、対応範囲と保険条件を含めた備えの検討につながる。",
     "core_facts": [
@@ -25,8 +27,6 @@
     "featured": true,
     "priority": 2,
     "region": "japan",
-    "edition_date": "2026-11-03",
-    "collected_at": "2026-11-03T01:07:01.000+09:00",
     "is_sample": false
   },
   {
@@ -38,6 +38,8 @@
     "source_url": "https://www.fronteo.com/news/pr/20261102",
     "published_at": "2026-11-02T00:00:00+09:00",
     "published_time_known": false,
+    "collected_at": "2026-11-03T01:07:01.000+09:00",
+    "edition_date": "2026-11-03",
     "image_url": null,
     "why_it_matters": "調達先の把握や代替手段の検討は、日本の製造業や先端材料分野の経済安全保障に関わる。AIで確認対象を絞り込みつつ、専門家が根拠と不足情報を検証する運用が重要になる。",
     "core_facts": [
@@ -55,8 +57,6 @@
     "featured": false,
     "priority": 3,
     "region": "japan",
-    "edition_date": "2026-11-03",
-    "collected_at": "2026-11-03T01:07:01.000+09:00",
     "is_sample": false
   },
   {
@@ -68,6 +68,8 @@
     "source_url": "https://tokyo-ai.co.jp/news/info_20261102/",
     "published_at": "2026-11-02T00:00:00+09:00",
     "published_time_known": false,
+    "collected_at": "2026-11-03T01:07:01.000+09:00",
+    "edition_date": "2026-11-03",
     "image_url": null,
     "why_it_matters": "日本のエッジAI技術と海外の半導体設計能力を組み合わせ、鉄道や製造現場への実装を目指す取り組み。量産開始の発表ではなく、設計・評価から事業化に向けた計画として捉える必要がある。",
     "core_facts": [
@@ -86,8 +88,6 @@
     "featured": false,
     "priority": 3,
     "region": "japan",
-    "edition_date": "2026-11-03",
-    "collected_at": "2026-11-03T01:07:01.000+09:00",
     "is_sample": false
   },
   {
@@ -99,6 +99,8 @@
     "source_url": "https://tier4.co.jp/updates/press-release/20261102-tieriv-spearheads-autoware2.0-initiatives",
     "published_at": "2026-11-02T00:00:00+09:00",
     "published_time_known": false,
+    "collected_at": "2026-11-03T01:07:01.000+09:00",
+    "edition_date": "2026-11-03",
     "image_url": null,
     "why_it_matters": "国内の自動運転開発で、AIモデルと車載OS、計算基盤、クラウドを統合する選択肢が広がる。OSSの共通基盤を使いながら商用運用に必要な検証を進める動きとして注目される。",
     "core_facts": [
@@ -115,8 +117,34 @@
     "featured": true,
     "priority": 2,
     "region": "japan",
+    "is_sample": false
+  },
+  {
+    "id": "trusquetta-20261102-leak-biz",
+    "title": "トラスクエタ、情報漏えい後の企業対応を支援するサービスを開始",
+    "summary": "トラスクエタは11月2日、情報漏えい事故の記録や対応期限の管理、報告書・本人通知の下書き作成を支援する企業向けサービス「TRUSQUETTA LEAK BIZ」の提供を始めた。",
+    "category": "security",
+    "source": "株式会社トラスクエタ",
+    "source_url": "https://prtimes.jp/main/html/rd/p/000000108.000054524.html",
+    "published_at": "2026-11-02T16:38:00+09:00",
+    "published_time_known": true,
+    "image_url": null,
+    "why_it_matters": "漏えい後に情報システム部門と法務部門が同じ記録を参照できれば、対応の抜け漏れを減らしやすい。報告や通知の最終判断は担当者が確認する必要がある。",
+    "core_facts": [
+      "事故の影響範囲や対応状況、承認履歴を記録できる。",
+      "報告・通知の要否を検討するための確認事項を示し、文書作成を支援する。",
+      "個人向けの二次被害防止サービスは構想段階で、提供時期は未定。"
+    ],
+    "tags": [
+      "情報漏えい",
+      "インシデント対応",
+      "個人情報保護"
+    ],
+    "featured": true,
+    "priority": 3,
+    "region": "japan",
     "edition_date": "2026-11-03",
-    "collected_at": "2026-11-03T01:07:01.000+09:00",
+    "collected_at": "2026-11-03T09:03:46+09:00",
     "is_sample": false
   },
   {
