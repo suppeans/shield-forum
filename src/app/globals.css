@@ -105,6 +105,35 @@ a, button, input { -webkit-tap-highlight-color: transparent; }
   animation: typewriter-letter var(--typewriter-duration) linear(0, 0 var(--type-at), 1 var(--type-at) var(--erase-at), 0 var(--erase-at), 0) infinite;
 }
 @keyframes typewriter-letter { from { opacity: 0; } to { opacity: 1; } }
+.typewriter-glyph {
+  position: relative;
+  animation: typewriter-glyph var(--typewriter-duration) linear(0, 0 var(--type-at), 1 var(--settle-at), 1) infinite;
+}
+@keyframes typewriter-glyph {
+  from { opacity: 0; inset-block-start: .16em; }
+  to { opacity: 1; inset-block-start: 0; }
+}
+.typewriter-letter, .typewriter-caret-start { position: relative; }
+.typewriter-letter::after, .typewriter-caret-start::after {
+  content: "";
+  position: absolute;
+  inset-inline-start: 100%;
+  inset-block-start: 50%;
+  transform: translateY(-50%);
+  inline-size: 2px;
+  block-size: .95em;
+  background: #5262a6;
+  visibility: hidden;
+  /* The next character takes over the caret as soon as it appears. */
+  --caret-position: typewriter-caret var(--typewriter-duration) linear(1, 1 var(--next-type-at), 0 var(--next-type-at) var(--next-erase-at), 1 var(--next-erase-at), 1) infinite;
+  animation: var(--caret-position);
+}
+.typewriter-letter::after { margin-inline-start: .06em; }
+.typewriter-title > span:last-child > .typewriter-letter:last-child::after {
+  animation: var(--caret-position), typewriter-blink 1s ease-in-out infinite;
+}
+@keyframes typewriter-caret { from { visibility: hidden; } to { visibility: visible; } }
+@keyframes typewriter-blink { 55%, 70% { opacity: 0; } }
 .accent-title { color: var(--muted); }
 .brief-heading .intro { max-width: 610px; margin-top: 24px; font-size: 16px; }
 .edition-stamp { position: relative; padding: 24px; border: 1px solid var(--line); border-radius: 12px; background: var(--bg); min-width: 248px; }
@@ -264,7 +293,8 @@ a, button, input { -webkit-tap-highlight-color: transparent; }
 }
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
-  .typewriter-letter, .spotlight { animation: none; }
+  .typewriter-letter, .typewriter-glyph, .spotlight { animation: none; }
+  .typewriter-letter::after, .typewriter-caret-start::after { content: none; }
   .uiverse-button .button-icon, .uiverse-button svg, .read-link svg, .row-arrow svg, .lead-story { transition: none; }
   .uiverse-button:hover svg, .uiverse-button:focus-visible svg, .read-link:hover svg, .row-arrow:hover svg { transform: none; }
   .japan-globe[data-state] .globe-atmosphere { animation: none; }
