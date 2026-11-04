@@ -1,5 +1,33 @@
 [
   {
+    "id": "acompany-20261104-confidential-inference-api",
+    "title": "Acompany、入力と応答を保存しない機密推論APIを提供",
+    "summary": "名古屋のAcompanyは11月4日、ハードウェアで隔離した環境で大規模言語モデルを動かす推論APIの提供を始めた。",
+    "category": "ai",
+    "source": "株式会社Acompany",
+    "source_url": "https://www.acompany.tech/news/26-1104-1",
+    "published_at": "2026-11-04T00:00:00+09:00",
+    "published_time_known": false,
+    "image_url": null,
+    "why_it_matters": "契約書やソースコードなどを扱う企業にとって、自社でGPUを運用する以外の選択肢になる。導入判断では、機密データの取り扱い要件とサービスの設計を照らし合わせる必要がある。",
+    "core_facts": [
+      "入力は暗号化して隔離環境に送り、その内部で復号・推論する設計。",
+      "同社によると、入力と応答は保存せず、モデルの学習にも使わない。",
+      "課金と利用上限の管理に必要なリクエスト数やトークン数などは記録する。"
+    ],
+    "tags": [
+      "機密コンピューティング",
+      "推論API",
+      "生成AI"
+    ],
+    "featured": true,
+    "priority": 2,
+    "region": "japan",
+    "edition_date": "2026-11-04",
+    "collected_at": "2026-11-04T17:06:14+09:00",
+    "is_sample": false
+  },
+  {
     "id": "gomumari-20261103-receivables-aging",
     "title": "ゴムマリ、売掛金の滞留を把握するAIサービスを開始",
     "summary": "ゴムマリは11月3日、売掛金元帳と入金データを照合し、残高を支払期日からの経過期間別に集計する企業向けサービスを始めた。",
@@ -8,6 +36,8 @@
     "source_url": "https://prtimes.jp/main/html/rd/p/000000024.000185093.html",
     "published_at": "2026-11-03T10:00:00+09:00",
     "published_time_known": true,
+    "collected_at": "2026-11-04T08:59:26+09:00",
+    "edition_date": "2026-11-04",
     "image_url": null,
     "why_it_matters": "経理担当者が回収の遅れを見つけやすくなり、確認が必要な取引を優先して調べられる。",
     "core_facts": [
@@ -21,8 +51,34 @@
     "featured": true,
     "priority": 3,
     "region": "japan",
+    "is_sample": false
+  },
+  {
+    "id": "ipa-20261104-jc-star-cra-comparison",
+    "title": "日EU、IoT製品のセキュリティ要件の比較を本格化",
+    "summary": "経済産業省とIPAは11月4日、日本のJC-STARとEUのサイバーレジリエンス法（CRA）の要件を比較する協力を進めると発表した。",
+    "category": "policy",
+    "source": "情報処理推進機構（IPA）",
+    "source_url": "https://www.ipa.go.jp/pressrelease/2026/press20261104.html",
+    "published_at": "2026-11-04T00:00:00+09:00",
+    "published_time_known": false,
+    "image_url": null,
+    "why_it_matters": "制度の共通点と違いが明確になれば、日欧両市場向けにIoT製品を開発する企業が、設計や適合評価の準備を進めやすくなる。",
+    "core_facts": [
+      "在欧日系ビジネス協議会とStandICT.eu事務局は10月26日に協力覚書に署名した。",
+      "経済産業省とIPAが参加する作業部会で、日欧の専門家が両制度の技術要件を比較する。",
+      "今回の発表は制度の比較に関するもので、EUとの相互承認の開始を示すものではない。"
+    ],
+    "tags": [
+      "JC-STAR",
+      "CRA",
+      "IoTセキュリティ"
+    ],
+    "featured": true,
+    "priority": 2,
+    "region": "japan",
     "edition_date": "2026-11-04",
-    "collected_at": "2026-11-04T08:59:26+09:00",
+    "collected_at": "2026-11-04T17:06:14+09:00",
     "is_sample": false
   },
   {
