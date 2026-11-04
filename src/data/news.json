@@ -1,5 +1,60 @@
 [
   {
+    "id": "e-guardian-20261104-ip-misuse-monitoring-beta",
+    "title": "イー・ガーディアン、キャラクターの無断改変などを監視するサービスを試験提供",
+    "summary": "イー・ガーディアンは11月4日、作品やキャラクターの権利を持つ企業向けに、生成AIによる改変や無断転載の疑いがある投稿を探す監視サービスのベータ版を始めた。",
+    "category": "ai",
+    "source": "株式会社チェンジホールディングス",
+    "source_url": "https://digitalpr.jp/r/147387",
+    "published_at": "2026-11-04T15:30:00+09:00",
+    "published_time_known": true,
+    "image_url": null,
+    "why_it_matters": "国内のゲームやアニメの権利者が、多言語で拡散する投稿を調べ、限られた人員で対応の優先順位を付ける助けになる。",
+    "core_facts": [
+      "SNS、掲示板、ブログなどの公開投稿を集め、改変の種類や拡散状況に応じて分類する。",
+      "判断が難しい投稿は専門スタッフが確認し、最終的な対応判断は権利者が行う。",
+      "証拠の保存や削除要請文の作成を支援する。ベータ版は先着5社が3カ月間無料で利用できる。"
+    ],
+    "tags": [
+      "生成AI",
+      "コンテンツ監視",
+      "知的財産"
+    ],
+    "featured": true,
+    "priority": 3,
+    "region": "japan",
+    "edition_date": "2026-11-05",
+    "collected_at": "2026-11-05T00:58:07+09:00",
+    "is_sample": false
+  },
+  {
+    "id": "nhn-techorus-20261104-cloud-chorus-wiz",
+    "title": "NHNテコラス、Cloud Chorusでクラウド保護基盤「Wiz」を提供",
+    "summary": "NHNテコラスは11月4日、クラウド総合支援サービス「Cloud Chorus」を通じ、クラウドやAI環境のリスクを可視化するWizの提供を始めた。",
+    "category": "security",
+    "source": "NHN テコラス株式会社",
+    "source_url": "https://prtimes.jp/main/html/rd/p/000000124.000045365.html",
+    "published_at": "2026-11-04T11:00:00+09:00",
+    "published_time_known": true,
+    "image_url": null,
+    "why_it_matters": "複数のクラウドを運用する企業が、設定や権限の問題を個別に追う手間を減らし、修正の優先順位を付けるための選択肢になる。",
+    "core_facts": [
+      "AWS、Google Cloud、AzureなどのAPIと連携し、監視対象のサーバーに常駐ソフトを入れずに情報を収集する。",
+      "脆弱性、設定ミス、過剰な権限などの関係をグラフで示す。"
+    ],
+    "tags": [
+      "クラウドセキュリティ",
+      "CNAPP",
+      "Wiz"
+    ],
+    "featured": true,
+    "priority": 3,
+    "region": "japan",
+    "edition_date": "2026-11-05",
+    "collected_at": "2026-11-05T00:58:07+09:00",
+    "is_sample": false
+  },
+  {
     "id": "acompany-20261104-confidential-inference-api",
     "title": "Acompany、入力と応答を保存しない機密推論APIを提供",
     "summary": "名古屋のAcompanyは11月4日、ハードウェアで隔離した環境で大規模言語モデルを動かす推論APIの提供を始めた。",
@@ -8,6 +63,8 @@
     "source_url": "https://www.acompany.tech/news/26-1104-1",
     "published_at": "2026-11-04T00:00:00+09:00",
     "published_time_known": false,
+    "collected_at": "2026-11-04T17:06:14+09:00",
+    "edition_date": "2026-11-04",
     "image_url": null,
     "why_it_matters": "契約書やソースコードなどを扱う企業にとって、自社でGPUを運用する以外の選択肢になる。導入判断では、機密データの取り扱い要件とサービスの設計を照らし合わせる必要がある。",
     "core_facts": [
@@ -23,8 +80,6 @@
     "featured": true,
     "priority": 2,
     "region": "japan",
-    "edition_date": "2026-11-04",
-    "collected_at": "2026-11-04T17:06:14+09:00",
     "is_sample": false
   },
   {
@@ -62,6 +117,8 @@
     "source_url": "https://www.ipa.go.jp/pressrelease/2026/press20261104.html",
     "published_at": "2026-11-04T00:00:00+09:00",
     "published_time_known": false,
+    "collected_at": "2026-11-04T17:06:14+09:00",
+    "edition_date": "2026-11-04",
     "image_url": null,
     "why_it_matters": "制度の共通点と違いが明確になれば、日欧両市場向けにIoT製品を開発する企業が、設計や適合評価の準備を進めやすくなる。",
     "core_facts": [
@@ -77,8 +134,6 @@
     "featured": true,
     "priority": 2,
     "region": "japan",
-    "edition_date": "2026-11-04",
-    "collected_at": "2026-11-04T17:06:14+09:00",
     "is_sample": false
   },
   {
