@@ -99,7 +99,12 @@ a, button, input { -webkit-tap-highlight-color: transparent; }
 .japan-globe[data-paused="true"] .globe-atmosphere { animation-play-state: paused; }
 @keyframes globe-glow { to { opacity: .55; } }
 .brief-heading h1 { margin: 0; font-size: clamp(36px, 4.5vw, 56px); font-weight: 600; line-height: 1.3; letter-spacing: -.04em; }
-.brief-heading h1 > .blur-text { display: block; }
+.typewriter-title > span { display: block; }
+.typewriter-letter {
+  /* Duplicate stops toggle each letter's opacity and preserve the heading layout. */
+  animation: typewriter-letter var(--typewriter-duration) linear(0, 0 var(--type-at), 1 var(--type-at) var(--erase-at), 0 var(--erase-at), 0) infinite;
+}
+@keyframes typewriter-letter { from { opacity: 0; } to { opacity: 1; } }
 .accent-title { color: var(--muted); }
 .brief-heading .intro { max-width: 610px; margin-top: 24px; font-size: 16px; }
 .edition-stamp { position: relative; padding: 24px; border: 1px solid var(--line); border-radius: 12px; background: var(--bg); min-width: 248px; }
@@ -184,8 +189,6 @@ a, button, input { -webkit-tap-highlight-color: transparent; }
 .brief-actions { display: flex; flex-wrap: wrap; gap: 24px; align-items: center; margin-top: 28px; }
 .brief-search { font-size: 14px; color: var(--muted); padding: 12px 0; }
 .brief-search:hover { color: var(--text); }
-.blur-letter { display: inline-block; animation: blur-reveal 650ms ease-out var(--delay) both; }
-@keyframes blur-reveal { from { filter: blur(6px); opacity: 0; transform: translateY(12px); } to { filter: blur(0); opacity: 1; transform: translateY(0); } }
 .spotlight { position: absolute; pointer-events: none; z-index: -1; width: 84%; height: 169%; left: 34%; top: -45%; opacity: 1; animation: spotlight 2s ease-out both; }
 @keyframes spotlight { from { opacity: 0; transform: translate(-10%, -8%) scale(.8); } to { opacity: 1; transform: translate(0) scale(1); } }
 /* Uiverse.io / adamgiebl / new-bird-34: keep the label readable during the arrow reveal. */
@@ -261,7 +264,7 @@ a, button, input { -webkit-tap-highlight-color: transparent; }
 }
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
-  .blur-letter, .spotlight { animation: none; filter: none; opacity: 1; transform: none; }
+  .typewriter-letter, .spotlight { animation: none; }
   .uiverse-button .button-icon, .uiverse-button svg, .read-link svg, .row-arrow svg, .lead-story { transition: none; }
   .uiverse-button:hover svg, .uiverse-button:focus-visible svg, .read-link:hover svg, .row-arrow:hover svg { transform: none; }
   .japan-globe[data-state] .globe-atmosphere { animation: none; }

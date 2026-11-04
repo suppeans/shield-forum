@@ -35,8 +35,8 @@ test("reading layout stays visible with reduced motion and fits the viewport", a
   await page.emulateMedia({ reducedMotion: "reduce" });
   await page.goto(`/?date=${article.edition_date}`);
   await expect(page.getByRole("heading", { level: 1 })).toHaveAccessibleName(/今日の変化を/);
-  await expect(page.locator(".blur-letter").first()).toHaveCSS("animation-name", "none");
-  await expect(page.locator(".blur-letter").first()).toHaveCSS("opacity", "1");
+  await expect(page.locator(".typewriter-letter").first()).toHaveCSS("animation-name", "none");
+  await expect(page.locator(".typewriter-letter").first()).toHaveCSS("opacity", "1");
   await expect(page.locator(".spotlight")).toHaveAttribute("aria-hidden", "true");
   await page.getByRole("link", { name: "ニュース一覧", exact: true }).click();
   await expect(page).toHaveURL(/#news-feed$/);

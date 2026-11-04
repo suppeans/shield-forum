@@ -5,7 +5,7 @@ The components below are adapted for SHIELD NEWS, rather than installed as whole
 - **React Bits / BlurText**, copyright (c) 2026 David Haz.
   [Source](https://github.com/DavidHDev/react-bits/blob/main/src/ts-default/TextAnimations/BlurText/BlurText.tsx), [demo](https://reactbits.dev/text-animations/blur-text).
   License: MIT + Commons Clause, retained in `licenses/react-bits.txt`.
-  Adaptation: retain character staggering and blur/translate keyframes; use CSS instead of Motion/IntersectionObserver because the heading is already in the initial viewport. Render inline spans for valid heading markup, provide one accessible text equivalent, and honor reduced motion.
+  Adaptation uses character spans for a CSS typing and erasing loop, with one accessible text equivalent and reduced-motion support.
 - **Aceternity UI / Spotlight**, by Manu Arora.
   [Source registry](https://ui.aceternity.com/registry/spotlight.json), [demo](https://ui.aceternity.com/components/spotlight), [terms](https://ui.aceternity.com/licence).
   Adaptation: preserve the elliptical SVG and Gaussian blur; use ordinary CSS, the Mintlify accent, decorative semantics and per-instance React IDs. Respect reduced motion. Uses the public free component, with no paid template or block.

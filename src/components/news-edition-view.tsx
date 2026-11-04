@@ -12,7 +12,7 @@ import { ArticleList } from "./article-list";
 import { CategoryList } from "./category-list";
 import { ArchiveLinks } from "./archive-links";
 import { SampleNotice } from "./sample-notice";
-import { BlurText } from "./blur-text";
+import { TypewriterTitle } from "./typewriter-title";
 import { Spotlight } from "./spotlight";
 import { JapanGlobe } from "./japan-globe";
 type Edition = { date: string; articles: NewsArticle[]; featured: NewsArticle[]; dates: string[]; sample: boolean };
@@ -21,7 +21,7 @@ export function NewsEditionView({ edition, today, category }: { edition: Edition
   const [lead, ...supporting] = edition.featured;
   const last = edition.articles.map((article) => article.collected_at).filter((value): value is string => Boolean(value)).sort((a, b) => Date.parse(b) - Date.parse(a))[0];
   return <main className="page" id="main">
-    <section className="brief-heading"><Spotlight /><div className="brief-intro"><p className="eyebrow"><Radio size={14} aria-hidden="true" />{t("home.label")}</p><h1>{t("home.title").split("\n").map((line, index) => <BlurText key={line} text={line} className={index === 0 ? "" : "accent-title"} />)}</h1><p className="intro">{t("home.description")}</p><div className="brief-actions"><Link className="button uiverse-button" href="#news-feed"><span className="button-label">{t("home.list")}</span><span className="button-icon"><ArrowRight size={18} aria-hidden="true" /></span></Link><Link className="with-icon brief-search" href="/search">{t("nav.search")}<ArrowUpRight size={16} aria-hidden="true" /></Link></div></div>
+    <section className="brief-heading"><Spotlight /><div className="brief-intro"><p className="eyebrow"><Radio size={14} aria-hidden="true" />{t("home.label")}</p><TypewriterTitle text={t("home.title")} /><p className="intro">{t("home.description")}</p><div className="brief-actions"><Link className="button uiverse-button" href="#news-feed"><span className="button-label">{t("home.list")}</span><span className="button-icon"><ArrowRight size={18} aria-hidden="true" /></span></Link><Link className="with-icon brief-search" href="/search">{t("nav.search")}<ArrowUpRight size={16} aria-hidden="true" /></Link></div></div>
       <div className="brief-visual"><JapanGlobe /><div className="edition-stamp"><span className="edition-label">DAILY EDITION</span><strong>{displayDate(edition.date)}</strong><div><span className="status-dot" />{edition.date === today ? t("home.today") : t("home.archive")}<span> / JST</span></div></div></div>
     </section>
     <div className="brief-stats"><span><strong>{String(edition.articles.length).padStart(2, "0")}</strong>{t("home.total")}</span><span><strong>{String(new Set(edition.articles.map((article) => article.source)).size).padStart(2, "0")}</strong>{t("home.sources")}</span>{last && <span className="last-update"><Clock3 size={14} aria-hidden="true" />{t("home.updated")}<time dateTime={last}>{newsTime(last)} JST</time></span>}</div>
