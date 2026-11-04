@@ -1,5 +1,31 @@
 [
   {
+    "id": "gomumari-20261103-receivables-aging",
+    "title": "ゴムマリ、売掛金の滞留を把握するAIサービスを開始",
+    "summary": "ゴムマリは11月3日、売掛金元帳と入金データを照合し、残高を支払期日からの経過期間別に集計する企業向けサービスを始めた。",
+    "category": "dx",
+    "source": "ゴムマリ株式会社",
+    "source_url": "https://prtimes.jp/main/html/rd/p/000000024.000185093.html",
+    "published_at": "2026-11-03T10:00:00+09:00",
+    "published_time_known": true,
+    "image_url": null,
+    "why_it_matters": "経理担当者が回収の遅れを見つけやすくなり、確認が必要な取引を優先して調べられる。",
+    "core_facts": [
+      "経過日数の区分は企業の管理基準に合わせ、外貨建ての残高も換算する。",
+      "残高を経過期間別に示すレポートと、照合できなかった取引の確認用一覧を作成する。"
+    ],
+    "tags": [
+      "経理DX",
+      "売掛金管理"
+    ],
+    "featured": true,
+    "priority": 3,
+    "region": "japan",
+    "edition_date": "2026-11-04",
+    "collected_at": "2026-11-04T08:59:26+09:00",
+    "is_sample": false
+  },
+  {
     "id": "itera-20261103-llmocheki-ai-referral-conversions",
     "title": "Itera、AI検索からの流入と問い合わせを計測する機能を提供",
     "summary": "Iteraは11月3日、分析ツール「LLMOチェキ」に、AI検索経由の訪問と問い合わせなどの成果をサービス別に集計する機能を追加した。",
@@ -8,6 +34,8 @@
     "source_url": "https://prtimes.jp/main/html/rd/p/000000074.000177930.html",
     "published_at": "2026-11-03T11:30:00+09:00",
     "published_time_known": true,
+    "collected_at": "2026-11-04T01:05:36+09:00",
+    "edition_date": "2026-11-04",
     "image_url": null,
     "why_it_matters": "サイト運営者は、AIの回答で引用されるだけでなく、訪問や問い合わせにつながったかを把握しやすくなる。参照元が取得できない流入は集計されないため、数値は参考として扱う必要がある。",
     "core_facts": [
@@ -23,8 +51,6 @@
     "featured": true,
     "priority": 3,
     "region": "japan",
-    "edition_date": "2026-11-04",
-    "collected_at": "2026-11-04T01:05:36+09:00",
     "is_sample": false
   },
   {
