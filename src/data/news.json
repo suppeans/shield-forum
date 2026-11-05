@@ -1,5 +1,33 @@
 [
   {
+    "id": "ai-20261105-aitalk-agent-launch",
+    "title": "エーアイ、ネット接続不要の現場向け音声対話AIを提供",
+    "summary": "エーアイは11月5日、マニュアルを参照して作業者の質問に音声で答える「AITalk Agent」の提供を始めた。音声認識・合成とRAG・LLMを組み合わせ、利用企業の機器内ですべての処理を行う。",
+    "category": "ai",
+    "source": "株式会社エーアイ",
+    "source_url": "https://prtimes.jp/main/html/rd/p/000000190.000099620.html",
+    "published_at": "2026-11-05T11:00:00+09:00",
+    "published_time_known": true,
+    "image_url": null,
+    "why_it_matters": "ネット接続が難しい工場や保守現場で、手を使わずに手順を確認する選択肢になる。機密文書を社外へ送らずに扱いたい企業にも関係する。",
+    "core_facts": [
+      "登録済みのマニュアルや手順書を参照して音声で回答する。",
+      "スマートグラスやインカムとの組み合わせを想定する。",
+      "WindowsとLinuxに対応し、GPU搭載機器を推奨する。"
+    ],
+    "tags": [
+      "音声対話AI",
+      "現場DX",
+      "オンプレミス"
+    ],
+    "featured": true,
+    "priority": 3,
+    "region": "japan",
+    "edition_date": "2026-11-06",
+    "collected_at": "2026-11-06T01:05:26+09:00",
+    "is_sample": false
+  },
+  {
     "id": "1finity-20261104-open-vran-vb5000",
     "title": "1Finity、無線通信とAIを同じGPU基盤で動かすソフトを発表",
     "summary": "富士通グループの1Finityは11月4日、無線アクセス網の処理とAI処理を同じGPU基盤で実行できる「Open vRAN Solutions VB5000」を開発したと発表した。",
@@ -36,6 +64,8 @@
     "source_url": "https://prtimes.jp/main/html/rd/p/000000567.000021207.html",
     "published_at": "2026-11-05T11:00:00+09:00",
     "published_time_known": true,
+    "collected_at": "2026-11-05T17:02:00+09:00",
+    "edition_date": "2026-11-05",
     "image_url": null,
     "why_it_matters": "脆弱性の件数や深刻度だけでなく、業務システムに到達する攻撃経路を踏まえて修正の優先順位を決める助けになる。",
     "core_facts": [
@@ -50,8 +80,6 @@
     "featured": true,
     "priority": 2,
     "region": "japan",
-    "edition_date": "2026-11-05",
-    "collected_at": "2026-11-05T17:02:00+09:00",
     "is_sample": false
   },
   {
@@ -145,6 +173,8 @@
     "source_url": "https://www.renesas.com/ja/about/newsroom/new-rzt2n-mpu-integrates-motor-control-industrial-ethernet-and-application-processing-robots-and",
     "published_at": "2026-11-05T00:00:00+09:00",
     "published_time_known": false,
+    "collected_at": "2026-11-05T17:02:00+09:00",
+    "edition_date": "2026-11-05",
     "image_url": null,
     "why_it_matters": "ロボットや工場設備の開発で、複数チップの接続やソフトウェア統合にかかる手間を減らす選択肢になる。",
     "core_facts": [
@@ -160,8 +190,6 @@
     "featured": true,
     "priority": 2,
     "region": "japan",
-    "edition_date": "2026-11-05",
-    "collected_at": "2026-11-05T17:02:00+09:00",
     "is_sample": false
   },
   {
@@ -173,6 +201,8 @@
     "source_url": "https://www.wogo.ai/release/hacadly-ai-agent-launch/",
     "published_at": "2026-11-05T00:00:00+09:00",
     "published_time_known": false,
+    "collected_at": "2026-11-05T17:02:00+09:00",
+    "edition_date": "2026-11-05",
     "image_url": null,
     "why_it_matters": "国内の製造業で、過去の2D図面や取引先のCADデータを設計変更に使う作業を効率化する選択肢になる。",
     "core_facts": [
@@ -188,8 +218,6 @@
     "featured": true,
     "priority": 2,
     "region": "japan",
-    "edition_date": "2026-11-05",
-    "collected_at": "2026-11-05T17:02:00+09:00",
     "is_sample": false
   },
   {
