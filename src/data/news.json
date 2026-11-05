@@ -8,6 +8,8 @@
     "source_url": "https://www.1finity.co.jp/newsroom/press-release/ai-native-vran-solution",
     "published_at": "2026-11-04T00:00:00+09:00",
     "published_time_known": false,
+    "collected_at": "2026-11-05T09:06:06+09:00",
+    "edition_date": "2026-11-05",
     "image_url": null,
     "why_it_matters": "通信事業者が通信とAIの設備を共用し、企業向けのプライベート無線網とAI処理を組み合わせる選択肢が広がる。",
     "core_facts": [
@@ -23,8 +25,33 @@
     "featured": true,
     "priority": 2,
     "region": "japan",
+    "is_sample": false
+  },
+  {
+    "id": "checkpoint-japan-20261105-aev-team",
+    "title": "チェック・ポイント、日本向けにAIを用いた攻撃経路の検証を支援",
+    "summary": "チェック・ポイントは11月5日、日本に専任チームを設け、組織の弱点が実際の侵害に結び付くかを検証する取り組みを発表した。",
+    "category": "security",
+    "source": "チェック・ポイント・ソフトウェア・テクノロジーズ株式会社",
+    "source_url": "https://prtimes.jp/main/html/rd/p/000000567.000021207.html",
+    "published_at": "2026-11-05T11:00:00+09:00",
+    "published_time_known": true,
+    "image_url": null,
+    "why_it_matters": "脆弱性の件数や深刻度だけでなく、業務システムに到達する攻撃経路を踏まえて修正の優先順位を決める助けになる。",
+    "core_facts": [
+      "国内で事業を行う組織向けに、期間限定でAEVアセスメントを無償提供する。",
+      "AIエージェントで攻撃者の行動を模擬し、設定ミスや漏えい認証情報などがどう組み合わされるかを検証する。"
+    ],
+    "tags": [
+      "脆弱性管理",
+      "攻撃経路",
+      "セキュリティ検証"
+    ],
+    "featured": true,
+    "priority": 2,
+    "region": "japan",
     "edition_date": "2026-11-05",
-    "collected_at": "2026-11-05T09:06:06+09:00",
+    "collected_at": "2026-11-05T17:02:00+09:00",
     "is_sample": false
   },
   {
@@ -64,6 +91,8 @@
     "source_url": "https://prtimes.jp/main/html/rd/p/000000409.000053429.html",
     "published_at": "2026-11-04T11:00:00+09:00",
     "published_time_known": true,
+    "collected_at": "2026-11-05T09:06:06+09:00",
+    "edition_date": "2026-11-05",
     "image_url": null,
     "why_it_matters": "漏えいした認証情報や公開資産の弱点を早期に把握し、アクセス制限などの具体策につなげる選択肢になる。",
     "core_facts": [
@@ -78,8 +107,6 @@
     "featured": true,
     "priority": 2,
     "region": "japan",
-    "edition_date": "2026-11-05",
-    "collected_at": "2026-11-05T09:06:06+09:00",
     "is_sample": false
   },
   {
@@ -107,6 +134,62 @@
     "featured": true,
     "priority": 3,
     "region": "japan",
+    "is_sample": false
+  },
+  {
+    "id": "renesas-20261105-rzt2n-mpu",
+    "title": "ルネサス、モータ制御と通信を統合した産業用MPUを量産開始",
+    "summary": "ルネサスは11月5日、モータ制御、産業用イーサネット、Linuxアプリケーション処理を1チップに集約した「RZ/T2N」を発売し、量産を始めたと発表した。",
+    "category": "semiconductors",
+    "source": "ルネサスエレクトロニクス株式会社",
+    "source_url": "https://www.renesas.com/ja/about/newsroom/new-rzt2n-mpu-integrates-motor-control-industrial-ethernet-and-application-processing-robots-and",
+    "published_at": "2026-11-05T00:00:00+09:00",
+    "published_time_known": false,
+    "image_url": null,
+    "why_it_matters": "ロボットや工場設備の開発で、複数チップの接続やソフトウェア統合にかかる手間を減らす選択肢になる。",
+    "core_facts": [
+      "最大4軸のモータ制御に対応する。",
+      "EtherCATやPROFINETなどの産業用通信と、Linuxでのアプリケーション処理を支援する。",
+      "セキュアブートや安全なファームウェア更新をサポートする。"
+    ],
+    "tags": [
+      "産業用半導体",
+      "ロボット",
+      "組込み開発"
+    ],
+    "featured": true,
+    "priority": 2,
+    "region": "japan",
+    "edition_date": "2026-11-05",
+    "collected_at": "2026-11-05T17:02:00+09:00",
+    "is_sample": false
+  },
+  {
+    "id": "wogo-20261105-hacadly-agent",
+    "title": "WOGO、図面から3Dモデルを作る設計支援AIを提供",
+    "summary": "WOGOは11月5日、対話による指示で図面やCADデータの読み取り、生成、照合、修正を行う「Hacadly AIエージェント」の提供を始めた。",
+    "category": "dx",
+    "source": "株式会社WOGO",
+    "source_url": "https://www.wogo.ai/release/hacadly-ai-agent-launch/",
+    "published_at": "2026-11-05T00:00:00+09:00",
+    "published_time_known": false,
+    "image_url": null,
+    "why_it_matters": "国内の製造業で、過去の2D図面や取引先のCADデータを設計変更に使う作業を効率化する選択肢になる。",
+    "core_facts": [
+      "2D図面からSTEP形式の3Dモデルを生成する。",
+      "履歴のない3Dデータから、寸法を編集できる新たな形状構成を再構築する。",
+      "ユーザー端末に導入するソフトとして提供し、料金や対応環境は個別案内となる。"
+    ],
+    "tags": [
+      "設計DX",
+      "CAD",
+      "AIエージェント"
+    ],
+    "featured": true,
+    "priority": 2,
+    "region": "japan",
+    "edition_date": "2026-11-05",
+    "collected_at": "2026-11-05T17:02:00+09:00",
     "is_sample": false
   },
   {
