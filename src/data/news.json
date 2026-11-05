@@ -1,5 +1,33 @@
 [
   {
+    "id": "1finity-20261104-open-vran-vb5000",
+    "title": "1Finity、無線通信とAIを同じGPU基盤で動かすソフトを発表",
+    "summary": "富士通グループの1Finityは11月4日、無線アクセス網の処理とAI処理を同じGPU基盤で実行できる「Open vRAN Solutions VB5000」を開発したと発表した。",
+    "category": "development",
+    "source": "1FINITY株式会社",
+    "source_url": "https://www.1finity.co.jp/newsroom/press-release/ai-native-vran-solution",
+    "published_at": "2026-11-04T00:00:00+09:00",
+    "published_time_known": false,
+    "image_url": null,
+    "why_it_matters": "通信事業者が通信とAIの設備を共用し、企業向けのプライベート無線網とAI処理を組み合わせる選択肢が広がる。",
+    "core_facts": [
+      "NVIDIAのGPU基盤で無線アクセス網とAIの処理を実行できる。",
+      "O-RAN準拠の無線装置とともに2026年12月から世界で提供する予定。",
+      "2027年度に通信事業者と実地検証を行う計画。"
+    ],
+    "tags": [
+      "Open RAN",
+      "GPU",
+      "通信インフラ"
+    ],
+    "featured": true,
+    "priority": 2,
+    "region": "japan",
+    "edition_date": "2026-11-05",
+    "collected_at": "2026-11-05T09:06:06+09:00",
+    "is_sample": false
+  },
+  {
     "id": "e-guardian-20261104-ip-misuse-monitoring-beta",
     "title": "イー・ガーディアン、キャラクターの無断改変などを監視するサービスを試験提供",
     "summary": "イー・ガーディアンは11月4日、作品やキャラクターの権利を持つ企業向けに、生成AIによる改変や無断転載の疑いがある投稿を探す監視サービスのベータ版を始めた。",
@@ -8,6 +36,8 @@
     "source_url": "https://digitalpr.jp/r/147387",
     "published_at": "2026-11-04T15:30:00+09:00",
     "published_time_known": true,
+    "collected_at": "2026-11-05T00:58:07+09:00",
+    "edition_date": "2026-11-05",
     "image_url": null,
     "why_it_matters": "国内のゲームやアニメの権利者が、多言語で拡散する投稿を調べ、限られた人員で対応の優先順位を付ける助けになる。",
     "core_facts": [
@@ -23,8 +53,33 @@
     "featured": true,
     "priority": 3,
     "region": "japan",
+    "is_sample": false
+  },
+  {
+    "id": "hitachi-solutions-20261104-kela-defense",
+    "title": "日立ソリューションズ、KELAの脅威情報を活用する防御サービスを発表",
+    "summary": "日立ソリューションズは11月4日、KELAとの販売代理店契約を発表した。脅威情報を分析し、対策の優先順位付けを支援するサービスを11月5日から提供するとしている。",
+    "category": "security",
+    "source": "株式会社日立ソリューションズ",
+    "source_url": "https://prtimes.jp/main/html/rd/p/000000409.000053429.html",
+    "published_at": "2026-11-04T11:00:00+09:00",
+    "published_time_known": true,
+    "image_url": null,
+    "why_it_matters": "漏えいした認証情報や公開資産の弱点を早期に把握し、アクセス制限などの具体策につなげる選択肢になる。",
+    "core_facts": [
+      "ダークウェブの脅威情報、自社の公開資産、取引先のリスクを一つの画面にまとめる。",
+      "検出した情報はSIEMやEDRなどと連携でき、日立ソリューションズの担当者が分析を支援する。"
+    ],
+    "tags": [
+      "脅威インテリジェンス",
+      "認証情報",
+      "サプライチェーン"
+    ],
+    "featured": true,
+    "priority": 2,
+    "region": "japan",
     "edition_date": "2026-11-05",
-    "collected_at": "2026-11-05T00:58:07+09:00",
+    "collected_at": "2026-11-05T09:06:06+09:00",
     "is_sample": false
   },
   {
@@ -36,6 +91,8 @@
     "source_url": "https://prtimes.jp/main/html/rd/p/000000124.000045365.html",
     "published_at": "2026-11-04T11:00:00+09:00",
     "published_time_known": true,
+    "collected_at": "2026-11-05T00:58:07+09:00",
+    "edition_date": "2026-11-05",
     "image_url": null,
     "why_it_matters": "複数のクラウドを運用する企業が、設定や権限の問題を個別に追う手間を減らし、修正の優先順位を付けるための選択肢になる。",
     "core_facts": [
@@ -50,8 +107,6 @@
     "featured": true,
     "priority": 3,
     "region": "japan",
-    "edition_date": "2026-11-05",
-    "collected_at": "2026-11-05T00:58:07+09:00",
     "is_sample": false
   },
   {
