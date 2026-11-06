@@ -62,7 +62,6 @@ a, button, input { -webkit-tap-highlight-color: transparent; }
 .article-link:focus-visible { outline: none; }
 .article-link:focus-visible::after { outline: 2px solid var(--primary-active); outline-offset: -2px; }
 .list-item a:not(.article-link), .lead-story a:not(.article-link), .list-item button, .lead-story button { position: relative; z-index: 2; }
-.list-item:hover .item-title a { text-decoration: underline; text-decoration-color: var(--primary); text-underline-offset: 5px; }
 .news-row-content { min-width: 0; flex: 1; }
 .row-number { font-size: 13px; font-variant-numeric: tabular-nums; color: var(--muted); padding-top: 2px; }
 .item-kicker, .item-meta { flex-wrap: wrap; gap: 8px 12px; color: var(--muted); font-size: 12px; line-height: 1.6; }
@@ -162,7 +161,6 @@ a, button, input { -webkit-tap-highlight-color: transparent; }
 .lead-visual img { object-fit: cover; }
 .lead-copy { padding: 32px; }
 .lead-copy h2 { font-size: 28px; line-height: 1.5; font-weight: 600; margin: 16px 0; }
-.lead-copy h2 a:hover { text-decoration: underline; text-decoration-color: var(--primary); text-underline-offset: 5px; }
 .why-inline { border-left: 2px solid var(--primary); padding-left: 12px; margin-bottom: 20px; }
 .why-inline > span { color: var(--text); font-size: 10px; font-weight: 600; }
 .why-inline p { font-size: 13px; color: var(--muted); margin: 6px 0 0; line-height: 1.75; }
