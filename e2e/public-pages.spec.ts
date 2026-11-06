@@ -5,9 +5,17 @@ const article = news.filter((item) => !item.is_sample).sort((a, b) => b.edition_
 test("news brief links to attributed detail, category and date archives", async ({ page }) => {
   await page.goto(`/?date=${article.edition_date}`);
   await expect(page.getByRole("heading", { level: 1 })).toContainText("今日の変化を");
+  await page.evaluate(() => document.addEventListener("pointerdown", () => {
+    document.body.dataset.articleClickY = String(window.scrollY);
+  }, { once: true, capture: true }));
   await page.locator("#news-feed").getByRole("link", { name: article.title, exact: true }).click();
+  const sourceScrollY = await page.evaluate(() => Number(document.body.dataset.articleClickY));
   await expect(page.getByRole("heading", { name: "主な事実" })).toBeVisible();
   await expect(page.getByRole("link", { name: "原文を読む" })).toHaveAttribute("href", article.source_url);
+  await page.locator(".back-link").click();
+  await expect(page).toHaveURL(new RegExp(`date=${article.edition_date}$`));
+  await expect(page.locator("#news-feed")).toBeVisible();
+  await expect.poll(async () => Math.abs(await page.evaluate(() => scrollY) - sourceScrollY)).toBeLessThan(4);
   await page.goto(`/?date=${article.edition_date}&category=${article.category}`);
   await expect(page.locator("#news-feed").getByRole("heading", { name: article.title, exact: true })).toBeVisible();
   await page.goto(`/search?q=${encodeURIComponent(article.title)}`);

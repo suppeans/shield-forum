@@ -1,5 +1,4 @@
 "use client";
-import Link from "next/link";
 import Image from "next/image";
 import { ArrowLeft, ArrowUpRight } from "lucide-react";
 import { translatedCategoryName } from "@/lib/i18n";
@@ -12,10 +11,11 @@ import { SampleNotice } from "./sample-notice";
 import { useLanguage } from "./language-provider";
 import { toTags, type NewsArticle } from "@/lib/types";
 import { newsTime, displayDate } from "@/lib/news-date";
+import { ArticleBackLink } from "./article-navigation";
 export function ArticleDetailView({ article: original, related }: { article: NewsArticle; related: NewsArticle[] }) {
   const { t, language } = useLanguage();
   const { article, status, retry, contentLanguage, ref } = useArticleTranslation(original);
-  return <main className="page article-page" id="main" ref={ref}><Link className="back-link" href={`/?date=${article.edition_date}`}><ArrowLeft size={16} aria-hidden="true" />{t("common.back")}</Link>
+  return <main key={original.id} className="page article-page" id="main" ref={ref}><ArticleBackLink articleHref={`/news/${original.id}`} fallbackHref={`/?date=${article.edition_date}`}><ArrowLeft size={16} aria-hidden="true" />{t("common.back")}</ArticleBackLink>
     {article.is_sample && <SampleNotice />}
     <TranslationStatus status={status} retry={retry} /><div lang={contentLanguage}><PageHeading label={translatedCategoryName(article.category, language)} title={article.title} description={article.summary} /></div>
     <div className="detail-meta"><span>{t("news.edition")}: <time dateTime={article.edition_date}>{displayDate(article.edition_date)}</time></span><span>{t("news.published")}: <time dateTime={article.published_at}>{newsTime(article.published_at, article.published_time_known)} JST</time></span><span>{article.source}</span></div>
