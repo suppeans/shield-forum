@@ -8,6 +8,8 @@
     "source_url": "https://prtimes.jp/main/html/rd/p/000000190.000099620.html",
     "published_at": "2026-11-05T11:00:00+09:00",
     "published_time_known": true,
+    "collected_at": "2026-11-06T01:05:26+09:00",
+    "edition_date": "2026-11-06",
     "image_url": null,
     "why_it_matters": "ネット接続が難しい工場や保守現場で、手を使わずに手順を確認する選択肢になる。機密文書を社外へ送らずに扱いたい企業にも関係する。",
     "core_facts": [
@@ -23,8 +25,66 @@
     "featured": true,
     "priority": 3,
     "region": "japan",
+    "is_sample": false
+  },
+  {
+    "id": "ipa-20261105-ai-requirements-handbook",
+    "title": "IPA、「AI時代の要求管理ハンドブック」初版を公開",
+    "summary": "IPAは11月5日、「AI時代の要求管理ハンドブック」Ver.1.0.0を公開した。経営や現場が目指す価値を要求・要件へ落とし込み、設計から評価、運用まで継続して管理する考え方を整理している。",
+    "category": "development",
+    "source": "情報処理推進機構（IPA）",
+    "source_url": "https://www.ipa.go.jp/digital/kaihatsu/youkyu-kanri.html",
+    "published_at": "2026-11-05T00:00:00+09:00",
+    "published_time_known": false,
+    "image_url": null,
+    "why_it_matters": "国内のAI導入案件では、開発部門だけでなく事業部門や法務、調達との認識合わせが欠かせない。目的や評価条件を共有し、変更時に影響を追えるようにするための実務資料として活用できる。",
+    "core_facts": [
+      "IPAは2026年11月5日、同ハンドブックのVer.1.0.0をPDFで公開した。",
+      "AIの不確実性、データ品質、人とAIの役割分担を要求・要件として整理する考え方を扱う。",
+      "要求管理の基礎、AIによる変化、モデル化と追跡可能性、法令等との接続、組織への定着の5部で構成する。",
+      "開発者に加え、経営、事業、業務改革、法務、調達など幅広い関係者を想定読者としている。"
+    ],
+    "tags": [
+      "IPA",
+      "要求管理",
+      "AI開発",
+      "ソフトウェア開発"
+    ],
+    "featured": true,
+    "priority": 2,
+    "region": "japan",
     "edition_date": "2026-11-06",
-    "collected_at": "2026-11-06T01:05:26+09:00",
+    "collected_at": "2026-11-06T09:08:12+09:00",
+    "is_sample": false
+  },
+  {
+    "id": "kela-20261105-control-platform-update",
+    "title": "KELA、脅威調査基盤「CONTROL」の企業向け提供と6つの新機能を発表",
+    "summary": "KELA日本法人は、脅威情報やネットワークトラフィック、顧客データを横断して調査する「KELA CONTROL」の企業向け提供を開始した。専門家による運用サービスも提供し、CTI製品群にはAI調査やMCP連携など6つの新機能を順次展開する。",
+    "category": "security",
+    "source": "KELA株式会社",
+    "source_url": "https://www.atpress.ne.jp/news/646110",
+    "published_at": "2026-11-05T11:00:00+09:00",
+    "published_time_known": true,
+    "image_url": null,
+    "why_it_matters": "国内企業のセキュリティ部門にとって、外部の脅威情報と自社データを結び付け、対応の優先順位を判断する選択肢が増える。導入時には、早期アクセスの機能と通常提供の機能を区別して運用範囲を確認したい。",
+    "core_facts": [
+      "KELA日本法人は11月5日、KELA CONTROLの企業向け提供開始とCTI製品群の6つの新機能を発表した。",
+      "CONTROLは、11年以上蓄積した脅威情報、グローバルなネットワークトラフィック、顧客独自のデータを統合する。",
+      "CICの専門家が顧客に代わってCONTROLを運用し、優先順位付きの調査結果と推奨対応策を提供するサービスも開始する。",
+      "新機能はAI調査、ブランド保護分析、IoC調査、脆弱性情報、MCP連携、SOAR機能を含む。順次提供中で、KELA AIは早期アクセス版となる。"
+    ],
+    "tags": [
+      "脅威インテリジェンス",
+      "サイバー防御",
+      "AIエージェント",
+      "MCP"
+    ],
+    "featured": true,
+    "priority": 2,
+    "region": "japan",
+    "edition_date": "2026-11-06",
+    "collected_at": "2026-11-06T09:08:12+09:00",
     "is_sample": false
   },
   {
