@@ -1,5 +1,35 @@
 [
   {
+    "id": "kong-hitachi-20261106-api-partnership",
+    "title": "Kongと日立製作所、製造・金融分野のAI活用を支えるAPI基盤で協業",
+    "summary": "Kong日本法人は11月6日、日立製作所とのパートナー契約を発表した。日立のOSS活用やシステム構築の知見とKongのAPI管理技術を組み合わせ、製造現場と業務システムの連携や、金融分野でのAI利用の統制を支援する。",
+    "category": "business",
+    "source": "Kong株式会社",
+    "source_url": "https://prtimes.jp/main/html/rd/p/000000084.000129151.html",
+    "published_at": "2026-11-06T11:00:00+09:00",
+    "published_time_known": true,
+    "image_url": null,
+    "why_it_matters": "日本企業がAIを実業務につなげるには、既存システムとの接続や認証、アクセス権限の管理も必要になる。製造業のOTとITの連携、金融機関の監査対応を含めた基盤整備の選択肢となる。",
+    "core_facts": [
+      "Kong日本法人は2026年11月6日、日本市場のAI活用とAPI基盤整備を支援するため、日立製作所とのパートナー契約を発表した。",
+      "製造業では設備・センサーと業務システム、AIサービスを結ぶ基盤を想定し、認証、アクセス制御、通信量の制御、利用状況の可視化を支援する。",
+      "金融分野ではAPIの統合管理とセキュリティポリシーの適用を通じ、既存システムとAIサービスの連携を支援する。",
+      "Kong Gateway、Konnect、AI Gateway、Insomniaなど全製品・サービスを対象とし、今後は共同提案や技術検証でユースケースを具体化する。"
+    ],
+    "tags": [
+      "API管理",
+      "企業間協業",
+      "フィジカルAI",
+      "システム連携"
+    ],
+    "featured": true,
+    "priority": 3,
+    "region": "japan",
+    "edition_date": "2026-11-06",
+    "collected_at": "2026-11-06T17:04:21+09:00",
+    "is_sample": false
+  },
+  {
     "id": "ai-20261105-aitalk-agent-launch",
     "title": "エーアイ、ネット接続不要の現場向け音声対話AIを提供",
     "summary": "エーアイは11月5日、マニュアルを参照して作業者の質問に音声で答える「AITalk Agent」の提供を始めた。音声認識・合成とRAG・LLMを組み合わせ、利用企業の機器内ですべての処理を行う。",
