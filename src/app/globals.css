@@ -57,6 +57,11 @@ a, button, input { -webkit-tap-highlight-color: transparent; }
 .content-list, .stack { display: grid; gap: 0; }
 .list-item { display: flex; align-items: flex-start; gap: 20px; border-bottom: 1px solid var(--line); padding: 26px 0; min-width: 0; }
 .list-item:first-child { padding-top: 0; }
+.list-item, .lead-story { position: relative; isolation: isolate; }
+.article-link::after { content: ""; position: absolute; inset: 0; z-index: 1; }
+.article-link:focus-visible { outline: none; }
+.article-link:focus-visible::after { outline: 2px solid var(--primary-active); outline-offset: -2px; }
+.list-item a:not(.article-link), .lead-story a:not(.article-link), .list-item button, .lead-story button { position: relative; z-index: 2; }
 .list-item:hover .item-title a { text-decoration: underline; text-decoration-color: var(--primary); text-underline-offset: 5px; }
 .news-row-content { min-width: 0; flex: 1; }
 .row-number { font-size: 13px; font-variant-numeric: tabular-nums; color: var(--muted); padding-top: 2px; }

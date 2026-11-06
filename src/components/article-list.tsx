@@ -21,7 +21,7 @@ function ArticleRow({ original, index, compact }: { original: NewsArticle; index
   return <article className="list-item" lang={contentLanguage} ref={ref}>
     <span className="row-number">{String(index + 1).padStart(2, "0")}</span>
     <div className="news-row-content"><div className="item-kicker"><Link href={`/?date=${article.edition_date}&category=${article.category}#news-feed`} className="category-label">{translatedCategoryName(article.category, language)}</Link><span>{article.source}</span><time dateTime={article.published_at}>{newsTime(article.published_at, article.published_time_known)} JST</time>{article.is_sample && <span className="sample-label">{t("news.sample")}</span>}</div>
-      <TranslationStatus status={status} retry={retry} /><h2 className="item-title"><Link href={`/news/${article.id}`}>{article.title}</Link></h2><p>{article.summary}</p>
+      <TranslationStatus status={status} retry={retry} /><h2 className="item-title"><Link className="article-link" href={`/news/${article.id}`}>{article.title}</Link></h2><p>{article.summary}</p>
       <div className="why-inline"><span>{t("news.why")}</span><p>{article.why_it_matters}</p></div>
       {!compact && <TagCloud tags={toTags(original.tags).map((tag, i) => ({ ...tag, name: article.tags[i] }))} />}
     </div>

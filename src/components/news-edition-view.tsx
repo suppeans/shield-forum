@@ -40,6 +40,6 @@ function LeadStory({ original }: { original: NewsArticle }) {
   const { article: lead, status, retry, contentLanguage, ref } = useArticleTranslation(original);
   return <article className="lead-story" lang={contentLanguage} ref={ref}>{lead.image_url && <div className="lead-visual"><Image src={lead.image_url} alt="" fill unoptimized sizes="(max-width: 768px) 100vw, 60vw" /></div>}
         <div className="lead-copy"><div className="item-kicker"><span className="category-label">{translatedCategoryName(lead.category, language)}</span><span>{lead.source}</span><time dateTime={lead.published_at}>{newsTime(lead.published_at, lead.published_time_known)} JST</time></div>
-          <TranslationStatus status={status} retry={retry} /><h2><Link href={`/news/${lead.id}`}>{lead.title}</Link></h2><p>{lead.summary}</p><div className="why-inline"><span>{t("news.why")}</span><p>{lead.why_it_matters}</p></div><Link className="read-link" href={`/news/${lead.id}`}>{t("news.read")}<ArrowUpRight size={17} aria-hidden="true" /></Link>
+          <TranslationStatus status={status} retry={retry} /><h2><Link className="article-link" href={`/news/${lead.id}`}>{lead.title}</Link></h2><p>{lead.summary}</p><div className="why-inline"><span>{t("news.why")}</span><p>{lead.why_it_matters}</p></div><Link className="read-link" href={`/news/${lead.id}`}>{t("news.read")}<ArrowUpRight size={17} aria-hidden="true" /></Link>
         </div></article>;
 }
