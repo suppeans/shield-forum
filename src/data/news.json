@@ -1,5 +1,36 @@
 [
   {
+    "id": "yamaha-20261106-ysl-clddns",
+    "title": "ヤマハ、ルーター向けDNSセキュリティー拡張ライセンスを11月17日に発売",
+    "summary": "ヤマハは11月6日、RTX840とRTX1300にDNS通信の監視・制御を追加する「YSL-CLDDNS」を発表した。11月17日に発売予定で、クラウド上の脅威情報と連携して不正な通信先へのアクセスを抑止する。",
+    "category": "security",
+    "source": "ヤマハ株式会社",
+    "source_url": "https://www.yamaha.com/ja/news_release/2026/26110602/",
+    "published_at": "2026-11-06T00:00:00+09:00",
+    "published_time_known": false,
+    "image_url": null,
+    "why_it_matters": "専任のセキュリティー担当者を置きにくい国内の中小企業やSOHOにとって、既存ルーターに防御機能を追加する選択肢になる。対象外の通信方式を確認し、端末側の保護などと組み合わせる運用が重要になる。",
+    "core_facts": [
+      "ヤマハは2026年11月6日、DNSセキュリティー拡張ライセンス「YSL-CLDDNS」を同月17日に発売すると発表した。",
+      "対応機種はRTX840とRTX1300で、利用には11月17日公開予定の最新ファームウェアへの更新が必要となる。",
+      "ルーター配下のDNSトラフィックをクラウドのヤマハセキュリティーサーバーと連携して監視・制御し、設定や状態確認はWeb GUIとCLIから行える。",
+      "対象はDNSのUDP/53。TCP/53、DoH、DoT、DNSSECは対象外と明記している。",
+      "1年ライセンスの税込価格はRTX840向けが33,000円、RTX1300向けが99,000円。5年ライセンスも用意する。"
+    ],
+    "tags": [
+      "DNSセキュリティー",
+      "ルーター",
+      "中小企業",
+      "多層防御"
+    ],
+    "featured": true,
+    "priority": 2,
+    "region": "japan",
+    "edition_date": "2026-11-07",
+    "collected_at": "2026-11-07T17:05:16+09:00",
+    "is_sample": false
+  },
+  {
     "id": "nec-20261105-cotomi-gateway",
     "title": "NEC、機密情報の保護とAI利用コストの最適化を支援する「cotomi Gateway」を発表",
     "summary": "NECは11月5日、AIモデルの自動選択やプロンプト圧縮、機密情報のマスキングを行う「cotomi Gateway」を発表した。ソフトウェア版を11月から提供し、その後SaaSとして順次展開する。",
