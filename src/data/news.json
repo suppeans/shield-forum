@@ -1,5 +1,61 @@
 [
   {
+    "id": "mitsuichemicals-20261109-jsr-acquisition-agreement",
+    "title": "三井化学、JSR買収の契約を締結　2027年度下半期の実行を目指す",
+    "summary": "三井化学は11月9日、半導体材料を手掛けるJSRの連結子会社化に向け、株式譲渡契約を締結したと発表した。日本政策投資銀行と共同出資し、先端材料の開発・供給体制の強化を図る。",
+    "category": "semiconductors",
+    "source": "三井化学",
+    "source_url": "https://jp.mitsuichemicals.com/content/dam/mitsuichemicals/sites/mci/documents/release/2026/261109.pdf",
+    "published_at": "2026-11-09T00:00:00+09:00",
+    "published_time_known": false,
+    "image_url": null,
+    "why_it_matters": "国内の半導体材料の事業基盤が再編される動きになる。フォトレジストと周辺材料の技術を組み合わせる方針は、半導体メーカーの調達や研究開発の連携にも関係する。",
+    "core_facts": [
+      "11月9日の取締役会で決議し、JIC系ファンドとの株式譲渡契約と、日本政策投資銀行との株主間契約を締結した。",
+      "競争法や外資規制などの手続き完了が条件で、取引はまだ完了していない。実行目標は2027年度下半期。",
+      "取引完了後はJSRをICT領域の中核とし、研究開発、人材、設備への投資を進める方針。"
+    ],
+    "tags": [
+      "半導体材料",
+      "企業買収",
+      "研究開発"
+    ],
+    "featured": true,
+    "priority": 1,
+    "region": "japan",
+    "edition_date": "2026-11-10",
+    "collected_at": "2026-11-10T01:06:38+09:00",
+    "is_sample": false
+  },
+  {
+    "id": "generativex-20261109-patrol-ai",
+    "title": "GenerativeX、SaaSの脆弱性対応を修正確認まで追う「Patrol.ai」を開始",
+    "summary": "GenerativeXは11月9日、利用するSaaSや社内・受託開発システムの脆弱性対応を継続して追跡するサービスを発表した。公開情報と事業者への照会をもとに、対応状況を報告する。",
+    "category": "security",
+    "source": "GenerativeX",
+    "source_url": "https://gen-x.co.jp/news/news20261109",
+    "published_at": "2026-11-09T00:00:00+09:00",
+    "published_time_known": false,
+    "image_url": null,
+    "why_it_matters": "国内企業の委託先管理では、契約時の質問票だけでは導入後の修正状況を追いにくい。継続的な照会と記録を運用に組み込む選択肢になるが、確認結果の範囲や事業者の協力状況を踏まえて利用する必要がある。",
+    "core_facts": [
+      "OSVやCISA KEVなどの既知の脆弱性情報と公開情報を照合し、関係する可能性がある事業者へ確認する。",
+      "修正を確認するまで追跡し、対応状況や所要日数を月次報告する。重大な脆弱性に関わる可能性は緊急連絡する。",
+      "対象への攻撃や負荷を伴う検査は行わず、安全性の点数ではなく5段階の確認レベルで示す。"
+    ],
+    "tags": [
+      "脆弱性管理",
+      "SaaS",
+      "委託先管理"
+    ],
+    "featured": true,
+    "priority": 2,
+    "region": "japan",
+    "edition_date": "2026-11-10",
+    "collected_at": "2026-11-10T01:06:38+09:00",
+    "is_sample": false
+  },
+  {
     "id": "rohto-20261106-customer-data-investigation",
     "title": "ロート製薬、漏えい対象約280万人と公表　通話録音の一部にカード情報",
     "summary": "ロート製薬は11月6日、9月に確認した不正アクセスの調査結果と対応状況を公表した。電話システムのアカウントが不正利用され、顧客管理システムの情報も同システム経由で取得されたとしている。",
