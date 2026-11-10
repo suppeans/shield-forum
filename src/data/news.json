@@ -1,5 +1,93 @@
 [
   {
+    "id": "renesas-20261110-xplore-developer-hub",
+    "title": "ルネサス、Renesas 365に組み込み開発用「Xplore」を追加",
+    "summary": "ルネサスは11月10日、クラウド開発基盤Renesas 365でXploreの提供開始を発表した。RAマイコンボードと用途別のソフトウェアを組み合わせ、ブラウザ上で試作を進められる。",
+    "category": "development",
+    "source": "ルネサス エレクトロニクス",
+    "source_url": "https://www.renesas.com/ja/about/newsroom/xplore-developer-hub-accelerates-path-discovery-design-application-oriented-software-building-blocks",
+    "published_at": "2026-11-10T00:00:00+09:00",
+    "published_time_known": false,
+    "image_url": null,
+    "why_it_matters": "国内の組み込み開発チームにとって、部品選定と試作環境の準備をまとめて進める選択肢になる。既存の開発資産との接続や対応デバイスを確認して活用したい。",
+    "core_facts": [
+      "RAマイコン向けに提供を開始し、開発ボードの価格は12米ドルから。",
+      "100種類を超える用途別ソフトウェアを開発環境内で検索・利用できる。",
+      "クラウド上のワークスペースでIDEや設計フローを共有でき、インストールは不要。",
+      "対応マイコン・MPUの拡充やAI支援型の開発フローは今後の計画。"
+    ],
+    "tags": [
+      "組み込み開発",
+      "ルネサス",
+      "マイコン",
+      "クラウド開発"
+    ],
+    "featured": true,
+    "priority": 2,
+    "region": "japan",
+    "edition_date": "2026-11-10",
+    "collected_at": "2026-11-10T17:03:57+09:00",
+    "is_sample": false
+  },
+  {
+    "id": "gsx-20261110-hokuden-kel-cyber-support",
+    "title": "GSX・ほくでん情報・KEL、北海道企業のサイバー対策から復旧まで連携",
+    "summary": "GSXなど3社は11月10日、北海道の企業向けに予防から被害調査・復旧までを支えるサービスを開始した。まずほくでん情報テクノロジーの顧客を中心に提案し、対象を順次広げる。",
+    "category": "security",
+    "source": "GSX（PR TIMES掲載の企業発表）",
+    "source_url": "https://prtimes.jp/main/html/rd/p/000000212.000007157.html",
+    "published_at": "2026-11-10T10:14:00+09:00",
+    "published_time_known": true,
+    "image_url": null,
+    "why_it_matters": "地域の相談窓口と調査・インフラ復旧の専門家がつながることで、道内企業が平時から有事までの対応体制を整えやすくなる。",
+    "core_facts": [
+      "GSX、ほくでん情報テクノロジー、兼松エレクトロニクスの3社が連携。",
+      "ほくでん情報が総合窓口、GSXが詳細調査、KELが暫定復旧などを担う。",
+      "再発防止まで支援し、当初はほくでん情報の顧客を中心に展開する。"
+    ],
+    "tags": [
+      "サイバーセキュリティ",
+      "北海道",
+      "インシデント対応",
+      "事業継続"
+    ],
+    "featured": true,
+    "priority": 2,
+    "region": "japan",
+    "edition_date": "2026-11-10",
+    "collected_at": "2026-11-10T17:03:57+09:00",
+    "is_sample": false
+  },
+  {
+    "id": "peoplex-20261110-assessment-learning-launch",
+    "title": "PeopleX、AI・セキュリティの診断と学習サービスを提供開始",
+    "summary": "PeopleXは11月10日、社員のAIスキルとセキュリティ知識を診断し、学習につなげるサービスの提供開始を発表した。10月7日に伝えた提供計画から、実際のサービス開始へ進んだ。",
+    "category": "careers",
+    "source": "PeopleX",
+    "source_url": "https://peoplex.jp/news/20261110/",
+    "published_at": "2026-11-10T00:00:00+09:00",
+    "published_time_known": false,
+    "image_url": null,
+    "why_it_matters": "国内企業がAI研修を設計する際、受講前の能力把握と学習内容の選定を結びつけられる。同社独自の評価基準が自社業務に合うかを検討する材料になる。",
+    "core_facts": [
+      "選択式・記述式の問題とAIとのシナリオ対話を組み合わせて診断する。",
+      "同社独自の「AIスキル標準」で能力を10段階に整理する。",
+      "組織全体のスキル分布を表示し、診断結果に応じた学習コンテンツを推薦する。"
+    ],
+    "tags": [
+      "AI人材育成",
+      "リスキリング",
+      "セキュリティ教育",
+      "PeopleX"
+    ],
+    "featured": false,
+    "priority": 3,
+    "region": "japan",
+    "edition_date": "2026-11-10",
+    "collected_at": "2026-11-10T17:03:57+09:00",
+    "is_sample": false
+  },
+  {
     "id": "ipa-20261109-mitou-it-2027-call",
     "title": "IPA、2027年度未踏IT人材育成の公募開始　25歳未満の開発者を支援",
     "summary": "IPAは11月9日、2027年度未踏IT人材発掘・育成事業の公募開始を案内した。独自のアイデアと技術を持つ若手を対象に、プロジェクトマネージャーの助言と開発費用の支援を通じて成長を後押しする。",
