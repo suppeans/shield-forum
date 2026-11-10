@@ -1,5 +1,91 @@
 [
   {
+    "id": "canon-20261110-fpa6400es6a",
+    "title": "キヤノン、KrF露光装置を12月発売へ　毎時400枚の処理に対応",
+    "summary": "キヤノンは11月10日、メモリー・ロジック半導体向けのKrFスキャナー「FPA-6400ES6a」を発表した。発売は12月上旬を予定し、処理速度と層同士の位置合わせ精度を高める。",
+    "category": "semiconductors",
+    "source": "キヤノン",
+    "source_url": "https://global.canon/ja/news/2026/20261110.html",
+    "published_at": "2026-11-10T00:00:00+09:00",
+    "published_time_known": false,
+    "why_it_matters": "国内の半導体装置産業では、先端工程だけでなく既存の露光方式でも量産効率の改善が進む。メーカーが示す性能条件は、設備更新を検討する際の比較材料になる。",
+    "core_facts": [
+      "2026年12月上旬に発売予定で、発表時点では発売前。",
+      "300mm基板・96ショットの条件で、1時間に400枚を露光できるとしている。",
+      "重ね合わせ精度は4.0nm、対応するウエハーの反り量は700μm。"
+    ],
+    "tags": [
+      "半導体製造装置",
+      "露光",
+      "キヤノン"
+    ],
+    "featured": true,
+    "priority": 2,
+    "image_url": null,
+    "region": "japan",
+    "edition_date": "2026-11-11",
+    "collected_at": "2026-11-11T00:59:30+09:00",
+    "is_sample": false
+  },
+  {
+    "id": "soracom-20261110-physical-ai-suite",
+    "title": "ソラコム、現場で動くAIの通信・保護・更新をまとめたサービスを開始",
+    "summary": "ソラコムは11月10日、ロボットや産業機器などの運用を支援する「SORACOM フィジカルAI Suite」を提供開始した。既存の通信・認証機能を整理し、同日開始の診断・対策支援も加える。",
+    "category": "cloud",
+    "source": "ソラコム",
+    "source_url": "https://soracom.com/ja/news/20261110-physical-ai-suite",
+    "published_at": "2026-11-10T00:00:00+09:00",
+    "published_time_known": false,
+    "why_it_matters": "日本の製造・物流現場でAIを使う際、導入後の通信保護やモデル更新まで含む運用設計が必要になる。複数の機能をまとめて検討する選択肢が広がる。",
+    "core_facts": [
+      "閉域接続、機器とSIMのひも付け、証明書の自動更新などを組み合わせる。",
+      "不審な通信の監視基盤は利用者側で構築し、検知結果に応じた遮断の仕組みをソラコムが提供する。",
+      "新たな診断サービスでは、機器・ネットワーク・クラウドの調査から対策実装と再検証まで支援する。"
+    ],
+    "tags": [
+      "フィジカルAI",
+      "IoT",
+      "クラウド",
+      "セキュリティ運用"
+    ],
+    "featured": true,
+    "priority": 2,
+    "image_url": null,
+    "region": "japan",
+    "edition_date": "2026-11-11",
+    "collected_at": "2026-11-11T00:59:30+09:00",
+    "is_sample": false
+  },
+  {
+    "id": "naljapan-20261110-cross-security-gateway",
+    "title": "NAL JAPAN、AIによるWeb診断と防御サービスの提供体制を拡大",
+    "summary": "NAL JAPANは11月10日、「CrossSecurity」と「CrossGateway」の提供体制を拡大し、新規問い合わせの受付を始めた。Webシステムの脆弱性調査・修正支援と、通信の検査・遮断を組み合わせる。",
+    "category": "security",
+    "source": "NAL JAPAN（PR TIMES掲載の企業発表）",
+    "source_url": "https://prtimes.jp/main/html/rd/p/000000004.000064642.html",
+    "published_at": "2026-11-10T18:00:00+09:00",
+    "published_time_known": true,
+    "why_it_matters": "国内企業がWeb・APIの保護を検討する際、根本修正と修正完了までの防御を並行して進める選択肢になる。診断範囲やAIの検出結果をどう検証するかも確認したい。",
+    "core_facts": [
+      "CrossSecurityはWebやソースコードを診断し、修正コードの生成などを支援する。",
+      "CrossGatewayはWebサーバーやAPIの前段で通信を検査し、仮想パッチや防御ルールの事前検証に対応する。",
+      "12月28日まで無料診断キャンペーンを実施するとしている。"
+    ],
+    "tags": [
+      "脆弱性診断",
+      "Webセキュリティ",
+      "API",
+      "AI"
+    ],
+    "featured": false,
+    "priority": 3,
+    "image_url": null,
+    "region": "japan",
+    "edition_date": "2026-11-11",
+    "collected_at": "2026-11-11T00:59:30+09:00",
+    "is_sample": false
+  },
+  {
     "id": "renesas-20261110-xplore-developer-hub",
     "title": "ルネサス、Renesas 365に組み込み開発用「Xplore」を追加",
     "summary": "ルネサスは11月10日、クラウド開発基盤Renesas 365でXploreの提供開始を発表した。RAマイコンボードと用途別のソフトウェアを組み合わせ、ブラウザ上で試作を進められる。",
