@@ -1,5 +1,92 @@
 [
   {
+    "id": "ipa-20261111-microsoft-security-updates",
+    "title": "IPA、11月のMicrosoft更新を呼びかけ　Outlookの脆弱性で悪用を確認",
+    "summary": "IPAは11月11日、Microsoft製品のセキュリティ更新について緊急の注意喚起を出した。Outlookの脆弱性「CVE-2026-124194」は、Microsoftが実際の悪用を確認している。",
+    "category": "security",
+    "source": "情報処理推進機構（IPA）",
+    "source_url": "https://www.ipa.go.jp/security/security-alert/2026/1111-ms.html",
+    "published_at": "2026-11-11T00:00:00+09:00",
+    "published_time_known": false,
+    "why_it_matters": "国内の企業や学校では、業務用端末で使うOutlookの更新状況を早めに確認する必要がある。更新を一括管理している場合は、対象製品の確認から配布、適用状況の把握まで進めたい。",
+    "core_facts": [
+      "Microsoftは日本時間11月11日に製品のセキュリティ更新を公開した。",
+      "IPAは、OutlookのCVE-2026-124194についてMicrosoftが悪用を確認したと伝え、至急の更新を求めている。",
+      "組織で更新を管理する場合はMicrosoftの製品別情報を参照する。更新後に再起動が必要な場合がある。"
+    ],
+    "tags": [
+      "IPA",
+      "Outlook",
+      "脆弱性",
+      "セキュリティ更新"
+    ],
+    "featured": true,
+    "priority": 1,
+    "image_url": null,
+    "region": "japan",
+    "edition_date": "2026-11-11",
+    "collected_at": "2026-11-11T17:05:56+09:00",
+    "is_sample": false
+  },
+  {
+    "id": "panasonic-20261111-ai-chip-packaging-project",
+    "title": "パナソニックHD、半導体の先端後工程にAIを活用する開発プロジェクトを始動",
+    "summary": "パナソニックHDは11月11日、製造現場でのAI活用を研究開発の柱に据える方針を発表した。半導体の先端後工程では、工程データと検査画像をAIで分析し、品質予測や製造条件の探索に役立てる。",
+    "category": "semiconductors",
+    "source": "パナソニック ホールディングス",
+    "source_url": "https://news.panasonic.com/jp/press/jn261111-2",
+    "published_at": "2026-11-11T00:00:00+09:00",
+    "published_time_known": false,
+    "why_it_matters": "国内の半導体装置開発では、個々の装置の性能に加え、工程と検査のデータをどうつなぐかが重要になる。分析結果を装置仕様に反映する取り組みは、研究と現場導入を結びつける事例として注目できる。",
+    "core_facts": [
+      "「AI半導体実装プロジェクト」を立ち上げ、研究開発と事業開発を一体で進める。",
+      "表面改質や高精度ボンディング、検査などの技術を生かし、チップの3D積層を支える設備を開発する。",
+      "工程データや検査画像の分析を品質予測と条件探索に用い、その結果を装置仕様に反映する方針。"
+    ],
+    "tags": [
+      "半導体後工程",
+      "先端パッケージ",
+      "フィジカルAI",
+      "製造DX"
+    ],
+    "featured": true,
+    "priority": 2,
+    "image_url": null,
+    "region": "japan",
+    "edition_date": "2026-11-11",
+    "collected_at": "2026-11-11T17:05:56+09:00",
+    "is_sample": false
+  },
+  {
+    "id": "assured-20261111-shinkin-cloud-assessment",
+    "title": "アシュアードと信金中金、信用金庫向けクラウド評価の共同利用モデルを構築",
+    "summary": "アシュアードは11月11日、信金中央金庫の協力を得て、全国の信用金庫がクラウドサービスの安全性評価を特別プランで利用できる仕組みを構築したと発表した。",
+    "category": "cloud",
+    "source": "アシュアード（Visionalの企業発表）",
+    "source_url": "https://prtimes.jp/main/html/rd/p/000000849.000034075.html",
+    "published_at": "2026-11-11T10:00:00+09:00",
+    "published_time_known": true,
+    "why_it_matters": "信用金庫が同じクラウドサービスを個別に調べる負担を減らせる可能性がある。外部評価を共用しながら、各金庫が自社の業務やデータに応じた審査をどう行うかが実務上の焦点になる。",
+    "core_facts": [
+      "SaaSなどのセキュリティを専門家が評価し、結果をサービス上で確認できる。",
+      "導入時の審査基準づくりを支援し、年2回の合同質疑応答会や金庫間の情報交換の場を設ける。",
+      "信金中金が利用を検討する信用金庫への案内窓口を担う。"
+    ],
+    "tags": [
+      "信用金庫",
+      "クラウド評価",
+      "金融DX",
+      "委託先リスク"
+    ],
+    "featured": false,
+    "priority": 3,
+    "image_url": null,
+    "region": "japan",
+    "edition_date": "2026-11-11",
+    "collected_at": "2026-11-11T17:05:56+09:00",
+    "is_sample": false
+  },
+  {
     "id": "jcci-20261110-network-exam-data-risk",
     "title": "日商、試験管理システムに不正アクセス　最大約98万人の情報漏えいの可能性",
     "summary": "日本商工会議所は11月10日、ネット試験の管理用外部サーバーが不正アクセスを受けたと発表した。最大約98万人分の情報が対象となる可能性があるが、発表時点で実際の漏えいや不正利用は確認されていない。",
