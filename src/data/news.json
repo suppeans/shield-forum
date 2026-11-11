@@ -1,5 +1,92 @@
 [
   {
+    "id": "openlogi-20261111-shipment-data-breach",
+    "title": "オープンロジ、出荷データの流出を確認　対象件数を調査",
+    "summary": "物流代行のオープンロジは11月11日、不正アクセスを受け、配送先の個人情報などを含む出荷データの一部が外部に持ち出されたと公表した。対象範囲と件数は調査中としている。",
+    "category": "security",
+    "source": "オープンロジ",
+    "source_url": "https://corp.openlogi.com/news/notice/notice-20261111/",
+    "published_at": "2026-11-11T00:00:00+09:00",
+    "published_time_known": false,
+    "why_it_matters": "物流を委託するEC事業者は、自社サイト以外に保管される配送情報も把握しておく必要がある。委託先で事故が起きた際、対象注文の照合や購入者への連絡を誰が担うかも重要になる。",
+    "core_facts": [
+      "不正アクセスは11月8日から9日にかけて発生し、同社は9日に把握していた経路を遮断した。",
+      "4月8日から11月8日までに依頼された出荷データが調査対象。配送先の氏名・住所・連絡先や商品情報が含まれ、カード番号は対象外。",
+      "11月11日の発表時点で情報の悪用や具体的な二次被害は確認されていない。"
+    ],
+    "tags": [
+      "物流システム",
+      "個人情報漏えい",
+      "不正アクセス",
+      "委託先管理"
+    ],
+    "featured": true,
+    "priority": 1,
+    "image_url": null,
+    "region": "japan",
+    "edition_date": "2026-11-12",
+    "collected_at": "2026-11-12T01:02:36+09:00",
+    "is_sample": false
+  },
+  {
+    "id": "sevenbank-20261111-residence-card-data-risk",
+    "title": "セブン銀行、在留カードの券面情報が最大150件程度流出したおそれ",
+    "summary": "セブン銀行は11月11日、在留カード提出サイトと口座解約受付サイトへの不正アクセスを公表した。提出サイトで保有していた在留カードの券面情報が外部へ流出した可能性があり、両サイトを停止している。",
+    "category": "security",
+    "source": "セブン銀行",
+    "source_url": "https://www.sevenbank.co.jp/support/info_notice127.html",
+    "published_at": "2026-11-11T00:00:00+09:00",
+    "published_time_known": false,
+    "why_it_matters": "本人確認書類を扱う受付サイトは、取引システムとは別に被害が生じることがある。金融機関にとって、書類の保管範囲や受付停止時の案内も含めた対策が課題になる。",
+    "core_facts": [
+      "11月9日に両サイトで不正アクセスの形跡を確認し、対象システムを停止した。",
+      "流出の可能性があるのは最大150件程度。対象候補は提出書類の不備を案内された人と、10月16日から11月9日までに提出サイトで手続きした人。",
+      "同行によると、ATMやネットバンキングなどの主要サービスに影響はなく、本件に起因する不正送金や顧客情報の悪用も確認されていない。"
+    ],
+    "tags": [
+      "本人確認",
+      "在留カード",
+      "金融セキュリティ",
+      "不正アクセス"
+    ],
+    "featured": true,
+    "priority": 2,
+    "image_url": null,
+    "region": "japan",
+    "edition_date": "2026-11-12",
+    "collected_at": "2026-11-12T01:02:36+09:00",
+    "is_sample": false
+  },
+  {
+    "id": "rakumo-20261111-workflow-agent-ga",
+    "title": "rakumo、書類やチャットから社内申請の下書きを作るAIを正式提供",
+    "summary": "rakumoは11月11日、Google Workspace向けの「rakumo エージェント」を正式提供し、電子稟議の「rakumo ワークフロー」に対応させた。チャットでの依頼や添付書類をもとに申請書の下書きを作る。",
+    "category": "dx",
+    "source": "rakumo（PR TIMES掲載の企業発表）",
+    "source_url": "https://prtimes.jp/main/html/rd/p/000000059.000015698.html",
+    "published_at": "2026-11-11T15:30:00+09:00",
+    "published_time_known": true,
+    "why_it_matters": "国内企業の稟議では、書式選びや添付書類からの転記を減らせる可能性がある。提出と承認を人に残す設計は、既存の承認ルールにAIを組み込む際の参考になる。",
+    "core_facts": [
+      "見積書や請求書などのPDF・JPEG・PNGを読み取り、目的に合う申請書の下書きを作成する。",
+      "AIの操作は下書きまでで、提出や承認は利用者がワークフロー画面で行う。",
+      "Google Workspace版の利用企業は、管理画面で機能を有効にすると追加料金なしで使える。"
+    ],
+    "tags": [
+      "電子稟議",
+      "AIエージェント",
+      "業務DX",
+      "Google Workspace"
+    ],
+    "featured": false,
+    "priority": 3,
+    "image_url": null,
+    "region": "japan",
+    "edition_date": "2026-11-12",
+    "collected_at": "2026-11-12T01:02:36+09:00",
+    "is_sample": false
+  },
+  {
     "id": "ipa-20261111-microsoft-security-updates",
     "title": "IPA、11月のMicrosoft更新を呼びかけ　Outlookの脆弱性で悪用を確認",
     "summary": "IPAは11月11日、Microsoft製品のセキュリティ更新について緊急の注意喚起を出した。Outlookの脆弱性「CVE-2026-124194」は、Microsoftが実際の悪用を確認している。",
