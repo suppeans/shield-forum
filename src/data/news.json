@@ -1,5 +1,90 @@
 [
   {
+    "id": "jcci-20261110-network-exam-data-risk",
+    "title": "日商、試験管理システムに不正アクセス　最大約98万人の情報漏えいの可能性",
+    "summary": "日本商工会議所は11月10日、ネット試験の管理用外部サーバーが不正アクセスを受けたと発表した。最大約98万人分の情報が対象となる可能性があるが、発表時点で実際の漏えいや不正利用は確認されていない。",
+    "category": "security",
+    "source": "日本商工会議所",
+    "source_url": "https://www.jcci.or.jp/news/news/2026/1110170000.html",
+    "published_at": "2026-11-10T17:00:00+09:00",
+    "published_time_known": true,
+    "why_it_matters": "国内の試験運営では、受験者向け画面だけでなく会場側の管理基盤も保護対象になる。対象者には、試験関係者を装う連絡への注意が必要になる。",
+    "core_facts": [
+      "対象は2022年4月1日から2026年11月4日までの簿記・日商PCなど8種類のネット試験。",
+      "氏名、生年月日、得点などが対象になり得る一方、決済情報は含まれない。",
+      "不正ファイルを削除し、脆弱性対策を実施済み。試験は通常どおり受験できるとしている。"
+    ],
+    "tags": [
+      "個人情報",
+      "不正アクセス",
+      "試験システム"
+    ],
+    "featured": true,
+    "priority": 1,
+    "image_url": null,
+    "region": "japan",
+    "edition_date": "2026-11-11",
+    "collected_at": "2026-11-11T09:00:15+09:00",
+    "is_sample": false
+  },
+  {
+    "id": "kddi-20261110-quantum-base-station-optimization",
+    "title": "KDDI、量子技術で基地局を最適化　混雑時の低速な上り通信を約8割減",
+    "summary": "KDDIとKDDI総合研究所は11月10日、東京都内の一部基地局に量子技術で算出した設定を適用した結果を公表した。10月2日からの取り組みで、基地局間の電波干渉を抑えて上り通信を改善した。",
+    "category": "development",
+    "source": "KDDI・KDDI総合研究所",
+    "source_url": "https://newsroom.kddi.com/news/detail/kddi_nr-1236_4820.html",
+    "published_at": "2026-11-10T00:00:00+09:00",
+    "published_time_known": false,
+    "why_it_matters": "映像やセンサーデータを送る国内の現場システムでは、下り速度だけでなく上りの安定性も重要になる。研究成果を商用網の運用設定へ反映する事例になる。",
+    "core_facts": [
+      "東京都内の一部エリアにある683局を対象に設定を算出した。",
+      "上り1.5Mbps未満の通信の発生頻度が適用前より約50％減り、混雑時は約80％減ったとしている。",
+      "今後は東名阪の都市部へ対象を広げる方針。"
+    ],
+    "tags": [
+      "量子技術",
+      "通信品質",
+      "基地局",
+      "KDDI"
+    ],
+    "featured": true,
+    "priority": 2,
+    "image_url": null,
+    "region": "japan",
+    "edition_date": "2026-11-11",
+    "collected_at": "2026-11-11T09:00:15+09:00",
+    "is_sample": false
+  },
+  {
+    "id": "lycorp-20261110-agent-i-ios-app",
+    "title": "LINEヤフー、「Agent i」のiOSアプリを提供　タスク通知とウィジェットに対応",
+    "summary": "LINEヤフーは11月10日、AIエージェント「Agent i」のiPhone・iPad向けアプリを提供開始した。既存のLINEやYahoo! JAPAN経由に加え、ホーム画面から直接使う入口を設ける。",
+    "category": "ai",
+    "source": "LINEヤフー",
+    "source_url": "https://www.lycorp.co.jp/ja/news/release/020972/",
+    "published_at": "2026-11-10T00:00:00+09:00",
+    "published_time_known": false,
+    "why_it_matters": "国内向けAIサービスが専用アプリへ広がり、継続的な情報収集や通知を日常の利用につなげる動きになる。サービスを届ける企業にとって、検索以外の接点を考える材料になる。",
+    "core_facts": [
+      "提供開始はiOS版で、Android版は順次提供予定。",
+      "新規チャットや画像・音声入力を開くウィジェットと、タスク機能に連動する通知を備える。",
+      "自由入力にはLINEアカウントかYahoo! JAPAN IDでのログインが必要。"
+    ],
+    "tags": [
+      "AIエージェント",
+      "スマートフォン",
+      "LINEヤフー"
+    ],
+    "featured": false,
+    "priority": 3,
+    "image_url": null,
+    "region": "japan",
+    "edition_date": "2026-11-11",
+    "collected_at": "2026-11-11T09:00:15+09:00",
+    "is_sample": false
+  },
+  {
     "id": "canon-20261110-fpa6400es6a",
     "title": "キヤノン、KrF露光装置を12月発売へ　毎時400枚の処理に対応",
     "summary": "キヤノンは11月10日、メモリー・ロジック半導体向けのKrFスキャナー「FPA-6400ES6a」を発表した。発売は12月上旬を予定し、処理速度と層同士の位置合わせ精度を高める。",
