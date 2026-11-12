@@ -1,5 +1,95 @@
 [
   {
+    "id": "shift-20261111-public-sector-security-assessment",
+    "title": "SHIFT、官公庁向けにAIと専門家を組み合わせた脆弱性診断を開始",
+    "summary": "SHIFTは中央省庁や自治体向けに、AIによるソースコード解析と侵入テストを専門家の検証と組み合わせるサービスを始めた。システムの構築事業者から独立した立場で、修正方針の評価や再診断も支援する。",
+    "category": "security",
+    "source": "SHIFT",
+    "source_url": "https://prtimes.jp/main/html/rd/p/000000190.000018724.html",
+    "published_at": "2026-11-11T15:30:00+09:00",
+    "published_time_known": true,
+    "image_url": null,
+    "why_it_matters": "公共システムの発注者は、診断結果を受け取った後も、修正が根本原因に対応したかを判断する必要がある。構築事業者とは別の専門家に再診断を委ねられることで、是正を確認する手段が増える。",
+    "core_facts": [
+      "11月11日、中央省庁や地方自治体などを対象に提供を開始した。",
+      "診断は政府統一基準群とデジタル庁のDS-221に沿って行う。",
+      "AWS Security AgentとAmazon Bedrockを診断に使い、専門家が結果を精査する。",
+      "改修案の評価や、修正後に問題が解消したかを確かめる再診断にも対応する。"
+    ],
+    "tags": [
+      "脆弱性診断",
+      "公共システム",
+      "生成AI",
+      "ペネトレーションテスト"
+    ],
+    "featured": true,
+    "priority": 2,
+    "region": "japan",
+    "edition_date": "2026-11-12",
+    "collected_at": "2026-11-12T09:02:41+09:00",
+    "is_sample": false
+  },
+  {
+    "id": "lycorp-20261111-yahoo-shopping-ai-delivery",
+    "title": "Yahoo!ショッピング、発送前の見通しを補う「AIお届け情報」",
+    "summary": "LINEヤフーは、Yahoo!ショッピングの注文履歴で配送の見通しをAIが説明する機能を導入した。到着予定や配送状況に加え、店の休業日や受注商品の情報など、発送を待つ利用者の判断に役立つ背景を表示する。",
+    "category": "ai",
+    "source": "LINEヤフー",
+    "source_url": "https://prtimes.jp/main/html/rd/p/000001845.000129774.html",
+    "published_at": "2026-11-11T14:13:00+09:00",
+    "published_time_known": true,
+    "image_url": null,
+    "why_it_matters": "ECの生成AI活用が商品選びから購入後の案内に広がる。発送時期の背景を利用者が確認できれば、店舗に問い合わせる前に解決できるケースが増える可能性がある。",
+    "core_facts": [
+      "注文履歴の詳細画面にある「お届け情報カード」から利用できる。",
+      "注文や商品の情報に加え、取得できる場合は店舗のお知らせや入金状況も案内に使う。",
+      "LINEヤフーの2026年3月の集計では、注文後の問い合わせの約26％が配送の進み具合に関するものだった。",
+      "説明の生成にはOpenAIのAPIを使用する。"
+    ],
+    "tags": [
+      "電子商取引",
+      "配送",
+      "生成AI",
+      "顧客対応"
+    ],
+    "featured": false,
+    "priority": 3,
+    "region": "japan",
+    "edition_date": "2026-11-12",
+    "collected_at": "2026-11-12T09:02:41+09:00",
+    "is_sample": false
+  },
+  {
+    "id": "nsw-20261111-archetype-newton-japan",
+    "title": "NSW、センサーデータを扱うフィジカルAI「Newton」を国内販売",
+    "summary": "NSWは米Archetype AIと提携し、製造業とエネルギー分野を中心に基盤モデル「Newton」の国内販売を始めた。ライセンスの販売に加え、工場などの設備との接続や導入後の運用を支援する。",
+    "category": "ai",
+    "source": "NSW",
+    "source_url": "https://www.nsw.co.jp/topics/news_detail.html?eid=888&year=",
+    "published_at": "2026-11-11T00:00:00+09:00",
+    "published_time_known": false,
+    "image_url": null,
+    "why_it_matters": "映像や設備データを社外に送れない現場でも、エッジ機器やオンプレミスで分析する選択肢が増える。導入時は、既存の設備とどうつなぎ、分析結果を保全や制御にどう反映させるかが鍵になる。",
+    "core_facts": [
+      "両社は国内販売とシステム構築に関する契約を結び、11月11日に販売を開始した。",
+      "Newtonはカメラ映像と温度や振動などのセンサー情報を組み合わせて設備や作業の状態を分析する。",
+      "クラウドのほか、エッジ機器やオンプレミスでの運用にも対応する。",
+      "用途として設備の異常検知、作業手順の確認、空調などの運転制御を想定する。"
+    ],
+    "tags": [
+      "フィジカルAI",
+      "製造業",
+      "設備保全",
+      "エッジAI"
+    ],
+    "featured": false,
+    "priority": 3,
+    "region": "japan",
+    "edition_date": "2026-11-12",
+    "collected_at": "2026-11-12T09:02:41+09:00",
+    "is_sample": false
+  },
+  {
     "id": "openlogi-20261111-shipment-data-breach",
     "title": "オープンロジ、出荷データの流出を確認　対象件数を調査",
     "summary": "物流代行のオープンロジは11月11日、不正アクセスを受け、配送先の個人情報などを含む出荷データの一部が外部に持ち出されたと公表した。対象範囲と件数は調査中としている。",
