@@ -1,5 +1,95 @@
 [
   {
+    "id": "elements-20261112-kurabe",
+    "title": "ELEMENTS、日本語の業務でAIの精度・速度・費用を比べる「Kurabe」を公開",
+    "summary": "ELEMENTSは国内企業向けの無料比較サイト「Kurabe」を公開した。日本語の業務タスクを基準に、AIモデルと実行環境の組み合わせを比較できる。",
+    "category": "ai",
+    "source": "ELEMENTS",
+    "source_url": "https://prtimes.jp/main/html/rd/p/000000171.000061051.html",
+    "published_at": "2026-11-12T10:00:00+09:00",
+    "published_time_known": true,
+    "image_url": null,
+    "why_it_matters": "モデル単体の性能が高くても、処理速度や費用は実行環境によって変わる。日本語の業務を想定した比較は、自社で検証する候補を絞る材料になる。",
+    "core_facts": [
+      "11月12日に国内企業向けの無償提供を始めた。",
+      "商用APIやIaaSなどで動かすAIを、精度、処理速度、推定コストで比較する。",
+      "評価データは日本語と国内の業務を想定して設計した。",
+      "産総研が代表を務めるNEDOの研究プロジェクトの成果の一部にあたる。"
+    ],
+    "tags": [
+      "生成AI",
+      "ベンチマーク",
+      "日本語",
+      "推論コスト"
+    ],
+    "featured": true,
+    "priority": 2,
+    "region": "japan",
+    "edition_date": "2026-11-12",
+    "collected_at": "2026-11-12T17:00:42+09:00",
+    "is_sample": false
+  },
+  {
+    "id": "ntt-20261112-llm-manual-tuning",
+    "title": "NTT、少量の業務マニュアルからLLMを調整する技術を開発",
+    "summary": "NTTは、業務マニュアルからFAQなど複数の形式の学習データをLLMに生成させ、業務知識を定着させる手法を発表した。社内マニュアルを用いた実験では、tsuzumi 2の正答率が学習前の65.3％から83.1％に上がった。",
+    "category": "ai",
+    "source": "NTT",
+    "source_url": "https://group.ntt/jp/newsrelease/2026/11/12/261112a.html",
+    "published_at": "2026-11-12T00:00:00+09:00",
+    "published_time_known": false,
+    "image_url": null,
+    "why_it_matters": "学習用の文書が少ない企業でも、自社の手順に詳しいモデルを調整できる可能性がある。公表値はマニュアルの記載範囲を問う実験結果であり、実際の業務での性能は別途確かめる必要がある。",
+    "core_facts": [
+      "業務マニュアルをもとに、LLMがFAQや仕様書などの形式で学習データを生成する。",
+      "実験ではtsuzumi 2とLlama 3（3B）の学習前後を比較した。",
+      "tsuzumi 2の正答率は学習前が65.3％、先行手法が最大73.3％、今回の手法が83.1％だった。",
+      "11月18日から25日までのNTT R&D FORUM 2026で展示する予定だ。"
+    ],
+    "tags": [
+      "大規模言語モデル",
+      "tsuzumi",
+      "業務マニュアル",
+      "研究開発"
+    ],
+    "featured": true,
+    "priority": 2,
+    "region": "japan",
+    "edition_date": "2026-11-12",
+    "collected_at": "2026-11-12T17:00:42+09:00",
+    "is_sample": false
+  },
+  {
+    "id": "sandj-20261112-web-source-ai-assessment",
+    "title": "S&J、Webアプリのコードから認可の不備を探すAI診断を開始",
+    "summary": "S&Jは、WebアプリのソースコードをAIで調べ、外部からの動的診断で見つけにくい認可の不備や業務処理の問題を探すサービスを始めた。診断結果には問題の根拠と推奨する修正方法を記載する。",
+    "category": "security",
+    "source": "S&J",
+    "source_url": "https://www.sandj.co.jp/news/20261112/",
+    "published_at": "2026-11-12T00:00:00+09:00",
+    "published_time_known": false,
+    "image_url": null,
+    "why_it_matters": "外部からの検査に加えてコード内部を点検できるため、開発チームが認可や業務ロジックの見落としを調べる手段が増える。報告に対象ファイルや行番号が含まれれば、修正箇所の特定もしやすい。",
+    "core_facts": [
+      "11月12日にサービスの提供を始めた。",
+      "利用企業から預かったソースコードを解析し、入力から内部処理までをたどる。",
+      "専門家の判断基準をAIの解析手順に組み込み、検出候補が実際に悪用できるかを検証する。",
+      "報告書には対象ファイル、行番号、問題の理由、推奨する修正方法を記載する。"
+    ],
+    "tags": [
+      "ソースコード診断",
+      "Webアプリ",
+      "脆弱性",
+      "認可"
+    ],
+    "featured": false,
+    "priority": 3,
+    "region": "japan",
+    "edition_date": "2026-11-12",
+    "collected_at": "2026-11-12T17:00:42+09:00",
+    "is_sample": false
+  },
+  {
     "id": "shift-20261111-public-sector-security-assessment",
     "title": "SHIFT、官公庁向けにAIと専門家を組み合わせた脆弱性診断を開始",
     "summary": "SHIFTは中央省庁や自治体向けに、AIによるソースコード解析と侵入テストを専門家の検証と組み合わせるサービスを始めた。システムの構築事業者から独立した立場で、修正方針の評価や再診断も支援する。",
