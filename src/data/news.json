@@ -1,5 +1,64 @@
 [
   {
+    "id": "ipa-20261112-evacuee-checkin-standard",
+    "title": "IPA、避難所外の被災者も把握するチェックインシステムの標準仕様を公開",
+    "summary": "IPAは、住民が施設でチェックインする仕組みについて、自治体向けの導入ガイドラインと標準仕様書を公開した。能登半島地震の教訓を踏まえ、普段の住民サービスにも使い、災害時には指定避難所の外にいる被災者の把握に役立てる。",
+    "category": "policy",
+    "source": "IPA",
+    "source_url": "https://www.ipa.go.jp/pressrelease/2026/press20261112.html",
+    "published_at": "2026-11-12T00:00:00+09:00",
+    "published_time_known": false,
+    "image_url": null,
+    "why_it_matters": "自治体が平時から使う仕組みを災害対応にも活用できれば、非常時に初めて操作する負担を減らせる。導入時には、指定避難所の外で情報を集める方法や、位置情報の扱いを具体化する必要がある。",
+    "core_facts": [
+      "IPAは11月12日に導入ガイドラインと標準仕様書の各Ver1.0を公開した。",
+      "住民は基本情報を事前登録し、施設の二次元コードなどをスマートフォンで読み取る。",
+      "自治体などはチェックインした施設の位置や時刻を把握できる。",
+      "指定避難所のほか、集会所や店舗なども情報収集の拠点として想定する。"
+    ],
+    "tags": [
+      "防災DX",
+      "自治体",
+      "標準仕様",
+      "能登半島地震"
+    ],
+    "featured": true,
+    "priority": 2,
+    "region": "japan",
+    "edition_date": "2026-11-13",
+    "collected_at": "2026-11-13T01:05:56+09:00",
+    "is_sample": false
+  },
+  {
+    "id": "ryosan-ryoyo-20261112-mediatek-distribution",
+    "title": "リョーサン菱洋、MediaTekと代理店契約　車載・産業機器向けに展開",
+    "summary": "リョーサン菱洋は台湾の半導体設計会社MediaTekと代理店契約を結んだ。国内の自動車や産業機器メーカーに向けて展開し、MediaTekのSoCを載せたカスタム基板の提案にも対応する。",
+    "category": "semiconductors",
+    "source": "リョーサン菱洋",
+    "source_url": "https://prtimes.jp/main/html/rd/p/000000031.000123293.html",
+    "published_at": "2026-11-12T16:00:00+09:00",
+    "published_time_known": true,
+    "image_url": null,
+    "why_it_matters": "国内メーカーにとって、組み込み機器向けの半導体を基板の設計も含めて相談できる窓口が増える。用途に合うSoCや基板を選ぶ際の選択肢が広がる。",
+    "core_facts": [
+      "リョーサン菱洋は11月12日にMediaTekとの代理店契約を発表した。",
+      "日本での展開では自動車と産業機器の分野を重視する。",
+      "MediaTekのSoCを搭載するカスタム基板の提案にも対応する方針だ。"
+    ],
+    "tags": [
+      "半導体商社",
+      "SoC",
+      "車載半導体",
+      "組み込み機器"
+    ],
+    "featured": true,
+    "priority": 2,
+    "region": "japan",
+    "edition_date": "2026-11-13",
+    "collected_at": "2026-11-13T01:05:56+09:00",
+    "is_sample": false
+  },
+  {
     "id": "elements-20261112-kurabe",
     "title": "ELEMENTS、日本語の業務でAIの精度・速度・費用を比べる「Kurabe」を公開",
     "summary": "ELEMENTSは国内企業向けの無料比較サイト「Kurabe」を公開した。日本語の業務タスクを基準に、AIモデルと実行環境の組み合わせを比較できる。",
