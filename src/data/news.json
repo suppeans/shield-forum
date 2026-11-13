@@ -1,5 +1,63 @@
 [
   {
+    "id": "nippon-soda-kansai-20261113-euv-underlayer",
+    "title": "日本曹達と関西大学、EUVレジストの感度を高める下層膜を開発",
+    "summary": "日本曹達と関西大学は、EUV露光で感光材料の反応を促すポリマーを共同開発した。ポジ型の化学増幅型レジストを使った初期評価では、膜厚の変化を指標に20％以上の増感効果を確認した。",
+    "category": "semiconductors",
+    "source": "日本曹達",
+    "source_url": "https://prtimes.jp/main/html/rd/p/000000045.000115085.html",
+    "published_at": "2026-11-13T10:00:00+09:00",
+    "published_time_known": true,
+    "image_url": null,
+    "why_it_matters": "少ない露光量で感光できれば、先端半導体の露光工程を効率化できる可能性がある。今回の数値は初期評価の結果で、量産工程での効果は今後の検証が必要だ。",
+    "core_facts": [
+      "開発したポリマーは、レジストと半導体基板の間に形成する。",
+      "ポジ型の化学増幅型レジストでは、下層膜を使わない場合より少ない露光量で感光した。",
+      "ネガ型でも増感の傾向が見られ、今後は材料の組成と構造を最適化する。"
+    ],
+    "tags": [
+      "EUV",
+      "半導体材料",
+      "フォトレジスト",
+      "共同研究"
+    ],
+    "featured": true,
+    "priority": 2,
+    "region": "japan",
+    "edition_date": "2026-11-13",
+    "collected_at": "2026-11-13T17:11:06+09:00",
+    "is_sample": false
+  },
+  {
+    "id": "ipa-jpnic-20261113-internet-infrastructure-mou",
+    "title": "IPAとJPNIC、ネット基盤の研究と技術者育成で連携",
+    "summary": "IPAと日本ネットワークインフォメーションセンター（JPNIC）は、インターネット基盤の維持やサイバーセキュリティの強化に向け、技術研究と人材育成に関する覚書を結んだ。教育プログラム間の連携や、テーマに応じた共同実証も検討する。",
+    "category": "careers",
+    "source": "IPA",
+    "source_url": "https://www.ipa.go.jp/pressrelease/2026/press20261113.html",
+    "published_at": "2026-11-13T00:00:00+09:00",
+    "published_time_known": false,
+    "image_url": null,
+    "why_it_matters": "ネットワークの基礎を学んだ人が実践を通じて専門性を高めるには、教育と現場をつなぐ機会が必要だ。通信事業者や大学との接点を持つ両組織が、既存の育成プログラムをどうつなぐかが焦点になる。",
+    "core_facts": [
+      "両組織は11月13日に覚書を締結した。",
+      "ネット基盤やサイバーセキュリティに関する情報と、人材育成の事例や課題を共有する。",
+      "初学者向けの取り組みから高度な技術者の育成につながる道筋を検討する。"
+    ],
+    "tags": [
+      "人材育成",
+      "ネットワーク",
+      "サイバーセキュリティ",
+      "JPNIC"
+    ],
+    "featured": true,
+    "priority": 2,
+    "region": "japan",
+    "edition_date": "2026-11-13",
+    "collected_at": "2026-11-13T17:11:06+09:00",
+    "is_sample": false
+  },
+  {
     "id": "usmh-20261112-ignica-data-risk",
     "title": "U.S.M.H、買い物アプリへの不正アクセスを公表　6万4,003アカウントが対象",
     "summary": "ユナイテッド・スーパーマーケット・ホールディングスは「Scan＆Go ignica」のシステムで第三者による不正アクセスを確認した。対象ファイルには6万4,003アカウント分の氏名とメールアドレスが含まれていたが、外部への流出は確認されていない。",
