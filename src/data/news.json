@@ -1,5 +1,62 @@
 [
   {
+    "id": "ipa-20261113-ai-security-bulletin",
+    "title": "IPA、AIセキュリティ短信11月号で開発ツールへの侵害事例を整理",
+    "summary": "IPAはAIセキュリティ短信の11月号を公開した。AIを組み込んだ攻撃のほか、コーディング支援ツールの拡張機能やAIの実行基盤が侵害の経路になった事例をまとめた。",
+    "category": "security",
+    "source": "IPA",
+    "source_url": "https://www.ipa.go.jp/digital/ai/security/rcu1hd0000007gji-att/2026-5_1113.pdf",
+    "published_at": "2026-11-13T00:00:00+09:00",
+    "published_time_known": false,
+    "image_url": null,
+    "why_it_matters": "開発チームがAIツールを導入する際は、モデルの出力だけでなく、拡張機能の配布元や実行権限、認証情報の管理も点検対象になる。",
+    "core_facts": [
+      "11月13日公開の短信は、10月6日から11月2日までに報じられた事例を一次情報にさかのぼって整理した。",
+      "改ざんされたコーディング支援ツールの拡張機能や、認証なしで公開されたAI基盤に関する事例を取り上げた。",
+      "報告は、実環境での観測と検証環境での再現を区別している。"
+    ],
+    "tags": [
+      "AIセキュリティ",
+      "開発環境",
+      "拡張機能"
+    ],
+    "featured": true,
+    "priority": 2,
+    "region": "japan",
+    "edition_date": "2026-11-15",
+    "collected_at": "2026-11-15T01:04:21+09:00",
+    "is_sample": false
+  },
+  {
+    "id": "cognitech-20261113-hozen-pilot",
+    "title": "岡山のCognitech.DEV、設備保全AIの共同実証先5社を募集",
+    "summary": "Cognitech.DEVは設備保全AI「HOZEN」の共同実証先を募集する。設備のトラブル記録から示した対策の効果を、現場の担当者が承認した条件で実際の結果と照らし合わせる計画だ。",
+    "category": "startups",
+    "source": "Cognitech.DEV",
+    "source_url": "https://prtimes.jp/main/html/rd/p/000000003.000192457.html",
+    "published_at": "2026-11-13T14:00:00+09:00",
+    "published_time_known": true,
+    "image_url": null,
+    "why_it_matters": "製造現場でAIを使う際に、設備を動かす前にどの条件で予測が役立つかを確かめる取り組みだ。設備一台から試すことで、記録の質や現場での判断の分担を検討しやすくなる。",
+    "core_facts": [
+      "製造業の設備保全などの部門を対象に、2027年3月までに5社を募る。",
+      "共同実証では設備一台と判断課題一つに対象を絞る。",
+      "現行の機能は担当者の判断を支援するもので、設備の操作に結び付ける機能は将来構想だ。"
+    ],
+    "tags": [
+      "設備保全",
+      "製造業DX",
+      "共同実証",
+      "岡山"
+    ],
+    "featured": false,
+    "priority": 3,
+    "region": "japan",
+    "edition_date": "2026-11-15",
+    "collected_at": "2026-11-15T01:04:21+09:00",
+    "is_sample": false
+  },
+  {
     "id": "monex-20261113-account-opening-investigation",
     "title": "マネックス証券、口座開設システムの調査で本人確認画像1,592件に漏えいのおそれ",
     "summary": "マネックス証券は、委託先が運営する口座開設システムへの不正アクセスに関する中間調査結果を公表した。メールアドレスは最大113万件、本人確認書類などの画像は1,592件が漏えいしたおそれがある。",
