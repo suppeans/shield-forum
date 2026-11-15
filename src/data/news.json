@@ -1,5 +1,33 @@
 [
   {
+    "id": "fukui-digital-20261115-pokepay-incident",
+    "title": "ふくアプリ、不正アクセスによる停止から再開　BankPayチャージは停止継続",
+    "summary": "ふくいのデジタルは、決済・認証に使うPokepayへの不正アクセスを受けて停止していた「ふくアプリ」を11月15日16時45分に再開した。銀行口座から直接チャージするBankPayは引き続き利用できない。",
+    "category": "security",
+    "source": "ふくいのデジタル",
+    "source_url": "https://www.fukui-digital.co.jp/news/pressrelease/604/",
+    "published_at": "2026-11-15T00:00:00+09:00",
+    "published_time_known": false,
+    "image_url": null,
+    "why_it_matters": "決済と認証を外部サービスに頼る地域通貨アプリでは、その基盤の事故がアプリ全体の停止につながり得る。機能ごとに復旧状況と代替手段を案内することが、利用者の混乱を抑えるうえで重要になる。",
+    "core_facts": [
+      "運営会社は11月14日20時にアプリの全機能を停止し、安全を確認した後、15日16時45分に再開した。",
+      "不正アクセスがあったのは、地域通貨の決済と認証に使われるポケットチェンジのPokepayだった。",
+      "BankPayでの入金停止は続くが、クレジットカードとセブン銀行ATMでの入金は利用できる。"
+    ],
+    "tags": [
+      "不正アクセス",
+      "地域通貨",
+      "キャッシュレス決済"
+    ],
+    "featured": true,
+    "priority": 2,
+    "region": "japan",
+    "edition_date": "2026-11-16",
+    "collected_at": "2026-11-16T01:01:28+09:00",
+    "is_sample": false
+  },
+  {
     "id": "ntt-mobility-20261113-hd-mapless-bus",
     "title": "NTTモビリティ、高精度地図に頼らない自動運転バスを公道で実証へ",
     "summary": "NTTモビリティは、事前に整備した高精度3次元地図を使わない自動運転バスを、2027年2月から東京都武蔵野市の公道で試す。公道では運転手が乗車するレベル2から始める予定だ。",
