@@ -1,5 +1,33 @@
 [
   {
+    "id": "ntt-mobility-20261113-hd-mapless-bus",
+    "title": "NTTモビリティ、高精度地図に頼らない自動運転バスを公道で実証へ",
+    "summary": "NTTモビリティは、事前に整備した高精度3次元地図を使わない自動運転バスを、2027年2月から東京都武蔵野市の公道で試す。公道では運転手が乗車するレベル2から始める予定だ。",
+    "category": "ai",
+    "source": "NTTモビリティ",
+    "source_url": "https://www.ntt-mobility.com/news/20261113/newsrelease-261113/",
+    "published_at": "2026-11-13T00:00:00+09:00",
+    "published_time_known": false,
+    "image_url": null,
+    "why_it_matters": "路線ごとに高精度地図を用意する負担が減れば、交通事業者は新しい地域で自動運転を試しやすくなる。今回の実証では、日本の交通環境に適応するために残る課題を確かめる。",
+    "core_facts": [
+      "NTT武蔵野研究開発センタ周辺で、Imagryのシステムを搭載したバスの走行性能を確認する。",
+      "2026年12月に構内試験を始め、2027年2月から運転手が乗車するレベル2で公道を走る予定だ。",
+      "左側通行や国内の信号・交通規制に加え、夜間や悪天候時の認識性能も評価する。"
+    ],
+    "tags": [
+      "自動運転",
+      "公共交通",
+      "フィジカルAI"
+    ],
+    "featured": true,
+    "priority": 2,
+    "region": "japan",
+    "edition_date": "2026-11-15",
+    "collected_at": "2026-11-15T16:56:22+09:00",
+    "is_sample": false
+  },
+  {
     "id": "ntt-west-20261113-physical-ai-training",
     "title": "NTT西日本と京都大学、実機で学ぶフィジカルAI人材育成へ",
     "summary": "NTT西日本は京都大学成長戦略本部との連携を強め、ロボットなどの実機を使ってAIの開発と検証を学ぶ研修を準備している。",
