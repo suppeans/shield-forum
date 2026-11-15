@@ -1,5 +1,89 @@
 [
   {
+    "id": "ntt-west-20261113-physical-ai-training",
+    "title": "NTT西日本と京都大学、実機で学ぶフィジカルAI人材育成へ",
+    "summary": "NTT西日本は京都大学成長戦略本部との連携を強め、ロボットなどの実機を使ってAIの開発と検証を学ぶ研修を準備している。",
+    "category": "careers",
+    "source": "NTT西日本",
+    "source_url": "https://www.ntt-west.co.jp/news/2611/261113a.html",
+    "published_at": "2026-11-13T00:00:00+09:00",
+    "published_time_known": false,
+    "image_url": null,
+    "why_it_matters": "製造や設備管理の現場でロボットを導入するには、モデル開発に加えて、実機の動作を確かめながら調整できる人材が必要になる。",
+    "core_facts": [
+      "NTT西日本は研修の開発を京都大学成長戦略本部に委託し、XPACがカリキュラムの設計を担う。",
+      "研修は座学と実機を使った演習を組み合わせる。",
+      "11月18日開幕のNTT R&D FORUMと12月2日開幕のスマートビルディングEXPOで展示する予定だ。"
+    ],
+    "tags": [
+      "フィジカルAI",
+      "ロボティクス",
+      "人材育成"
+    ],
+    "featured": true,
+    "priority": 3,
+    "region": "japan",
+    "edition_date": "2026-11-15",
+    "collected_at": "2026-11-15T09:06:28+09:00",
+    "is_sample": false
+  },
+  {
+    "id": "ntt-docomo-business-20261113-waste-heat-aquaculture",
+    "title": "データセンターの排熱でエビを養殖、NTTドコモビジネスなど4社が実証",
+    "summary": "NTTドコモビジネスとIMTエンジニアリングなど4社は、冷却設備から出る熱で陸上養殖の飼育水を温める実証を始める。",
+    "category": "cloud",
+    "source": "NTTドコモビジネス",
+    "source_url": "https://www.ntt.com/about-us/press-releases/news/article/2026/1113.html",
+    "published_at": "2026-11-13T00:00:00+09:00",
+    "published_time_known": false,
+    "image_url": null,
+    "why_it_matters": "比較的温度の低い排熱に使い道が見つかれば、データセンターの冷却設備を設計する際に、近隣への熱供給も選択肢になる。",
+    "core_facts": [
+      "2026年度は首都圏のデータセンターで熱を回収し、温度や熱量を測る。",
+      "2027年度は回収熱で飼育水を温め、バナメイエビを育てる計画だ。",
+      "実証は2028年3月までを予定し、加温に使うエネルギーとデータセンターの運用への影響を調べる。"
+    ],
+    "tags": [
+      "データセンター",
+      "排熱",
+      "陸上養殖"
+    ],
+    "featured": false,
+    "priority": 3,
+    "region": "japan",
+    "edition_date": "2026-11-15",
+    "collected_at": "2026-11-15T09:06:28+09:00",
+    "is_sample": false
+  },
+  {
+    "id": "pixta-20261113-bytedance-anipops",
+    "title": "ピクスタとByteDance、生成AIを使った短編アニメ制作・配信で提携",
+    "summary": "ピクスタはByteDanceと提携し、動画生成AI「Seedance」を取り入れた短編アニメの制作と、配信サービス「Anipops」での公開を進める。",
+    "category": "ai",
+    "source": "ピクスタ",
+    "source_url": "https://prtimes.jp/main/html/rd/p/000000380.000008963.html",
+    "published_at": "2026-11-13T16:00:00+09:00",
+    "published_time_known": true,
+    "image_url": null,
+    "why_it_matters": "国内の制作・配信事業者が生成AIを制作工程に組み込む例になる。海外の視聴者に向けた配信まで手掛ける点も、制作ツールだけの導入とは異なる。",
+    "core_facts": [
+      "ピクスタは11月13日、ByteDanceとの提携開始を発表した。",
+      "両社はSeedanceを使うアニメ制作と、ピクスタが運営するAnipopsでの配信を進める。",
+      "Anipopsは日本語と英語字幕に対応し、シリーズ形式の短編アニメを配信している。"
+    ],
+    "tags": [
+      "動画生成AI",
+      "アニメ制作",
+      "動画配信"
+    ],
+    "featured": false,
+    "priority": 3,
+    "region": "japan",
+    "edition_date": "2026-11-15",
+    "collected_at": "2026-11-15T09:06:28+09:00",
+    "is_sample": false
+  },
+  {
     "id": "ipa-20261113-ai-security-bulletin",
     "title": "IPA、AIセキュリティ短信11月号で開発ツールへの侵害事例を整理",
     "summary": "IPAはAIセキュリティ短信の11月号を公開した。AIを組み込んだ攻撃のほか、コーディング支援ツールの拡張機能やAIの実行基盤が侵害の経路になった事例をまとめた。",
