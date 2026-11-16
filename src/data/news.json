@@ -1,5 +1,61 @@
 [
   {
+    "id": "ntt-docomo-20261116-5g-sa-outage",
+    "title": "ドコモの5G SA障害、全国で約6時間続き復旧",
+    "summary": "NTTドコモの5G SAで、11月16日午前から音声通話、データ通信、SMSが利用しづらくなった。ドコモは交換機への通信集中が原因と説明し、同日15時58分に全面復旧したと発表した。",
+    "category": "business",
+    "source": "NTTドコモ",
+    "source_url": "https://www.docomo.ne.jp/info/network/kanto/pages/261116_07_m.html?icid=CRP_TOP_to_CRP_INFO_network_pages",
+    "published_at": "2026-11-16T00:00:00+09:00",
+    "published_time_known": false,
+    "image_url": null,
+    "why_it_matters": "同じ通信会社でも契約や接続方式によって障害の影響が異なる。業務用回線を選ぶ際には、障害時に別の接続方式や回線へ切り替えられるかが運用上の確認点になる。",
+    "core_facts": [
+      "障害は11月16日の10時02分から15時58分まで続いた。",
+      "全国の5G SA契約者が対象で、緊急通報やドコモ回線を使うMVNOには影響しなかった。",
+      "ドコモは交換機への通信集中を原因とし、発表時点では不正アクセスの痕跡を確認していない。"
+    ],
+    "tags": [
+      "通信障害",
+      "5G SA",
+      "モバイル通信"
+    ],
+    "featured": true,
+    "priority": 2,
+    "region": "japan",
+    "edition_date": "2026-11-17",
+    "collected_at": "2026-11-17T01:05:54+09:00",
+    "is_sample": false
+  },
+  {
+    "id": "ntt-west-iris-20261116-robotics-pilot",
+    "title": "アイリスオーヤマとNTT西日本、カメラと清掃ロボットの連携を実証",
+    "summary": "アイリスオーヤマとNTT西日本は、施設のカメラ映像をAIで解析し、清掃ロボットへ指示を出す仕組みを検証した。異なるメーカーのロボットが情報を共有し、作業を分担する実験も行った。",
+    "category": "dx",
+    "source": "アイリスオーヤマ・NTT西日本",
+    "source_url": "https://www.ntt-west.co.jp/news/2611/261116a.html",
+    "published_at": "2026-11-16T00:00:00+09:00",
+    "published_time_known": false,
+    "image_url": null,
+    "why_it_matters": "建物の既存設備とロボットを連携できれば、清掃や警備の機器を個別に操作する手間を減らせる可能性がある。現場で使うには、連携できる設備の範囲や安全な運用方法の検証が必要になる。",
+    "core_facts": [
+      "施設のカメラ画像を解析した結果に応じて、清掃ロボットJILBYに作業を指示する連携を確認した。",
+      "JILBYとヒューマノイドロボットのugo Novaが情報を共有し、役割を分担する仕組みを検証した。",
+      "両社は11月18日から展示会で実証内容を紹介し、将来の商用化を検討する。"
+    ],
+    "tags": [
+      "施設管理",
+      "フィジカルAI",
+      "ロボティクス"
+    ],
+    "featured": true,
+    "priority": 2,
+    "region": "japan",
+    "edition_date": "2026-11-17",
+    "collected_at": "2026-11-17T01:05:54+09:00",
+    "is_sample": false
+  },
+  {
     "id": "fukui-digital-20261115-pokepay-incident",
     "title": "ふくアプリ、不正アクセスによる停止から再開　BankPayチャージは停止継続",
     "summary": "ふくいのデジタルは、決済・認証に使うPokepayへの不正アクセスを受けて停止していた「ふくアプリ」を11月15日16時45分に再開した。銀行口座から直接チャージするBankPayは引き続き利用できない。",
