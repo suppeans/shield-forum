@@ -1,5 +1,61 @@
 [
   {
+    "category": "security",
+    "source": "JPCERT/CC",
+    "published_at": "2026-11-19T00:00:00+09:00",
+    "published_time_known": false,
+    "image_url": null,
+    "featured": true,
+    "priority": 2,
+    "region": "japan",
+    "edition_date": "2026-11-19",
+    "collected_at": "2026-11-19T17:04:14+09:00",
+    "is_sample": false,
+    "id": "jpcert-20261119-nginx-security-fixes",
+    "title": "JPCERT/CC、nginxの複数脆弱性を案内　修正版への更新と適用確認を呼びかけ",
+    "summary": "JPCERT/CCは11月19日、nginxのHTTP/2処理などに関する複数の脆弱性と対策を公表した。構成によっては認証なしでワーカープロセスの異常終了や任意のコード実行につながる可能性がある。修正版は11月18日に公開された。",
+    "source_url": "https://www.jpcert.or.jp/newsflash/2026111902.html",
+    "why_it_matters": "nginxを直接運用する企業だけでなく、組み込み製品や配布パッケージの利用者も影響確認が必要になる。更新したファイルと実際に動作しているプロセスの版が一致しているかが、対策の実効性を左右する。",
+    "core_facts": [
+      "HTTP/2のメモリ破壊の脆弱性CVE-2026-123007などが対象で、影響や成立条件は機能・設定によって異なる。",
+      "nginx Open Sourceの修正版として1.31.9 mainlineと1.30.7 stableが公開された。",
+      "JPCERT/CCは更新後の再起動などで適用確認を求めている。設定の再読み込みだけでは旧実行ファイルが使われ続ける場合がある。"
+    ],
+    "tags": [
+      "nginx",
+      "脆弱性",
+      "セキュリティ更新"
+    ]
+  },
+  {
+    "category": "security",
+    "source": "JPCERT/CC",
+    "published_at": "2026-11-19T00:00:00+09:00",
+    "published_time_known": false,
+    "image_url": null,
+    "featured": true,
+    "priority": 2,
+    "region": "japan",
+    "edition_date": "2026-11-19",
+    "collected_at": "2026-11-19T17:04:14+09:00",
+    "is_sample": false,
+    "id": "jpcert-20261119-node-red-attacks",
+    "title": "認証なしのNode-REDに攻撃、国内でも標的の報告　JPCERT/CCが設定確認を要請",
+    "summary": "JPCERT/CCは11月19日、外部からアクセスでき、管理機能の認証がないNode-REDに不正なフローが登録される問題を公表した。国内ホストが攻撃対象となった報告も受けており、認証設定や侵害の有無を確認するよう案内している。",
+    "source_url": "https://www.jpcert.or.jp/newsflash/2026111901.html",
+    "why_it_matters": "業務の自動化や機器連携に使うフロー編集環境が外部に開かれると、連携先を含む運用への入口になり得る。製品名や導入時の想定だけで判断せず、実際の公開範囲と管理認証を点検する必要がある。",
+    "core_facts": [
+      "対象はエディターと管理APIにadminAuthが設定されず、外部からアクセス可能なNode-RED。",
+      "CVE-2026-58115はSiemensのSIMATIC IoT2050に搭載されたNode-REDの認証欠如として8月11日に公表されていた。今回の通報は国内での攻撃報告などを踏まえたもの。",
+      "JPCERT/CCはHTTPS、管理機能の認証、HTTPノードの保護を確認し、不審なフローや外部通信などの調査を検討するよう案内している。"
+    ],
+    "tags": [
+      "Node-RED",
+      "認証設定",
+      "不正アクセス"
+    ]
+  },
+  {
     "id": "sakura-20261118-ai-engine-flash-preview",
     "title": "さくらのAI Engine、GLMとDeepSeekの新モデル2種を公開プレビューで提供",
     "summary": "さくらインターネットは11月18日、推論API基盤「さくらのAI Engine」に「GLM-5.3-Flash」と「DeepSeek-V4.1-Flash-1017」を追加し、パブリックプレビューを開始した。画像とテキストを扱う用途に対応するとしている。",
