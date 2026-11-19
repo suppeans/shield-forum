@@ -1,5 +1,33 @@
 [
   {
+    "id": "sakura-20261118-ai-engine-flash-preview",
+    "title": "さくらのAI Engine、GLMとDeepSeekの新モデル2種を公開プレビューで提供",
+    "summary": "さくらインターネットは11月18日、推論API基盤「さくらのAI Engine」に「GLM-5.3-Flash」と「DeepSeek-V4.1-Flash-1017」を追加し、パブリックプレビューを開始した。画像とテキストを扱う用途に対応するとしている。",
+    "category": "ai",
+    "source": "さくらインターネット",
+    "source_url": "https://cloud.sakura.ad.jp/news/2026/11/18/glm-5-3-flash_deepseek-v4-1-flash-1017_pubpreview/",
+    "published_at": "2026-11-18T00:00:00+09:00",
+    "published_time_known": false,
+    "image_url": null,
+    "why_it_matters": "国内クラウドの推論APIで試せるモデルが増え、文書処理や開発支援などの用途で選択肢を比較しやすくなる。公開プレビューのため、業務導入前に品質や利用条件を確認する段階といえる。",
+    "core_facts": [
+      "追加されたモデル名は「preview/GLM-5.3-Flash」と「preview/DeepSeek-V4.1-Flash-1017」。",
+      "提供形態はChat completionsで、既存モデルと同様にリクエストのmodelパラメータで指定する。",
+      "無償枠は月3,000リクエスト。課金プランは入力1万トークンあたり0.4円、出力1万トークンあたり4.0円で、いずれも税込。"
+    ],
+    "tags": [
+      "生成AI",
+      "推論API",
+      "公開プレビュー"
+    ],
+    "featured": true,
+    "priority": 3,
+    "region": "japan",
+    "edition_date": "2026-11-19",
+    "collected_at": "2026-11-19T09:05:47+09:00",
+    "is_sample": false
+  },
+  {
     "id": "mhlw-20261118-drug-supply-system-access",
     "title": "厚労省、医薬品供給情報システムへの不正アクセスを公表　担当者情報が漏えいの可能性",
     "summary": "厚生労働省は11月18日、医薬品安定供給・流通確認システムに第三者が不正アクセスしたと発表した。一部企業の担当者の氏名・連絡先が漏れた可能性があり、影響範囲を調べている。システムは11月17日から停止している。",
