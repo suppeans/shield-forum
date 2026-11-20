@@ -1,5 +1,63 @@
 [
   {
+    "published_time_known": false,
+    "image_url": null,
+    "featured": true,
+    "priority": 3,
+    "region": "japan",
+    "edition_date": "2026-11-21",
+    "collected_at": "2026-11-21T01:03:49+09:00",
+    "is_sample": false,
+    "id": "fujitsu-20261119-google-cloud-partnership",
+    "title": "富士通、Google Cloudとの協業を拡大　AI実装とサイバー防御を強化",
+    "summary": "富士通は11月19日、Google Cloudとの戦略的パートナーシップの拡大を発表した。自社でのAI・クラウド活用を広げ、その経験を顧客支援に生かす。サイバー防御や高機密環境でのクラウド利用も協業の柱とする。",
+    "category": "cloud",
+    "source": "富士通",
+    "source_url": "https://global.fujitsu/ja-JP/pr/news/2026/11/19-01",
+    "published_at": "2026-11-19T00:00:00+09:00",
+    "why_it_matters": "国内企業がAIを業務に組み込む際、モデルの選択に加え、機密情報の扱いと実装体制が課題になる。閉域環境の検討と現場での実装支援を併せて進める動きとして注目される。",
+    "core_facts": [
+      "社内のGoogle Cloud利用を拡大する契約を締結し、実践で得た知見を顧客向け支援につなげる。",
+      "Google Distributed Cloudを用い、高い機密性やデータ主権が求められる環境でのAI・クラウド活用を検討する。",
+      "業務現場に入るFDE向けのAI実装基盤をGoogle Cloud上で提供し、セキュリティや小売分野でも協業を進める。"
+    ],
+    "tags": [
+      "クラウド",
+      "生成AI",
+      "サイバー防御",
+      "データ主権"
+    ]
+  },
+  {
+    "published_time_known": false,
+    "image_url": null,
+    "featured": true,
+    "priority": 3,
+    "region": "japan",
+    "edition_date": "2026-11-21",
+    "collected_at": "2026-11-21T01:03:49+09:00",
+    "is_sample": false,
+    "id": "fujitsu-20261120-familymart-causal-ai-pilot",
+    "title": "富士通とファミリーマート、因果AIで環境配慮商品の購買要因を分析へ",
+    "summary": "富士通は11月20日、ファミリーマートと環境配慮型インナーウェアの購買行動を分析する実証実験を発表した。因果AIとLLM因果技術を使い、環境価値を伝える店頭施策の効果を検証する。期間は2026年11月から2027年2月まで。",
+    "category": "dx",
+    "source": "富士通",
+    "source_url": "https://global.fujitsu/ja-JP/pr/news/2026/11/20-01",
+    "published_at": "2026-11-20T00:00:00+09:00",
+    "why_it_matters": "小売業のAI活用が、需要予測に加えて購買判断の要因や施策の検証へ広がる事例となる。実証段階であり、販売への効果は今後の検証結果を待つ必要がある。",
+    "core_facts": [
+      "環境省のモデル実証事業の一環として、ファミマ!!店舗で実施する。",
+      "販売データやファミペイで集めたアンケートなどを分析し、その結果を踏まえた店頭施策と効果検証を行う。",
+      "対象は再生ポリエステル糸を使ったインナーウェア。得られた手法の他の商品カテゴリーへの適用も検討する。"
+    ],
+    "tags": [
+      "因果AI",
+      "小売DX",
+      "実証実験",
+      "脱炭素"
+    ]
+  },
+  {
     "id": "jvn-20261119-winbird-xss",
     "title": "授業支援拡張「Win Bird」にXSS脆弱性　Chrome・Edge版の更新を案内",
     "summary": "JVNは11月19日、ウィンバードのブラウザ拡張機能「Win Bird 授業支援」にクロスサイトスクリプティングの脆弱性があると公表した。利用するブラウザで任意のスクリプトが動く可能性があり、最新版への更新を求めている。",
