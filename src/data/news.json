@@ -1,5 +1,33 @@
 [
   {
+    "id": "jvn-20261119-winbird-xss",
+    "title": "授業支援拡張「Win Bird」にXSS脆弱性　Chrome・Edge版の更新を案内",
+    "summary": "JVNは11月19日、ウィンバードのブラウザ拡張機能「Win Bird 授業支援」にクロスサイトスクリプティングの脆弱性があると公表した。利用するブラウザで任意のスクリプトが動く可能性があり、最新版への更新を求めている。",
+    "category": "security",
+    "source": "JVN（JPCERT/CC・IPA）",
+    "source_url": "https://jvn.jp/jp/JVN29068051/",
+    "published_at": "2026-11-19T00:00:00+09:00",
+    "published_time_known": false,
+    "image_url": null,
+    "why_it_matters": "学校や教育機関の端末管理では、ブラウザ本体に加えて授業用の拡張機能も更新対象になる。管理端末に配布した版を確認し、開発元の案内に沿って更新を進める必要がある。",
+    "core_facts": [
+      "Chrome版とEdge版の「Win Bird 授業支援」バージョン3.3.0.2002およびそれ以前が対象。",
+      "識別番号はCVE-2026-129517で、JVNは当該拡張を導入したブラウザ上で任意のスクリプトが実行される可能性を示している。",
+      "JVNは開発者の情報に基づいて最新版へアップデートするよう案内している。"
+    ],
+    "tags": [
+      "教育ICT",
+      "ブラウザ拡張",
+      "脆弱性"
+    ],
+    "featured": true,
+    "priority": 3,
+    "region": "japan",
+    "edition_date": "2026-11-20",
+    "collected_at": "2026-11-20T09:01:42+09:00",
+    "is_sample": false
+  },
+  {
     "category": "security",
     "source": "JPCERT/CC",
     "published_at": "2026-11-19T00:00:00+09:00",
