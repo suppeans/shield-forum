@@ -1,5 +1,33 @@
 [
   {
+    "id": "cloudnative-20261119-aurascape-launch",
+    "title": "クラウドネイティブ、AI利用の検査・制御製品Aurascapeを提供開始",
+    "summary": "クラウドネイティブは11月19日、米Aurascapeとの販売代理店契約と、18日からの製品提供開始を発表した。生成AIへの入力・回答や、ゲートウェイを通るAIエージェントのツール呼び出しを検査・制御する。",
+    "category": "security",
+    "source": "クラウドネイティブ",
+    "source_url": "https://prtimes.jp/main/html/rd/p/000000026.000063544.html",
+    "published_at": "2026-11-19T14:30:00+09:00",
+    "published_time_known": true,
+    "image_url": null,
+    "why_it_matters": "企業のAI利用がブラウザから業務ツールやエージェントへ広がると、利用許可だけでは送信内容や操作を把握しきれない。導入時には、実際の利用経路が検査対象に入るかを確認する必要がある。",
+    "core_facts": [
+      "PoC、設計・導入支援、日本語サポートをあわせて提供する。",
+      "保護対象のAIへの入力と回答を検査し、ルールに応じてマスキングやブロックを行う。",
+      "ツール呼び出しの制御にはMCPゲートウェイを経由する構成が必要。検出・検査・制御の範囲はサービスと利用経路によって異なる。"
+    ],
+    "tags": [
+      "AIセキュリティ",
+      "MCP",
+      "情報管理"
+    ],
+    "featured": true,
+    "priority": 3,
+    "region": "japan",
+    "edition_date": "2026-11-22",
+    "collected_at": "2026-11-22T08:58:44+09:00",
+    "is_sample": false
+  },
+  {
     "published_at": "2026-11-20T00:00:00+09:00",
     "published_time_known": false,
     "image_url": null,
