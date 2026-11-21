@@ -1,5 +1,91 @@
 [
   {
+    "image_url": null,
+    "featured": true,
+    "priority": 3,
+    "region": "japan",
+    "edition_date": "2026-11-21",
+    "collected_at": "2026-11-21T17:03:49+09:00",
+    "is_sample": false,
+    "published_at": "2026-11-20T00:00:00+09:00",
+    "published_time_known": false,
+    "id": "dena-20261120-ai-employee-preregistration",
+    "title": "DeNA、「AI社員」の外部提供へ事前登録　専用アカウントで業務を支援",
+    "summary": "DeNAは11月20日、部署に配属して育成するAIエージェント「AI社員 by DeNA」を社外向けに提供すると発表した。正式な提供に先立ち、11月から事前登録を受け付ける。社内では30のAI社員を運用している。",
+    "category": "ai",
+    "source": "DeNA",
+    "source_url": "https://dena.com/jp/news/5481/",
+    "why_it_matters": "企業がAIに作業を任せる範囲を広げるほど、権限と操作記録の管理が重要になる。人とは別のIDで運用し、責任を伴う判断を人に残す設計は、導入時に確認する具体的な論点となる。",
+    "core_facts": [
+      "個人とは別のアカウントを持ち、TeamsやSlackなどから依頼を受け、複数の業務ツールを使う。",
+      "必要な権限の付与と固有IDによるログ追跡に対応し、契約や発注の最終承認などは人が担う設計。",
+      "登録企業には順次個別に案内する。料金は初期費用と従量課金を含む月額費用で、金額は個別見積り。"
+    ],
+    "tags": [
+      "AIエージェント",
+      "業務自動化",
+      "権限管理",
+      "事前登録"
+    ]
+  },
+  {
+    "image_url": null,
+    "featured": true,
+    "priority": 3,
+    "region": "japan",
+    "edition_date": "2026-11-21",
+    "collected_at": "2026-11-21T17:03:49+09:00",
+    "is_sample": false,
+    "published_at": "2026-11-20T00:00:00+09:00",
+    "published_time_known": false,
+    "id": "nttdata-20261120-a-gate-view",
+    "title": "NTTデータ、クラウドのリスクと是正状況を一元管理する「A-gate View」を提供",
+    "summary": "NTTデータは11月20日、クラウド設定の不備やソフトウェアの脆弱性などを可視化する「A-gate View」の提供を開始した。リスクの発見から担当者への是正依頼、対応状況の管理までを組織横断で支援する。",
+    "category": "security",
+    "source": "NTTデータ",
+    "source_url": "https://www.nttdata.com/global/ja/news/topics/2026/112000/",
+    "why_it_matters": "クラウドを使う部署が増えると、問題の発見後に誰がいつ直すかを管理する負担も増す。検出結果と対応履歴をまとめる仕組みは、監査や経営層への説明を含む運用の改善につながる可能性がある。",
+    "core_facts": [
+      "提供開始時の対応クラウドはAWS。AzureとGoogle Cloudへの対応は今後の予定。",
+      "是正方法を日本語で示し、是正依頼やリスク受容の申請・承認、対応履歴を管理する。",
+      "NTTデータは2026年6月から社内で導入し、運用で得た知見をサービスに反映している。"
+    ],
+    "tags": [
+      "クラウドセキュリティ",
+      "AWS",
+      "リスク管理"
+    ]
+  },
+  {
+    "image_url": null,
+    "featured": true,
+    "priority": 3,
+    "region": "japan",
+    "edition_date": "2026-11-21",
+    "collected_at": "2026-11-21T17:03:49+09:00",
+    "is_sample": false,
+    "published_at": "2026-11-20T10:00:00+09:00",
+    "published_time_known": true,
+    "id": "fixstars-20261120-glm-5-3-inference",
+    "title": "Fixstars、国内推論基盤にGLM-5.3を追加　まず直接契約向けに提供",
+    "summary": "フィックスターズは11月20日、国内GPUサーバーで動く「Fixstars Inference Cloud」にGLM-5.3を追加したと発表した。当日時点では直接契約者向けの提供で、FastMetal経由での利用は後日開始する予定としている。",
+    "category": "ai",
+    "source": "フィックスターズ",
+    "source_url": "https://prtimes.jp/main/html/rd/p/000000095.000027784.html",
+    "why_it_matters": "社内文書やコードの処理場所を国内に限定したい企業にとって、推論APIの選択肢が増える。量子化したモデルの品質と応答性能を自社用途で確認し、契約経路ごとの利用可否も見極める必要がある。",
+    "core_facts": [
+      "公開モデルをNVFP4で量子化し、推論処理を最適化して提供する。",
+      "同社は推論サーバーとストレージを国内に置き、プロンプトと出力を推論終了後に保存せず、学習にも使わないとしている。",
+      "OpenAI互換APIに対応する。GLM-5.3のFastMetal経由提供は発表時点では予定段階。"
+    ],
+    "tags": [
+      "推論API",
+      "国内AI基盤",
+      "オープンウェイト",
+      "GLM"
+    ]
+  },
+  {
     "published_time_known": false,
     "image_url": null,
     "featured": true,
