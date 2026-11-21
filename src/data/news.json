@@ -1,5 +1,63 @@
 [
   {
+    "published_at": "2026-11-20T00:00:00+09:00",
+    "published_time_known": false,
+    "image_url": null,
+    "featured": true,
+    "region": "japan",
+    "edition_date": "2026-11-22",
+    "collected_at": "2026-11-22T01:01:47+09:00",
+    "is_sample": false,
+    "id": "digital-agency-20261120-gss-file-access",
+    "title": "デジタル庁、GSSのファイル共有で資料漏えいの可能性　11月12日に停止",
+    "summary": "デジタル庁は11月20日、政府機関向けのGSSファイル共有サービスで、正規の共有相手以外によるアクセスを確認したと発表した。アップロードされた資料の一部が漏れた可能性があり、個人情報を含むことも想定して調査している。",
+    "category": "security",
+    "source": "デジタル庁",
+    "source_url": "https://www.digital.go.jp/press/a966ee61-478c-4194-8f13-f97599fae986",
+    "priority": 1,
+    "why_it_matters": "組織間で会議資料などを共有する仕組みでは、共有先の制御とアクセス記録が情報管理の要になる。影響範囲の特定と併せ、サービス停止中の業務継続や関係者への説明も課題となる。",
+    "core_facts": [
+      "11月12日に不審なアクセスの可能性を検知し、同日にサービスを停止。検知後は外部との通信を遮断した。",
+      "調査では7月30日から11月12日までのアクセスを確認したが、期間の詳細は引き続き調査中。",
+      "個人情報保護委員会に報告し、警察や外部専門事業者と調査を進めている。発表時点で本件による二次被害は確認していない。"
+    ],
+    "tags": [
+      "GSS",
+      "ファイル共有",
+      "情報漏えい",
+      "行政システム"
+    ]
+  },
+  {
+    "published_at": "2026-11-20T00:00:00+09:00",
+    "published_time_known": false,
+    "image_url": null,
+    "featured": true,
+    "region": "japan",
+    "edition_date": "2026-11-22",
+    "collected_at": "2026-11-22T01:01:47+09:00",
+    "is_sample": false,
+    "id": "eole-20261120-softbank-gpu-resale",
+    "title": "イオレ、ソフトバンクのGPU計算資源の再販を開始　相互販売で連携",
+    "summary": "イオレは11月20日、ソフトバンクとAIデータセンター・GPU計算資源の相互販売に向けて連携すると発表した。第一弾として同日、ソフトバンクの「AIデータセンター GPUサーバー」と「Cloud PF Type A」の利用権の販売を始めた。",
+    "category": "cloud",
+    "source": "イオレ",
+    "source_url": "https://www.eole.co.jp/news/release/2026/news_post907/",
+    "priority": 3,
+    "why_it_matters": "国内でAIの学習や推論を行う企業にとって、計算資源の調達窓口が広がる動きとなる。一方、相互販売の全体構想と、今回実際に始まった再販の範囲を分けて確認する必要がある。",
+    "core_facts": [
+      "国内外の法人・事業者と販売代理店を対象に、ソフトバンクの2サービスの利用権を販売する。",
+      "イオレ側の計算資源をソフトバンクの顧客へ販売する取り組みは、今後協議を進める。",
+      "大規模GPUクラスターの共同提案や複数拠点の計算資源を組み合わせる提供体制の構築も目指す。"
+    ],
+    "tags": [
+      "GPU",
+      "AIインフラ",
+      "データセンター",
+      "クラウド"
+    ]
+  },
+  {
     "image_url": null,
     "featured": true,
     "priority": 3,
