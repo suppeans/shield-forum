@@ -3,6 +3,62 @@
     "published_time_known": false,
     "image_url": null,
     "featured": true,
+    "region": "japan",
+    "edition_date": "2026-11-21",
+    "collected_at": "2026-11-21T09:01:52+09:00",
+    "is_sample": false,
+    "id": "iij-20261119-sa-w3-router",
+    "title": "IIJ、Wi-Fi 7対応ルーター「SA-W3」を提供開始　多拠点の遠隔管理に対応",
+    "summary": "IIJは11月19日、Wi-Fi 7と2.5GbpsのWANポートを備えたルーター「SA-W3」の提供を開始した。設定の配信や監視を遠隔でまとめて行う管理サービスに対応し、企業の拠点ネットワーク更新を支援する。",
+    "category": "business",
+    "source": "インターネットイニシアティブ（IIJ）",
+    "source_url": "https://www.iij.ad.jp/news/pressrelease/2026/1119.html",
+    "published_at": "2026-11-19T00:00:00+09:00",
+    "priority": 3,
+    "why_it_matters": "クラウド利用で通信量が増える一方、拠点ごとの機器設定や保守に割ける人員は限られる。通信性能と集中管理を一緒に見直す選択肢になるが、導入時には現在の性能と今後の更新予定を分けて確認する必要がある。",
+    "core_facts": [
+      "Wi-Fi 7の2.4GHz・5GHz・6GHz帯と、2.5GbpsのWANインタフェースを搭載する。",
+      "IIJマルチプロダクトコントローラサービスとSACMに対応し、接続時の設定取得や遠隔監視を行える。",
+      "提供開始時のIPsecスループットは約500Mbps。約1Gbpsへの対応は2027年1月提供予定のファームウェアによる。"
+    ],
+    "tags": [
+      "企業ネットワーク",
+      "Wi-Fi 7",
+      "遠隔管理"
+    ]
+  },
+  {
+    "published_time_known": false,
+    "image_url": null,
+    "featured": true,
+    "region": "japan",
+    "edition_date": "2026-11-21",
+    "collected_at": "2026-11-21T09:01:52+09:00",
+    "is_sample": false,
+    "id": "jpcert-20261120-php-security-update",
+    "title": "JPCERT/CC、PHPの新たな修正版を案内　セッション設定にも注意",
+    "summary": "JPCERT/CCは11月20日、10月22日公開のPHP注意喚起を更新した。11月19日に公開された追加の脆弱性と修正版を案内し、更新を呼びかけた。今回新たに公表された脆弱性については、実際の攻撃で悪用された情報は確認できていないとしている。",
+    "category": "security",
+    "source": "JPCERT/CC",
+    "source_url": "https://www.jpcert.or.jp/at/2026/at260033.html",
+    "published_at": "2026-10-22T00:00:00+09:00",
+    "priority": 2,
+    "why_it_matters": "10月の対策を適用した環境でも、追加の修正が必要になる。PHPを組み込む製品や配布パッケージでは、提供元の対応状況と明示的な設定を照合することが運用上の確認点となる。",
+    "core_facts": [
+      "今回の収録対象は11月20日の追記。PHP 8.5.13、8.4.28、8.3.37、8.2.36を修正版として案内している。",
+      "修正にはCVE-2026-115560やCVE-2026-126714などが含まれ、影響する版と悪用条件は脆弱性ごとに異なる。",
+      "修正版ではセッションアップロード進捗機能が既定で無効になった。ただし、設定ファイルで明示的に有効にしている場合はその設定が優先される。"
+    ],
+    "tags": [
+      "PHP",
+      "セキュリティ更新",
+      "脆弱性対策"
+    ]
+  },
+  {
+    "published_time_known": false,
+    "image_url": null,
+    "featured": true,
     "priority": 3,
     "region": "japan",
     "edition_date": "2026-11-21",
