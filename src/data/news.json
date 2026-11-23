@@ -1,5 +1,34 @@
 [
   {
+    "id": "nativecreation-20261123-ec-entrance-movie",
+    "title": "ECエントランス、LINE内の動画から購入できるプランを追加",
+    "summary": "ネイティブクリエイションは11月23日、既存ECサイトとLINEを連携する「ECエントランス」にムービープランを追加した。動画に映る商品と表示タイミングをAIで設定し、視聴中の商品をカートに入れられるようにする。",
+    "category": "dx",
+    "source": "株式会社ネイティブクリエイション",
+    "source_url": "https://prtimes.jp/main/html/rd/p/000000002.000177020.html",
+    "published_at": "2026-11-23T11:03:00+09:00",
+    "published_time_known": true,
+    "image_url": null,
+    "why_it_matters": "国内の小売・卸事業者が、既存ECの注文基盤を使いながら動画による販売導線を増やす選択肢となる。導入判断では、商品認識の正確さや注文連携の条件、運用費用を確認する必要がある。",
+    "core_facts": [
+      "自社ECを持つ小売・卸事業者を対象とし、LINEで選んだ商品の注文を既存ECサイトへ連携する。",
+      "ムービープランの発表時料金は税別で初期100万円、月額20万円。最低契約期間は12カ月。",
+      "同社は既存サービスのスーパーへの導入を公表しているが、導入先名は非公開。今回の新プランの効果は導入先で検証するとしている。"
+    ],
+    "tags": [
+      "EC",
+      "LINE",
+      "動画コマース",
+      "小売DX"
+    ],
+    "featured": true,
+    "priority": 3,
+    "region": "japan",
+    "edition_date": "2026-11-24",
+    "collected_at": "2026-11-24T00:57:21+09:00",
+    "is_sample": false
+  },
+  {
     "published_time_known": true,
     "image_url": null,
     "featured": true,
