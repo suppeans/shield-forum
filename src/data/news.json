@@ -4,6 +4,64 @@
     "published_time_known": false,
     "image_url": null,
     "featured": true,
+    "priority": 2,
+    "region": "japan",
+    "edition_date": "2026-11-25",
+    "collected_at": "2026-11-25T01:01:32+09:00",
+    "is_sample": false,
+    "id": "canon-20261124-arf-dry-scanner",
+    "title": "キヤノン、24年ぶりのArFドライ露光装置　12月上旬に受注開始へ",
+    "summary": "キヤノンは11月24日、半導体露光装置「FPA-6300AS6」の受注を12月上旬に始めると発表した。同社のArFドライ装置としては2002年以来の新製品で、メモリー、パワーデバイス、センサーなどの製造に対応する。",
+    "category": "semiconductors",
+    "source": "キヤノン株式会社",
+    "source_url": "https://global.canon/ja/news/2026/20261124-2.html",
+    "why_it_matters": "国内の半導体製造装置メーカーが、用途や基板条件の異なる製造現場に向けて製品群を広げる動きとなる。顧客にとっては、微細化だけでなく既存工程との適合性や稼働率を踏まえた設備選択が重要になる。",
+    "core_facts": [
+      "既存のKrF装置FPA-6300ES6aの基盤を継承し、開口数0.93の新しい投影レンズを採用する。",
+      "小径基板、薄い基板と厚い基板、裏面アライメントを使う工程などに対応する。",
+      "装置データを活用するLithography Plusと連携可能。12月9〜11日のSEMICON Japanではパネル展示を予定する。"
+    ],
+    "tags": [
+      "半導体製造装置",
+      "露光技術",
+      "キヤノン",
+      "設備投資"
+    ]
+  },
+  {
+    "published_at": "2026-11-24T00:00:00+09:00",
+    "published_time_known": false,
+    "image_url": null,
+    "featured": true,
+    "priority": 2,
+    "region": "japan",
+    "edition_date": "2026-11-25",
+    "collected_at": "2026-11-25T01:01:32+09:00",
+    "is_sample": false,
+    "id": "sansan-20261124-advanced-solution",
+    "title": "Sansan、企業固有の業務をAIで個別開発する「Advanced Solution」を開始",
+    "summary": "Sansanは11月24日、標準機能では対応しにくい企業や部門の業務課題に、AIを活用した個別開発で対応する新サービスを発表した。専門人材Solution Builderが課題の特定から開発、導入初期の支援まで担当する。",
+    "category": "dx",
+    "source": "Sansan株式会社",
+    "source_url": "https://jp.corp-sansan.com/news/2026/1124.html",
+    "why_it_matters": "日本企業がSaaSの標準機能と自社固有の業務の間を埋める選択肢となる。短い周期で試作・検証する手法を、データ接続や業務ルールの整理と組み合わせて提供する動きとして注目される。",
+    "core_facts": [
+      "ヒアリング後に試作品を提示し、要件の確認と調整を重ねる。最短1週間で提供した事例があるが、一律の納期保証ではない。",
+      "案件に応じてSansan、Bill One、Contract Oneや基幹システムのデータを活用する。",
+      "請求書明細を企業独自の基準で分類・集計する事例は、発表時点で開発中として紹介されている。"
+    ],
+    "tags": [
+      "AI開発",
+      "業務改革",
+      "SaaS",
+      "Sansan"
+    ]
+  },
+  {
+    "published_at": "2026-11-24T00:00:00+09:00",
+    "published_time_known": false,
+    "image_url": null,
+    "featured": true,
     "priority": 3,
     "region": "japan",
     "edition_date": "2026-11-24",
