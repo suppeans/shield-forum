@@ -1,5 +1,33 @@
 [
   {
+    "id": "github-20261123-slack-secret-scanning",
+    "title": "GitHub、Slack Webhookの秘密情報スキャンで誤検知を削減",
+    "summary": "GitHubは11月23日、SlackのIncoming Webhook URLに対するsecret scanningの検出処理を改善したと発表した。Slackの所定のURL形式に合わないものを検出対象から除外する。",
+    "category": "security",
+    "source": "GitHub",
+    "source_url": "https://github.blog/changelog/2026-11-23-secret-scanning-reduces-false-positives-for-slack/",
+    "published_at": "2026-11-23T00:00:00+09:00",
+    "published_time_known": false,
+    "image_url": null,
+    "why_it_matters": "GitHubとSlackを連携する日本の開発チームにとって、誤った警告の確認にかかる負担を減らす変更となる。実際のWebhook URLの流出に対する確認や無効化の運用は、引き続き必要になる。",
+    "core_facts": [
+      "対象の検出器はslack_incoming_webhook_url。",
+      "SlackのIncoming Webhook URL形式を使わないURLを除外し、誤った一致を減らす。"
+    ],
+    "tags": [
+      "GitHub",
+      "Slack",
+      "秘密情報検出",
+      "開発セキュリティ"
+    ],
+    "featured": true,
+    "priority": 3,
+    "region": "global",
+    "edition_date": "2026-11-24",
+    "collected_at": "2026-11-24T08:59:44+09:00",
+    "is_sample": false
+  },
+  {
     "id": "nativecreation-20261123-ec-entrance-movie",
     "title": "ECエントランス、LINE内の動画から購入できるプランを追加",
     "summary": "ネイティブクリエイションは11月23日、既存ECサイトとLINEを連携する「ECエントランス」にムービープランを追加した。動画に映る商品と表示タイミングをAIで設定し、視聴中の商品をカートに入れられるようにする。",
