@@ -1,5 +1,92 @@
 [
   {
+    "published_at": "2026-11-24T00:00:00+09:00",
+    "published_time_known": false,
+    "image_url": null,
+    "featured": true,
+    "priority": 3,
+    "region": "japan",
+    "edition_date": "2026-11-24",
+    "collected_at": "2026-11-24T17:02:19+09:00",
+    "is_sample": false,
+    "id": "panasonic-20261124-edge-ai-note-taker",
+    "title": "パナソニック、録音から要約まで端末内で行う議事録AIを無償提供",
+    "summary": "パナソニック コネクトは11月24日、対象のレッツノート向けに「Panasonic PC Edge AI Note Taker」を提供開始した。会議データをクラウドへ送らず、録音、文字起こし、要約をオフラインで処理する。",
+    "category": "ai",
+    "source": "パナソニック コネクトグループ",
+    "source_url": "https://news.panasonic.com/jp/press/jn261124-2",
+    "why_it_matters": "会議音声の外部送信を制限する日本企業や公共機関に、端末内でAIを使う選択肢が加わる。導入には対応機種やメモリ要件を満たすことに加え、文字起こしと要約の精度を実務で確認する必要がある。",
+    "core_facts": [
+      "国内モデルのレッツノートSC6・FC6・SC7・FC7・NC7が対象で、Windows 11と16GB以上のメモリが必要。",
+      "マイク入力とPCの再生音声を録音でき、音声認識にはNPUを使う。",
+      "日本語か英語の単一言語の会議に対応し、英語会議の日本語要約も可能。複数言語が混在する会議の要約は対象外。"
+    ],
+    "tags": [
+      "ローカルAI",
+      "議事録",
+      "レッツノート",
+      "業務効率化"
+    ]
+  },
+  {
+    "published_at": "2026-11-24T00:00:00+09:00",
+    "published_time_known": false,
+    "image_url": null,
+    "featured": true,
+    "priority": 1,
+    "region": "japan",
+    "edition_date": "2026-11-24",
+    "collected_at": "2026-11-24T17:02:19+09:00",
+    "is_sample": false,
+    "id": "weleda-20261124-shop-data-breach",
+    "title": "ヴェレダ、公式通販で約19.9万件の個人情報が漏えいした可能性を公表",
+    "summary": "ヴェレダは11月24日、公式オンラインショップへの不正アクセスと改ざんにより、個人情報198,792件と45,689人分のカード情報が漏れた可能性があると公表した。6月30日に警察から連絡を受けており、調査と対象者の特定を経た発表となる。",
+    "category": "security",
+    "source": "ヴェレダ",
+    "source_url": "https://weleda-notice-static-apne1.s3.ap-northeast-1.amazonaws.com/news/20261116.html",
+    "why_it_matters": "EC運営企業にとって、決済画面を含む改ざん対策だけでなく、発覚後の調査、利用者通知、サービス再開までの業務継続が問われる事例となる。カード情報と個人情報の対象範囲を分けた説明も重要になる。",
+    "core_facts": [
+      "対象期間は2021年10月1日から2026年6月30日。会員、非会員の注文者、配送先の情報が含まれ、対象項目は登録状況で異なる。",
+      "カード情報には名義、番号、有効期限、セキュリティコードが含まれる可能性がある。個人情報件数とカード対象人数は別々に示されている。",
+      "7月3日にカード決済、8月19日にサイトを停止。新システムでの再開は2027年3月頃を目指すが、時期は未確定。"
+    ],
+    "tags": [
+      "情報漏えい",
+      "ECセキュリティ",
+      "不正アクセス",
+      "決済情報"
+    ]
+  },
+  {
+    "published_at": "2026-11-24T00:00:00+09:00",
+    "published_time_known": false,
+    "image_url": null,
+    "featured": true,
+    "priority": 3,
+    "region": "japan",
+    "edition_date": "2026-11-24",
+    "collected_at": "2026-11-24T17:02:19+09:00",
+    "is_sample": false,
+    "id": "ipa-20261124-ics-security-week",
+    "title": "IPA、日米EUの産業制御セキュリティ研修を報告　約165人が参加",
+    "summary": "IPAは11月24日、経済産業省と米国・EUの関係機関が連携して11月16〜20日に東京で開いた産業制御システムのサイバーセキュリティ研修について公表した。インド太平洋地域の実務者が演習や業界別の討議に参加した。",
+    "category": "careers",
+    "source": "情報処理推進機構（IPA）",
+    "source_url": "https://www.ipa.go.jp/jinzai/ics/global/ics20261124.html",
+    "why_it_matters": "日本の製造業や重要インフラは海外拠点・取引先とつながっており、地域全体の対処能力がサプライチェーンの安全性にも関わる。OTとITの担当者が攻撃シナリオを共有する人材育成の取り組みとなる。",
+    "core_facts": [
+      "参加者は約165人で、来日約65人とライブ配信の聴講約100人。重要インフラ、製造業、CSIRT、政府機関などが対象。",
+      "今年は演習を5日間に拡大し、業界ごとのリスクを盛り込んだ仮想企業のシナリオを使ったワークショップを実施した。",
+      "AIを活用する産業制御システムへの攻撃シナリオのデモに加え、説明可能AIとAIガバナンスも扱った。"
+    ],
+    "tags": [
+      "OTセキュリティ",
+      "産業制御",
+      "人材育成",
+      "国際連携"
+    ]
+  },
+  {
     "id": "github-20261123-slack-secret-scanning",
     "title": "GitHub、Slack Webhookの秘密情報スキャンで誤検知を削減",
     "summary": "GitHubは11月23日、SlackのIncoming Webhook URLに対するsecret scanningの検出処理を改善したと発表した。Slackの所定のURL形式に合わないものを検出対象から除外する。",
