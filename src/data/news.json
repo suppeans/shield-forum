@@ -1,5 +1,63 @@
 [
   {
+    "id": "newrelic-20261124-fsi-operations",
+    "title": "New Relicと富士ソフト、可観測性データを活用する運用保守サービスを開始",
+    "summary": "New Relicは11月24日、富士ソフトとの協業によるアプリケーション運用保守サービスを発表した。監視データの分析を、障害対応やアプリケーション改修につなげる。",
+    "category": "development",
+    "source": "New Relic株式会社",
+    "source_url": "https://prtimes.jp/main/html/rd/p/000000148.000109343.html",
+    "published_at": "2026-11-24T14:30:00+09:00",
+    "published_time_known": true,
+    "image_url": null,
+    "why_it_matters": "監視基盤を導入した後の運用設計や改善まで外部支援を受けられる選択肢が広がる。利用企業には、対象システムと改善指標を絞って効果を確かめる運用が求められる。",
+    "core_facts": [
+      "富士ソフトは、New Relic認定プロフェッショナルサービスを提供する国内初のパートナーとなる。",
+      "導入支援、活用高度化、運用・改善支援の3メニューを用意する。",
+      "認定人材200名の育成は今後5年間の目標。AIによる調査・判断支援や運用自動化も今後の取り組みとしている。"
+    ],
+    "tags": [
+      "運用保守",
+      "可観測性",
+      "富士ソフト",
+      "開発運用"
+    ],
+    "featured": true,
+    "priority": 3,
+    "region": "japan",
+    "edition_date": "2026-11-25",
+    "collected_at": "2026-11-25T09:03:57+09:00",
+    "is_sample": false
+  },
+  {
+    "id": "mobilytix-20261124-mobicounterai-rollout",
+    "title": "Mobilytix、交通映像を解析する「MobiCounterAI」の本格展開を開始",
+    "summary": "Mobilytixは11月24日、クラウド型AI交通解析サービス「MobiCounterAI」の本格的な市場展開を発表した。建設コンサルタントや交通調査会社、道路管理者、自治体への普及を進める。",
+    "category": "dx",
+    "source": "Mobilytix株式会社",
+    "source_url": "https://prtimes.jp/main/html/rd/p/000000003.000195018.html",
+    "published_at": "2026-11-24T11:00:00+09:00",
+    "published_time_known": true,
+    "image_url": null,
+    "why_it_matters": "専用GPUを調達せずに交通映像の集計を行えるため、交通調査の省力化を検討する現場の選択肢となる。導入時には撮影条件ごとの精度や確認作業の負担を評価する必要がある。",
+    "core_facts": [
+      "ブラウザから映像を登録して解析条件を設定し、クラウドGPUで処理する。",
+      "車両の検出・追跡と方向別集計、7車種の分類に加え、二輪・歩行者にも対応する。",
+      "東京理科大学の研究知見を基盤としているが、公的機関による採用・認定を示すものではないと説明している。"
+    ],
+    "tags": [
+      "交通量調査",
+      "画像認識",
+      "クラウド",
+      "自治体DX"
+    ],
+    "featured": true,
+    "priority": 3,
+    "region": "japan",
+    "edition_date": "2026-11-25",
+    "collected_at": "2026-11-25T09:03:57+09:00",
+    "is_sample": false
+  },
+  {
     "published_at": "2026-11-24T00:00:00+09:00",
     "published_time_known": false,
     "image_url": null,
