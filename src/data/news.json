@@ -1,5 +1,92 @@
 [
   {
+    "id": "fujitsu-20261125-daybreak-diagnosis",
+    "title": "富士通、OpenAIの技術を使う脆弱性診断を提供開始",
+    "summary": "富士通は11月25日、OpenAIのDaybreak Defense Networkへの参画と、脆弱性診断サービスの提供開始を発表した。コード解析と実環境での検証を組み合わせ、修正後の確認まで支援する。",
+    "category": "security",
+    "source": "富士通株式会社",
+    "source_url": "https://prtimes.jp/main/html/rd/p/000000643.000093942.html",
+    "published_at": "2026-11-25T12:26:00+09:00",
+    "why_it_matters": "脆弱性の件数だけでなく、悪用の可能性を踏まえて修正の優先順位を決める選択肢が広がる。利用企業には診断範囲と修正・再検証の担当を明確にすることが求められる。",
+    "core_facts": [
+      "顧客が許可した範囲で動的診断と静的診断を連動させ、AIの結果を専門家が確認する。",
+      "レポートには原因や該当コード、実証コード、修正案を含める。",
+      "修正後に再診断し、診断時の条件下で対策の有効性を確かめる。"
+    ],
+    "tags": [
+      "脆弱性診断",
+      "サイバー防御",
+      "富士通",
+      "生成AI"
+    ],
+    "priority": 2,
+    "published_time_known": true,
+    "image_url": null,
+    "featured": true,
+    "region": "japan",
+    "edition_date": "2026-11-25",
+    "collected_at": "2026-11-25T17:02:25+09:00",
+    "is_sample": false
+  },
+  {
+    "id": "bakeru-20261125-zenbu-robotics",
+    "title": "DeNA子会社BAKERU、ロボット導入を支援する「ZENBU Robotics」を始動",
+    "summary": "BAKERUは11月25日、機体の調達からAI学習、導入・保守まで扱う新事業を発表した。RoboPartyとBooster Roboticsとの提携を第1弾とする。",
+    "category": "ai",
+    "source": "BAKERU株式会社",
+    "source_url": "https://prtimes.jp/main/html/rd/p/000000015.000190815.html",
+    "published_at": "2026-11-25T11:10:00+09:00",
+    "why_it_matters": "海外製ロボットの調達と国内現場での開発・保守をつなぐ窓口が増える。導入企業はレンタルなどで作業への適合性を確かめ、現場ごとの調整負担を見極めやすくなる。",
+    "core_facts": [
+      "機体調達や学習データ収集など、一部の工程だけの依頼も受け付ける。",
+      "期間を区切ったレンタルや、日本語での導入・保守支援に対応する。",
+      "製造・物流企業とは導入に向けた協議中。年内10社との提携は見通しとしている。"
+    ],
+    "tags": [
+      "フィジカルAI",
+      "ロボット",
+      "導入支援",
+      "DeNA"
+    ],
+    "priority": 3,
+    "published_time_known": true,
+    "image_url": null,
+    "featured": true,
+    "region": "japan",
+    "edition_date": "2026-11-25",
+    "collected_at": "2026-11-25T17:02:25+09:00",
+    "is_sample": false
+  },
+  {
+    "id": "joyzo-20261125-jcamp-end",
+    "title": "ジョイゾー、「J Camp」を終了　企業別のDX研修へ移行",
+    "summary": "ジョイゾーは11月25日、kintoneを使う伴走型教育サービス「J Camp」の新規受付と提供を終了した。今後は企業ごとの課題や業務に合わせた研修へ移行する。",
+    "category": "careers",
+    "source": "株式会社ジョイゾー",
+    "source_url": "https://prtimes.jp/main/html/rd/p/000000097.000037189.html",
+    "published_at": "2026-11-25T11:00:00+09:00",
+    "why_it_matters": "DX研修を選ぶ企業にとって、共通の講座内容に加え、自社の業務で実践できる設計が重要になる。既存サービスの利用を検討していた企業は、個別研修の内容や条件を確認する必要がある。",
+    "core_facts": [
+      "J Campは2021年から提供していた教育サービス。",
+      "個別研修は現状の課題や業務フローを聞き取り、実務に合わせて設計する。",
+      "システム構築や伴走支援は「システム39」「スキル39」で対応する。"
+    ],
+    "tags": [
+      "DX人材",
+      "企業研修",
+      "kintone",
+      "業務改善"
+    ],
+    "priority": 3,
+    "published_time_known": true,
+    "image_url": null,
+    "featured": true,
+    "region": "japan",
+    "edition_date": "2026-11-25",
+    "collected_at": "2026-11-25T17:02:25+09:00",
+    "is_sample": false
+  },
+  {
     "id": "newrelic-20261124-fsi-operations",
     "title": "New Relicと富士ソフト、可観測性データを活用する運用保守サービスを開始",
     "summary": "New Relicは11月24日、富士ソフトとの協業によるアプリケーション運用保守サービスを発表した。監視データの分析を、障害対応やアプリケーション改修につなげる。",
