@@ -1,5 +1,63 @@
 [
   {
+    "id": "sakana-20261125-namazu-small",
+    "title": "Sakana AI、300億パラメータの「Namazu Small」を発表　オンプレミス提供を計画",
+    "summary": "Sakana AIは11月25日、検索を使う調査や長文読解を重視したLLM「Sakana Namazu Small」を発表した。オンプレミス提供の詳細は12月前半に公表する予定。",
+    "category": "ai",
+    "source": "Sakana AI",
+    "source_url": "https://sakana.ai/namazu-small/",
+    "published_at": "2026-11-25T00:00:00+09:00",
+    "published_time_known": false,
+    "image_url": null,
+    "why_it_matters": "日本企業が自社基盤で運用するLLMを検討する際の候補が増える可能性がある。提供条件の発表を待ち、社内文書での精度や必要な計算資源を確認することが導入判断につながる。",
+    "core_facts": [
+      "NVIDIA Nemotron 3 Nanoのベースモデルに、継続事前学習と事後学習を施した300億パラメータのモデル。",
+      "同社の25ベンチマーク評価では検索・長文理解に強みを示す一方、内部知識だけで答える課題には改善余地があると説明する。",
+      "経済産業省・NEDOのGENIAC支援による研究開発成果を活用した。"
+    ],
+    "tags": [
+      "国産AI",
+      "大規模言語モデル",
+      "オンプレミス",
+      "GENIAC"
+    ],
+    "featured": true,
+    "priority": 2,
+    "region": "japan",
+    "edition_date": "2026-11-26",
+    "collected_at": "2026-11-26T01:03:08+09:00",
+    "is_sample": false
+  },
+  {
+    "id": "sboai-20261125-initial-access-diagnosis",
+    "title": "SB OAI Japan、公開システムの初期侵入リスクを調べる診断を開始",
+    "summary": "SB OAI Japanは11月25日、「Patching as a Service」に「侵入可否診断」を追加した。顧客が指定する公開資産を対象に、診断結果と対策案を開始から10営業日以内に報告する。",
+    "category": "security",
+    "source": "SB OAI Japan合同会社",
+    "source_url": "https://www.sb-oai.co.jp/news/20261125_01/",
+    "published_at": "2026-11-25T00:00:00+09:00",
+    "published_time_known": false,
+    "image_url": null,
+    "why_it_matters": "国内企業が公開資産の設定や脆弱性を、実際の侵入可能性と結び付けて点検する選択肢となる。診断範囲を確認し、結果を修正や追加調査へつなげる運用が重要になる。",
+    "core_facts": [
+      "対象は指定したIPアドレス・URLにひも付くウェブアプリ、外部公開API、VPN装置。",
+      "OpenAIの技術で侵入経路を検討し、アクセス頻度を制限するなど影響を抑えて検証する。",
+      "侵入後の追加攻撃や横展開は対象外。侵入を確認できなくても、全ての侵入リスクがないとは保証しない。"
+    ],
+    "tags": [
+      "脆弱性診断",
+      "公開資産",
+      "侵入リスク",
+      "企業セキュリティ"
+    ],
+    "featured": true,
+    "priority": 2,
+    "region": "japan",
+    "edition_date": "2026-11-26",
+    "collected_at": "2026-11-26T01:03:08+09:00",
+    "is_sample": false
+  },
+  {
     "id": "fujitsu-20261125-daybreak-diagnosis",
     "title": "富士通、OpenAIの技術を使う脆弱性診断を提供開始",
     "summary": "富士通は11月25日、OpenAIのDaybreak Defense Networkへの参画と、脆弱性診断サービスの提供開始を発表した。コード解析と実環境での検証を組み合わせ、修正後の確認まで支援する。",
