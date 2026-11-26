@@ -1,5 +1,64 @@
 [
   {
+    "id": "sony-network-20261126-gpu-trial",
+    "title": "ソニーネットワーク、GPUクラウドの無償トライアル募集を開始",
+    "summary": "ソニーネットワークコミュニケーションズは11月26日、NVIDIA B300とAMD MI350Xを使うGPUトライアルの募集を開始した。検証環境の提供は2027年1〜2月、正式サービスは同年3月を目指す。",
+    "category": "cloud",
+    "source": "ソニーネットワークコミュニケーションズ株式会社",
+    "source_url": "https://prtimes.jp/main/html/rd/p/000001567.000000196.html",
+    "published_at": "2026-11-26T12:00:00+09:00",
+    "published_time_known": true,
+    "why_it_matters": "国内企業が自社モデルやデータでGPUの適性を比較する機会となる。正式導入に向け、推論性能だけでなくトークン当たりの費用や運用条件を検証する材料が増える。",
+    "core_facts": [
+      "国内の法人・研究機関を対象に、ボード単位の隔離されたGPU環境を提供する。",
+      "予定期間は2027年1月5日〜2月26日。機種により開始時期や利用期間が異なる場合がある。",
+      "事前審査と利用後アンケートが必要で、受け入れ枠には限りがある。"
+    ],
+    "tags": [
+      "GPUクラウド",
+      "AI基盤",
+      "技術検証",
+      "NVIDIA",
+      "AMD"
+    ],
+    "priority": 2,
+    "image_url": null,
+    "featured": true,
+    "region": "japan",
+    "edition_date": "2026-11-27",
+    "collected_at": "2026-11-27T01:00:41+09:00",
+    "is_sample": false
+  },
+  {
+    "id": "alsi-sakura-20261126-cloud-partnership",
+    "title": "ALSIとさくらインターネットが協業　国産クラウドの構築・運用支援を拡充",
+    "summary": "ALSIとさくらインターネットは11月26日、パブリッククラウド分野で協業を開始した。ALSIのクラウド構築支援に「さくらのクラウド」を加える。",
+    "category": "cloud",
+    "source": "アルプス システム インテグレーション株式会社・さくらインターネット株式会社",
+    "source_url": "https://www.sakura.ad.jp/corporate/information/newsreleases/2026/11/26/1968226384/",
+    "published_at": "2026-11-26T00:00:00+09:00",
+    "published_time_known": false,
+    "why_it_matters": "国内データ保管を重視する企業や公共機関にとって、クラウド選定と導入支援の選択肢が広がる。移行時には既存システムとの接続、運用分担、総費用を含めて比較することが重要になる。",
+    "core_facts": [
+      "設計・構築から運用・保守までを一貫して支援する。",
+      "民間企業に加え、自治体・教育機関などを対象に国産クラウド活用を支える。",
+      "クラウド基盤に加えて社内ネットワーク構築も支援可能。料金は個別見積もり。"
+    ],
+    "tags": [
+      "国産クラウド",
+      "クラウド移行",
+      "運用保守",
+      "さくらインターネット"
+    ],
+    "priority": 3,
+    "image_url": null,
+    "featured": true,
+    "region": "japan",
+    "edition_date": "2026-11-27",
+    "collected_at": "2026-11-27T01:00:41+09:00",
+    "is_sample": false
+  },
+  {
     "id": "ycc-20261126-ai-soc",
     "title": "YCC情報システム、AI分析と自動対処を組み合わせたSOCを運用開始",
     "summary": "YCC情報システムとNTTドコモビジネスは11月26日、YCCが「AI SOC」を導入し、11月から運用していると発表した。ログの相関分析、自動対処、専門家の支援を組み合わせる。",
