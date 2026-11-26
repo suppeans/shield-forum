@@ -1,5 +1,63 @@
 [
   {
+    "id": "ctc-20261125-c-native-expansion",
+    "title": "CTC、AI駆動開発の統制と環境標準化を支援する2メニューを追加",
+    "summary": "CTCは11月25日、クラウドネイティブ技術支援サービス「C-Native」を拡充した。AIが生成するインフラコードの統制と、共通の開発環境づくりを支援する。",
+    "category": "development",
+    "source": "伊藤忠テクノソリューションズ株式会社",
+    "source_url": "https://prtimes.jp/main/html/rd/p/000000243.000108377.html",
+    "published_at": "2026-11-25T10:04:00+09:00",
+    "why_it_matters": "AIによる開発を部門ごとの試行から全社利用へ広げる際、権限や設定、品質の管理が課題になる。共通環境とルールを組み合わせて整備する選択肢として、企業の開発基盤づくりに関わる。",
+    "core_facts": [
+      "「C-Native Harness」は、構成・権限・セキュリティのルールをインフラやIaCに適用する。",
+      "「C-Native CodeSpire」は、標準ルールを適用したテンプレートやツールなどの共通環境を提供する。",
+      "価格は税抜き700万円から。3年間で売上10億円を目指すとしている。"
+    ],
+    "tags": [
+      "AI駆動開発",
+      "開発環境",
+      "クラウド",
+      "ガバナンス"
+    ],
+    "priority": 3,
+    "published_time_known": true,
+    "image_url": null,
+    "featured": true,
+    "region": "japan",
+    "edition_date": "2026-11-26",
+    "collected_at": "2026-11-26T09:00:09+09:00",
+    "is_sample": false
+  },
+  {
+    "id": "altiuslink-20261125-municipal-total-dx",
+    "title": "アルティウスリンク、自治体の窓口から事務処理まで支えるDXサービスを開始",
+    "summary": "アルティウスリンクは11月25日、「自治体手続トータルDX」を提供開始した。住民対応から申請受付後の処理まで、デジタル技術と業務受託を組み合わせて支援する。",
+    "category": "dx",
+    "source": "アルティウスリンク株式会社",
+    "source_url": "https://prtimes.jp/main/html/rd/p/000000553.000019180.html",
+    "published_at": "2026-11-25T15:00:00+09:00",
+    "why_it_matters": "自治体DXでは、オンライン申請の導入に加えて、受付後の処理までつなぐ業務設計が重要になる。自治体は職員と外部事業者の役割、情報の扱い、継続運用の条件を含めて検討する必要がある。",
+    "core_facts": [
+      "来庁前の相談から申請後の処理までを対象とし、業務フローの再設計を支援する。",
+      "自治体ごとの業務要件やセキュリティ基準に応じ、職員・BPO・DXの役割分担を設計する。",
+      "導入後の運用・改善や人材育成も支援。2030年度までに30自治体以上への提供を目指す。"
+    ],
+    "tags": [
+      "自治体DX",
+      "行政手続き",
+      "業務改革",
+      "BPO"
+    ],
+    "priority": 3,
+    "published_time_known": true,
+    "image_url": null,
+    "featured": true,
+    "region": "japan",
+    "edition_date": "2026-11-26",
+    "collected_at": "2026-11-26T09:00:09+09:00",
+    "is_sample": false
+  },
+  {
     "id": "sakana-20261125-namazu-small",
     "title": "Sakana AI、300億パラメータの「Namazu Small」を発表　オンプレミス提供を計画",
     "summary": "Sakana AIは11月25日、検索を使う調査や長文読解を重視したLLM「Sakana Namazu Small」を発表した。オンプレミス提供の詳細は12月前半に公表する予定。",
