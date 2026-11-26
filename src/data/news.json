@@ -1,5 +1,34 @@
 [
   {
+    "id": "robotmatehub-20261126-physical-ai-training",
+    "title": "RobotMateHub、フィジカルAIの人材育成研修6コースを提供開始",
+    "summary": "RobotMateHubは11月26日、企業・教育機関・自治体向けにフィジカルAI研修を開始した。入門から専門分野まで、少人数のオンライン講義で学ぶ構成とする。",
+    "category": "careers",
+    "source": "RobotMateHub株式会社",
+    "source_url": "https://prtimes.jp/main/html/rd/p/000000019.000170120.html",
+    "published_at": "2026-11-26T10:00:00+09:00",
+    "published_time_known": true,
+    "image_url": null,
+    "why_it_matters": "ロボット導入には、AIや制御の技術に加えて現場の業務を理解する人材が必要になる。企業や教育機関が、導入担当者と開発者の役割に応じた研修を検討する際の選択肢となる。",
+    "core_facts": [
+      "1クラス最大8名のオンライン・ライブ形式で、R検定Level 1〜3に対応する6コースを用意する。",
+      "入門は計6時間、実務基礎は計9時間、専門4コースは各計12時間。",
+      "Unitree G1の実機を使う開発コースは12月に追加予定で、今回開始した6コースとは区別される。"
+    ],
+    "tags": [
+      "フィジカルAI",
+      "IT人材",
+      "ロボット",
+      "企業研修"
+    ],
+    "featured": true,
+    "priority": 3,
+    "region": "japan",
+    "edition_date": "2026-11-27",
+    "collected_at": "2026-11-27T08:57:54+09:00",
+    "is_sample": false
+  },
+  {
     "id": "sony-network-20261126-gpu-trial",
     "title": "ソニーネットワーク、GPUクラウドの無償トライアル募集を開始",
     "summary": "ソニーネットワークコミュニケーションズは11月26日、NVIDIA B300とAMD MI350Xを使うGPUトライアルの募集を開始した。検証環境の提供は2027年1〜2月、正式サービスは同年3月を目指す。",
