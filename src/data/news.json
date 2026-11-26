@@ -1,5 +1,63 @@
 [
   {
+    "id": "ycc-20261126-ai-soc",
+    "title": "YCC情報システム、AI分析と自動対処を組み合わせたSOCを運用開始",
+    "summary": "YCC情報システムとNTTドコモビジネスは11月26日、YCCが「AI SOC」を導入し、11月から運用していると発表した。ログの相関分析、自動対処、専門家の支援を組み合わせる。",
+    "category": "security",
+    "source": "株式会社YCC情報システム・NTTドコモビジネス株式会社",
+    "source_url": "https://www.ntt.com/about-us/press-releases/news/article/2026/1126.html",
+    "published_at": "2026-11-26T00:00:00+09:00",
+    "published_time_known": false,
+    "why_it_matters": "地域のITサービス企業が監視体制を強める事例として、AIと専門家の役割分担が参考になる。自動対処を導入する際には、対象となる脅威や実行手順、業務への影響を事前に整理する必要がある。",
+    "core_facts": [
+      "AI Advisorが通信・認証などのログを分析し、マネージドSOARが定めた手順に基づいて対処する。",
+      "両社は、専門家の支援も含めた24時間365日の監視・対応体制を構築したと説明する。",
+      "11月26日の発表は導入事例であり、サービス自体の新規提供開始ではない。"
+    ],
+    "tags": [
+      "SOC",
+      "ログ分析",
+      "対応自動化",
+      "地域IT"
+    ],
+    "priority": 3,
+    "image_url": null,
+    "featured": true,
+    "region": "japan",
+    "edition_date": "2026-11-26",
+    "collected_at": "2026-11-26T17:03:55+09:00",
+    "is_sample": false
+  },
+  {
+    "id": "ricoh-20261126-malware-execution-prevention",
+    "title": "リコージャパン、AppGuardの導入・運用を支えるマルウェア実行防止サービスを開始",
+    "summary": "リコージャパンは11月26日、端末上の不正プログラムの実行制御を支援するサービスを開始した。AppGuardジャパンと連携し、顧客環境に合わせた設定や運用を支援する。",
+    "category": "security",
+    "source": "リコージャパン株式会社",
+    "source_url": "https://prtimes.jp/main/html/rd/p/000000241.000006187.html",
+    "published_at": "2026-11-26T11:00:00+09:00",
+    "published_time_known": true,
+    "why_it_matters": "既存の防御を通過した攻撃に備え、端末での実行制御を追加する選択肢となる。業務アプリへの影響を見極めながら設定を調整し、既存の監視や更新作業と組み合わせて運用することが重要になる。",
+    "core_facts": [
+      "正式名称は「RICOH サイバーセキュリティパック マルウェア実行防止サービス」。",
+      "専門人材がシステムログを基にポリシーを調整し、リスクに応じて必要な端末へ適用できる。",
+      "導入後の相談はヘルプデスクで受け付ける。"
+    ],
+    "tags": [
+      "エンドポイント",
+      "実行制御",
+      "多層防御",
+      "AppGuard"
+    ],
+    "priority": 3,
+    "image_url": null,
+    "featured": true,
+    "region": "japan",
+    "edition_date": "2026-11-26",
+    "collected_at": "2026-11-26T17:03:55+09:00",
+    "is_sample": false
+  },
+  {
     "id": "ctc-20261125-c-native-expansion",
     "title": "CTC、AI駆動開発の統制と環境標準化を支援する2メニューを追加",
     "summary": "CTCは11月25日、クラウドネイティブ技術支援サービス「C-Native」を拡充した。AIが生成するインフラコードの統制と、共通の開発環境づくりを支援する。",
