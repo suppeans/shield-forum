@@ -1,5 +1,64 @@
 [
   {
+    "id": "iret-20261127-aidd-mvp-databricks",
+    "title": "KDDIアイレット、自社データでDatabricksを試す短期構築サービスを開始",
+    "summary": "KDDIアイレットは11月27日、用途を絞ったデータ取り込みからAI/BIダッシュボードとGenieの構築までを支援する「AIDD MVP for Databricks」を開始した。最短1カ月からの検証向けサービスで、本番運用の設計は対象外とする。",
+    "category": "dx",
+    "source": "KDDIアイレット株式会社",
+    "source_url": "https://prtimes.jp/main/html/rd/p/000000480.000009999.html",
+    "published_at": "2026-11-27T11:00:00+09:00",
+    "why_it_matters": "国内企業がデータ基盤への投資を判断する際、自社のデータを使って分析や日本語での問い合わせを試せる選択肢となる。検証後の本番化には、データ品質の改善や運用設計を別途検討する必要がある。",
+    "core_facts": [
+      "Databricks環境の導入、対象データの取り込み、AI/BIダッシュボードとGenieの構築を支援する。",
+      "期間は最短1カ月から。個別見積もりで、Databricksとクラウドの利用料金は別途必要となる。",
+      "複雑なデータ分析、大規模な前処理・クレンジング、本番運用設計は含まない。",
+      "Databricks Appsを用いる業務アプリのAI駆動開発を追加オプションとして用意する。"
+    ],
+    "tags": [
+      "データ活用",
+      "Databricks",
+      "生成AI",
+      "導入検証"
+    ],
+    "published_time_known": true,
+    "image_url": null,
+    "featured": true,
+    "priority": 3,
+    "region": "japan",
+    "edition_date": "2026-11-28",
+    "collected_at": "2026-11-28T00:56:25+09:00",
+    "is_sample": false
+  },
+  {
+    "id": "directcloud-20261127-dr-backup-pricing",
+    "title": "DirectCloud、遠隔地バックアップ料金を12月1日に改定へ",
+    "summary": "ダイレクトクラウドは、法人向けストレージの遠隔地バックアップについて、基本料金を契約プラン月額の50％とする料金改定を発表した。12月1日から適用し、ビジネスプラン以上が対象となる。",
+    "category": "security",
+    "source": "株式会社ダイレクトクラウド",
+    "source_url": "https://prtimes.jp/main/html/rd/p/000000165.000000400.html",
+    "published_at": "2026-11-27T08:00:00+09:00",
+    "why_it_matters": "企業が障害や攻撃に備える際、別リージョンから重要ファイルを取り出すための費用を見直す材料になる。バックアップの料金だけでなく、復旧できる時点と利用可能な操作を自社の事業継続計画に照らして確認したい。",
+    "core_facts": [
+      "改定は2026年12月1日から。基本料金は契約プランの月額料金の50％で、契約容量までのバックアップに対応する。",
+      "大阪またはシンガポールのDRサイトを選択し、毎日自動同期する有料オプション。",
+      "復旧時点の目標は最大24時間前。DRサイトでできる操作はブラウザからのファイルダウンロードに限る。",
+      "RPOは目標値であり、全データの完全復旧や業務全体の再開を保証するものではない。"
+    ],
+    "tags": [
+      "バックアップ",
+      "事業継続",
+      "クラウドストレージ"
+    ],
+    "published_time_known": true,
+    "image_url": null,
+    "featured": true,
+    "priority": 3,
+    "region": "japan",
+    "edition_date": "2026-11-28",
+    "collected_at": "2026-11-28T00:56:25+09:00",
+    "is_sample": false
+  },
+  {
     "id": "softbank-20261127-infrinia-kubernetes-certifications",
     "title": "ソフトバンクのInfrinia、Kubernetes関連の2認証を取得",
     "summary": "ソフトバンクは、AIデータセンター向けソフトウエア「Infrinia AI Cloud OS」が、CNCFのKubernetes ConformanceとKubernetes AI Conformanceを取得したと発表した。GPUクラウド上でのKubernetesとAIワークロードの運用を支える基盤の互換性を示す。",
