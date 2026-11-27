@@ -1,5 +1,63 @@
 [
   {
+    "id": "softbank-20261127-infrinia-kubernetes-certifications",
+    "title": "ソフトバンクのInfrinia、Kubernetes関連の2認証を取得",
+    "summary": "ソフトバンクは、AIデータセンター向けソフトウエア「Infrinia AI Cloud OS」が、CNCFのKubernetes ConformanceとKubernetes AI Conformanceを取得したと発表した。GPUクラウド上でのKubernetesとAIワークロードの運用を支える基盤の互換性を示す。",
+    "category": "cloud",
+    "source": "ソフトバンク株式会社",
+    "source_url": "https://www.softbank.jp/corp/news/press/sbkk/2026/20261127_01/",
+    "published_at": "2026-11-27T00:00:00+09:00",
+    "published_time_known": false,
+    "why_it_matters": "日本のGPUクラウド事業者が基盤を選ぶ際、標準仕様への適合を比較する材料になる。認証の取得と、個別環境での性能や運用品質の評価は分けて確認する必要がある。",
+    "core_facts": [
+      "CNCFのKubernetes ConformanceとKubernetes AI Conformanceの2認証を取得した。",
+      "Infrinia AI Cloud OSは、GPU、Kubernetes、AIワークロードの管理を担うソフトウエア基盤。",
+      "GPUクラウド上でKubernetes as a Serviceや推論サービスを構築する用途を想定している。"
+    ],
+    "tags": [
+      "Kubernetes",
+      "GPUクラウド",
+      "AI基盤"
+    ],
+    "image_url": null,
+    "featured": true,
+    "priority": 3,
+    "region": "japan",
+    "edition_date": "2026-11-27",
+    "collected_at": "2026-11-27T17:06:03+09:00",
+    "is_sample": false
+  },
+  {
+    "id": "laboro-20261127-semiconductor-design-ai",
+    "title": "Laboro.AI、設計資産と判断根拠を結ぶ半導体設計支援AIを発表",
+    "summary": "Laboro.AIは、回路データや検証結果、設計文書を関連付けて参照し、設計者の調査や判断を支援するAIソリューションを発表した。顧客ごとに環境を構築する方式で、約3カ月のPoCから効果を検証する計画。",
+    "category": "semiconductors",
+    "source": "株式会社Laboro.AI",
+    "source_url": "https://prtimes.jp/main/html/rd/p/000000078.000027192.html",
+    "published_at": "2026-11-27T15:30:00+09:00",
+    "published_time_known": true,
+    "why_it_matters": "設計資料や検証履歴に分散する知識を探しやすくすれば、日本の半導体開発で確認作業や技能継承を支える可能性がある。導入効果は、顧客のデータ整備とPoCでの評価を通じて見極める段階にある。",
+    "core_facts": [
+      "オントロジーとナレッジグラフを使い、設計資産の関係、版、出典を整理して自然言語での参照を支援する。",
+      "AIが設計候補やシミュレーション条件、確認箇所を理由とともに提示し、採否は設計者が判断する。",
+      "既存EDA環境の置き換えを前提とせず、元データへの書き戻しを行わない参照型を基本方針とする。",
+      "顧客別の構築と約3カ月のPoCを計画し、検索・確認時間などを比較評価する。"
+    ],
+    "tags": [
+      "半導体設計",
+      "生成AI",
+      "設計知識",
+      "技術継承"
+    ],
+    "image_url": null,
+    "featured": true,
+    "priority": 3,
+    "region": "japan",
+    "edition_date": "2026-11-27",
+    "collected_at": "2026-11-27T17:06:03+09:00",
+    "is_sample": false
+  },
+  {
     "id": "robotmatehub-20261126-physical-ai-training",
     "title": "RobotMateHub、フィジカルAIの人材育成研修6コースを提供開始",
     "summary": "RobotMateHubは11月26日、企業・教育機関・自治体向けにフィジカルAI研修を開始した。入門から専門分野まで、少人数のオンライン講義で学ぶ構成とする。",
