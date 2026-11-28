@@ -1,5 +1,35 @@
 [
   {
+    "id": "macnica-20261127-anteras-web",
+    "title": "マクニカ、Web・アプリ・APIの棚卸しを支援する「ANTERAS WEB」を開始",
+    "summary": "マクニカは11月27日、Web関連資産の把握と点検の優先順位付けを支援する「ANTERAS WEB」の提供を開始した。第一弾はWeb TriageとAPI Discoveryで、脆弱性診断やAIによる侵入テストは今後の拡張として位置付ける。",
+    "category": "security",
+    "source": "株式会社マクニカ",
+    "source_url": "https://www.macnica.co.jp/public-relations/news/2026/150845/",
+    "published_at": "2026-11-27T00:00:00+09:00",
+    "published_time_known": false,
+    "image_url": null,
+    "why_it_matters": "部署やグループ会社ごとに分散したWeb資産を把握し、限られた人員でどこから点検するかを決める材料になる。資産の発見・優先順位付けと、実際に脆弱性を検証する診断の範囲を区別して導入したい。",
+    "core_facts": [
+      "Web Triageは、ANTERAS ASMが検出したFQDNを基にWebサイトを特定し、事業影響や技術面から点検の優先度を判定する。",
+      "API Discoveryは公開情報からモバイルアプリを調べ、Android APKの静的解析などで接続先APIを特定する。",
+      "1回の資産調査とレポートを含むスポットプランを2027年3月末まで提供する。継続監視や脆弱性診断、侵入テストは含まない。",
+      "Web・APIの脆弱性診断とAIを使ったペネトレーションテストは今後提供する予定。"
+    ],
+    "tags": [
+      "資産管理",
+      "APIセキュリティ",
+      "攻撃対象領域",
+      "脆弱性管理"
+    ],
+    "featured": true,
+    "priority": 3,
+    "region": "japan",
+    "edition_date": "2026-11-28",
+    "collected_at": "2026-11-28T09:05:44+09:00",
+    "is_sample": false
+  },
+  {
     "id": "iret-20261127-aidd-mvp-databricks",
     "title": "KDDIアイレット、自社データでDatabricksを試す短期構築サービスを開始",
     "summary": "KDDIアイレットは11月27日、用途を絞ったデータ取り込みからAI/BIダッシュボードとGenieの構築までを支援する「AIDD MVP for Databricks」を開始した。最短1カ月からの検証向けサービスで、本番運用の設計は対象外とする。",
