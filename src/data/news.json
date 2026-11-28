@@ -1,5 +1,35 @@
 [
   {
+    "id": "semi-20261126-women-workforce-proposals",
+    "title": "SEMI、半導体業界の女性活躍を支える8つの提言とチェックリストを公開",
+    "summary": "SEMIは11月26日、半導体業界での女性の参画や管理職登用、キャリア形成を支援する提言書を公開した。採用や職場環境など8領域の取り組みを整理し、企業が現状を点検するチェックリストを用意した。",
+    "category": "careers",
+    "source": "SEMIジャパン",
+    "source_url": "https://www.semi.org/jp/news-resources/press/20261126",
+    "published_at": "2026-11-26T00:00:00+09:00",
+    "published_time_known": false,
+    "image_url": null,
+    "why_it_matters": "半導体産業が人材を確保するには、採用とともに入社後の成長機会や働き続けられる環境が欠かせない。共通の点検項目は、日本企業が人材施策を具体化し、社内で課題を話し合う材料になる。",
+    "core_facts": [
+      "SEMIジャパンの多様な人材活躍推進ワーキンググループが提言書を作成した。",
+      "採用、キャリア形成、職場環境、経営層の関与などを含む8領域について課題と取り組みの方向性を整理する。",
+      "企業が自社の対応状況を確認する評価チェックリストを公開した。",
+      "12月11日のWomen in Business 2026で、半導体関連企業20社によるチェックリストの試行結果を紹介する予定。"
+    ],
+    "tags": [
+      "半導体人材",
+      "女性活躍",
+      "キャリア形成",
+      "組織づくり"
+    ],
+    "featured": true,
+    "priority": 3,
+    "region": "japan",
+    "edition_date": "2026-11-28",
+    "collected_at": "2026-11-28T16:59:37+09:00",
+    "is_sample": false
+  },
+  {
     "id": "macnica-20261127-anteras-web",
     "title": "マクニカ、Web・アプリ・APIの棚卸しを支援する「ANTERAS WEB」を開始",
     "summary": "マクニカは11月27日、Web関連資産の把握と点検の優先順位付けを支援する「ANTERAS WEB」の提供を開始した。第一弾はWeb TriageとAPI Discoveryで、脆弱性診断やAIによる侵入テストは今後の拡張として位置付ける。",
